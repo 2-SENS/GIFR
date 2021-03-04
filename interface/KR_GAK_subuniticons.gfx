@@ -1,0 +1,41 @@
+spriteTypes = {	
+
+   spriteType = { 
+     name = "GFX_unit_tac_dolls_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/unit_infantry_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_tac_dolls_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" 
+     noOfFrames = 2
+   }
+
+   spriteType = {
+     name = "GFX_unit_tac_dolls_icon_small"
+     texturefile = "gfx/texticons/unit_infantry_icon_small.dds"
+     legacy_lazy_load = no
+     noOfFrames = 2		
+   }
+
+	spriteType = { 
+     name = "GFX_unit_tac_dolls_carry_helicopter_unit_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/unit_transport_heli_infantry_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_tac_dolls_carry_helicopter_unit_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_transport_heli_infantry_icon.dds" 
+     noOfFrames = 2
+   }
+
+   spriteType = {
+     name = "GFX_unit_tac_dolls_carry_helicopter_unit_icon_small"
+     texturefile = "gfx/texticons/unit_transport_heli_infantry_icon_small.dds"
+     legacy_lazy_load = no
+     noOfFrames = 2		
+   }
+
+}

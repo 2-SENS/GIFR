@@ -1,0 +1,106 @@
+﻿division_template = {
+	name = "Tactical Doll Division"
+
+	division_names_group = GAK_TDD_01				
+
+	regiments = {
+		tac_dolls = { x = 0 y = 0 }
+		tac_dolls = { x = 0 y = 1 }
+		tac_dolls = { x = 0 y = 2 }
+		tac_dolls = { x = 1 y = 0 }
+		tac_dolls = { x = 1 y = 1 }
+		tac_dolls = { x = 1 y = 2 }
+	}
+	support = {
+    	engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+    priority = 2
+
+}
+
+division_template = {
+	name = "Armored Tactical Doll Division"
+
+	division_names_group = GAK_ATD_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+	}
+}
+units = {
+	division = { 
+			division_name = {
+				is_name_ordered = yes
+				name_order = 15
+			}
+			location = 4180
+			division_template = "Tactical Doll Division"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+		
+	division = { 
+			division_name = {
+				is_name_ordered = yes
+				name_order = 16
+			}
+			location = 4180
+			division_template = "Tactical Doll Division"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+		
+	division = { 
+			division_name = {
+				is_name_ordered = yes
+				name_order = 17
+			}
+			location = 7112
+			division_template = "Tactical Doll Division"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+		
+	division = { 
+			division_name = {
+				is_name_ordered = yes
+				name_order = 18
+			}
+			location = 7195
+			division_template = "Tactical Doll Division"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+		
+	division = { 
+			division_name = {
+				is_name_ordered = yes
+				name_order = 19
+			}
+			location = 10048
+			division_template = "Tactical Doll Division"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+
+	division = { 
+			division_name = {
+				is_name_ordered = yes
+				name_order = 19
+			}
+			location = 12021
+			division_template = "Tactical Doll Division"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+	}

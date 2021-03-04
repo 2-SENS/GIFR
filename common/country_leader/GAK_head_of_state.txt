@@ -1,0 +1,50 @@
+#####################
+# Head of State traits
+#####################
+
+leader_traits = {
+
+	### 하와이 ###
+	GAK_weak_shikikan = {
+		random = no
+		stability_factor = -0.05
+		war_support_factor = -0.05
+	}
+	
+	GAK_save_our_doll = {
+		random = no
+		stability_factor = 0.05
+		war_support_factor = 0.05
+		targeted_modifier = {
+			tag = USA
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+
+	GAK_Lord_Protector = {
+		random = no
+		political_power_gain = 0.15
+		intelligence_agency_defense = 3
+		resistance_target = -0.15
+		decryption_factor = 0.15
+		encryption_factor = 0.15
+	}
+	
+	GAK_beautiful_dictator = {
+		random = no
+		political_power_gain = 0.1
+		intelligence_agency_defense = 1
+		resistance_target = -0.15
+		decryption_factor = 0.15
+		encryption_factor = 0.15
+	}
+
+	GUS_last_war_hero = {
+		random = no
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
+	}
+}

@@ -1,0 +1,32 @@
+opinion_modifiers = {
+
+	### HAWAII
+	GAK_hate_each_other = {
+		value = -200
+	}
+	
+	GAK_they_take_island = {
+		value = -200
+	}
+	
+	GAK_i_hate_red = {
+		value = -80
+	}
+	
+	GAK_economy_block = {
+		value = 90
+	}
+	
+	GAK_international_help_navy = {
+		value = 50
+	}
+
+	GAK_help_by_weapon = {
+		value = 30
+	}
+
+	GAK_help_by_soldier = {
+		value = 60
+	}
+	
+}

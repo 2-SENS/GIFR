@@ -1,0 +1,116 @@
+spriteTypes = {
+    SpriteType = {
+		name = "GFX_goal_GUS_trash_shit"
+		texturefile = "gfx/interface/goals/GUS_trash_land.tga"
+	}
+
+    SpriteType = {
+		name = "GFX_goal_GUS_fucking_tenacity"
+		texturefile = "gfx/interface/goals/GUS_fucking_tenacity.tga"
+	}
+
+    SpriteType = {
+		name = "GFX_goal_GUS_everything_go_bad"
+		texturefile = "gfx/interface/goals/GUS_everything_go_bad.tga"
+	}
+
+    SpriteType = {
+		name = "GFX_goal_GUS_simple_reason"
+		texturefile = "gfx/interface/goals/GUS_simple_reason.tga"
+	}
+
+    SpriteType = {
+		name = "GFX_goal_GUS_all_tear_burn_out"
+		texturefile = "gfx/interface/goals/GUS_all_tear_burn_out.tga"
+	}
+
+    SpriteType = {
+		name = "GFX_goal_GUS_ruin_just_ruin"
+		texturefile = "gfx/interface/goals/GUS_ruin_just_ruin.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_education_improve"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_education_improve.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_teaching_our_culture"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_teaching_our_culture.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_good_school_food"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_good_school_food.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_military_training"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_military_training.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_individual_combat"
+		texturefile = "gfx/interface/goals/JAP_new_showa_warfare.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_graduated"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_graduated.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_kiddo_not_end"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_kiddo_not_end.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_graduated"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_graduated.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_student_to_teacher"
+		texturefile = "gfx/interface/goals/ENG_more_equiptment_for_teachers.dds"
+	}
+
+	SpriteType = {
+		name = "GUS_real_elite_made"
+		texturefile = "gfx/interface/goals/GUS_real_elite_made.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_know_your_self_proudly"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_know_your_self_proudly.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_learning_happy"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_learning_happy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_national_city_plan"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_national_city_plan.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_future_city_live_like"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_future_city_live_like.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_second_development_plan"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_second_development_plan.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_the_dream_come_true"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_the_dream_come_true.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GUS_we_are_strong_again"
+		texturefile = "gfx/interface/goals/GFX_goal_GUS_we_are_strong_again.tga"
+	}
+}

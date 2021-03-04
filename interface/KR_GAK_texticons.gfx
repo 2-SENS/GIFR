@@ -1,0 +1,91 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GAK_tac_doll"
+		texturefile = "gfx/texticons/GAK_tac_doll.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_ots_groza"
+		texturefile = "gfx/texticons/GAK_ots_groza.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_g36"
+		texturefile = "gfx/texticons/GAK_G36.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_sexy_ephnel"
+		texturefile = "gfx/texticons/GFX_sexy_ephnel.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_AR_M4A1"
+		texturefile = "gfx/texticons/GAK_m4a1.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_AR_SOPMOD2"
+		texturefile = "gfx/texticons/GAK_m4a1_sopmod2.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_AR_RO635"
+		texturefile = "gfx/texticons/GAK_ro635.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_FOU_UMP45"
+		texturefile = "gfx/texticons/GAK_UMP45.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_FOU_UMP9"
+		texturefile = "gfx/texticons/GAK_UMP9.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_FOU_G11"
+		texturefile = "gfx/texticons/GAK_g11.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_FOU_HK416"
+		texturefile = "gfx/texticons/GAK_hk416.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_RE_AK12"
+		texturefile = "gfx/texticons/GAK_ak_12.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_RE_AK15"
+		texturefile = "gfx/texticons/GAK_ak_15.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_RE_AN94"
+		texturefile = "gfx/texticons/GAK_an_94.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_RE_RPK16"
+		texturefile = "gfx/texticons/GAK_rpk_16.tga"
+		legacy_lazy_load = no
+	}
+}

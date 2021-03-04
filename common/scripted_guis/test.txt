@@ -1,0 +1,93 @@
+scripted_gui = {
+
+	open_bugwan = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "open_bugwan_container"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			tag = GAK
+		}
+
+		triggers = {
+			button_open_click_enabled = {
+				NOT = { has_country_flag = bugwan_window_open }
+			}
+		}
+
+		effects = {
+			button_open_click = {
+				set_country_flag = bugwan_window_open
+			}
+		}
+	}
+
+	bugwan_choosing = {
+		context_type = player_context
+		window_name = "bugwan_choosing_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = bugwan_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = bugwan_window_open
+			}
+			choice_her_hk416_click = {
+				set_country_flag = hk416_window_open
+			}
+			choice_her_ump45_click = {
+				set_country_flag = ump45_window_open
+			}
+		}
+	}
+
+	choice_hk416 = {
+		context_type = player_context
+		window_name = "choice_hk416_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = hk416_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = hk416_window_open
+			}
+		}
+	}
+
+	choice_ump45 = {
+		context_type = player_context
+		window_name = "choice_ump45_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = ump45_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = ump45_window_open
+			}
+		}
+	}
+
+	
+}

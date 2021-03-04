@@ -1,0 +1,69 @@
+upgrades = {
+
+	heli_gun_upgrade = {
+		max_level = 5
+
+		cost = land
+		soft_attack = 0.1
+		hard_attack = 0.03
+		ap_attack = 0.05
+		maximum_speed = -0.02
+		reliability = -0.03
+	}
+	
+	heli_armor_upgrade = {
+		max_level = 5
+
+		cost = land
+		armor_value = 0.05
+		maximum_speed = -0.03
+		reliability = -0.05
+	}
+	
+	heli_engine_upgrade = {
+		max_level = 5
+
+		cost = land
+		maximum_speed = 0.1
+		reliability = -0.03
+	}	
+	
+	heli_reliability_upgrade = {
+		max_level = 5
+		
+		cost = land
+		reliability = 0.1
+	}
+	
+	tac_doll_gun_reliability_upgrade = {
+		max_level = 5
+		
+		cost = land
+		reliability = 0.1
+	}
+	
+	tac_doll_gun_motar_upgrade  = {
+		max_level = 5
+		
+		cost = land
+		defense = 0.05
+	
+	}
+	
+	tac_doll_gun_anti_tank_upgrade = {
+		max_level = 5
+		
+		cost = land
+		ap_attack = 0.05
+		reliability = -0.03
+	}
+	
+	tac_doll_gun_anti_air_upgrade = {
+		max_level = 5
+		
+		cost = land
+		air_attack = 0.05
+		reliability = -0.03
+	}
+	
+}

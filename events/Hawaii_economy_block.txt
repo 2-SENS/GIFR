@@ -1,0 +1,86 @@
+#하와이 경제 블록
+
+add_namespace = hwiecb
+
+country_event = { #하와이 경제 블록에 가입할래?
+	id = hwiecb.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hwiecb.1" }
+	title = hwiecb.1.t
+	desc = hwiecb.1.d
+	picture = GFX_report_event_generic_read_write
+
+	trigger = {
+		is_in_faction_with = GAK
+		GAK = {
+			has_country_flag = hawaii_economy_block
+			is_faction_leader = yes
+		}
+	}
+
+	option = { # 당근이죠 눈나
+		name = hwiecb.1.a
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -25
+			GAK = {
+				country_event = {
+					id = hwiecb.2
+					days = 1
+				}
+			}
+			add_ideas = GAK_hawaii_economy_block_idea
+			add_to_tech_sharing_group = GAK_comm_faction_research_tech_group
+		}
+	
+	option = { # 싫어요 만지지 마세요
+		name = hwiecb.1.b
+		trigger = { is_subject = no }
+		ai_chance = {
+			factor = 0
+		}
+		add_political_power = 25
+		GAK = {
+			country_event = {
+				id = hwiecb.3
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #허락했다
+	id = hwiecb.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hwiecb.2" }
+	title = hwiecb.2.t
+	desc = hwiecb.2.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = { # Yes
+		name = hwiecb.2.a
+		add_opinion_modifier = {
+			target = FROM
+			modifier = GAK_economy_block
+		}
+	}
+}
+
+country_event = { #거절했다
+	id = hwiecb.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hwiecb.3" }
+	title = hwiecb.3.t
+	desc = hwiecb.3.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = { # Yes
+		name = hwiecb.3.a
+		add_opinion_modifier = {
+			target = FROM
+			modifier = KR_disapproves_of_govt
+		}
+	}
+}

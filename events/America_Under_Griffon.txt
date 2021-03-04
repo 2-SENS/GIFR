@@ -1,0 +1,701 @@
+add_namespace = augriffon
+
+country_event = { #개똥땅이야 씨발
+	id = augriffon.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.0"}
+	title = augriffon.0.t
+	desc = augriffon.0.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.0.a
+	}
+}
+
+country_event = { #헛된 노력이지
+	id = augriffon.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.1"}
+	title = augriffon.1.t
+	desc = augriffon.1.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.1.a
+	}
+}
+
+country_event = { #모든게 나쁘게 돌아가...
+	id = augriffon.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.2"}
+	title = augriffon.2.t
+	desc = augriffon.2.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.2.a
+	}
+}
+
+country_event = { #선택의 기루
+	id = augriffon.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.3"}
+	title = augriffon.3.t
+	desc = augriffon.3.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.3.a
+        add_ideas = {
+            GUS_vain_hope_ideas
+        }
+	}
+}
+
+country_event = { #모든 눈물을 불사지를 각오로
+	id = augriffon.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.4"}
+	title = augriffon.4.t
+	desc = augriffon.4.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.4.a
+        set_country_flag = fuck_the_all_now_revolution
+	}
+}
+
+country_event = { #폐허는 폐허에 지나지 않는다
+	id = augriffon.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.5"}
+	title = augriffon.5.t
+	desc = augriffon.5.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.5.a
+        set_country_flag = fuck_the_all_now_only_war
+	}
+}
+
+country_event = { #개혁의 시작
+	id = augriffon.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.6"}
+	title = augriffon.6.t
+	desc = augriffon.6.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.6.a
+	}
+}
+
+country_event = { #거지같은 학교
+	id = augriffon.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.7"}
+	title = augriffon.7.t
+	desc = augriffon.7.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.7.a
+		add_ideas = { 
+			GUS_improve_education_ideas
+			}
+	}
+}
+
+country_event = { #거지같은 공장
+	id = augriffon.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.8"}
+	title = augriffon.8.t
+	desc = augriffon.8.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.8.a
+		add_ideas = { 
+			GUS_improve_education_ideas
+			}
+	}
+}
+
+country_event = { #나은 미래를 위해서
+	id = augriffon.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.9"}
+	title = augriffon.9.t
+	desc = augriffon.9.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.9.a
+	}
+}
+
+country_event = { #나은 미래를 위해서
+	id = augriffon.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.10"}
+	title = augriffon.10.t
+	desc = augriffon.10.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.10.a
+	}
+}
+
+country_event = { #하와이의 지원
+	id = augriffon.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.11"}
+	title = augriffon.11.t
+	desc = augriffon.11.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.11.a
+	}
+}
+
+country_event = { #좋은 품질의 급식
+	id = augriffon.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.12"}
+	title = augriffon.12.t
+	desc = augriffon.12.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.12.a
+	}
+}
+
+country_event = { #모두가 예비역이다
+	id = augriffon.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.13"}
+	title = augriffon.13.t
+	desc = augriffon.13.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.13.a
+	}
+}
+
+country_event = { #군사훈련
+	id = augriffon.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.14"}
+	title = augriffon.14.t
+	desc = augriffon.14.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.14.a
+	}
+}
+
+country_event = { #수학여행
+	id = augriffon.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.15"}
+	title = augriffon.15.t
+	desc = augriffon.15.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.15.a
+	}
+}
+
+country_event = { #각개전투
+	id = augriffon.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.16"}
+	title = augriffon.16.t
+	desc = augriffon.16.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.16.a
+	}
+}
+
+country_event = { #졸업
+	id = augriffon.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.17"}
+	title = augriffon.17.t
+	desc = augriffon.17.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.17.a
+	}
+}
+
+country_event = { #공작기계 개선
+	id = augriffon.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.18"}
+	title = augriffon.18.t
+	desc = augriffon.18.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.18.a
+	}
+}
+
+country_event = { #대규모적 도시계획
+	id = augriffon.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.19"}
+	title = augriffon.19.t
+	desc = augriffon.19.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.19.a
+	}
+}
+
+country_event = { #대대적인 인프라 개선
+	id = augriffon.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.20"}
+	title = augriffon.20.t
+	desc = augriffon.20.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.20.a
+	}
+}
+
+country_event = { #건설 제한 구역
+	id = augriffon.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.21"}
+	title = augriffon.21.t
+	desc = augriffon.21.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.21.a
+	}
+}
+
+country_event = { #빛을 가져오다
+	id = augriffon.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.22"}
+	title = augriffon.22.t
+	desc = augriffon.22.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.22.a
+	}
+}
+
+country_event = { #사람 사는 세상
+	id = augriffon.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.23"}
+	title = augriffon.23.t
+	desc = augriffon.23.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.23.a
+	}
+}
+
+country_event = { #진보된 기술력
+	id = augriffon.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.24"}
+	title = augriffon.24.t
+	desc = augriffon.24.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.24.a
+	}
+}
+
+country_event = { #우리의 미래는 짜릿하다
+	id = augriffon.25
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.25"}
+	title = augriffon.25.t
+	desc = augriffon.25.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.25.a
+	}
+}
+
+country_event = { #모두에게 새로운 기회를
+	id = augriffon.26
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.26"}
+	title = augriffon.26.t
+	desc = augriffon.26.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.26.a
+	}
+}
+
+country_event = { #꼬맹이, 배움은 영원하단다
+	id = augriffon.27
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.27"}
+	title = augriffon.27.t
+	desc = augriffon.27.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.27.a
+	}
+}
+
+country_event = { #컴퓨터
+	id = augriffon.28
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.28"}
+	title = augriffon.28.t
+	desc = augriffon.28.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.28.a
+	}
+}
+
+country_event = { #새로운 농업기구
+	id = augriffon.29
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.29"}
+	title = augriffon.29.t
+	desc = augriffon.29.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.29.a
+	}
+}
+
+country_event = { #학생이 선생이 되다
+	id = augriffon.30
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.30"}
+	title = augriffon.30.t
+	desc = augriffon.30.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.30.a
+	}
+}
+
+country_event = { #역사를 알아라
+	id = augriffon.31
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.31"}
+	title = augriffon.31.t
+	desc = augriffon.31.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.31.a
+	}
+}
+
+country_event = { #더 많은 군수공장
+	id = augriffon.32
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.32"}
+	title = augriffon.32.t
+	desc = augriffon.32.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.32.a
+	}
+}
+
+country_event = { #모국의 무기창고
+	id = augriffon.33
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.33"}
+	title = augriffon.33.t
+	desc = augriffon.33.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.33.a
+	}
+}
+
+country_event = { #계몽 운동
+	id = augriffon.34
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.34"}
+	title = augriffon.34.t
+	desc = augriffon.34.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.34.a
+	}
+}
+
+country_event = { #많은 농장들
+	id = augriffon.35
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.35"}
+	title = augriffon.35.t
+	desc = augriffon.35.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.35.a
+	}
+}
+
+country_event = { #이름값하다
+	id = augriffon.36
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.36"}
+	title = augriffon.36.t
+	desc = augriffon.36.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.36.a
+	}
+}
+
+country_event = { #레이더 개발
+	id = augriffon.37
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.37"}
+	title = augriffon.37.t
+	desc = augriffon.37.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.37.a
+	}
+}
+
+country_event = { #진정한 엘리트
+	id = augriffon.38
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.38"}
+	title = augriffon.38.t
+	desc = augriffon.38.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.38.a
+	}
+}
+
+country_event = { #너희들은 미국인이다
+	id = augriffon.39
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.39"}
+	title = augriffon.39.t
+	desc = augriffon.39.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.39.a
+	}
+}
+
+country_event = { #배움의 즐거움
+	id = augriffon.40
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.40"}
+	title = augriffon.40.t
+	desc = augriffon.40.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.40.a
+	}
+}
+
+country_event = { #다시금 강해지다
+	id = augriffon.42
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.42"}
+	title = augriffon.42.t
+	desc = augriffon.42.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.42.a
+	}
+}
+
+country_event = { #꿈은 이루어진다
+	id = augriffon.43
+	immediate = {log = "[GetDateText]: [Root.GetName]: event augriffon.43"}
+	title = augriffon.43.t
+	desc = augriffon.43.d
+	picture = GFX_hello
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = augriffon.43.a
+	}
+}
+

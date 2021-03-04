@@ -1,0 +1,100 @@
+ideas = {
+	##############
+	# Country ideas
+	##############
+	
+	country = {
+
+        GUS_m4_executive = { #M4 행정부
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GUS_m4_executive"}
+			picture = GUS
+			modifier = {
+				stability_factor = 0.25
+                war_support_factor = 0.25
+                max_command_power = 500
+			}
+		}
+
+		GUS_divided_society_1 = { #미국인들과의 갈등
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GUS_divided_society_1"}
+			picture = GUS
+			modifier = {
+				stability_factor = -0.1
+				conscription_factor = -0.25
+				political_power_gain = -0.25
+			}
+		}
+
+		GUS_divided_society_2 = { #미국인들과의 갈등
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GUS_divided_society_2"}
+			picture = GUS
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = -0.15
+				political_power_gain = -0.15
+			}
+		}
+
+		GUS_divided_society_3 = { #미국인들과의 갈등
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GUS_divided_society_3"}
+			picture = GUS
+			modifier = {
+				conscription_factor = -0.05
+				political_power_gain = -0.05
+			}
+		}
+
+		GUS_plus_society = { #조화로운 사회
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GUS_plus_society"}
+			picture = GUS
+			modifier = {
+				conscription_factor = 0.05
+				political_power_gain = 0.1
+			}
+		}
+        
+        GUS_confused_america = { #개후진 인프라
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GUS_confused_america"}
+			picture = GUS
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+                line_change_production_efficiency_factor = -0.05
+                industrial_capacity_factory = -0.3
+                production_speed_buildings_factor = -0.5
+                consumer_goods_factor = 0.15
+			}
+		}
+
+        GUS_secret_country = { #그림자국가
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea GUS_secret_country"}
+			picture = GUS
+			modifier = {
+				resistance_target = -0.5
+                intelligence_agency_defense = 10
+                root_out_resistance_effectiveness_factor = 0.5
+			}
+        }
+
+        GUS_vain_hope_ideas = { #헛된 희망
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea GUS_vain_hope_ideas"}
+			picture = GUS
+			modifier = {
+				stability_weekly = -0.01
+				political_power_gain = -0.1
+			}
+        }
+
+		GUS_improve_education_ideas = { #공교육 개선
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea GUS_improve_education_ideas"}
+			picture = GUS
+			modifier = {
+				research_speed_factor = 0.08
+				consumer_goods_factor = 0.02
+			}
+        }
+
+
+
+    }
+
+}

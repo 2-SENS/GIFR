@@ -1,0 +1,203 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_tac_doll_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_doll_weapons_4_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+	}
+
+	spriteType = {
+		name = "GFX_utility_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/bell_212.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_utility_helicopter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/atlas_oryx.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_doll_weapon_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_doll_weapons_3_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_doll_weapons_5_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_doll_weapons_6_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_doll_heli_medium"
+		texturefile = "gfx/interface/technologies/bell_212.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_doll_heli_2_medium"
+		texturefile = "gfx/interface/technologies/atlas_oryx.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_doll_heli_3_medium"
+		texturefile = "gfx/interface/technologies/GAK_attack_helicopter_ch_47.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tac_doll_weapons_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_utility_helicopter_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/GAK_attack_helicopter_ch_47.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_dolls_m14_equipments_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_dolls_m16a1_equipments_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tac_dolls_m4a1_equipments_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tac_dolls_ump45_equipments_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_8.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GAK_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GAK_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GAK_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GAK_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GAK_infantry_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tac_dolls_fighter_tech_equipment_medium"
+		texturefile = "gfx/interface/technologies/GAK_tac_dolls_fighter_tech_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tac_dolls_fighter_cv_tech_equipment_medium"
+		texturefile = "gfx/interface/technologies/GAK_tac_dolls_fighter_tech_equipment.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_dolls_cas_tech_equipment_medium"
+		texturefile = "gfx/interface/technologies/GAK_tac_dolls_cas_tech_equipment.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_dolls_cas_cv_tech_equipment_medium"
+		texturefile = "gfx/interface/technologies/GAK_tac_dolls_cas_tech_equipment.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_dolls_bomb_tech_equipment_medium"
+		texturefile = "gfx/interface/technologies/GAK_tac_dolls_bomb_tech_equipment.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_medium"
+		texturefile = "gfx/interface/technologies/GAK_T55_1965.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_2_medium"
+		texturefile = "gfx/interface/technologies/GAK_armor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_3_medium"
+		texturefile = "gfx/interface/technologies/GAK_engine.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_4_medium"
+		texturefile = "gfx/interface/technologies/GAK_HEShell.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_5_medium"
+		texturefile = "gfx/interface/technologies/GAK_T72BM_1975.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_6_medium"
+		texturefile = "gfx/interface/technologies/GAK_Sight3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_7_medium"
+		texturefile = "gfx/interface/technologies/GAK_Reload.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_8_medium"
+		texturefile = "gfx/interface/technologies/GAK_Repair3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_9_medium"
+		texturefile = "gfx/interface/technologies/GAK_T90_1995.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_10_medium"
+		texturefile = "gfx/interface/technologies/GAK_Hull3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_11_medium"
+		texturefile = "gfx/interface/technologies/GAK_Camo.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_12_medium"
+		texturefile = "gfx/interface/technologies/GAK_Suspensions4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tac_doll_panzer_13_medium"
+		texturefile = "gfx/interface/technologies/GAK_T14_Armata.dds"
+	}
+	
+	
+	
+
+	
+	
+}

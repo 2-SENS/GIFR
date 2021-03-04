@@ -1,0 +1,13 @@
+technology_sharing_group = {
+
+	id = GAK_comm_faction_research_tech_group
+	name = GAK_comm_faction_research_tech_group_name
+	desc = GAK_comm_faction_research_tech_group_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.25
+
+    available = {
+        is_in_faction_with = GAK
+    }
+}

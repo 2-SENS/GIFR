@@ -1,0 +1,454 @@
+leader_traits = {
+	
+	hog_hawaii_numb_two = { #하와이 서열순위 제 2위
+		intelligence_agency_defense = 1
+		army_core_defence_factor = 0.1
+		conscription_factor = 0.06
+		drift_defence_factor = 0.16
+		random = no
+	}
+	
+	hog_ace_agitator = { #ace agitator 선동장인 - GAK
+		stability_factor = 0.08
+		surrender_limit = 0.4	
+		drift_defence_factor = 0.25	
+		guarantee_cost = -0.05	
+		
+		random = no
+	}
+	
+	hog_right_arms_dictator = { #right arms dictator 독재자의 오른팔 - GAK
+		stability_factor = -0.05
+		surrender_limit = 0.5
+		drift_defence_factor = 0.5
+		political_power_factor = 0.25	
+		economy_cost_factor = -0.1
+		trade_laws_cost_factor = -0.1
+		mobilization_laws_cost_factor = -0.1	
+		high_command_cost_factor = -0.1
+		air_chief_cost_factor = -0.1
+		army_chief_cost_factor = -0.1
+		navy_chief_cost_factor = -0.1			
+		
+		random = no
+	}
+	
+	hog_friend_of_labor = { #friend of labor 노동자의 친구 - GAK
+		industrial_capacity_factory = -0.03
+		production_factory_efficiency_gain_factor = 0.03
+		consumer_goods_factor = 0.02
+		stability_factor = 0.06
+	
+		random = no
+	}
+	
+	hog_total_war_lover = { #total war lover 총력전 애호가 - GAK
+		war_support_factor = 0.06
+		production_speed_industrial_complex_factor = -0.11
+		production_speed_arms_factory_factor = 0.1
+		production_speed_dockyard_factor = 0.04
+		
+		random = no
+	}
+	
+	hog_money_follow_her = { #money follow her 돈이 그녀를 따라간다 - GAK
+		consumer_goods_factor = -0.03
+		local_resources_factor = 0.12
+		industrial_capacity_factory = -0.02
+		
+		random = no
+	}
+	
+	hog_accelerationism_followers = { #accelerationism followers 가속주의 추종자 - GAK
+		consumer_goods_factor = 0.12
+		production_speed_buildings_factor = 0.08
+		army_speed_factor = 0.1
+		dig_in_speed_factor = 0.05
+		naval_speed_factor = 0.05
+		research_speed_factor = 0.08
+		
+		
+		random = no
+	}
+	
+	hog_equalist_person = { #평등주의자 - GAK
+		consumer_goods_factor = 0.02
+		stability_factor = 0.05
+		political_power_gain = -0.06
+		random = no
+	}
+	
+	for_gathering_power_middle = { #권력을 중앙으로 - GAK
+		political_power_gain = 0.08
+		drift_defence_factor = 0.25	
+		war_support_factor = 0.05
+
+		random = no
+	}
+	
+	for_only_one_goebells = { #오직 괴벨스 - GAK
+		war_support_factor = 0.06
+		conscription_factor = 0.16
+		non_core_manpower = 0.05
+		random = no
+	}
+	
+	for_for_the_worker = { #노동자를 위하여 - GAK
+		consumer_goods_factor = 0.03
+		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.06
+		random = no
+	}
+	
+	for_light_of_liberal = { #자유의 등대 - GAK
+		liberal_democrat_drift = 0.05
+		stability_factor = 0.08
+		random = no
+	}
+	
+	for_Schleicher_faction = { #슐라이허의 좆목질 - GAK
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.02
+				instant = yes
+			}
+		}
+		army_org_factor	= 0.05
+		war_support_factor = 0.02
+		stability_factor = -0.05
+		random = no
+	}
+	
+	for_3f_political = { #3F 정책
+		research_speed_factor = -0.12
+		consumer_goods_factor = -0.07
+		production_speed_buildings_factor = 0.08
+		production_factory_efficiency_gain_factor = 0.04
+		random = no
+	}
+	
+	for_real_genius = { #ㄹㅇ 쌉천재 - GAK
+		add_tech_bonus = {
+			bonus = 0.08
+				category = electronics
+			}
+		stability_factor = -0.02
+		MONTHLY_POPULATION = -0.01
+		random = no
+	}
+	
+	for_crazy_for_speed = { #속도에 무친놈 - GAK
+		stability_factor = -0.04
+		consumer_goods_factor = 0.06
+		planning_speed = 0.05
+		amphibious_invasion = 0.06
+		production_speed_buildings_factor = 0.12
+		random = no
+	}
+	
+	eco_tremendous_savings = { # 강박적인 절약증 - GAK
+		consumer_goods_factor = -0.07
+		line_change_production_efficiency_factor = 0.14
+		min_export = -0.05
+		industrial_capacity_factory = 0.05
+		random = no
+	}
+	
+	eco_extreme_efficiency = { # 극한의 효율충 - GAK
+		equipment_conversion_speed = 0.16
+		local_resources_factor = 0.14
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.12
+				instant = yes
+			}
+		}
+		random = no
+	}
+	
+	eco_socialist_free_market_seeker = { # 사회주의식 자유시장 추구자 - GAK
+		consumer_goods_factor = 0.03
+		stability_factor = 0.08
+		production_speed_industrial_complex_factor = 0.06
+		random = no
+	}
+	
+	eco_total_economy_fucker = { # 총력전 경제박이 - GAK
+		consumer_goods_factor = 0.05
+		stability_factor = -0.04
+		war_support_factor = -0.02
+		production_speed_industrial_complex_factor = -0.08
+		production_speed_arms_factory_factor = 0.24
+		industrial_capacity_factory = 0.08
+		random = no
+	}
+	
+	eco_accounting_ability_of_whorehouse_ace = { # 창녀촌 에이스의 회계능력 - GAK
+		consumer_goods_factor = -0.03
+		local_resources_factor = 0.12
+		industrial_capacity_factory = 0.04
+		random = no
+	}
+	
+	eco_motherly_meticulousness = { # 어머니와 같은 꼼꼼함 - GAK
+		consumer_goods_factor = 0.07
+		min_export = 0.05
+		production_speed_arms_factory_factor = 0.15
+		production_speed_industrial_complex_factor = 0.15
+		production_speed_infrastructure_factor = 0.2
+		random = no
+	}
+	
+	eco_chicken_economy = { # 치킨 경제 - GAK
+		consumer_goods_factor = -0.03
+		min_export = 0.08
+		production_speed_buildings_factor = 0.12
+		research_speed_factor = 0.06
+		random = no
+	}
+	
+	sec_king_of_animal = { # 짐승의 왕 - GAK
+		conscription_factor = 0.12
+		non_core_manpower = 0.1
+		training_time_army_factor = -0.15
+		random = no
+	}
+	
+	sec_former_NKVD_chief_s_skill = { # 전 NKVD 실장의 실력 - GAK
+		stability_factor = -0.08
+		army_org_factor = 0.12
+		enemy_partisan_effect = -0.25
+		random = no
+	}
+	
+	sec_good_friend_of_workers = { # 상냥한 노동자들의 친구 - GAK
+		stability_factor = 0.02
+		consumer_goods_factor = 0.05
+		industrial_capacity_factory = 0.11
+		industrial_capacity_dockyard = 0.22
+		random = no
+	}
+	
+	sec_sly_security_chief = { # 능글맞은 보안부장 - GAK
+		stability_factor = 0.06
+		consumer_goods_factor = 0.02
+		enemy_partisan_effect = -0.12
+		drift_defence_factor = 0.15
+		random = no
+	}
+
+	####################################
+	### Chief of Staff Unique Traits ###
+	####################################
+	
+	GAK_eye_of_white_wolf_cos = { #백랑의 눈 - GAK
+		army_attack_factor = 0.12
+		army_defence_factor = 0.12
+		army_speed_factor = 0.15
+		recon_factor = 0.2
+
+		random = no
+	}
+	
+	GAK_great_armpit_cos = { #이 인형 겨랑이가 대단하다 - GAK
+		army_org = 5
+		army_morale_factor = 0.15
+		political_power_factor = 0.25
+		
+		random = no
+	}
+	
+	GAK_heal_for_friend_cos = { #살려야한다 - GAK
+		experience_loss_factor = -0.25
+		army_defence_factor = 0.1
+		army_morale_factor = 0.05
+		stability_factor = 0.05
+		random = no
+	}
+	
+	GAK_nice_stew_cos = { #아 찌개! - GAK
+		out_of_supply_factor = -0.15
+		no_supply_grace = 48
+		equipment_bonus = {
+			support = {
+				reliability = 0.25
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		random = no
+	}
+	
+	GAK_sleep_tight_cos = { #잘 자요 - GAK
+		army_attack_factor = -0.1
+		army_defence_factor	= -0.1
+		army_speed_factor = -0.05
+		land_night_attack = 0.15
+		army_org_factor = 0.2
+		land_reinforce_rate = 0.3
+		random = no
+	}
+	
+	GAK_nightfight_ace_cos = { #야전 전문가 - GAK
+		land_night_attack = 0.2
+		army_org_factor = 0.2
+		land_reinforce_rate = 0.3
+		army_speed_factor = 0.05
+		random = no
+	}
+	
+	GAK_destroyer_spam_cos = { #구축함 스팸	- GAK
+		naval_torpedo_range_factor = 0.25
+		navy_screen_attack_factor = 0.1
+		navy_screen_defence_factor = 0.1
+		navy_anti_air_attack_factor = 0.2
+		equipment_bonus = {
+			screen_ship = {
+				stability_factor = -0.1
+				naval_speed = 0.25
+				instant = yes
+			}
+		}
+		random = no
+	}
+	
+	GAK_prussian_style_army_coa = { #프로이센식 군대 - GAK
+		training_time_factor = 0.15
+		army_morale_factor = 0.1
+		army_org_factor = 0.1
+		army_attack_factor = 0.05
+		army_defence_factor = 0.05
+		random = no
+	}
+	
+	GAK_destory_everything_coa = { #전장의 눈깔 수집가 - GAK
+		enemy_partisan_effect = 0.15
+		compliance_gain = -0.02
+		army_attack_factor = 0.35
+		army_core_attack_factor = 0.15
+		army_defence_factor = -0.1
+		random = no
+	}
+	
+	GAK_lady_on_battlefield_coa = { #전장의 숙녀 - GAK
+		out_of_supply_factor = 0.08
+		compliance_gain = 0.06
+		army_defence_factor = 0.12
+		random = no
+	}
+	
+	GAK_firepower_lover_coa = { #대화력전 지지자 - GAK
+		equipment_bonus = {
+			artillery = {
+				build_cost_ic = 0.1
+				soft_attack = 0.2
+				breakthrough = 0.15
+				instant = yes
+			}
+			light_tank_artillery_equipment = {
+				build_cost_ic = 0.1
+				soft_attack = 0.2
+				breakthrough = 0.15
+				maximum_speed = -0.2
+				instant = yes
+			}
+			medium_tank_artillery_equipment = {
+				build_cost_ic = 0.1
+				soft_attack = 0.2
+				breakthrough = 0.15
+				maximum_speed = -0.2
+				instant = yes
+			}
+			heavy_tank_artillery_equipment = {
+				build_cost_ic = 0.1
+				soft_attack = 0.2
+				breakthrough = 0.15
+				maximum_speed = -0.2
+				instant = yes
+			}
+			modern_tank_artillery_equipment = {
+				build_cost_ic = 0.1
+				soft_attack = 0.2
+				breakthrough = 0.15
+				maximum_speed = -0.2
+				instant = yes
+			}
+		}
+		
+		random = no
+	}
+	
+	GAK_sly_political_officer = { #음흉한 정치장교 - GAK
+		army_org_factor = -0.06
+		army_morale_factor = 0.12
+		army_speed_factor = 0.08
+		political_power_gain = 0.12
+		random = no
+	}
+	
+	GAK_bokdong_now_go = { #복동아 지금이야 - GAK
+		army_speed_factor = 0.1
+		army_armor_attack_factor = 0.1
+		army_armor_defence_factor = 0.1
+		equipment_bonus = {
+			motorized = {
+				maximum_speed = 0.1
+				instant = yes
+			}
+			mechanized = {
+				maximum_speed = 0.1
+				instant = yes
+			}
+			armor = {
+				maximum_speed = 0.1
+				instant = yes
+			}
+		}
+		
+		random = no
+	}
+	
+	GAK_veteran_trench_albosis = { #노련한 참호 알보병 - GAK
+		conscription = 0.01
+		army_infantry_attack_factor = 0.15
+		army_infantry_defence_factor = 0.15
+		army_morale_factor = 0.2
+		
+		random = no
+	}
+	
+	GAK_grand_strategist_lover = { #대전략가 지지자 - GAK
+		conscription = 0.03
+		max_planning = 0.15
+		planning_speed = 0.1
+		dig_in_speed_factor = 0.5
+		max_dig_in = 3
+		random = no
+	}
+	
+	GAK_charismatic_adaptor = { #카리스마 있는 적응가
+		heat_attrition_factor = -0.25
+		winter_attrition_factor = -0.25
+		experience_gain_army_factor = -0.05
+		army_morale_factor = 0.15
+		random = no
+	}
+	
+	GAK_Fallschirmjaeger_experience = { #며느리도 모르는 강하엽병의 비결
+		air_paradrop_attack_factor = 0.15
+		air_paradrop_defence_factor = 0.15
+		air_paradrop_speed_factor = 0.2
+		equipment_bonus = {
+			air_transport = {
+				maximum_speed = 0.1
+				build_cost_ic = -0.15
+				air_range = 100
+				instant = yes
+			}
+		}
+
+		random = no
+	}
+
+
+}

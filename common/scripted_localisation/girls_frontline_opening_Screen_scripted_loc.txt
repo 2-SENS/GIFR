@@ -1,0 +1,998 @@
+GET_CLOSEBUTTON_TEXT = {
+	name = GET_CLOSEBUTTON_TEXT
+
+	##Germany
+	text = {
+		trigger = { tag = GAK }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT
+	}
+}
+
+GET_CURRENT_INTRO_TEXT = {
+	name = GET_CURRENT_INTRO_TEXT
+
+	text = {
+		trigger = { has_country_flag = OPEN_view_country_info }
+		localization_key = COUNTRY_INFO_TEXT_GAK
+	}
+}
+
+GET_COUNTRY_INFO = {
+	name = GET_COUNTRY_INFO
+
+	text = {
+		trigger = { tag = GAK }
+		localization_key = COUNTRY_INFO_GERMANY
+	}
+
+}
+
+GET_POSTER = {
+	name = GET_POSTER
+	
+	##Reich and Pakt
+	text = {
+		trigger = { tag = GAK }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Hawaii"
+	}
+}
+
+defined_text = {
+	name = GetGUSFOCUStrash_shit
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_trash_shit_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUSFOCUSfucking_tenacity
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_fucking_tenacity_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUSFOCUSeverything_go_bad
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_everything_go_bad_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUSFOCUS_simple_reason
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_simple_reason_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_all_tear_burn_out
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_all_tear_burn_out_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_ruin_just_ruin
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_ruin_just_ruin_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_start_revolution
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_start_revolution_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_education_improve
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_education_improve_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_better_future_promises
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_better_future_promises_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_teaching_our_culture
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_teaching_our_culture_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_teaching_army_doc
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_teaching_army_doc_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_support_from_hawaii
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_support_from_hawaii_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_good_school_food
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_good_school_food_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_military_training
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_military_training_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_school_travel
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_school_travel_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_individual_combat
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_individual_combat_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_graduated
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_graduated_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_kiddo_not_end
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_kiddo_not_end_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_salt_lake_city_uni
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_salt_lake_city_uni_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_student_to_teacher
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_student_to_teacher_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_real_elite_made
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_real_elite_made_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_know_your_history
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_know_your_history_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_know_your_self_proudly
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_know_your_self_proudly_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_learning_happy
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_learning_happy_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_america_worker
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_america_worker_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_good_industry_machine
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_good_industry_machine_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_national_city_plan
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_national_city_plan_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_infra_improvment
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_infra_improvment_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_green_belt_select
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_green_belt_select_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_bring_the_light
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_bring_the_light_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_city_live_people
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_city_live_people_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_advanced_industry
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_advanced_industry_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_future_city_live_like
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_future_city_live_like_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_industrial_country
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_industrial_country_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_second_development_plan
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_second_development_plan_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_computer_tech
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_computer_tech_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_more_military_factory
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_more_military_factory_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_follow_hawaii_rader
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_follow_hawaii_rader_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_Warehouse_of_Hawaii
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_Warehouse_of_Hawaii_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_do_nick_name_value
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_do_nick_name_value_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_new_agriculture_tool
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_new_agriculture_tool_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_enlightenment_movement
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_enlightenment_movement_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_big_plantaion_of_farm
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_big_plantaion_of_farm_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_electric_for_every_people
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_electric_for_every_people_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_resource_for_everyone
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_resource_for_everyone_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_we_are_strong_again
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_we_are_strong_again_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGUS_the_dream_come_true
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = no
+			}
+		}
+		localization_key = GUS_the_dream_come_true_text
+	}
+	text = {
+		trigger = {
+			GUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = GUS_gimil
+	}
+}
+
+defined_text = {
+	name = GetGAKLeader
+	text = {
+		trigger = {
+				GAK = {
+					has_country_flag = GAK_hawaii_begin_dark
+			}
+		}
+		localization_key = GAK_groza_define
+	}
+	text = {
+		trigger = {
+				GAK = {
+					has_country_flag = GAK_light_hawaii
+			}
+		}
+		localization_key = GAK_G36_define
+	}
+}

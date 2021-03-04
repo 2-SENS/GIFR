@@ -1,0 +1,253 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_kr_gak"
+		texturefile = "gfx/interface/operatives/agencies/404_not_found.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_tactical_dolls_ideas"
+		texturefile = "gfx/interface/ideas/ideas/idea_GAK_tactical_dolls_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_Legency_of_IOP_ideas"
+		texturefile = "gfx/interface/ideas/ideas/idea_GAK_Legency_of_IOP_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_american_problem_ideas"
+		texturefile = "gfx/interface/ideas/ideas/idea_GAK_american_problem_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_american_hawaiian_coll_ideas"
+		texturefile = "gfx/interface/ideas/ideas/idea_GAK_american_hawaiian_coll_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_american_scientist_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GAK_american_hawaiian_coll_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_american_scientist_2_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GAK_american_scientist_2_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_american_scientist_3_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GAK_american_scientist_3_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_ignorant_human_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GAK_ignorant_human_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_slave_economy_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GAK_slave_economy_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_human_sponge_farm_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GAK_human_sponge_farm_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_five_years_plan_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_five_years_plan_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_tax_exemption_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_tax_exemption_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_doll_production_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_doll_production_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_not_too_much_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_not_too_much_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_reborn_hawaii_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_reborn_hawaii_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_legitimate_ruler"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_legitimate_ruler.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_aftereffects_of_five_day_workweek"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_aftereffects_of_five_day_workweek.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_heavenly_workers"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_heavenly_workers.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_christian_union_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_christian_union_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_national_council_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_national_council_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_RISA_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_RISA_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_start_develop_industry_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_start_develop_industry_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_quality_improvement"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_quality_improvement.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_paper_clip_crew_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_paper_clip_crew_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_smart_proccess_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_smart_proccess_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_total_war_lab_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_total_war_lab_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_anti_air_aegis_sys_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_anti_air_aegis_sys_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_welcome_to_ricefield_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_welcome_to_ricefield_ideas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_zaibatsu_economic_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_zaibatsu_economic_ideas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_industrial_machine_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_industrial_machine_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_new_engine_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_new_engine_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_justice_of_20mm_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_justice_of_20mm_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_baeklin_und_napalm_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_baeklin_und_napalm_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_airframe_skilled_personnel_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_airframe_skilled_personnel_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_new_airborn_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_new_airborn_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_new_officers_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_new_officers_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_improvement_combat_food_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_improvement_combat_food_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_revival_militarism_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_revival_militarism_ideas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_tank_plan_a_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_tank_plan_ideas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_tank_plan_b_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_tank_plan_ideas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_tank_plan_c_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_tank_plan_ideas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_navy_school_navy_staff_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_navy_school_navy_staff_ideas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_plan_the_black_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_plan_the_black_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_plan_the_ss_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_plan_the_ss_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_research_torpedo_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_research_torpedo_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_ogas_system_ideas"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_ogas_system_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_giddy_up_girls_ideas"
+		texturefile = "gfx/interface/ideas/ideas/Generic_military_idea.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_hawaii_economy_block_idea"
+		texturefile = "gfx/interface/ideas/ideas/KR_NOR_planned_economy.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_soul_worker_Ephnel_ideas"
+		texturefile = "gfx/interface/ideas/ideas/Ephnel.tga"
+	}
+	
+	#기업# 
+	
+	spriteType = {
+		name = "GFX_idea_GAK_industry1"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_iop_manufacturing_company"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_tank_laboratory_1"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_tank_laboratory_2"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_tank_laboratory_3"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_tank_laboratory_4"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_warship_mainbattle_ship_1"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_warship_cruise_ship_2"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_warship_light_ship_3"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_air_fighter_1"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_Svarog.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_air_CAS_TP_Bomber_2"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_Svarog.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_air_Bomber_3"
+		texturefile = "gfx/interface/ideas/GAK/companies/GAK_Svarog.tga"
+	}
+}

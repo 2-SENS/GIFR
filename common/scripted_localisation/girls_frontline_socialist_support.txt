@@ -1,0 +1,43 @@
+defined_text = {
+	name = GAK_war_support_soc
+	text = {
+		trigger = {
+			check_variable = { war_support_soc > 4 }
+		}
+		localization_key = GAK_war_support_soc_5
+	}
+	text = {
+		trigger = {
+			check_variable = { war_support_soc > 3 }
+			check_variable = { war_support_soc < 5 }
+		}
+		localization_key = GAK_war_support_soc_4
+	}
+	text = {
+		trigger = {
+			check_variable = { war_support_soc > 2 }
+			check_variable = { war_support_soc < 4 }
+		}
+		localization_key = GAK_war_support_soc_3
+	}
+	text = {
+		trigger = {
+			check_variable = { war_support_soc > 1 }
+			check_variable = { war_support_soc < 3 }
+		}
+		localization_key = GAK_war_support_soc_2
+	}
+	text = {
+		trigger = {
+			check_variable = { war_support_soc > 0 }
+			check_variable = { war_support_soc < 2 }
+		}
+		localization_key = GAK_war_support_soc_1
+	}
+	text = {
+		trigger = {
+			check_variable = { war_support_soc < 1 }
+		}
+		localization_key = GAK_war_support_soc_0
+	}
+}

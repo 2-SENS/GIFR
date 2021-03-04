@@ -1,0 +1,2210 @@
+﻿add_namespace = griffon
+add_namespace = grifele
+add_namespace = griflife
+add_namespace = grifgene
+add_namespace = grifhard
+
+country_event = { #안녕 친구들!
+	id = griffon.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.0"}
+	title = griffon.0.t
+	desc = griffon.0.d
+	picture = GFX_hello_everyone
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+
+	fire_only_once = yes
+
+	option = {
+		name = griffon.0.a
+		set_country_flag = gentiane_health
+		hidden_effect = {
+			country_event = { id = grifhard.1 days = 0 }
+			set_country_flag = GAK_SG_girls_frontline_intro
+			GAK = {
+				sound_effect = "GAK_girls_frontline_effect"
+			}
+		}
+	}
+}
+
+country_event = { #난이도 조정
+	id = grifhard.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event grifhard.1"}
+	title = grifhard.1.t
+	desc = grifhard.1.d
+	picture = GFX_difficult_controll
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = grifhard.1.a #이지
+			add_ideas = GAK_newbie_class_ideas
+			set_technology = {
+				tac_dolls_tech = 1
+				tac_dolls_helicopter_tech = 1
+				tac_dolls_fighter_tech = 1
+				tac_dolls_cas_tech = 1
+				tac_dolls_bomb_tech = 1
+				tac_doll_weapons_1 = 1
+				tac_doll_weapons_2 = 1
+				tac_doll_weapons_3 = 1
+				tac_doll_weapons_4 = 1
+				tac_doll_weapons_5 = 1
+				tac_doll_weapons_6 = 1
+				tac_doll_panzer = 1
+				tac_doll_panzer_1 = 1
+				tac_doll_panzer_2 = 1
+				tac_doll_panzer_3 = 1
+				tac_doll_panzer_4 = 1 
+				tac_doll_panzer_5 = 1
+				tac_doll_panzer_6 = 1
+				tac_doll_panzer_7 = 1
+				tac_doll_panzer_8 = 1
+				tac_doll_panzer_9 = 1
+				tac_doll_panzer_10 = 1
+				tac_doll_panzer_11 = 1
+				tac_doll_panzer_12 = 1
+				tac_doll_panzer_13 = 1
+			}
+	}
+
+	option = {
+		name = grifhard.1.b #보통
+		
+	}
+}
+
+country_event = { #장시안의 건강 보고서
+	id = griffon.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.1"}
+	title = griffon.1.t
+	desc = griffon.1.d
+	picture = GFX_report_event_generic_diplomacy1
+
+	trigger = { 
+		tag = GAK
+		has_country_flag = gentiane_health
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = griffon.1.a
+		hidden_effect = {
+			country_event = { id = griffon.2 days = 14 } #장시안 사망
+		}
+	}
+}
+
+country_event = { #장시안 사망
+	id = griffon.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.2"}
+	title = griffon.2.t
+	desc = griffon.2.d
+	picture = GFX_death_shikikan
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.2.a #이미 예견된 일이었어. 진정해라!
+
+		kill_country_leader = yes
+
+		hidden_effect = {
+		set_country_flag = GAK_gentiane_die
+		set_country_flag = GAK_gentiane_die_event
+			create_country_leader = {
+				name = "Hawaii Emergency Government"
+				desc = "POLITICS_LAW_GOVERNMENT_DESC"
+				picture = "gfx/leaders/GAK/Portrait_martial_law_government.tga"
+				expire = "2000.1.1"
+				ideology = social_democrat_subtype
+				traits = {}
+			}
+			create_country_leader = {
+				name = "Hawaii Emergency Government"
+				desc = "POLITICS_LAW_GOVERNMENT_DESC"
+				picture = "gfx/leaders/GAK/Portrait_martial_law_government.tga"
+				expire = "2000.1.1"
+				ideology = social_liberal_subtype
+				traits = {}
+			}
+			create_country_leader = {
+				name = "Hawaii Emergency Government"
+				desc = "POLITICS_LAW_GOVERNMENT_DESC"
+				picture = "gfx/leaders/GAK/Portrait_martial_law_government.tga"
+				expire = "2000.1.1"
+				ideology = market_liberal_subtype
+				traits = {}
+			}
+			create_country_leader = {
+				name = "Hawaii Emergency Government"
+				desc = "POLITICS_LAW_GOVERNMENT_DESC"
+				picture = "gfx/leaders/GAK/Portrait_martial_law_government.tga"
+				expire = "2000.1.1"
+				ideology = social_conservative_subtype
+				traits = {}
+			}
+			create_country_leader = {
+				name = "Hawaii Emergency Government"
+				desc = "POLITICS_LAW_GOVERNMENT_DESC"
+				picture = "gfx/leaders/GAK/Portrait_martial_law_government.tga"
+				expire = "2000.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {}
+			}
+			create_country_leader = {
+				name = "Hawaii Emergency Government"
+				desc = "POLITICS_LAW_GOVERNMENT_DESC"
+				picture = "gfx/leaders/GAK/Portrait_martial_law_government.tga"
+				expire = "2000.1.1"
+				ideology = paternal_autocrat_subtype
+				traits = {}
+			}
+			create_country_leader = {
+				name = "Hawaii Emergency Government"
+				desc = "POLITICS_LAW_GOVERNMENT_DESC"
+				picture = "gfx/leaders/GAK/Portrait_martial_law_government.tga"
+				expire = "2000.1.1"
+				ideology = national_populist_subtype
+				traits = {}
+			}
+		}
+	}
+}
+
+country_event = { #유서 확인
+	id = griffon.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.3"}
+	title = griffon.3.t
+	desc = griffon.3.d
+	picture = GFX_report_event_generic_diplomacy1
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.3.a #장시안을 따른다
+
+		hidden_effect = {
+		set_country_flag = GAK_follow_her_words_girls
+			set_popularities = {
+			    totalist = 1
+			    syndicalist = 1
+			    radical_socialist = 6
+			    social_democrat = 18
+			    social_liberal = 56
+		 	    market_liberal = 2
+			    social_conservative = 6
+			    authoritarian_democrat = 5
+			    paternal_autocrat = 3
+		 	    national_populist = 2
+			}
+			create_country_leader = {
+				name = "G36"
+				desc = "POLITICS_G36_DESC"
+				picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_G36_3.tga"
+				expire = "2000.1.1"
+				ideology = social_democrat_subtype
+				traits = {
+				GAK_save_our_doll
+				}
+			}
+			create_country_leader = {
+				name = "G36"
+				desc = "POLITICS_G36_DESC"
+				picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_G36_1.tga"
+				expire = "2000.1.1"
+				ideology = social_liberal_subtype
+				traits = {
+				GAK_save_our_doll
+				}
+			}
+			create_country_leader = {
+				name = "G36"
+				desc = "POLITICS_G36_DESC"
+				picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_G36_2.tga"
+				expire = "2000.1.1"
+				ideology = market_liberal_subtype
+				traits = {
+				GAK_save_our_doll
+				}
+			}
+			create_country_leader = {
+				name = "G36"
+				desc = "POLITICS_G36_DESC"
+				picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_G36.tga"
+				expire = "2000.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+				GAK_save_our_doll
+				}
+			}
+			create_country_leader = {
+				name = "G36"
+				desc = "POLITICS_G36_DESC"
+				picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_G36.tga"
+				expire = "2000.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+				GAK_save_our_doll
+				}
+			}
+			set_politics = {
+				ruling_party = social_liberal
+				election_frequency = 60
+				elections_allowed = no
+			}
+			remove_all_ministers = yes
+			add_ideas = {
+				GAK_g36_hog_ade
+				GAK_Konrad_Adenauer_for_sco
+				GAK_px4_eco_mli
+				GAK_rpk16_sec_ade
+			}			
+		}
+	}
+	
+	option = {
+		name = griffon.3.b #응 조까
+		set_country_flag = GAK_fuck_the_gentiane
+	}
+
+	option = {
+		name = griffon.3.c #사회주의자들의 무장 봉기 
+		set_country_flag = GAK_hawaii_socialist_bonggi
+		hidden_effect = {
+			load_focus_tree = GAK_socialist_tree
+			add_popularity = { ideology = radical_socialist popularity = 0.1 }
+			add_popularity = { ideology = syndicalist popularity = 0.1 }
+			add_popularity = { ideology = totalist popularity = 0.3 }
+			remove_ideas = GAK_socialist_underground_ideas
+			create_country_leader = {
+				name = "9A-91"
+				desc = "POLITICS_9A_91_DESC"
+				picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_9A_91.tga"
+				expire = "2000.1.1"
+				ideology = radical_socialist_subtype
+				traits = {
+				GAK_save_our_doll
+				}
+			}
+			set_party_name = { 
+				ideology = totalist 
+				long_name = GAK_totalist_riot_long
+				name = GAK_totalist_riot 
+			}
+			set_party_name = { 
+				ideology = radical_socialist 
+				long_name = GAK_radical_socialist_riot_long
+				name = GAK_radical_socialist_riot 
+			}
+			set_party_name = { 
+				ideology = syndicalist 
+				long_name = GAK_syndicalist_riot_long
+				name = GAK_syndicalist_riot 
+			}
+			set_politics = {
+				ruling_party = totalist
+				election_frequency = 60
+				elections_allowed = no
+			}
+			remove_all_ministers = yes
+			set_country_flag = fuck_you_flag
+		}
+		
+	}
+}
+
+country_event = { #응 조까
+	id = griffon.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.4"}
+	title = griffon.4.t
+	desc = griffon.4.d
+	picture = GFX_fuck_you
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.4.a
+	}
+}
+
+country_event = { #호놀롤루 전투
+	id = griffon.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.5"}
+	title = griffon.5.t
+	desc = griffon.5.d
+	picture = GFX_warfare_in_hawa
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.5.a
+		hidden_effect = {
+		remove_unit_leader = 36
+			set_country_flag = GAK_hawaii_begin_dark
+				set_popularities = {
+					totalist = 2
+					syndicalist = 3
+					radical_socialist = 1
+					social_democrat = 2
+					social_liberal = 1
+					market_liberal = 4
+					social_conservative = 5
+					authoritarian_democrat = 7 
+					paternal_autocrat = 21
+					national_populist = 54
+				}
+				create_country_leader = {
+					name = "Ots-14 'Groza'"
+					desc = "POLITICS_GROZA_DESC"
+					picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_General.tga"
+					expire = "2000.1.1"
+					ideology = social_democrat_subtype
+					traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					}
+				}
+				create_country_leader = {
+					name = "Ots-14 'Groza'"
+					desc = "POLITICS_GROZA_DESC"
+					picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_General.tga"
+					expire = "2000.1.1"
+					ideology = social_liberal_subtype
+					traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					}
+				}
+				create_country_leader = {
+					name = "Ots-14 'Groza'"
+					desc = "POLITICS_GROZA_DESC"
+					picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_General.tga"
+					expire = "2000.1.1"
+					ideology = market_liberal_subtype
+					traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					}
+				}
+				create_country_leader = {
+					name = "Ots-14 'Groza'"
+					desc = "POLITICS_GROZA_DESC"
+					picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_General.tga"
+					expire = "2000.1.1"
+					ideology = social_conservative_subtype
+					traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					}
+				}
+				create_country_leader = {
+					name = "Ots-14 'Groza'"
+					desc = "POLITICS_GROZA_DESC"
+					picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_General.tga"
+					expire = "2000.1.1"
+					ideology = authoritarian_democrat_subtype
+					traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					}
+				}
+				create_country_leader = {
+					name = "Ots-14 'Groza'"
+					desc = "POLITICS_GROZA_DESC"
+					picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_General.tga"
+					expire = "2000.1.1"
+					ideology = national_populist_subtype
+					traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					}
+				}
+				create_country_leader = {
+					name = "Ots-14 'Groza'"
+					desc = "POLITICS_GROZA_DESC"
+					picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_General.tga"
+					expire = "2000.1.1"
+					ideology = paternal_autocrat_subtype
+					traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					}
+				}
+				set_politics = {
+					ruling_party = national_populist
+					election_frequency = 60
+					elections_allowed = no
+				}
+				remove_all_ministers = yes
+				add_ideas = {
+					GAK_ak_12_hog_npo
+					GAK_Antonio_De_Oliveira_Salazar_for_npo
+					GAK_hk416_eco_npo
+					GAK_an94_sec_npo
+				}
+			}
+		}
+	}
+	
+country_event = { #국가재건최고회의
+	id = griffon.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.6"}
+	title = griffon.6.t
+	desc = griffon.6.d
+	picture = GFX_report_event_JAP_diet
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.6.a
+		hidden_effect = {
+				create_country_leader = {
+					name = "Ots-14 'Groza'"
+					desc = "POLITICS_GROZA_DESC"
+					picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_bikini.tga"
+					expire = "2000.1.1"
+					ideology = authoritarian_democrat_subtype
+					traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					}
+				}
+				create_country_leader = {
+					name = "Ots-14 'Groza'"
+					desc = "POLITICS_GROZA_DESC"
+					picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_General.tga"
+					expire = "2000.1.1"
+					ideology = national_populist_subtype
+					traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					}
+				}
+				create_country_leader = {
+					name = "Ots-14 'Groza'"
+					desc = "POLITICS_GROZA_DESC"
+					picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza.tga"
+					expire = "2000.1.1"
+					ideology = paternal_autocrat_subtype
+					traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					}
+				}
+				set_politics = {
+					ruling_party = national_populist
+					election_frequency = 60
+					elections_allowed = no
+				}
+			}
+		}
+	}
+	
+country_event = { #자극의 폭력
+	id = griffon.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.7"}
+	title = griffon.7.t
+	desc = griffon.7.d
+	picture = GFX_sex_violence
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.7.a
+		}
+	}
+	
+country_event = { #특이점
+	id = griffon.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.8"}
+	title = griffon.8.t
+	desc = griffon.8.d
+	picture = GFX_report_event_JAP_science
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.8.a
+		}
+	}
+	
+country_event = { #유신헌법 제정
+	id = griffon.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.9"}
+	title = griffon.9.t
+	desc = griffon.9.d
+	picture = GFX_report_event_generic_conference2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.9.a
+		}
+	}
+	
+country_event = { #코렁탕
+	id = griffon.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.10"}
+	title = griffon.10.t
+	desc = griffon.10.d
+	picture = GFX_be_a_queen
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.10.a
+			hidden_effect = {
+				set_politics = {
+					ruling_party = paternal_autocrat
+					election_frequency = 60
+					elections_allowed = no
+				}
+			}
+		}
+	}
+	
+country_event = { #G36 집권
+	id = griffon.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.11"}
+	title = griffon.11.t
+	desc = griffon.11.d
+	picture = GFX_g36_won
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.11.a
+		}
+	}
+	
+country_event = { #새로운 아침
+	id = griffon.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.12"}
+	title = griffon.12.t
+	desc = griffon.12.d
+	picture = GFX_sunrising
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.12.a
+		}
+	}
+	
+country_event = { #중립국, 아니, 하와이.
+	id = griffon.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.13"}
+	title = griffon.13.t
+	desc = griffon.13.d
+	picture = GFX_report_event_generic_strike
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.13.a
+		add_manpower = 21543
+		}
+	}
+	
+country_event = { #그로자 공개처형
+	id = griffon.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.14"}
+	title = griffon.14.t
+	desc = griffon.14.d
+	picture = GFX_groza_gunshot
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.14.a
+		add_popularity = { ideology = national_populist popularity = -0.1 }
+		add_popularity = { ideology = paternal_autocrat popularity = -0.1 }
+		kill_ideology_leader = national_populist
+		kill_ideology_leader = paternal_autocrat
+		}
+	}
+	
+country_event = { #국민의회
+	id = griffon.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.15"}
+	title = griffon.15.t
+	desc = griffon.15.d
+	picture = GFX_report_event_POL_council
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.15.a
+		add_ideas = GAK_national_council_ideas
+		}
+	}
+	
+country_event = { #비밀경찰
+	id = griffon.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.16"}
+	title = griffon.16.t
+	desc = griffon.16.d
+	picture = GFX_report_event_SIA_Police_1936
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.16.a
+		hidden_effect = {
+		if = {
+				limit = { has_dlc = "La Resistance" }
+				create_operative_leader = {
+					name = "Morridow"
+					desc = "SPY_MORRIDOW_DESC"
+					picture = "Portrait_Girls_Frontline_Morridow.tga"
+					traits = {
+						operative_seducer
+						operative_commando
+						operative_master_interrogator
+					}
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { GAK }
+				}
+					
+				create_operative_leader = {
+					name = "Simon Dominic"
+					desc = "SPY_SIMON_DOMINIC_DESC"
+					picture = "Portrait_AOMG_Simon_dominic.tga"
+					traits = {
+						operative_seducer
+						operative_safe_cracker
+						operative_infiltrator
+						operative_master_interrogator
+					}
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { GAK }
+					}
+				}
+			}
+		}
+	}
+	
+country_event = { #전차 계획안
+	id = griffon.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.17"}
+	title = griffon.17.t
+	desc = griffon.17.d
+	picture = GFX_french_tank_production
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.17.a
+		add_ideas = GAK_tank_plan_a_ideas
+		}
+		
+	option = {
+		name = griffon.17.b
+		add_ideas = GAK_tank_plan_b_ideas
+		}
+		
+	option = {
+		name = griffon.17.c
+		add_ideas = GAK_tank_plan_c_ideas
+		}
+	}
+	
+country_event = { #열병식
+	id = griffon.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.18"}
+	title = griffon.18.t
+	desc = griffon.18.d
+	picture = GFX_national
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.18.a
+			add_political_power = -100
+			army_experience = 10
+			navy_experience = 10
+			air_experience = 10
+		}
+	}
+	
+country_event = { # 삑삑! 페이몬은 비상식량이 아니야!
+	id = griffon.19
+	title = griffon.19.t
+	desc = griffon.19.d
+	picture = GFX_paimon_find
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GAK
+		743 = { is_controlled_by = GAK }
+	}
+
+	option = { 
+		name = griffon.19.a
+		ai_chance = { factor = 1 }
+		create_corps_commander = {
+			name = "Paimon"
+			picture = "Portrait_Genshin_paimon.tga"
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	option = { 
+		name = griffon.19.b
+		ai_chance = { factor = 100 }
+		add_manpower = -1
+	}
+}
+
+country_event = { #역붕괴 기술 개발 시작
+	id = griffon.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.20"}
+	title = griffon.20.t
+	desc = griffon.20.d
+	picture = GFX_report_event_EGY_farouk_science
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.20.a
+			ai_chance = { factor = 80 }
+			add_political_power = -100
+			hidden_effect = {
+				country_event = { id = griffon.21 days = 30 }
+        }
+	}
+
+	option = {
+		name = griffon.20.b 
+			ai_chance = { factor = 20 }
+			add_political_power = 100
+	}
+}
+
+country_event = { #역붕괴 기술 개발 반정도 됨
+	id = griffon.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.21"}
+	title = griffon.21.t
+	desc = griffon.21.d
+	picture = GFX_report_event_EGY_farouk_science
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+			name = griffon.21.a
+			ai_chance = { factor = 80 }
+			add_political_power = -300
+			hidden_effect = {
+				country_event = { id = griffon.22 days = 60 }
+        	}
+		}
+	
+
+	option = {
+		name = griffon.21.b 
+		ai_chance = { factor = 20 }
+			add_political_power = 300
+		}
+	}
+
+country_event = { #역붕괴 기술 개발 거의 다됨
+	id = griffon.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.22"}
+	title = griffon.22.t
+	desc = griffon.22.d
+	picture = GFX_report_event_EGY_farouk_science
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.22.a
+			ai_chance = { factor = 80 }
+			add_political_power = -500
+			hidden_effect = {
+				country_event = { id = griffon.23 days = 100 }
+        }
+	}
+
+	option = {
+		name = griffon.22.b
+		ai_chance = { factor = 20 } 
+			add_political_power = 500
+	}
+}
+
+country_event = { #역붕괴 기술 개발 완료
+	id = griffon.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.23"}
+	title = griffon.23.t
+	desc = griffon.23.d
+	picture = GFX_report_event_generic_economy_growth
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.23.a
+		add_political_power = 100
+		swap_ideas = {
+				remove_idea = GAK_Legency_of_IOP_ideas
+				add_idea = GAK_reverse_collapse_tech_ideas
+			}	
+		}
+	}
+
+country_event = { #리코리스의 USB
+	id = griffon.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.24"}
+	title = griffon.24.t
+	desc = griffon.24.d
+	picture = GFX_secret_usb
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.24.a
+		add_political_power = -100
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+				country_event = { id = griffon.25 days = 60 }
+        	}
+		}
+
+	option = {
+		name = griffon.24.b
+		ai_chance = { factor = 50 }	
+		add_political_power = 100
+		}
+	}
+
+country_event = { #오가스 프로토콜
+	id = griffon.25
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.25"}
+	title = griffon.25.t
+	desc = griffon.25.d
+	picture = GFX_ogas_sys
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = griffon.25.a
+		add_ideas = GAK_ogas_system_ideas
+		}
+	}
+
+country_event = { #인류의 시대를 종말할 전쟁
+	id = griffon.26
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.26"}
+	title = griffon.26.t
+	desc = griffon.26.d
+	picture = GFX_end_the_war
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		add_manpower = 250000
+		name = griffon.26.a
+			declare_war_on = {
+				target = USA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PSA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CSA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TEX
+				type = annex_everything
+			}
+			hidden_effect = {
+				GAK = {
+					transfer_state = 797
+					transfer_state = 798
+				}
+				random_owned_controlled_state = {
+					prioritize = { 797 }
+					create_unit = {
+						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.8 start_equipment_factor = 1.0"
+						owner = GAK
+					}
+					create_unit = {
+						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.2 start_equipment_factor = 1.0"
+						owner = GAK
+					}
+					create_unit = {
+						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.6 start_equipment_factor = 1.0"
+						owner = GAK
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 798 }
+					create_unit = {
+						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.2 start_equipment_factor = 1.0"
+						owner = GAK
+					}
+					create_unit = {
+						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.6 start_equipment_factor = 1.0"
+						owner = GAK
+					}
+					create_unit = {
+						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.8 start_equipment_factor = 1.0"
+						owner = GAK
+					}
+				}
+			}
+		}
+	}
+
+country_event = { #미국 내전으로 건너온 난민들
+	id = griffon.27
+	immediate = {log = "[GetDateText]: [Root.GetName]: event griffon.27"}
+	title = griffon.27.t
+	desc = griffon.27.d
+	picture = GFX_report_event_CAN_camp
+	
+	fire_only_once = yes
+
+	trigger = {
+		has_country_flag = GAK_light_hawaii
+		has_global_flag = USA_civil_war_begun_flag
+	}
+
+	option = {
+		ai_chance = { factor = 95 }
+		name = griffon.27.a
+		add_manpower = 15000
+	}
+
+	option = {
+		ai_chance = { factor = 5 }
+		name = griffon.27.b
+		add_political_power = 150
+	}
+}
+
+country_event = { #워싱턴 DC 진군
+	id = griffon.28
+	title = griffon.28.t
+	desc = griffon.28.d
+	picture = GFX_report_event_CAL_legislature
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_war_with = USA
+		361 = { is_controlled_by = GAK }
+	}
+
+	option = { 
+		name = griffon.28.a
+		country_event = { id = griffon.29 days = 1 }
+	}
+}
+
+country_event = { #하와이 조약 #하느님씨발지금새벽3시에요제발살려줘요
+	id = griffon.29
+	title = griffon.29.t
+	desc = griffon.29.d
+	picture = GFX_report_event_generic_conference2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.29.a
+		ai_chance = { factor = 95 }
+
+		white_peace = USA
+		
+		GAK = { transfer_state = 386 }
+		GAK = { transfer_state = 385 }
+		GAK = { transfer_state = 378 }
+		GAK = { transfer_state = 797 }
+		GAK = { transfer_state = 829 }
+		GAK = { transfer_state = 798 }
+		GAK = { transfer_state = 379 }
+		GAK = { transfer_state = 463 }
+		GAK = { transfer_state = 632 }
+		GAK = { transfer_state = 642 }
+		GAK = { transfer_state = 727 }
+		GAK = { transfer_state = 630 }
+		GAK = { transfer_state = 631 }
+
+		every_owned_state = {
+			limit = { is_core_of = USA }
+			add_core_of = GAK
+		}
+		
+		set_autonomy = { target = GUS autonomy_state = kr_colonial_government }	
+		hidden_effect = {
+			GUS = {
+				set_politics = {
+					ruling_party = national_populist
+					elections_allowed = no
+				}
+				set_popularities = {
+					totalist = 1
+					syndicalist = 3
+					radical_socialist = 2
+					social_democrat = 4
+					social_liberal = 6
+					market_liberal = 6
+					social_conservative = 3
+					authoritarian_democrat = 18 
+					paternal_autocrat = 2
+					national_populist = 55
+				}
+				transfer_state = 387
+				transfer_state = 377
+				transfer_state = 380
+				transfer_state = 388
+				transfer_state = 381
+				transfer_state = 382
+				transfer_state = 376
+				transfer_state = 391
+				transfer_state = 390
+				transfer_state = 389
+				every_owned_state = {
+					limit = { is_core_of = USA }
+					add_core_of = GUS
+				}
+				load_focus_tree = America_Under_focus
+				inherit_technology = GAK
+				every_owned_state = {
+					add_manpower = 10000
+					add_extra_state_shared_building_slots = 15
+						add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_owned_state = {
+						add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				every_owned_state = {
+						add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	option = { 
+		name = griffon.29.c
+		trigger = {
+			is_ai = no
+		}
+		ai_chance = { factor = 95 }
+
+		white_peace = USA
+		
+		
+		GAK = { transfer_state = 386 }
+		GAK = { transfer_state = 385 }
+		GAK = { transfer_state = 378 }
+		GAK = { transfer_state = 797 }
+		GAK = { transfer_state = 829 }
+		GAK = { transfer_state = 798 }
+		GAK = { transfer_state = 379 }
+		GAK = { transfer_state = 463 }
+		GAK = { transfer_state = 632 }
+		GAK = { transfer_state = 642 }
+		GAK = { transfer_state = 727 }
+		GAK = { transfer_state = 630 }
+		GAK = { transfer_state = 631 }
+
+		every_owned_state = {
+			limit = { is_core_of = USA }
+			add_core_of = GAK
+		}
+		
+		set_autonomy = { target = GUS autonomy_state = kr_colonial_government }	
+		hidden_effect = {
+			GUS = {
+				set_politics = {
+					ruling_party = national_populist
+					elections_allowed = no
+				}
+				set_popularities = {
+					totalist = 1
+					syndicalist = 3
+					radical_socialist = 2
+					social_democrat = 4
+					social_liberal = 6
+					market_liberal = 6
+					social_conservative = 3
+					authoritarian_democrat = 18 
+					paternal_autocrat = 2
+					national_populist = 55
+				}
+				transfer_state = 387
+				transfer_state = 377
+				transfer_state = 380
+				transfer_state = 388
+				transfer_state = 381
+				transfer_state = 382
+				transfer_state = 376
+				transfer_state = 391
+				transfer_state = 390
+				transfer_state = 389
+				every_owned_state = {
+					limit = { is_core_of = USA }
+					add_core_of = GUS
+				}
+				load_focus_tree = America_Under_focus
+				inherit_technology = GAK
+				every_owned_state = {
+					add_manpower = 10000
+					add_extra_state_shared_building_slots = 15
+						add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_owned_state = {
+						add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				every_owned_state = {
+						add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				change_tag_from = GAK		
+			}
+		}
+	}
+}
+
+country_event = { #인형 개조 청원
+	id = griffon.30
+	title = griffon.30.t
+	desc = griffon.30.d
+	picture = GFX_tac_doll_upgrade
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.30.a
+		ai_chance = { factor = 95 }
+		set_country_flag = GAK_upgrade_doll_allowed
+	}
+
+	option = { 
+		ai_chance = { factor = 5 }
+		name = griffon.30.b
+	}
+}
+
+country_event = { #우리의 자랑스러운 차세대 전투기
+	id = griffon.31
+	title = griffon.31.t
+	desc = griffon.31.d
+	picture = GFX_new_tech_fighter
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.31.a
+	}
+}
+
+country_event = { #우리의 자랑스러운 차세대 공격기
+	id = griffon.32
+	title = griffon.32.t
+	desc = griffon.32.d
+	picture = GFX_new_tech_attacker
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.32.a
+	}
+}
+
+country_event = { #우리의 자랑스러운 차세대 폭격기
+	id = griffon.33
+	title = griffon.33.t
+	desc = griffon.33.d
+	picture = GFX_new_tech_bomber
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.33.a
+	}
+}
+
+country_event = { #무난한 데이트
+	id = griffon.34
+	title = griffon.34.t
+	desc = griffon.34.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.34.a
+	}
+}
+
+country_event = { #별로였던 데이트
+	id = griffon.35
+	title = griffon.35.t
+	desc = griffon.35.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.35.a
+	}
+}
+
+country_event = { #최고였던 데이트
+	id = griffon.36
+	title = griffon.36.t
+	desc = griffon.36.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.36.a
+	}
+}
+
+country_event = { #싸다구 때림
+	id = griffon.37
+	title = griffon.37.t
+	desc = griffon.37.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.37.a
+	}
+}
+
+country_event = { #하와이 조약 러시아와
+	id = griffon.38
+	title = griffon.38.t
+	desc = griffon.38.d
+	picture = GFX_report_event_generic_conference2
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_war_with = RUS
+		219 = { is_controlled_by = GAK }
+		NOT = {
+			has_socialist_government = yes
+		}
+	}
+
+	option = { 
+		name = griffon.38.a
+		ai_chance = { factor = 95 }
+
+		white_peace = RUS
+		
+		set_autonomy = { target = GUR autonomy_state = kr_colonial_government }
+		set_autonomy = { target = GUN autonomy_state = kr_colonial_government }
+		set_autonomy = { target = GUE autonomy_state = kr_colonial_government }
+		set_autonomy = { target = GUO autonomy_state = kr_colonial_government }	
+		hidden_effect = {
+			GUR = { #RPK-16의 러시아
+				set_politics = {
+					ruling_party = national_populist
+					elections_allowed = no
+				}
+				set_popularities = {
+					totalist = 1
+					syndicalist = 1
+					radical_socialist = 1
+					social_democrat = 1
+					social_liberal = 3
+					market_liberal = 3
+					social_conservative = 1
+					authoritarian_democrat = 4 
+					paternal_autocrat = 2
+					national_populist = 83
+				}
+				transfer_state = 580
+				transfer_state = 573
+				transfer_state = 582
+				transfer_state = 583
+				transfer_state = 653
+				transfer_state = 572
+				transfer_state = 590
+				transfer_state = 403
+				transfer_state = 588
+				transfer_state = 571
+				
+				every_owned_state = {
+						limit = { is_core_of = RUS }
+						add_core_of = GUR
+					}
+				load_focus_tree = RPK_Russia_Under_focus
+				inherit_technology = GAK
+			}
+
+			GUN = { #AN-94의 러시아
+				set_politics = {
+					ruling_party = national_populist
+					elections_allowed = no
+				}
+				set_popularities = {
+					totalist = 1
+					syndicalist = 1
+					radical_socialist = 1
+					social_democrat = 1
+					social_liberal = 3
+					market_liberal = 3
+					social_conservative = 1
+					authoritarian_democrat = 4 
+					paternal_autocrat = 2
+					national_populist = 83
+				}
+				transfer_state = 637
+				transfer_state = 644
+				transfer_state = 562
+				transfer_state = 560
+				transfer_state = 657
+				transfer_state = 574
+				transfer_state = 561
+				
+				every_owned_state = {
+						limit = { is_core_of = RUS }
+						add_core_of = GUN
+					}
+				load_focus_tree = AN_Russia_Under_focus
+				inherit_technology = GAK
+			}
+
+			GUE = { #AK-12의 러시아
+				set_politics = {
+					ruling_party = national_populist
+					elections_allowed = no
+				}
+				set_popularities = {
+					totalist = 1
+					syndicalist = 1
+					radical_socialist = 1
+					social_democrat = 1
+					social_liberal = 3
+					market_liberal = 3
+					social_conservative = 1
+					authoritarian_democrat = 4 
+					paternal_autocrat = 2
+					national_populist = 83
+				}
+				transfer_state = 565
+				transfer_state = 563
+				transfer_state = 575
+				transfer_state = 564
+				transfer_state = 566
+				transfer_state = 567
+				transfer_state = 576
+				transfer_state = 516
+				
+				every_owned_state = {
+						limit = { is_core_of = RUS }
+						add_core_of = GUE
+					}
+				load_focus_tree = AK_TW_Russia_Under_focus
+				inherit_technology = GAK
+			}
+
+			GUO = { #AK-15의 러시아
+				set_politics = {
+					ruling_party = national_populist
+					elections_allowed = no
+				}
+				set_popularities = {
+					totalist = 1
+					syndicalist = 1
+					radical_socialist = 1
+					social_democrat = 1
+					social_liberal = 3
+					market_liberal = 3
+					social_conservative = 1
+					authoritarian_democrat = 4 
+					paternal_autocrat = 2
+					national_populist = 83
+				}
+				transfer_state = 577
+				transfer_state = 578
+				transfer_state = 569
+				transfer_state = 811
+				transfer_state = 568
+				transfer_state = 40
+				transfer_state = 654
+				transfer_state = 570
+				
+				every_owned_state = {
+						limit = { is_core_of = RUS }
+						add_core_of = GUO
+					}
+				load_focus_tree = AK_TF_Russia_Under_focus
+				inherit_technology = GAK
+			}
+		}
+	}
+
+	option = {
+		name = griffon.38.b
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = { #하와이 조약 일본과
+	id = griffon.39
+	title = griffon.39.t
+	desc = griffon.39.d
+	picture = GFX_report_event_generic_conference2
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_war_with = JAP
+		282 = { is_controlled_by = GAK }
+		NOT = {
+			has_socialist_government = yes
+		}
+	}
+
+	option = { 
+		name = griffon.39.a
+		ai_chance = { factor = 95 }
+
+		white_peace = JAP
+		
+		GAK = { transfer_state = 524 }
+		GAK = { transfer_state = 526 }
+		GAK = { transfer_state = 745 }
+		GAK = { transfer_state = 645 }
+		GAK = { transfer_state = 648 }
+		GAK = { transfer_state = 798 }
+		GAK = { transfer_state = 379 }
+		GAK = { transfer_state = 463 }
+		GAK = { transfer_state = 555 }
+		GAK = { transfer_state = 537 }
+
+		every_owned_state = {
+			limit = { is_core_of = JAP }
+			add_core_of = GAK
+		}
+		
+		set_autonomy = { target = GUJ autonomy_state = kr_colonial_government }
+		set_autonomy = { target = GUK autonomy_state = kr_colonial_government }	
+		hidden_effect = {
+			GUJ = {
+				set_politics = {
+					ruling_party = national_populist
+					elections_allowed = no
+				}
+				set_popularities = {
+					totalist = 1
+					syndicalist = 3
+					radical_socialist = 2
+					social_democrat = 4
+					social_liberal = 6
+					market_liberal = 6
+					social_conservative = 3
+					authoritarian_democrat = 3 
+					paternal_autocrat = 2
+					national_populist = 70
+				}
+				transfer_state = 528
+				transfer_state = 530
+				transfer_state = 529
+				transfer_state = 531
+				transfer_state = 532
+				transfer_state = 535
+				transfer_state = 282
+				transfer_state = 534
+				transfer_state = 533
+				transfer_state = 536
+				every_owned_state = {
+						limit = { is_core_of = JAP }
+						add_core_of = GUJ
+				}
+				load_focus_tree = Japan_Under_focus
+				inherit_technology = GAK
+			}
+			GUK = {
+				set_politics = {
+					ruling_party = national_populist
+					elections_allowed = no
+				}
+				set_popularities = {
+					totalist = 1
+					syndicalist = 0
+					radical_socialist = 0
+					social_democrat = 4
+					social_liberal = 6
+					market_liberal = 6
+					social_conservative = 3
+					authoritarian_democrat = 3 
+					paternal_autocrat = 2
+					national_populist = 75
+				}
+					transfer_state = 525
+					transfer_state = 527
+					every_owned_state = {
+						limit = { is_core_of = JAP }
+						add_core_of = GUK
+					}
+				load_focus_tree = Korea_Under_focus
+				inherit_technology = GAK
+			}
+		}
+	}
+
+	option = {
+		name = griffon.39.b
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = { #하와이 조약 독일과
+	id = griffon.40
+	title = griffon.40.t
+	desc = griffon.40.d
+	picture = GFX_report_event_generic_conference2
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_war_with = GER
+		64 = { is_controlled_by = GAK }
+		NOT = {
+			has_socialist_government = yes
+		}
+	}
+
+	option = { 
+		name = griffon.40.a
+		ai_chance = { factor = 95 }
+
+		white_peace = GER
+		
+		set_autonomy = { target = GUG autonomy_state = kr_colonial_government }	
+		hidden_effect = {
+			GUG = {
+				set_politics = {
+					ruling_party = national_populist
+					elections_allowed = no
+				}
+				set_popularities = {
+					totalist = 2
+					syndicalist = 3
+					radical_socialist = 3
+					social_democrat = 1
+					social_liberal = 3
+					market_liberal = 3
+					social_conservative = 1
+					authoritarian_democrat = 4 
+					paternal_autocrat = 2
+					national_populist = 78
+				}
+				transfer_state = 741
+				transfer_state = 28
+				transfer_state = 779
+				transfer_state = 8
+				transfer_state = 781
+				transfer_state = 42
+				transfer_state = 780
+				transfer_state = 50
+				transfer_state = 52
+				transfer_state = 53
+				transfer_state = 54
+				transfer_state = 55
+				transfer_state = 51
+				transfer_state = 57
+				transfer_state = 56
+				transfer_state = 59
+				transfer_state = 58
+				transfer_state = 839
+				transfer_state = 782
+				transfer_state = 61
+				transfer_state = 64
+				transfer_state = 60
+				transfer_state = 65
+				transfer_state = 62
+				transfer_state = 68
+				transfer_state = 66
+				transfer_state = 67
+				transfer_state = 86
+				transfer_state = 63
+				transfer_state = 776
+				transfer_state = 777
+				transfer_state = 5
+				transfer_state = 188
+				every_owned_state = {
+						limit = { is_core_of = GER }
+						add_core_of = GUG
+					}
+				load_focus_tree = German_Under_focus
+				inherit_technology = GAK
+			}
+		}
+	}
+
+	option = {
+		name = griffon.40.b
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = { #하와이 경제 블록
+	id = griffon.41
+	title = griffon.41.t
+	desc = griffon.41.d
+	picture = GFX_report_event_generic_conference2
+
+	fire_only_once = yes
+	
+	trigger = {
+		GAK = {
+			has_country_flag = hawaii_economy_block_start
+		}
+	}
+
+	option = { 
+		name = griffon.41.a
+		ai_chance = { factor = 95 }
+		set_country_flag = hawaii_economy_block
+		add_ideas = GAK_hawaii_economy_block_idea
+		add_to_tech_sharing_group = GAK_comm_faction_research_tech_group
+		add_political_power = -50
+	}
+
+	option = { 
+		name = griffon.41.b
+		ai_chance = { factor = 5 }
+		add_political_power = 50
+	}
+}
+
+country_event = { #한 소녀의 이야기 
+	id = griffon.42
+	title = griffon.42.t
+	desc = griffon.42.d
+	picture = GFX_ephnel_found
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GAK
+		367 = { is_controlled_by = GAK }
+	}
+
+	option = { 
+		name = griffon.42.a
+		ai_chance = { factor = 100 }
+		create_corps_commander = {
+			name = "Failure Number EL : Ephnel"
+			picture = "Portrait_soulworker_ephnel.tga"
+			desc = "SOUL_WORKER_EPHNEL_DESC"
+			traits = { GAK_soul_worker }
+			skill = 5
+			attack_skill = 7
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 6
+		}
+		set_country_flag = GAK_ephnel_arrived_hawaii
+		add_ideas = GAK_soul_worker_Ephnel_ideas
+	}
+
+	option = { 
+		name = griffon.42.b
+		ai_chance = { factor = 0 }
+		add_manpower = -1
+		add_political_power = -5
+	}
+}
+
+country_event = { #소렐주의자 - 국민사회주의동맹의 발언
+	id = griffon.43
+	title = griffon.43.t
+	desc = griffon.43.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.43.a
+	}
+}
+
+country_event = { #농상업 협동 조합에서의 발언
+	id = griffon.44
+	title = griffon.44.t
+	desc = griffon.44.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.44.a
+	}
+}
+
+country_event = { #급진파 - 사회개조주의자들의 발언
+	id = griffon.45
+	title = griffon.45.t
+	desc = griffon.45.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.45.a
+	}
+}
+
+country_event = { #투표 결과...
+	id = griffon.46
+	title = griffon.46.t
+	desc = griffon.46.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.46.a
+		add_stability = 0.05
+		hidden_effect = {
+			add_popularity = { ideology = totalist popularity = 0.3 }
+			set_country_flag = GAK_mosin_won
+		}
+	}
+	option = { #사회개조주의 승
+		name = griffon.46.b
+		add_stability = -0.05
+		hidden_effect = {
+			set_politics = {
+				ruling_party = radical_socialist
+				election_frequency = 60
+				elections_allowed = no
+			}
+			add_popularity = { ideology = radical_socialist popularity = 0.3 }
+			set_country_flag = GAK_9a_won
+		}
+	}
+	option = { #농협 승
+		name = griffon.46.c
+		add_stability = 0.02
+		hidden_effect = {
+			set_politics = {
+				ruling_party = syndicalist
+				election_frequency = 60
+				elections_allowed = no
+			}
+			add_popularity = { ideology = syndicalist popularity = 0.3 }
+			set_country_flag = GAK_mg4_won
+		}
+	}
+}
+
+country_event = { #경제를 위한 5가지 투쟁
+	id = griffon.47
+	title = griffon.47.t
+	desc = griffon.47.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.47.a
+	}
+}
+
+country_event = { #모든 권력을 모신나강에게로
+	id = griffon.48
+	title = griffon.48.t
+	desc = griffon.48.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.48.a
+		create_country_leader = {
+			name = "Mosin-Nagant" #Mosin-Nagant
+			desc = "POLITICS_Mosin_Nagant_DESC"
+			picture = "Portrait_Girls_Frontline_M1891_2.tga"
+			expire = "1975.1.1"
+			ideology = totalist_subtype
+			traits = {
+				GAK_save_our_doll
+				GAK_Lord_Protector
+			}
+		}
+	}
+}
+
+country_event = { #현재 육군 상황
+	id = griffon.49
+	title = griffon.49.t
+	desc = griffon.49.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.49.a
+	}
+}
+
+country_event = { #숙청 완료
+	id = griffon.50
+	title = griffon.50.t
+	desc = griffon.50.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_completed_focus = GAK_company_soc_purge
+		has_completed_focus = GAK_army_soc_purge
+	}
+
+	option = { 
+		name = griffon.50.a
+		set_country_flag = GAK_end_de_purge
+	}
+}
+
+country_event = { #하와이의 도움
+	id = griffon.51
+	title = griffon.51.t
+	desc = griffon.51.d
+	picture = GFX
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.51.a
+		add_opinion_modifier = { 
+			target = CSA 
+			modifier = GAK_help_by_weapon 
+		}
+	}
+}
+
+country_event = {
+	id = griffon.52
+	immediate = { log = "[GetDateText]: [Root.GetName]: event griffon.52" }
+	title = griffon.52.t
+	desc = griffon.52.d
+	picture = GFX_report_event_generic_diplomacy2
+
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.52.a
+		add_to_faction = FROM
+	}
+}
+
+country_event = {
+	id = griffon.53
+	immediate = { log = "[GetDateText]: [Root.GetName]: event griffon.53" }
+	title = griffon.53.t
+	desc = griffon.53.d
+	picture = GFX_report_event_generic_diplomacy2
+
+	is_triggered_only = yes
+
+	option = { 
+		name = griffon.53.a
+		puppet_released_tag = yes
+		set_autonomy = { 
+			target = CSA 
+			autonomy_state = kr_colonial_government 
+		}
+		hidden_effect = {
+			CSA = {
+				kill_country_leader = yes
+					if = {
+						limit = { 
+							GAK = {
+								has_government = totalist
+							}
+						}
+						set_politics = {
+							ruling_party = totalist
+							elections_allowed = no
+						}					
+					}
+					else_if = {
+						limit = { 
+							GAK = {
+								has_government = radical_socialist
+							}
+						}
+						set_politics = {
+							ruling_party = radical_socialist
+							elections_allowed = no
+						}	
+					}
+					else_if = {
+						limit = { 
+							GAK = {
+								has_government = syndicalist
+							}
+						}
+						set_politics = {
+							ruling_party = syndicalist
+							elections_allowed = no
+						}	
+					}
+			}
+		}
+	}
+}
+
+
+country_event = { #G36 주도 독재 선거
+	id = grifele.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event grifele.1"}
+	title = grifele.1.t
+	desc = grifele.1.d
+	picture = GFX_OTT_Demonstration
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #민주정의당
+		name = grifele.1.a
+
+		ai_chance = { factor = 30 }
+		
+		set_politics = {
+			ruling_party = social_conservative
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			set_popularities = {
+		    	totalist = 0
+		    	syndicalist = 1
+		    	radical_socialist = 1
+		    	social_democrat = 11
+		    	social_liberal = 8
+		    	market_liberal = 7
+		    	social_conservative = 71
+		    	authoritarian_democrat = 1
+		   		paternal_autocrat = 0
+		    	national_populist = 0
+			}
+		}		
+		remove_all_ministers = yes
+		add_ideas = {
+			GAK_g36_hog_ade
+			GAK_Konrad_Adenauer_for_sco
+			GAK_px4_eco_mli
+			GAK_an94_sec_npo
+		}
+	}
+
+	option = { #진보정의당
+		name = grifele.1.b
+		
+		ai_chance = { factor = 30 }
+		
+		set_politics = {
+			ruling_party = social_liberal
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			set_popularities = {
+		    	totalist = 1
+		    	syndicalist = 0
+		    	radical_socialist = 2
+		    	social_democrat = 8
+		    	social_liberal = 71
+		    	market_liberal = 9
+		    	social_conservative = 5
+		    	authoritarian_democrat = 2
+		   		paternal_autocrat = 1
+		    	national_populist = 1
+			}
+		}		
+		remove_all_ministers = yes
+		add_ideas = {
+			GAK_g36_hog_ade
+			GAK_nikola_tesla_for_mli
+			GAK_px4_eco_mli
+			GAK_rpk16_sec_ade
+		}
+	}
+	
+	option = { #국민자유당
+		name = grifele.1.c
+
+		ai_chance = { factor = 30 }
+
+		add_political_power = 10
+
+		set_politics = {
+			ruling_party = market_liberal
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			set_popularities = {
+			    totalist = 0
+			    syndicalist = 1
+			    radical_socialist = 1
+			    social_democrat = 11
+			    social_liberal = 12
+			    market_liberal = 68
+			    social_conservative = 6
+			    authoritarian_democrat = 1
+			    paternal_autocrat = 0
+			    national_populist = 0
+			}
+		}
+		remove_all_ministers = yes
+		add_ideas = {
+			GAK_g36_hog_ade
+			GAK_nikola_tesla_for_mli
+			GAK_px4_eco_mli
+			GAK_rpk16_sec_ade
+		}
+	}
+
+
+	option = { #하와이 사회 운동당
+		name = grifele.1.e
+
+		ai_chance = { factor = 30 }
+
+		add_political_power = 10
+
+		set_politics = {
+			ruling_party = social_democrat
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			set_popularities = {
+			    totalist = 0
+			    syndicalist = 1
+			    radical_socialist = 1
+			    social_democrat = 70
+			    social_liberal = 11
+			    market_liberal = 8
+			    social_conservative = 7
+			    authoritarian_democrat = 2
+			    paternal_autocrat = 0
+			    national_populist = 0
+			}
+		}
+		remove_all_ministers = yes
+		add_ideas = {
+			GAK_g36_hog_ade
+			GAK_Kurt_Schumacher_for_sde
+			GAK_px4_eco_mli
+			GAK_rpk16_sec_ade
+		}
+	}
+}
+

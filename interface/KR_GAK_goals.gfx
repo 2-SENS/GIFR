@@ -1,0 +1,343 @@
+spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_only_groza"
+		texturefile = "gfx/interface/goals/GAK_groza_yusin.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_inbang"
+		texturefile = "gfx/interface/goals/GAK_inbang.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_groza_last"
+		texturefile = "gfx/interface/goals/GAK_groza_last.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_TNO_television"
+		texturefile = "gfx/interface/goals/TNO_televised_promotions.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_TNO_Rights_of_Corporation"
+		texturefile = "gfx/interface/goals/TNO_Rights_of_Corporation.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_TNO_State_Controlled_Science"
+		texturefile = "gfx/interface/goals/TNO_State_Controlled_Science.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_lofase_project"
+		texturefile = "gfx/interface/goals/GAK_lofase.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_mad_scientist"
+		texturefile = "gfx/interface/goals/GAK_crazy_doctor.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_human_sponge"
+		texturefile = "gfx/interface/goals/GAK_human_sponage.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_dream_be_king"
+		texturefile = "gfx/interface/goals/GAK_wanna_be_queen.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_TNO_a_more_professional_council"
+		texturefile = "gfx/interface/goals/TNO_a_more_professional_council.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_not_too_far"
+		texturefile = "gfx/interface/goals/GAK_no_far_enemy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_national_enslavement"
+		texturefile = "gfx/interface/goals/GAK_dumb_people.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_G36_high_leader"
+		texturefile = "gfx/interface/goals/GAK_G36_two.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_G36_make_alright"
+		texturefile = "gfx/interface/goals/GAK_G36_one.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_purge_groza"
+		texturefile = "gfx/interface/goals/GAK_burn_groza.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_council"
+		texturefile = "gfx/interface/goals/GAK_power_promise.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_TNO_democracy"
+		texturefile = "gfx/interface/goals/TNO_Democacy_Saved.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_morido"
+		texturefile = "gfx/interface/goals/GAK_secret_police_morridow.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_kick_comm"
+		texturefile = "gfx/interface/goals/TNO_goal_Generic_Anti_Socialism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_RISA"
+		texturefile = "gfx/interface/goals/TNO_Classified_Information.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_end_reform"
+		texturefile = "gfx/interface/goals/GAK_end_reform.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_gentiane_death"
+		texturefile = "gfx/interface/goals/TNO_caste_death.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_groza_cudeta"
+		texturefile = "gfx/interface/goals/GAK_groza_usin.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_G36_alright_every"
+		texturefile = "gfx/interface/goals/TNO_The_Siberian_Bill_Of_Rights.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_yusin_law"
+		texturefile = "gfx/interface/goals/TNO_generic_change_law_speech.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_salute"
+		texturefile = "gfx/interface/goals/GAK_salute.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_new_engine"
+		texturefile = "gfx/interface/goals/TNO_Develop_Better_Engines.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_justice_of_20mm"
+		texturefile = "gfx/interface/goals/GAK_vulcan.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_baeklin_und_napalm"
+		texturefile = "gfx/interface/goals/TNO_bomber_buildup.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_magic_Avionics"
+		texturefile = "gfx/interface/goals/GAK_avionics.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_airframe_skilled_personnel"
+		texturefile = "gfx/interface/goals/GAK_airframe_skilled_personnel.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_new_airborn"
+		texturefile = "gfx/interface/goals/TNO_transport_buildup.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_no_air_force_no_army"
+		texturefile = "gfx/interface/goals/GAK_sky_in_air_force.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_national_army"
+		texturefile = "gfx/interface/goals/GAK_salute_army_girl.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_new_officers"
+		texturefile = "gfx/interface/goals/GAK_new_staff.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_improvement_combat_food"
+		texturefile = "gfx/interface/goals/GAK_combat_food.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_vic_military_parade"
+		texturefile = "gfx/interface/goals/GAK_bremerton.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_navy_school_navy_staff"
+		texturefile = "gfx/interface/goals/GAK_navy_school_stu.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_expert_at_ships"
+		texturefile = "gfx/interface/goals/TNO_Subserving_the_Navy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_plan_the_black"
+		texturefile = "gfx/interface/goals/TNO_new_northern_fleet.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_plan_the_ss"
+		texturefile = "gfx/interface/goals/TNO_The_Hidden_Menace_submarine.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_research_torpedo"
+		texturefile = "gfx/interface/goals/TNO_Stronger_Torpedoes.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_stealth_aegis"
+		texturefile = "gfx/interface/goals/GAK_eagis_sys.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_public_industry_focusing"
+		texturefile = "gfx/interface/goals/GAK_public_industry.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_welcome_to_ricefield"
+		texturefile = "gfx/interface/goals/GAK_welcome_to_the_ricefield_motherfuckers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_narrow_escape"
+		texturefile = "gfx/interface/goals/GAK_an94_ilsaeng.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_TNO_focus_usa_america_is_on_fire"
+		texturefile = "gfx/interface/goals/TNO_focus_usa_america_is_on_fire.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TNO_new_tech"
+		texturefile = "gfx/interface/goals/TNO_new_tech.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TNO_goal_computer_assisted_design"
+		texturefile = "gfx/interface/goals/TNO_goal_computer_assisted_design.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_war_to_end_human_era"
+		texturefile = "gfx/interface/goals/GAK_burn_usa.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_mod_for_every_one"
+		texturefile = "gfx/interface/goals/GAK_mod_eve_one.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_mod_for_every_two"
+		texturefile = "gfx/interface/goals/GAK_mod_eve_two.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_mod_for_every_last"
+		texturefile = "gfx/interface/goals/GAK_mod_eve_thr_copy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_mod_for_elite_one"
+		texturefile = "gfx/interface/goals/GAK_mod_eli_one.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_mod_for_elite_two"
+		texturefile = "gfx/interface/goals/GAK_mod_eli_two.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_mod_for_elite_last"
+		texturefile = "gfx/interface/goals/GAK_mod_eli_thr_copy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_HAR_arkab_prior"
+		texturefile = "gfx/interface/goals/GAK_arkab_prior.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_attacker_cor_caroli"
+		texturefile = "gfx/interface/goals/GAK_cor_caroli.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_high_bomb_catastrophe"
+		texturefile = "gfx/interface/goals/GAK_catastrophe.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_flight_improvement"
+		texturefile = "gfx/interface/goals/GAK_nothing_stop_hawaii_airforce.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_international_movement"
+		texturefile = "gfx/interface/goals/GAK_road_to_international.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_hawaii_to_minnesota"
+		texturefile = "gfx/interface/goals/ENG_fortify_the_coasts.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_war_target_everything"
+		texturefile = "gfx/interface/goals/GAK_Earth_in_knife.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_won_syndi"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_won_syndi.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_won_totalist_mosin"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_won_totalist_mosin.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_won_radical_socialist_9a_91"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_won_radical_socialist_9a_91.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_are_we_ready_ha"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_are_we_ready_ha.tga"
+	}
+	
+}

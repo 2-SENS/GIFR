@@ -1,0 +1,79 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_be_a_queen"
+		texturefile = "gfx/event_pictures/GFX_be_a_queen.tga"
+	}
+	spriteType = {
+		name = "GFX_death_shikikan"
+		texturefile = "gfx/event_pictures/GFX_death_shikikan.tga"
+	}
+	spriteType = {
+		name = "GFX_difficult_controll"
+		texturefile = "gfx/event_pictures/GFX_difficult_controll.tga"
+	}
+	spriteType = {
+		name = "GFX_fuck_you"
+		texturefile = "gfx/event_pictures/GFX_fuck_you.tga"
+	}
+	spriteType = {
+		name = "GFX_g36_won"
+		texturefile = "gfx/event_pictures/GFX_g36_won.tga"
+	}
+	spriteType = {
+		name = "GFX_groza_gunshot"
+		texturefile = "gfx/event_pictures/GFX_groza_gunshot.tga"
+	}
+	spriteType = {
+		name = "GFX_hello_everyone"
+		texturefile = "gfx/event_pictures/GFX_hello_everyone.tga"
+	}
+	spriteType = {
+		name = "GFX_ogas_sys"
+		texturefile = "gfx/event_pictures/GFX_ogas_sys.tga"
+	}
+	spriteType = {
+		name = "GFX_secret_usb"
+		texturefile = "gfx/event_pictures/GFX_secret_usb.tga"
+	}
+	spriteType = {
+		name = "GFX_sex_violence"
+		texturefile = "gfx/event_pictures/GFX_sex_violence.tga"
+	}
+	spriteType = {
+		name = "GFX_sunrising"
+		texturefile = "gfx/event_pictures/GFX_sunrising.tga"
+	}
+	spriteType = {
+		name = "GFX_warfare_in_hawa"
+		texturefile = "gfx/event_pictures/GFX_warfare_in_hawa.tga"
+	}
+	spriteType = {
+		name = "GFX_paimon_find"
+		texturefile = "gfx/event_pictures/GFX_paimon_find.tga"
+	}
+
+	spriteType = {
+		name = "GFX_tac_doll_upgrade"
+		texturefile = "gfx/event_pictures/GFX_tac_doll_upgrade.tga"
+	}
+
+	spriteType = {
+		name = "GFX_new_tech_fighter"
+		texturefile = "gfx/event_pictures/GFX_new_tech_fighter.tga"
+	}
+
+	spriteType = {
+		name = "GFX_new_tech_attacker"
+		texturefile = "gfx/event_pictures/GFX_new_tech_attacker.tga"
+	}
+
+	spriteType = {
+		name = "GFX_new_tech_bomber"
+		texturefile = "gfx/event_pictures/GFX_new_tech_bomber.tga"
+	}
+
+	spriteType = {
+		name = "GFX_ephnel_found"
+		texturefile = "gfx/event_pictures/GFX_ephnel_found.tga"
+	}
+}

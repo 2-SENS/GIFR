@@ -1,0 +1,891 @@
+﻿capital = 629
+
+oob = "GAK_KR"
+set_naval_oob = "GAK_KR_NAVAL"
+
+set_stability = 0.6
+set_war_support = 0.8
+set_research_slots = 4
+
+set_technology = {
+	electronic_mechanical_engineering = 1
+	fuel_silos = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	motorised_infantry = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	marines = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	fighter1 = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	mobile_warfare = 1
+	superior_firepower = 1
+	trench_warfare = 1
+	mass_assault = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		contact_mine = 1
+		light_ship_hull_1936 = 1
+		light_ship_hull_1940 = 1
+		weltkrieg_cruiser_hull = 1
+		cruiser_hull_1936 = 1
+		weltkrieg_submarine_hull = 1
+		submarine_hull_1936 = 1
+		cruiser_submarine = 1
+		carrier_conversion = 1
+		carrier_hull_1936 = 1
+		ship_hull_revived_ac = 1
+		weltkrieg_heavy_ship_hull = 1
+		heavy_ship_hull_1936 = 1
+		ship_hull_super_heavy = 1
+
+		## Modules##
+		early_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		weltkrieg_naval_gunnery = 1
+		naval_ammo_one = 1
+		light_battery_one = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		weltkrieg_naval_gunnery = 1
+		naval_ammo_one = 1
+		basic_heavy_armor_scheme = 1
+		capital_gunnery_one = 1
+		weltkrieg_naval_gunnery = 1
+		naval_ammo_one = 1
+		naval_ammo_two = 1
+
+		### Transport ###
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_destroyer_nonmtg = 1
+		interwar_destroyer_nonmtg = 1
+		weltkrieg_cruiser_nonmtg = 1
+		interwar_cruiser_nonmtg = 1
+		weltkrieg_submarine_nonmtg = 1
+		interwar_submarine_nonmtg = 1
+		weltkrieg_armored_cruiser_nonmtg = 1
+		interwar_armored_cruiser_nonmtg = 1
+		weltkrieg_fast_battleship_nonmtg = 1
+		interwar_fast_battleship_nonmtg = 1
+		weltkrieg_dreadnought_nonmtg = 1
+		super_heavy_dreadnought_nonmtg = 1
+		weltkrieg_carrier_nonmtg = 1
+		interwar_carrier_nonmtg = 1
+
+		### Transport ###
+		transport_n = 1
+	}
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 1
+    syndicalist = 3
+    radical_socialist = 2
+    social_democrat = 23
+    social_liberal = 5
+    market_liberal = 6
+    social_conservative = 18
+    authoritarian_democrat = 35
+    paternal_autocrat = 5
+    national_populist = 2
+}
+
+set_convoys = 50
+
+add_ideas = {
+	closed_economy
+    #국가 정신#
+	GAK_socialist_underground_ideas
+    GAK_Tactical_dolls_ideas
+	GAK_Legency_of_IOP_ideas
+	GAK_american_problem_ideas
+	GAK_american_scientist_ideas
+	
+	
+	GAK_g36_hog_ade
+	GAK_paul_joseph_goebbels_for_tot
+	GAK_ak15_eco_ade
+	GAK_rpk16_sec_ade
+	
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_intelligence_agency = {
+		name = "404 Not Found"
+	}
+}
+
+country_event = { id = griffon.0 days = 1 }
+add_opinion_modifier = { target = USA modifier = GAK_hate_each_other }
+add_to_variable = {
+	var = Favorability
+	value = 25
+}
+
+
+#국가 지도자#
+
+create_country_leader = {
+	name = "Gentiane" #장시안
+	desc = "POLITICS_Gentiane_DESC"
+	picture = "Portrait_Griffon_and_Kryuger_Gentiane.tga"
+	expire = "1975.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		GAK_save_our_doll
+		GAK_weak_shikikan
+	}
+}
+
+create_country_leader = {
+	name = "Gentiane" #장시안
+	desc = "POLITICS_Gentiane_DESC"
+	picture = "Portrait_Griffon_and_Kryuger_Gentiane.tga"
+	expire = "1975.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		GAK_save_our_doll
+		GAK_weak_shikikan
+	}
+}
+
+create_country_leader = {
+	name = "Gentiane" #장시안
+	desc = "POLITICS_Gentiane_DESC"
+	picture = "Portrait_Griffon_and_Kryuger_Gentiane.tga"
+	expire = "1975.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		GAK_save_our_doll
+		GAK_weak_shikikan
+	}
+}
+
+create_country_leader = {
+	name = "Gentiane" #장시안
+	desc = "POLITICS_Gentiane_DESC"
+	picture = "Portrait_Griffon_and_Kryuger_Gentiane.tga"
+	expire = "1975.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		GAK_save_our_doll
+		GAK_weak_shikikan
+	}
+}
+
+create_country_leader = {
+	name = "Gentiane" #장시안
+	desc = "POLITICS_Gentiane_DESC"
+	picture = "Portrait_Griffon_and_Kryuger_Gentiane.tga"
+	expire = "1975.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		GAK_save_our_doll
+		GAK_weak_shikikan
+	}
+}
+
+create_country_leader = {
+	name = "Gentiane" #장시안
+	desc = "POLITICS_Gentiane_DESC"
+	picture = "Portrait_Griffon_and_Kryuger_Gentiane.tga"
+	expire = "1975.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		GAK_save_our_doll
+		GAK_weak_shikikan
+	}
+}
+
+create_country_leader = {
+	name = "Gentiane" #장시안
+	desc = "POLITICS_Gentiane_DESC"
+	picture = "Portrait_Griffon_and_Kryuger_Gentiane.tga"
+	expire = "1975.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		GAK_save_our_doll
+		GAK_weak_shikikan
+	}
+}
+
+create_country_leader = {
+	name = "Mosin-Nagant" #Mosin-Nagant
+	desc = "POLITICS_Mosin_Nagant_DESC"
+	picture = "Portrait_Girls_Frontline_M1891_2.tga"
+	expire = "1975.1.1"
+	ideology = radical_socialist_subtype
+	traits = {
+		GAK_save_our_doll
+	}
+}
+
+create_country_leader = {
+	name = "Mosin-Nagant" #Mosin-Nagant
+	desc = "POLITICS_Mosin_Nagant_DESC"
+	picture = "Portrait_Girls_Frontline_M1891_2.tga"
+	expire = "1975.1.1"
+	ideology = totalist_subtype
+	traits = {
+		GAK_save_our_doll
+	}
+}
+
+create_country_leader = {
+	name = "MG4" #MG4
+	desc = "POLITICS_MG4_DESC"
+	picture = "Portrait_Girls_Frontline_MG4.tga"
+	expire = "1975.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		GAK_save_our_doll
+	}
+}
+
+#육군 장성#
+
+#Team Rebelion#
+
+create_field_marshal = {
+	name = "AK-12"
+	picture = "Portrait_Girls_Frontline_AK_12.tga"
+	desc = "GAK_AK_12_ARMY_DESC"
+	traits = { GAK_T_doll_commander career_officer commando infantry_officer organizer winter_specialist infantry_leader infantry_expert}
+	skill = 5
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "AN-94"
+	picture = "Portrait_Girls_Frontline_An_94.tga"
+	desc = "GAK_AN_94_ARMY_DESC"
+	traits = { GAK_T_doll_commander brilliant_strategist inflexible_strategist commando armor_officer }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "AK-15"
+	picture = "Portrait_Girls_Frontline_AK_15.tga"
+	desc = "GAK_AK_15_ARMY_DESC"
+	traits = { GAK_T_doll_commander commando infantry_officer infantry_leader harsh_leader }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "RPK-16"
+	picture = "Portrait_Girls_Frontline_RPK_16.tga"
+	desc = "GAK_RPK_16_ARMY_DESC"
+	traits = { GAK_T_doll_commander career_officer commando politically_connected trickster }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+#Team 404 Not Found#
+
+create_field_marshal = {
+	name = "HK416"
+	picture = "Portrait_Girls_Frontline_HK416.tga"
+	desc = "GAK_HK416_ARMY_DESC"
+	traits = { GAK_T_doll_commander organizer trickster armor_officer brilliant_strategist trait_engineer }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "UMP45"
+	picture = "Portrait_Girls_Frontline_Ump45.tga"
+	desc = "GAK_UMP45_ARMY_DESC"
+	traits = { GAK_T_doll_commander trickster brilliant_strategist panzer_leader armor_officer career_officer }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "UMP9"
+	picture = "Portrait_Girls_Frontline_Ump9.tga"
+	desc = "GAK_UMP9_ARMY_DESC"
+	traits = { GAK_T_doll_commander career_officer trickster armor_officer brilliant_strategist trait_engineer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "G11"
+	picture = "Portrait_Girls_Frontline_G11.tga"
+	desc = "GAK_G11_ARMY_DESC"
+	traits = { GAK_T_doll_commander }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+#Team Anti Rain#
+
+create_corps_commander = {
+	name = "M4 SOPMOD III"
+	picture = "Portrait_Girls_Frontline_M4_SOPMOD.tga"
+	desc = "GAK_SOPMOD_ARMY_DESC"
+	traits = { GAK_T_doll_commander trait_reckless harsh_leader trickster infantry_officer }
+	skill = 4
+	attack_skill = 6
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "M4A1"
+	picture = "Portrait_Girls_Frontline_M4a1.tga"
+	desc = "GAK_M4A1_ARMY_DESC"
+	traits = { GAK_T_doll_commander skilled_staffer infantry_officer organizer commando }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "RO635"
+	picture = "Portrait_Girls_Frontline_RO635.tga"
+	desc = "GAK_RO635_ARMY_DESC"
+	traits = { GAK_T_doll_commander brilliant_strategist }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "ST AR-15"
+	picture = "Portrait_Girls_Frontline_Ar_15.tga"
+	desc = "GAK_ST_AR_15_ARMY_DESC"
+	traits = { GAK_T_doll_commander trickster winter_specialist commando }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 5
+}
+
+#기타 등등#
+
+create_field_marshal = {
+	name = "G36"
+	id = 36
+	picture = "Portrait_Girls_Frontline_G36.tga"
+	desc = "GAK_G36_ARMY_DESC"	
+	traits = { 
+		harsh_leader 
+		combined_arms_expert 
+		ranger 
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "AS Val"
+	picture = "Portrait_Girls_Frontline_Asval.tga"
+	desc = "GAK_ASVAL_ARMY_DESC"
+	traits = { winter_specialist commando }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "General Liu"
+	picture = "Portrait_Girls_Frontline_General_Liu.tga"
+	desc = "GAK_LIU_ARMY_DESC"
+	traits = { infantry_officer infantry_leader infantry_expert trait_reckless }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Gepard M1"
+	picture = "Portrait_Girls_Frontline_GepardM1.tga"
+	desc = "GAK_Gepard_M1_ARMY_DESC"
+	traits = { skilled_staffer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "LAR Grizzly"
+	picture = "Portrait_Girls_Frontline_Grizzly.tga"
+	desc = "GAK_GRIZZLY_ARMY_DESC"
+	traits = { brilliant_strategist harsh_leader trait_cautious }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "IWS-2000"
+	picture = "Portrait_Girls_Frontline_IWS2000.tga"
+	desc = "GAK_IWS2000_ARMY_DESC"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "JS9"
+	picture = "Portrait_Girls_Frontline_JS9.tga"
+	desc = "GAK_JS9_ARMY_DESC"
+	traits = { politically_connected career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "G36C"
+	picture = "Portrait_Girls_Frontline_G36C.tga"
+	desc = "GAK_G36C_ARMY_DESC"
+	traits = { organizer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kord"
+	picture = "Portrait_Girls_Frontline_Kord.tga"
+	desc = "GAK_KORD_ARMY_DESC"
+	traits = { winter_specialist trait_engineer fortress_buster }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mondragón 1908"
+	picture = "Portrait_Girls_Frontline_Mondragon.tga"
+	desc = "GAK_MONDRAGON_ARMY_DESC"
+	traits = { infantry_officer infantry_expert }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "MP7"
+	picture = "Portrait_Girls_Frontline_Mp7.tga"
+	desc = "GAK_MP7_ARMY_DESC"
+	traits = { commando trait_reckless skirmisher paratrooper skilled_staffer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2 
+}
+
+create_corps_commander = {
+	name = "WA2000"
+	picture = "Portrait_Girls_Frontline_WA2000.tga"
+	desc = "GAK_WA2000_ARMY_DESC"
+	traits = { skilled_staffer infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Webley Revolver"
+	picture = "Portrait_Girls_Frontline_Webley.tga"
+	desc = "GAK_WEBLEY_ARMY_DESC"
+	traits = { infantry_expert infantry_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Howa Type 89"
+	picture = "Portrait_Girls_Frontline_Howa_89type.tga"
+	desc = "GAK_TYPE_89_ARMY_DESC"
+	traits = { infantry_expert ambusher }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kar98k"
+	picture = "Portrait_Girls_Frontline_Kar98k.tga"
+	desc = "GAK_KAR98K_ARMY_DESC"
+	traits = { brilliant_strategist infantry_officer infantry_leader infantry_expert }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Beretta 38"
+	picture = "Portrait_Girls_Frontline_Beretta_38.tga"
+	desc = "GAK_BERETTA_38_ARMY_DESC"
+	traits = { infantry_expert infantry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "PKP Pecheneg" 
+	picture = "Portrait_Girls_Frontline_PKP.tga"
+	desc = "GAK_PKP_PECHENEG_ARMY_DESC"
+	traits = { commando adaptable guerilla_fighter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "R93"
+	picture = "Portrait_Girls_Frontline_R93.tga"
+	desc = "GAK_R93_ARMY_DESC"
+	traits = { trait_reckless infantry_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Lewis gun"
+	picture = "Portrait_Girls_Frontline_Lewis.tga"
+	desc = "GAK_LEWIS_ARMY_DESC"	
+	traits = { 
+		trait_engineer 
+		fortress_buster 
+		hill_fighter 
+	}
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "M1918 BAR"
+	picture = "Portrait_Girls_Frontline_M1918.tga"
+	desc = "GAK_M1918_ARMY_DESC"
+	traits = {
+		inflexible_strategist
+		career_officer
+	}
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "NTW-2000"
+	picture = "Portrait_Girls_Frontline_NTW_2000.tga"
+	desc = "GAK_NTW_2000_ARMY_DESC"
+	traits = { hill_fighter }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "S.A.T.8"
+	picture = "Portrait_Girls_Frontline_Sat8.tga"
+	desc = "GAK_SAT8_ARMY_DESC"
+	traits = {
+		brilliant_strategist
+		trait_cautious
+		career_officer
+		infantry_leader
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Sten Mk.IIS"
+	picture = "Portrait_Girls_Frontline_Sten.tga"
+	desc = "GAK_STEN_ARMY_DESC"
+	traits = {
+		infantry_officer
+		trait_reckless
+	}
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "DP-12"
+	picture = "Portrait_Girls_Frontline_dp_12.tga"
+	traits = {
+		brilliant_strategist
+		skilled_staffer
+		bearer_of_artillery
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "K5"
+	picture = "Portrait_Girls_Frontline_K5.tga"
+	traits = {
+		brilliant_strategist
+		trait_reckless
+		trickster
+		guerilla_fighter
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "M950A"
+	picture = "Portrait_Girls_Frontline_M950A.tga"
+	traits = {
+		career_officer
+		skilled_staffer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Mk23"
+	picture = "Portrait_Girls_Frontline_Mk23.tga"
+	traits = {
+		trait_reckless
+		infantry_officer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "PPK"
+	picture = "Portrait_Girls_Frontline_ppk.tga"
+	traits = {
+		trickster
+		brilliant_strategist
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Type 88"
+	picture = "Portrait_Girls_Frontline_type_88.tga"
+	traits = {
+		organizer
+		brilliant_strategist
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+
+#Team - 403 Forbidden#
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = "G11"
+		picture = "Portrait_Girls_Frontline_G11_Agent.tga"
+		traits = {
+			operative_seducer
+			operative_commando
+			operative_master_interrogator
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GAK }
+	}
+	
+	create_operative_leader = {
+		name = "HK416"
+		picture = "Portrait_Girls_Frontline_HK416_Agent.tga"
+		traits = {
+			operative_commando
+			operative_seducer
+			operative_safe_cracker
+			operative_infiltrator
+			operative_master_interrogator
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GAK }
+	}
+	
+	create_operative_leader = {
+		name = "Ump45"
+		picture = "Portrait_Girls_Frontline_Ump45_Agent.tga"
+		traits = {
+			operative_seducer
+			operative_demolition_expert
+			operative_escape_artist
+			operative_infiltrator
+			operative_master_interrogator
+			operative_linguist
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GAK }
+	}
+	
+	create_operative_leader = {
+		name = "Ump9"
+		picture = "Portrait_Girls_Frontline_Ump9_Agent.tga"
+		traits = {
+			operative_seducer
+			operative_well_groomed
+			operative_commando
+			operative_natural_orator
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GAK }
+	}
+	
+}

@@ -1,0 +1,31 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_decision_bugwan_favorability"
+		texturefile = "gfx/interface/decisions/decisions_categories_pictures/GAK_bugwan_416.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_category_bugwan_favorability"
+		texturefile = "gfx/interface/decisions/decisions_categories/decision_category_generic_foreign_policy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_category_alyeshka_resource_develop"
+		texturefile = "gfx/interface/decisions/decisions_categories/decision_category_generic_prospect_for_resources.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_world_war_plan"
+		texturefile = "gfx/interface/decisions/decisions_categories/nope.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_new_tech_decision"
+		texturefile = "gfx/interface/decisions/decisions_categories_pictures/GAK_decision_tech.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_battle_vs_america"
+		texturefile = "gfx/interface/decisions/decisions_categories_pictures/GFX_decision_battle_vs_america.dds"
+	}
+}

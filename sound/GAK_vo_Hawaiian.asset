@@ -1,0 +1,341 @@
+
+category = {
+	name = "Voices"
+	soundeffects = {
+		GAK_infantry_idle
+		GAK_infantry_neutral_combat
+		GAK_infantry_positive_combat
+		GAK_infantry_retreat
+	}
+	
+compressor = {
+	enabled = yes
+	pregain = 3.0 
+	postgain = 3.0 
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 0.2 
+	}
+}
+
+category = {
+	name = "Effects"
+	soundeffects = {
+		GAK_girls_frontline_effect
+	}
+	soundeffects = {
+		GAK_an94_nice_work_effect
+	}
+	soundeffects = {
+		GAK_st_ar_15_bye_effect
+	}
+	soundeffects = {
+		GAK_ha_mi_war_effect
+	}
+	soundeffects = {
+		GAK_gentiane_die_effect
+	}
+	soundeffects = {
+		GAK_girls_frontline_ending_effect
+	}
+	soundeffects = {
+		GAK_failed_usa_effect
+	}
+	soundeffects = {
+		GAK_bugwan_voice_effect
+	}
+ 
+	compressor = {
+		enabled = yes
+		pregain = 3.0
+		postgain = 0.0
+		ratio = 10.0
+		threshold = -15.0
+		attacktime = 0.030
+		releasetime = 1.2
+	}
+}
+
+########## 
+
+soundeffect = {
+    name = "GAK_infantry_idle"
+    sounds = {
+        sound = GAK_Idle_01
+        sound = GAK_Idle_02
+		sound = GAK_Idle_03
+		sound = GAK_Idle_04
+		sound = GAK_Idle_05
+		sound = GAK_Idle_06
+		sound = GAK_Idle_07
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.8
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = {
+    name = "GAK_infantry_neutral_combat"
+    sounds = {
+        sound = GAK_combet_01
+        sound = GAK_combet_02
+        sound = GAK_combet_03
+		sound = GAK_combet_04
+        sound = GAK_combet_05
+		sound = GAK_combet_06
+		sound = GAK_combet_07
+		sound = GAK_combet_08
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.2
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = {
+    name = "GAK_infantry_positive_combat"
+    sounds = {
+        sound = GAK_Winning_01
+        sound = GAK_Winning_02
+		sound = GAK_Winning_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.4
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = {
+    name = "GAK_infantry_retreat"
+    sounds = {
+        sound = GAK_Retreat_01
+		sound = GAK_Retreat_02
+		sound = GAK_Retreat_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = {
+	name = "GAK_girls_frontline_effect"
+	volume = 2
+	sounds = {
+		sound = GAK_girls_frontline_01
+	}
+}
+soundeffect = {
+	name = "GAK_an94_nice_work_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_an94_nice_work_01
+	}
+}
+soundeffect = {
+	name = "GAK_st_ar_15_bye_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_st_ar_15_bye_01
+	}
+}
+soundeffect = {
+	name = "GAK_ha_mi_war_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_ha_mi_war_effect_01
+	}
+}
+soundeffect = {
+	name = "GAK_gentiane_die_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_gentiane_die_effect_01
+	}
+}
+soundeffect = {
+	name = "GAK_girls_frontline_ending_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_girls_frontline_ending_effect_01
+	}
+}
+soundeffect = {
+	name = "GAK_failed_usa_effect"
+	volume = 1.2
+	sounds = {
+		sound = _FROM_TNO_se_british_reunification_stirling_SORRY_BUT_IT_S_GOOD
+	}
+}
+soundeffect = {
+	name = "GAK_bugwan_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_voice_01
+		sound = GAK_bugwan_voice_02
+		sound = GAK_bugwan_voice_03
+		sound = GAK_bugwan_voice_04
+	}
+}
+
+############## AUDIO ASSETS
+
+
+########### GAK
+sound = 
+{
+	name = "GAK_Idle_01"
+	file = "GAK/GAK_Idle_01.wav"
+}
+sound = 
+{
+	name = "GAK_Idle_02"
+	file = "GAK/GAK_Idle_02.wav"
+}
+sound = 
+{
+	name = "GAK_Idle_03"
+	file = "GAK/GAK_Idle_03.wav"
+}
+sound = 
+{
+	name = "GAK_Idle_04"
+	file = "GAK/GAK_Idle_04.wav"
+}
+sound = 
+{
+	name = "GAK_Idle_05"
+	file = "GAK/GAK_Idle_05.wav"
+}
+sound = 
+{
+	name = "GAK_Idle_06"
+	file = "GAK/GAK_Idle_06.wav"
+}
+sound = 
+{
+	name = "GAK_Idle_07"
+	file = "GAK/GAK_Idle_07.wav"
+}
+sound = 
+{
+	name = "GAK_Winning_01"
+	file = "GAK/GAK_Winning_01.wav"
+}
+sound = 
+{
+	name = "GAK_Winning_02"
+	file = "GAK/GAK_Winning_02.wav"
+}
+sound = 
+{
+	name = "GAK_combet_01"
+	file = "GAK/GAK_combet_01.wav"
+}
+sound = 
+{
+	name = "GAK_combet_02"
+	file = "GAK/GAK_combet_02.wav"
+}
+sound = 
+{
+	name = "GAK_combet_03"
+	file = "GAK/GAK_combet_03.wav"
+}
+sound = 
+{
+	name = "GAK_combet_04"
+	file = "GAK/GAK_combet_04.wav"
+}
+sound = 
+{
+	name = "GAK_combet_05"
+	file = "GAK/GAK_combet_05.wav"
+}
+sound = 
+{
+	name = "GAK_combet_06"
+	file = "GAK/GAK_combet_06.wav"
+}
+sound = 
+{
+	name = "GAK_combet_07"
+	file = "GAK/GAK_combet_07.wav"
+}
+sound = 
+{
+	name = "GAK_combet_08"
+	file = "GAK/GAK_combet_08.wav"
+}
+sound = 
+{
+	name = "GAK_Retreat_01"
+	file = "GAK/GAK_Retreat_01.wav"
+}
+sound = 
+{
+	name = "GAK_Retreat_02"
+	file = "GAK/GAK_Retreat_02.wav"
+}
+sound = 
+{
+	name = "GAK_Retreat_03"
+	file = "GAK/GAK_Retreat_03.wav"
+}
+sound = {
+	name = "GAK_girls_frontline_01"
+	file = "GAK/GAK_girls_frontline_01.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_st_ar_15_bye_01"
+	file = "GAK/GAK_welcome.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_ha_mi_war_effect_01"
+	file = "GAK/GAK_ha_mi_war_effect_01.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_gentiane_die_effect_01"
+	file = "GAK/GAK_gentiane_die_effect_01.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_girls_frontline_ending_effect_01"
+	file = "GAK/GAK_2064.wav"
+	always_load = yes
+}
+sound = {
+	name = "_FROM_TNO_se_british_reunification_stirling_SORRY_BUT_IT_S_GOOD"
+	file = "GAK/FROM_TNO_se_british_reunification_stirling_SORRY_BUT_IT_S_GOOD.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_an94_nice_work_01"
+	file = "GAK/GAK_an94_nice_work_01.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_voice_01"
+	file = "GAK/GAK_HK416_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_voice_02"
+	file = "GAK/GAK_HK416_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_voice_03"
+	file = "GAK/GAK_HK416_3.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_voice_04"
+	file = "GAK/GAK_HK416_4.wav"
+	always_load = yes
+}

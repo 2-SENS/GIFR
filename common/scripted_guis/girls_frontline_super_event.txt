@@ -1,0 +1,122 @@
+scripted_gui = {	
+
+	GAK_SG_girls_frontline_intro = {
+		context_type = player_context
+		window_name = "GAK_SG_girls_frontline_intro"
+
+		visible = {
+			has_country_flag = GAK_SG_girls_frontline_intro
+		}
+	}
+
+	GAK_SG_girls_frontline_intro_frame = {
+		context_type = player_context
+		window_name = "GAK_SG_girls_frontline_intro_frame"
+
+		visible = {
+			has_country_flag = GAK_SG_girls_frontline_intro
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = GAK_SG_girls_frontline_intro
+			}
+		}
+	}
+	
+	GAK_Gentiane_dead = {
+		context_type = player_context
+		window_name = "GAK_Gentiane_dead"
+
+		visible = {
+			has_country_flag = GAK_gentiane_die_event
+		}
+	}
+
+	GAK_Gentiane_dead_frame = {
+		context_type = player_context
+		window_name = "GAK_Gentiane_dead_frame"
+
+		visible = {
+			has_country_flag = GAK_gentiane_die_event
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = GAK_gentiane_die_event
+			}
+		}
+	}
+	
+	GAK_SG_hami_war = {
+		context_type = player_context
+		window_name = "GAK_SG_hami_war"
+
+		visible = {
+			has_country_flag = GAK_usa_war
+		}
+	}
+
+	GAK_SG_hami_war_frame = {
+		context_type = player_context
+		window_name = "GAK_SG_hami_war_frame"
+
+		visible = {
+			has_country_flag = GAK_usa_war
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = GAK_usa_war
+			}
+		}
+	}
+	
+	GAK_SG_iron_curtain = {
+		context_type = player_context
+		window_name = "GAK_SG_iron_curtain"
+
+		visible = {
+			has_country_flag = GAK_iron_curtain
+		}
+	}
+
+	GAK_SG_iron_curtain_frame = {
+		context_type = player_context
+		window_name = "GAK_SG_iron_curtain_frame"
+
+		visible = {
+			has_country_flag = GAK_iron_curtain
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = GAK_iron_curtain
+			}
+		}
+	}
+	
+	GAK_SG_failed_america = {
+		context_type = player_context
+		window_name = "GAK_SG_failed_america"
+
+		visible = {
+			has_country_flag = GAK_america_ends
+		}
+	}
+
+	GAK_SG_failed_america_frame = {
+		context_type = player_context
+		window_name = "GAK_SG_failed_america_frame"
+
+		visible = {
+			has_country_flag = GAK_america_ends
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = GAK_america_ends
+			}
+		}
+	}
+}

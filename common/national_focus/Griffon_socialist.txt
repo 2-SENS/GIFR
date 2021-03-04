@@ -1,0 +1,2262 @@
+# 	THIS CRACK COCAINE SURE HELPS ME SEE FAR 
+#                                        		
+#                      (                     
+#                      ))                    
+#                     ((                     
+#           .        _____        .          
+#            `.   .-'     `-.   .'           
+#               .'           `.              
+#              / .--.    .--.  \             
+#         ~~~~; ( () ) |( () )  ;~~~~        
+#    ~~~~~~~~~|  `--'   )`--'   |~~~~~~~~    
+#          ~~~;    .______.     ;~~~         
+#              \    `-..-'     /             
+#               `.           .'              
+#            .'   `-._____.-'   `.           
+#           '          ))         `          
+#                     (( MJP                 
+#                      )                     
+#                                        
+#        I CAN SEE INTO YOUR FUTURE         
+#          YOU'RE A FUCKING FAGGOT          
+
+
+focus_tree = {
+	id = GAK_socialist_tree
+
+	country = {
+		factor = 0
+	}
+
+    default = no
+	continuous_focus_position = { x = 1500 y = 3000 }
+
+	focus = {
+		id = GAK_another_fight
+		icon = GFX_goal_ideology_radical_socialist
+		cost = 10
+		x = 20
+		y = 1
+		select_effect = {
+			hidden_effect = {
+				country_event = {
+					id = griffon.43 days = 20
+				}
+				country_event = {
+					id = griffon.44 days = 40
+				}
+				country_event = {
+					id = griffon.45 days = 60
+				}    
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_another_fight"
+			custom_effect_tooltip = GAK_labor_council_tooltip
+			hidden_effect = {
+				country_event = {
+					id = griffon.46
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_won_syndicalist_mg4
+		icon = GFX_goal_GAK_won_syndi
+		cost = 3
+		prerequisite = {
+			focus = GAK_another_fight
+		}
+		available = {
+			has_country_flag = GAK_mg4_won
+		}
+		x = 14
+		y = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_won_syndi"
+		}
+	}
+
+	focus = {
+		id = GAK_control_the_economy
+		icon = GFX_goal_state_economy
+		cost = 3
+		prerequisite = {
+			focus = GAK_won_syndicalist_mg4
+		}
+		available = {
+			has_country_flag = GAK_end_of_economy_struggle
+		}
+		x = 14
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_control_the_economy"
+			add_ideas = GAK_control_the_economy_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_free_the_slaves
+		icon = GFX_goal_Fight_for_Freedom
+		cost = 3
+		prerequisite = {
+			focus = GAK_control_the_economy
+		}
+		x = 14
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_free_the_slaves"
+			remove_idea = GAK_american_problem_ideas
+			add_manpower = 21543
+		}
+	}
+
+	focus = {
+		id = GAK_no_welfare_no_work_bitchs
+		icon = GFX_goal_SAF_reform_voting_law
+		cost = 3
+		prerequisite = {
+			focus = GAK_free_the_slaves
+		}
+		x = 14
+		y = 9
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_no_welfare_no_work_bitchs"
+			add_ideas = GAK_no_welfare_no_work_bitchs_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_won_totalist_mosin
+		icon = GFX_goal_GAK_won_totalist_mosin
+		cost = 3
+		prerequisite = {
+			focus = GAK_another_fight
+		}
+		available = {
+			has_country_flag = GAK_mosin_won
+		}
+		x = 20
+		y = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_won_totalist_mosin"
+		}
+	}
+
+	focus = {
+		id = GAK_won_radical_socialist_9a_91
+		icon = GFX_goal_GAK_won_radical_socialist_9a_91
+		cost = 3
+		prerequisite = {
+			focus = GAK_another_fight
+		}
+		available = {
+			has_country_flag = GAK_9a_won
+		}
+		x = 26
+		y = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_won_radical_socialist_9a_91"
+		}
+	}
+
+	focus = {
+		id = GAK_we_dont_need_slave_anymore
+		icon = GFX_goal_constitutional_guarantees
+		cost = 3
+		prerequisite = {
+			focus = GAK_won_radical_socialist_9a_91
+		}
+		available = {
+			has_country_flag = GAK_end_of_economy_struggle
+		}
+		x = 26
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_we_dont_need_slave_anymore"
+			remove_idea = GAK_american_problem_ideas
+			stability_factor = -0.1
+		}
+	}
+
+	focus = {
+		id = GAK_under_control_of_computer
+		icon = GFX_goal_forced_mil
+		cost = 3
+		prerequisite = {
+			focus = GAK_we_dont_need_slave_anymore
+		}
+		x = 26
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_we_dont_need_slave_anymore"
+			add_ideas = GAK_under_control_of_computer_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_we_just_another_part
+		icon = GFX_goal_generic_railroad
+		cost = 3
+		prerequisite = {
+			focus = GAK_under_control_of_computer
+		}
+		x = 26
+		y = 9
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_we_dont_need_slave_anymore"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = GAK_our_five_struggle
+		icon = GFX_goal_generic_improve_industry
+		cost = 3
+		prerequisite = {
+			focus = GAK_won_totalist_mosin
+			focus = GAK_won_radical_socialist_9a_91
+			focus = GAK_won_syndicalist_mg4
+		}
+		x = 20
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_our_five_struggle"
+			add_ideas = GAK_our_five_struggle_ideas_1
+			country_event = { id = griffon.47 }
+		}
+	}
+
+	focus = {
+		id = GAK_hawaii_Autobahnen
+		icon = GFX_goal_socialist_infrastructure
+		cost = 3
+		prerequisite = {
+			focus = GAK_our_five_struggle
+		}
+		x = 18
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_hawaii_Autobahnen"
+			629 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			swap_ideas = {
+				remove_idea = GAK_our_five_struggle_ideas_1
+				add_idea = GAK_our_five_struggle_ideas_2 
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_hawaii_gongdong_agriculture
+		icon = GFX_goal_agrarian_reform
+		cost = 3
+		prerequisite = {
+			focus = GAK_our_five_struggle
+		}
+		x = 20
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_hawaii_gongdong_agriculture"
+			add_ideas = GAK_hawaii_gongdong_agriculture_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_hawaii_resource_mining
+		icon = GFX_all_resource
+		cost = 3
+		prerequisite = {
+			focus = GAK_our_five_struggle
+		}
+		x = 22
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_hawaii_resource_mining"
+			add_resource = {
+				type = steel
+				amount = 26
+				state = 629
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_soc_hawaii_industry_research
+		icon = GFX_goal_double_research
+		cost = 3
+		prerequisite = {
+			focus = GAK_our_five_struggle
+		}
+		x = 21
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_soc_hawaii_industry_research"
+			add_tech_bonus = {
+				name = GAK_research_industry
+				bonus = 1
+				uses = 2
+				category = industry
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_improve_factory
+		icon = GFX_goal_factory_complex
+		cost = 3
+		prerequisite = {
+			focus = GAK_our_five_struggle
+		}
+		x = 19
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_soc_hawaii_industry_research"
+			add_offsite_building = { 
+				type = arms_factory 
+				level = 2 
+			}
+			add_offsite_building = { 
+				type = industrial_complex 
+				level = 3 
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_end_the_economy_fighting
+		icon = GFX_Socialist_Law
+		cost = 3
+		prerequisite = {
+			focus = GAK_improve_factory
+		}
+		prerequisite = {
+			focus = GAK_soc_hawaii_industry_research
+		}
+		prerequisite = {
+			focus = GAK_hawaii_gongdong_agriculture
+		}
+		prerequisite = {
+			focus = GAK_hawaii_Autobahnen
+		}
+		prerequisite = {
+			focus = GAK_hawaii_resource_mining
+		}
+		x = 20
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_end_the_economy_fighting"
+			swap_ideas = {
+				remove_idea = GAK_our_five_struggle_ideas_2
+				add_idea = GAK_our_five_struggle_ideas_3
+			}
+			set_country_flag = GAK_end_of_economy_struggle
+		}
+	}
+
+	focus = {
+		id = GAK_all_power_to_mosin_nagant
+		icon = GFX_goal_agrarian_socialism
+		cost = 3
+		available = {
+			has_country_flag = GAK_mosin_won
+		}
+		prerequisite = {
+			focus = GAK_end_the_economy_fighting
+		}
+		x = 19
+		y = 8
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_all_power_to_mosin_nagant"
+			country_event = { id = griffon.48 }
+			add_political_power = -150
+			stability_factor = -0.03
+		}
+	}
+
+	focus = {
+		id = GAK_secret_police_nkvd
+		icon = GFX_goal_NOR_secret_police
+		cost = 3
+		available = {
+			has_country_flag = GAK_mosin_won
+		}
+		prerequisite = {
+			focus = GAK_end_the_economy_fighting
+		}
+		x = 21
+		y = 8
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_secret_police_nkvd"
+			add_ideas = GAK_secret_police_nkvd_ideas
+			remove_idea = GAK_american_problem_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_consolidation_of_power
+		icon = GFX_goal_CSA_sabo_tabby
+		cost = 3
+		prerequisite = {
+			focus = GAK_secret_police_nkvd
+		}
+		prerequisite = {
+			focus = GAK_all_power_to_mosin_nagant
+		}
+		x = 20
+		y = 9
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_secret_police_nkvd"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = GAK_De_Red_Army
+		icon = GFX_goal_SOV_army
+		cost = 3
+		prerequisite = {
+			focus = GAK_no_welfare_no_work_bitchs
+		}
+		prerequisite = {
+			focus = GAK_consolidation_of_power
+		}
+		prerequisite = {
+			focus = GAK_we_just_another_part
+		}
+		x = 20
+		y = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_De_Red_Army"
+			army_experience = 100
+			country_event = {
+				id = griffon.49
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_army_soc_purge
+		icon = GFX_goal_purge_opposition
+		cost = 3
+		prerequisite = {
+			focus = GAK_De_Red_Army
+		}
+		x = 21
+		y = 11
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_army_soc_purge"
+			if = {
+				limit = {
+					has_country_flag = GAK_mosin_won
+				}
+				add_timed_idea = { 
+					idea = GAK_big_purge_ideas 
+					days = 120
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GAK_mg4_won
+				}
+				add_timed_idea = { 
+					idea = GAK_small_purge_ideas 
+					days = 120
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GAK_9a_won
+				}
+				add_timed_idea = { 
+					idea = GAK_small_purge_ideas 
+					days = 120
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_company_soc_purge
+		icon = GFX_goal_purge_opposition
+		cost = 3
+		prerequisite = {
+			focus = GAK_De_Red_Army
+		}
+		x = 19
+		y = 11
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_company_soc_purge"
+			if = {
+				limit = {
+					has_country_flag = GAK_mosin_won
+				}
+				add_timed_idea = { 
+					idea = GAK_industry_big_purge_ideas 
+					days = 120
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GAK_mg4_won
+				}
+				add_timed_idea = { 
+					idea = GAK_industry_small_purge_ideas 
+					days = 120
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GAK_9a_won
+				}
+				add_timed_idea = { 
+					idea = GAK_industry_small_purge_ideas 
+					days = 120
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_newer_revolution_army_firepower
+		icon = GFX_goal_doctrine_fire_superiority
+		cost = 3
+		prerequisite = {
+			focus = GAK_company_soc_purge
+		}
+		prerequisite = {
+			focus = GAK_army_soc_purge
+		}
+		available = {
+			has_country_flag = GAK_end_de_purge
+			has_government = totalist
+		}
+		x = 20
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_newer_revolution_army_firepower"
+			add_tech_bonus = {
+				name = GAK_soc_firepower_army
+				bonus = 1
+				uses = 3
+				category = cat_superior_firepower
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_newer_revolution_army_mobile_warfare
+		icon = GFX_goal_doctrine_tank_warfare
+		cost = 3
+		prerequisite = {
+			focus = GAK_company_soc_purge
+		}
+		prerequisite = {
+			focus = GAK_army_soc_purge
+		}
+		available = {
+			has_country_flag = GAK_end_de_purge
+			has_government = syndicalist
+		}
+		x = 16
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_newer_revolution_army_mobile_warfare"
+			add_tech_bonus = {
+				name = GAK_soc_mobilewarfare
+				bonus = 1
+				uses = 3
+				category = cat_mobile_warfare
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_newer_revolution_army_grand_battle_plan
+		icon = GFX_human_tsunami
+		cost = 3
+		prerequisite = {
+			focus = GAK_company_soc_purge
+		}
+		prerequisite = {
+			focus = GAK_army_soc_purge
+		}
+		available = {
+			has_country_flag = GAK_end_de_purge
+			has_government = radical_socialist
+		}
+		x = 24
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_newer_revolution_army_grand_battle_plan"
+			add_tech_bonus = {
+				name = GAK_soc_grand_battle_plan_army
+				bonus = 1
+				uses = 3
+				category = cat_grand_battle_plan
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_machinzed_army_ace
+		icon = GFX_goal_generic_armored_cars
+		cost = 3
+		prerequisite = {
+			focus = GAK_newer_revolution_army_mobile_warfare
+			focus = GAK_newer_revolution_army_firepower
+			focus = GAK_newer_revolution_army_grand_battle_plan
+		}
+		x = 22
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_newer_revolution_army_grand_battle_plan"
+			add_tech_bonus = {
+				name = GAK_machanized
+				bonus = 2
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_research_handle_weapon
+		icon = GFX_goal_GAK_justice_of_20mm
+		cost = 3
+		prerequisite = {
+			focus = GAK_newer_revolution_army_mobile_warfare
+			focus = GAK_newer_revolution_army_firepower
+			focus = GAK_newer_revolution_army_grand_battle_plan
+		}
+		x = 18
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_research_handle_weapon"
+			add_ideas = GAK_infantry_weapon_upgrade_ideas
+			add_tech_bonus = {
+				name = GAK_machanized
+				bonus = 2
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_tank_redesine_research
+		icon = GFX_goal_POL_light_tanks
+		cost = 3
+		prerequisite = {
+			focus = GAK_newer_revolution_army_mobile_warfare
+		}
+		x = 16
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_tank_redesine_research"
+			add_tech_bonus = {
+				name = GAK_armor_upgrade
+				ahead_reduction = 2
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_artillery_redesine_research
+		icon = GFX_goal_national_artillery
+		cost = 3
+		prerequisite = {
+			focus = GAK_newer_revolution_army_firepower
+		}
+		x = 20
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_artillery_redesine_research"
+			add_tech_bonus = {
+				name = GAK_artillery_upgrade
+				ahead_reduction = 2
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_support_redesine_research
+		icon = GFX_goal_generic_support_equipment
+		cost = 3
+		prerequisite = {
+			focus = GAK_newer_revolution_army_grand_battle_plan
+		}
+		x = 24
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_support_redesine_research"
+			add_tech_bonus = {
+				name = GAK_support_upgrade
+				ahead_reduction = 2
+				uses = 2
+				category = support_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_well_nice_plan_by_com
+		icon = GFX_goal_computer_focus
+		cost = 3
+		prerequisite = {
+			focus = GAK_support_redesine_research
+		}
+		x = 24
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_well_nice_plan_by_com"
+			add_ideas = GAK_under_the_computer_plan_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_firepower_enhance_plan
+		icon = GFX_goal_GEO_Artillery_Tactics
+		cost = 3
+		prerequisite = {
+			focus = GAK_artillery_redesine_research
+		}
+		x = 20
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_artillery_redesine_research"
+			add_ideas = GAK_firepower_enhance_plan_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_armor_plan_a_b_c
+		icon = GFX_goal_generic_army_tanks2
+		cost = 3
+		prerequisite = {
+			focus = GAK_tank_redesine_research
+		}
+		x = 16
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_tank_redesine_research"
+			country_event = {
+				id = griffon.17
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_red_navy_plan
+		icon = GFX_goal_SOV_navy
+		cost = 3
+		prerequisite = {
+			focus = GAK_well_nice_plan_by_com
+			focus = GAK_armor_plan_a_b_c
+			focus = GAK_firepower_enhance_plan
+		}
+		x = 18
+		y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_red_navy_plan"
+			navy_experience = 100
+		}
+	}
+
+	focus = {
+		id = GAK_red_airforce_plan
+		icon = GFX_goal_new_airforce
+		cost = 3
+		prerequisite = {
+			focus = GAK_well_nice_plan_by_com
+			focus = GAK_armor_plan_a_b_c
+			focus = GAK_firepower_enhance_plan
+		}
+		x = 22
+		y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_red_airforce_plan"
+			air_experience = 100
+		}
+	}
+
+	focus = {
+		id = GAK_marine_corps_improve
+		icon = GFX_GEA_Kaiserliche_Marine
+		cost = 3
+		prerequisite = {
+			focus = GAK_red_navy_plan
+		}
+		x = 16
+		y = 17
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_marine_corps_improve"
+			add_ideas = GAK_marine_corps_improve_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_help_from_international
+		icon = GFX_goal_FRA_Internationale_Congress
+		cost = 3
+		prerequisite = {
+			focus = GAK_red_navy_plan
+		}
+		x = 18
+		y = 17
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_help_from_international"
+			add_opinion_modifier = { target = GAK modifier = GAK_international_help_navy }
+			add_tech_bonus = {
+				name = GAK_hawaii_rules_the_waves
+				bonus = 1
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+		
+	}
+
+	focus = {
+		id = GAK_newer_revolution_plane
+		icon = GFX_goal_industry_air
+		cost = 3
+		prerequisite = {
+			focus = GAK_red_airforce_plan
+		}
+		x = 22
+		y = 17
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_newer_revolution_plane"
+			add_tech_bonus = {
+				name = GAK_red_fighter_research
+				bonus = 1
+				uses = 1
+				category = light_fighter
+			}
+			add_tech_bonus = {
+				name = GAK_red_fighter_research
+				bonus = 1
+				uses = 1
+				category = cat_heavy_fighter
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_ground_attack
+		icon = GFX_goal_generic_air_CAS_new
+		cost = 3
+		prerequisite = {
+			focus = GAK_newer_revolution_plane
+		}
+		prerequisite = {
+			focus = GAK_doctrine_analysis
+		}
+		x = 23
+		y = 18
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_ground_attack"
+			add_tech_bonus = {
+				name = GAK_closer_air_support_research
+				bonus = 1
+				uses = 2
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_many_bomb
+		icon = GFX_goal_Combined_Bomber_Offensive
+		cost = 3
+		prerequisite = {
+			focus = GAK_naval_bomber_research
+		}
+		prerequisite = {
+			focus = GAK_ground_attack
+		}
+		x = 22
+		y = 19
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_many_bomb"
+			add_ideas = GAK_baeklin_und_napalm_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_devil_of_sky
+		icon = GFX_goal_generic_air_bomber_new
+		cost = 3
+		prerequisite = {
+			focus = GAK_newer_revolution_plane
+		}
+		prerequisite = {
+			focus = GAK_doctrine_analysis
+		}
+		x = 25
+		y = 18
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_devil_of_sky"
+			add_tech_bonus = {
+				name = GAK_strategic_bomb_Res
+				bonus = 1
+				uses = 2
+				category = cat_strategic_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_doctrine_analysis
+		icon = GFX_goal_KTG_Bookstack
+		cost = 3
+		prerequisite = {
+			focus = GAK_red_airforce_plan
+		}
+		x = 24
+		y = 17
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_doctrine_analysis"
+			add_ideas = GAK_doctrine_anal_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_naval_bomber_research
+		icon = GFX_goal_HOL_luchtkruiser
+		cost = 3
+		prerequisite = {
+			focus = GAK_help_from_international
+		}
+		prerequisite = {
+			focus = GAK_newer_revolution_plane
+		}
+		x = 20
+		y = 18
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_naval_bomber_research"
+			add_tech_bonus = {
+				name = GAK_naval_bomber_research
+				bonus = 1
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_naval_dd_upgrade
+		icon = GFX_goal_generic_coastal_navy
+		cost = 3
+		prerequisite = {
+			focus = GAK_help_from_international
+		}
+		prerequisite = {
+			focus = GAK_marine_corps_improve
+		}
+		x = 17
+		y = 18
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_naval_upgrade"
+			add_tech_bonus = {
+				name = GAK_destroyers
+				bonus = 2
+				uses = 1
+				category = dd_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_research_anti_air_ship
+		icon = GFX_goal_GAK_stealth_aegis
+		cost = 3
+		prerequisite = {
+			focus = GAK_naval_dd_upgrade
+		}
+		prerequisite = {
+			focus = GAK_naval_bomber_research
+		}
+		x = 18
+		y = 19
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_research_anti_air_ship"
+			add_ideas = GAK_antiair_ship_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_naval_ca_cl_upgrade
+		icon = GFX_goal_generic_coastal_navy2
+		cost = 3
+		prerequisite = {
+			focus = GAK_help_from_international
+		}
+		prerequisite = {
+			focus = GAK_marine_corps_improve
+		}
+		x = 15
+		y = 18
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_naval_ca_cl_upgrade"
+			add_tech_bonus = {
+				name = GAK_CL
+				bonus = 2
+				uses = 1
+				category = cl_tech
+			}
+
+			add_tech_bonus = {
+				name = GAK_CA
+				bonus = 2
+				uses = 1
+				category = ca_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_naval_mainship_upgrade
+		icon = GFX_goal_generic_sea_focused_navy2
+		cost = 3
+		prerequisite = {
+			focus = GAK_naval_dd_upgrade
+		}
+		prerequisite = {
+			focus = GAK_naval_ca_cl_upgrade
+		}
+		x = 16
+		y = 20
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_naval_mainship_upgrade"
+			add_tech_bonus = {
+				name = GAK_BB
+				bonus = 2
+				uses = 1
+				category = bb_tech
+			}
+
+			add_tech_bonus = {
+				name = GAK_CV
+				bonus = 2
+				uses = 1
+				category = cv_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_air_controll_by_our
+		icon = GFX_goal_air_red
+		cost = 3
+		prerequisite = {
+			focus = GAK_ground_attack
+		}
+		prerequisite = {
+			focus = GAK_devil_of_sky
+		}
+		x = 24
+		y = 20
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_air_controll_by_our"
+			add_ideas = GAK_air_controll_plan_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_are_we_ready_ha
+		icon = GFX_goal_GAK_are_we_ready_ha
+		cost = 3
+		prerequisite = {
+			focus = GAK_naval_mainship_upgrade
+		}
+		prerequisite = {
+			focus = GAK_air_controll_by_our
+		}
+		x = 20
+		y = 21
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_are_we_ready_ha"
+			set_country_flag = GAK_lets_fuck_the_usa
+		}
+	}
+
+	focus = {
+		id = GAK_international_world_policy
+		icon = GFX_goal_foreign_diplomacy
+		cost = 3
+		available = {
+			has_country_flag = GAK_lets_fuck_the_usa
+		}
+		x = 45
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_international_world_policy"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_haedware_improve_red
+		icon = GFX_goal_GAK_haedware_improve_red
+		cost = 3
+		prerequisite = {
+			focus = GAK_international_world_policy
+		}
+		x = 35
+		y = 2
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_haedware_improve_red"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_flight_improvement_r
+		icon = GFX_goal_GAK_flight_improvement
+		cost = 3
+		prerequisite = {
+			focus = GAK_haedware_improve_red
+		}
+		available = {
+			has_tech = experimental_rockets
+		}
+		x = 37
+		y = 4
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_flight_improvement"
+			air_experience = 100
+		}
+
+	}
+	
+	focus = {
+		id = GAK_HAR_arkab_prior_r
+		icon = GFX_goal_GAK_HAR_arkab_prior
+		cost = 5
+		prerequisite = {
+			focus = GAK_flight_improvement_r
+		}
+		x = 39
+		y = 7
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_HAR_arkab_prior"
+			unlock_decision_tooltip = GAK_new_fighter_develop
+		}
+
+	}
+	
+	focus = {
+		id = GAK_high_bomb_catastrophe_r
+		icon = GFX_goal_GAK_high_bomb_catastrophe
+		cost = 5
+		prerequisite = {
+			focus = GAK_flight_improvement_r
+		}
+		x = 37
+		y = 8
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_high_bomb_catastrophe"
+			unlock_decision_tooltip = GAK_new_bomber_develop
+		}
+
+	}
+	
+	focus = {
+		id = GAK_attacker_cor_caroli_r
+		icon = GFX_goal_GAK_attacker_cor_caroli
+		cost = 5
+		prerequisite = {
+			focus = GAK_flight_improvement_r
+		}
+		x = 35
+		y = 7
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_attacker_cor_caroli"
+			unlock_decision_tooltip = GAK_new_cas_develop
+		}
+
+	}
+
+	focus = {
+		id = GAK_mod_project_r
+		icon = GFX_goal_generic_army_cooperation
+		cost = 5
+		prerequisite = {
+			focus = GAK_haedware_improve_red
+		}
+		x = 31
+		y = 3
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_mod_project"
+			add_political_power = -150
+			country_event = griffon.30
+		}
+
+	}
+	
+	focus = {
+		id = GAK_mod_for_elite_one_r
+		icon = GFX_goal_GAK_mod_for_elite_one
+		cost = 7
+		prerequisite = {
+			focus = GAK_mod_project_r
+		}
+		mutually_exclusive = {
+			focus = GAK_mod_for_every_one_r
+		}
+		available = {
+			has_country_flag = GAK_upgrade_doll_allowed
+		}
+		x = 29
+		y = 4
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_mod_for_elite_one_r"
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_ideas
+				add_idea = GAK_tactical_dolls_elite_ideas
+			}
+		}
+	}
+	
+	focus = {
+		id = GAK_mod_for_elite_two_r
+		icon = GFX_goal_GAK_mod_for_elite_two
+		cost = 7
+		prerequisite = {
+			focus = GAK_mod_for_elite_one_r
+		}
+		x = 29
+		y = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_mod_for_elite_two_r"
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_elite_ideas
+				add_idea = GAK_tactical_dolls_elite_two_ideas
+			}
+		}
+	}
+	
+	focus = {
+		id = GAK_mod_for_elite_last_r
+		icon = GFX_goal_GAK_mod_for_elite_last
+		cost = 7
+		prerequisite = {
+			focus = GAK_mod_for_elite_two_r
+		}
+		x = 29
+		y = 7
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_mod_for_elite_last_r"
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_elite_two_ideas
+				add_idea = GAK_tactical_dolls_elite_last_ideas
+			}
+		}
+	}
+	
+	focus = {
+		id = GAK_mod_for_every_one_r
+		icon = GFX_goal_GAK_mod_for_every_one
+		cost = 7
+		prerequisite = {
+			focus = GAK_mod_project_r
+		}
+		mutually_exclusive = {
+			focus = GAK_mod_for_elite_one_r
+		}
+		available = {
+			has_country_flag = GAK_upgrade_doll_allowed
+		}
+		x = 33
+		y = 4
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_mod_for_elite_last_r"
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_ideas
+				add_idea = GAK_tactical_dolls_every_ideas
+			}
+		}
+	}
+	
+	focus = {
+		id = GAK_mod_for_every_two_r
+		icon = GFX_goal_GAK_mod_for_every_two
+		cost = 7
+		prerequisite = {
+			focus = GAK_mod_for_every_one_r
+		}
+		x = 33
+		y = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_mod_for_elite_last_r"
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_every_ideas
+				add_idea = GAK_tactical_dolls_every_two_ideas
+			}
+		}
+	}
+	
+	focus = {
+		id = GAK_mod_for_every_last_r
+		icon = GFX_goal_GAK_mod_for_every_last
+		cost = 7
+		prerequisite = {
+			focus = GAK_mod_for_every_two_r
+		}
+		x = 33
+		y = 7
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_mod_for_elite_last_r"
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_every_two_ideas
+				add_idea = GAK_tactical_dolls_every_last_ideas
+			}
+		}
+
+	}
+
+	focus = {
+		id = GAK_go_eastside_we_rape_usa
+		icon = GFX_TNO_focus_usa_america_is_on_fire
+		cost = 3
+		prerequisite = {
+			focus = GAK_international_world_policy
+		}
+		x = 45
+		y = 2
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_go_eastside_we_rape_usa"
+			custom_effect_tooltip = TT_GAK_we_ll_rape_usa
+			add_to_variable = {
+				var = war_support_soc
+				value = 1
+			}
+		}
+	}
+
+
+
+	focus = {
+		id = GAK_our_new_home
+		icon = GFX_goal_GAK_our_new_home
+		cost = 3
+		prerequisite = {
+			focus = GAK_go_eastside_we_rape_usa
+		}
+		available = {
+			NOT = { 
+				country_exists = USA
+				country_exists = TEX 
+				country_exists = CSA 
+				country_exists = PSA  
+			}
+		}
+		x = 42
+		y = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_our_new_home"
+			add_ideas = {
+				USA_longist_resistance3
+				USA_federalist_resistance3
+				GAK_Socialists_Welcoming_ideas
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_western_industrial_reconstruction
+		icon = GFX_goal_GAK_our_new_home
+		cost = 3
+		prerequisite = {
+			focus = GAK_our_new_home
+		}
+		x = 40
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_western_industrial_reconstruction"
+			798 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			829 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			797 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			378 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			385 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			386 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_middle_industrial_reconstruction
+		icon = GFX_goal_GAK_our_new_home
+		cost = 3
+		prerequisite = {
+			focus = GAK_our_new_home
+		}
+		x = 42
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_middle_industrial_reconstruction"
+			388 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			381 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			382 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			376 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			384 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			383 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_east_industrial_reconstruction
+		icon = GFX_goal_GAK_our_new_home
+		cost = 3
+		prerequisite = {
+			focus = GAK_our_new_home
+		}
+		x = 44
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_east_industrial_reconstruction"
+			362 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+			361 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+			}
+			932 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_south_industrial_reconstruction
+		icon = GFX_goal_GAK_our_new_home
+		cost = 3
+		prerequisite = {
+			focus = GAK_our_new_home
+		}
+		x = 41
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_south_industrial_reconstruction"
+			366 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			365 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			371 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			370 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			833 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_detroit_industrial_reconstruction
+		icon = GFX_goal_GAK_our_new_home
+		cost = 3
+		prerequisite = {
+			focus = GAK_our_new_home
+		}
+		x = 43
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_detroit_industrial_reconstruction"
+			391 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			394 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			395 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			392 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_sweet_home
+		icon = GFX_goal_GAK_sweet_home
+		cost = 3
+		prerequisite = {
+			focus = GAK_south_industrial_reconstruction
+		}
+		prerequisite = {
+			focus = GAK_detroit_industrial_reconstruction
+		}
+		prerequisite = {
+			focus = GAK_western_industrial_reconstruction
+		}
+		prerequisite = {
+			focus = GAK_middle_industrial_reconstruction
+		}
+		prerequisite = {
+			focus = GAK_east_industrial_reconstruction
+		}
+		x = 42
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_sweet_home"
+			remove_ideas = {
+				USA_longist_resistance3
+				USA_federalist_resistance3
+				GAK_Socialists_Welcoming_ideas
+			}
+			add_state_core = {
+				limit = {
+					every_owned_state = GAK
+				}
+			}
+			hidden_effect = {
+				CSA = {
+					remove_state_core = {
+						limit = { 
+							every_owned_state = GAK 
+						}
+					}
+					remove_state_claim = {
+						limit = { 
+							every_owned_state = GAK 
+						}
+					}
+				}
+				TEX = {
+					remove_state_core = {
+						limit = { 
+							every_owned_state = GAK 
+						}
+					}
+					remove_state_claim = {
+						limit = { 
+							every_owned_state = GAK 
+						}
+					}
+				}
+				PSA = {
+					remove_state_core = {
+						limit = { 
+							every_owned_state = GAK 
+						}
+					}
+					remove_state_claim = {
+						limit = { 
+							every_owned_state = GAK 
+						}
+					}
+				}
+				USA = {
+					remove_state_core = {
+						limit = { 
+							every_owned_state = GAK 
+						}
+					}
+					remove_state_claim = {
+						limit = { 
+							every_owned_state = GAK 
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_win_of_our_friend
+		icon = GFX_goal_GAK_win_of_our_friend
+		cost = 3
+		prerequisite = {
+			focus = GAK_go_eastside_we_rape_usa
+		}
+		available = {
+			NOT = { 
+				country_exists = USA
+				country_exists = TEX  
+				country_exists = PSA  
+			}
+			has_global_flag = USA_civil_war_over_flag
+		}
+		x = 48
+		y = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_win_of_our_friend"
+			custom_effect_tooltip = GAK_win_of_our_friend_tt
+			add_stability = 0.05
+			CSA = {
+				add_stability = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_financial_support_to_CSA
+		icon = GFX_goal_GAK_financial_support_to_CSA
+		cost = 3
+		prerequisite = {
+			focus = GAK_win_of_our_friend
+		}
+		x = 46
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_financial_support_to_CSA"
+			custom_effect_tooltip = GAK_financial_support_to_CSA_tt
+			add_timed_idea = { 
+				idea = GAK_request_a_bailout_ideas 
+				days = 180
+			}
+			CSA = {
+				add_timed_idea = {
+					idea = GAK_financial_support_to_CSA_ideas
+					days = 180
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_joint_training_with_CSA
+		icon = GFX_goal_GAK_joint_training_with_CSA
+		cost = 3
+		prerequisite = {
+			focus = GAK_win_of_our_friend
+		}
+		x = 50
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_joint_training_with_CSA"
+			custom_effect_tooltip = GAK_joint_training_with_CSA_tt
+			CSA = {
+				add_ideas = GAK_joint_training_with_CSA_ideas
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_provide_industrial_blueprints_with_CSA
+		icon = GFX_goal_GAK_provide_industrial_blueprints_with_CSA
+		cost = 3
+		prerequisite = {
+			focus = GAK_win_of_our_friend
+		}
+		x = 48
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_provide_industrial_blueprints_with_CSA"
+			custom_effect_tooltip = GAK_provide_industrial_blueprints_with_CSA_tt
+			CSA = {
+				add_ideas = GAK_provide_industrial_blueprints_with_CSA_ideas
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_what_we_have_to_get
+		icon = GFX_goal_GAK_what_we_have_to_get
+		cost = 3
+		prerequisite = {
+			focus = GAK_win_of_our_friend
+		}
+		x = 48
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_what_we_have_to_get"
+			custom_effect_tooltip = GAK_what_we_have_to_get_tt
+			country_event = {
+				id = griffon.53
+			}
+			hidden_effect = {
+				GAK = { transfer_state = 386 }
+				GAK = { transfer_state = 385 }
+				GAK = { transfer_state = 378 }
+				GAK = { transfer_state = 797 }
+				GAK = { transfer_state = 829 }
+				GAK = { transfer_state = 798 }
+				GAK = { transfer_state = 379 }
+				GAK = { transfer_state = 463 }
+				GAK = { transfer_state = 632 }
+				GAK = { transfer_state = 642 }
+				GAK = { transfer_state = 727 }
+				GAK = { transfer_state = 630 }
+				GAK = { transfer_state = 631 }
+
+				every_owned_state = {
+					limit = { is_core_of = CSA }
+					add_core_of = GAK
+				}
+
+				CSA = {
+					remove_state_core = {
+						limit = { 
+							every_owned_state = GAK 
+						}
+					}
+					remove_state_claim = {
+						limit = { 
+							every_owned_state = GAK 
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_ww2_in_hawaii
+		icon = GFX_goal_GAK_ww2_in_hawaii
+		cost = 3
+		prerequisite = {
+			focus = GAK_international_world_policy
+		}
+		x = 57
+		y = 2
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_international_world_policy"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_keep_mouth_shut
+		icon = GFX_goal_GAK_keep_mouth_shut
+		cost = 3
+		prerequisite = {
+			focus = GAK_ww2_in_hawaii
+		}
+		mutually_exclusive = {
+			focus = GAK_keep_mouth_dirty
+		}
+		x = 59
+		y = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_keep_mouth_shut"
+			stability_factor = 0.05
+		}
+	}
+
+	focus = {
+		id = GAK_protect_your_country
+		icon = GFX_goal_mass_concentration_of_army
+		cost = 5
+		prerequisite = {
+			focus = GAK_keep_mouth_shut
+		}
+		x = 59
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_protect_your_country"
+			add_stability = 0.05
+			add_war_support = -0.03
+		}
+	}
+
+	focus = {
+		id = GAK_build_the_wall
+		icon = GFX_goal_nested_fortifications
+		cost = 5
+		prerequisite = {
+			focus = GAK_protect_your_country
+		}
+		x = 59
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_build_the_wall"
+			add_ideas = GAK_build_the_walls_ideas
+		}
+	}
+
+	focus = {
+		id = GAK_hawaii_to_minnesota
+		icon = GFX_goal_GAK_hawaii_to_minnesota
+		cost = 5
+		prerequisite = {
+			focus = GAK_build_the_wall
+		}
+		x = 59
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_hawaii_to_minnesota"
+			set_country_flag = GAK_iron_curtain
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = GAK_keep_your_hand_dirty
+		icon = GFX_goal_GAK_keep_your_hand_dirty
+		cost = 3
+		prerequisite = {
+			focus = GAK_ww2_in_hawaii
+		}
+		mutually_exclusive = {
+			focus = GAK_keep_mouth_shut
+		}
+		x = 55
+		y = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_keep_your_hand_dirty"
+			war_support_factor = 0.05
+		}
+	}
+
+	focus = {
+		id = GAK_with_new_friends
+		icon = GFX_goal_GAK_with_new_friends
+		cost = 3
+		prerequisite = {
+			focus = GAK_keep_your_hand_dirty
+		}
+		mutually_exclusive = {
+			Focus = GAK_hawaii_new_pact
+		}
+		x = 54
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_with_new_friends"
+			INT = {
+				country_event = { id = griffon.52 days = 3 }
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_hawaii_new_pact
+		icon = GFX_goal_GAK_with_new_friends
+		cost = 3
+		prerequisite = {
+			focus = GAK_keep_your_hand_dirty
+		}
+		mutually_exclusive = {
+			Focus = GAK_with_new_friends
+		}
+		x = 56
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_with_new_friends"
+			set_rule = {
+				can_create_factions = yes
+			}
+			if = {
+				limit = {
+					GAK = {
+						is_in_faction = no
+					}
+				}
+				create_faction = GAK_girls_frontline_red
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_war_plan_setting
+		icon = GFX_goal_GAK_war_plan_setting
+		cost = 3
+		prerequisite = {
+			focus = GAK_hawaii_new_pact
+			focus = GAK_with_new_friends
+		}
+		x = 55
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_war_plan_setting"
+			war_support_factor = 0.1
+		}
+	}
+
+	focus = {
+		id = GAK_war_plan_attack_asia
+		icon = GFX_goal_GAK_war_plan_attack_asia
+		cost = 3
+		prerequisite = {
+			focus = GAK_war_plan_setting
+		}
+		x = 57
+		y = 8
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_war_plan_attack_asia"
+			custom_effect_tooltip = GAK_war_plan_attack_asia_tt
+		}
+	}
+
+	focus = {
+		id = GAK_war_plan_attack_europe
+		icon = GFX_goal_GAK_war_plan_attack_europe
+		cost = 3
+		prerequisite = {
+			focus = GAK_war_plan_setting
+		}
+		x = 53
+		y = 8
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_war_plan_attack_europe"
+			custom_effect_tooltip = GAK_war_plan_attack_europe_tt
+		}
+	}
+
+	focus = {
+		id = GAK_end_of_reich
+		icon = GFX_goal_GAK_end_of_reich
+		cost = 3
+		prerequisite = {
+			focus = GAK_war_plan_attack_europe
+		}
+		x = 51
+		y = 9
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_end_of_reich"
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_dentures_confiscated
+		icon = GFX_goal_GAK_dentures_confiscated
+		cost = 3
+		prerequisite = {
+			focus = GAK_war_plan_attack_europe
+		}
+		x = 53
+		y = 9
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_dentures_confiscated"
+			declare_war_on = {
+				target = NFA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAN
+				type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_dora_dora_dora
+		icon = GFX_goal_GAK_dora_dora_dora
+		cost = 3
+		prerequisite = {
+			focus = GAK_war_plan_attack_asia
+		}
+		x = 57
+		y = 9
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_dora_dora_dora"
+			declare_war_on = {
+				target = JAP
+				type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_attack_russia
+		icon = GFX_goal_GAK_dora_dora_dora
+		cost = 3
+		prerequisite = {
+			focus = GAK_war_plan_attack_asia
+		}
+		available = {
+			country_exists = RUS	
+		}
+		x = 59
+		y = 9
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_attack_russia"
+			declare_war_on = {
+				target = RUS
+				type = annex_everything
+			}
+		}
+	}
+
+	
+
+
+
+}

@@ -1,0 +1,5 @@
+calculate_Favorability = {
+    set_variable = { Favorability = num_of_civilian_factories }
+    set_temp_variable = { temp = num_of_military_factories }
+    divide_temp_variable = { temp = 2 }
+}

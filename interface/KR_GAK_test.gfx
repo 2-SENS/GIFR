@@ -1,0 +1,162 @@
+spriteTypes = { 
+	spriteType = {
+		name = "GFX_tile_one_de"
+		textureFile = "gfx//interface//tiles//tiled_paper_w_frame.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GAK_hk_bugwan"
+		textureFile = "gfx//interface//hk416_2.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_bg"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_button_off"
+		textureFile = "gfx//interface//bugwan_interface//smt_mark_button_frame_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_hk416"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_HK416.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_G11"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_G11.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_UMP9"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_Ump9.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_UMP45"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_Ump45.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_AK12"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_Ak_12_viceroy_2.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_AN94"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_An_94_viceroy_2.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_AK15"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_Ak_15_viceroy_2.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_RPK16"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_RPK_16_viceroy.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_M4_sopmod"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_M4_SOPMOD.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_M4A1"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_M4a1.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_M16A1"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_M16A1.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_RO635"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_RO635.tga"
+	}
+
+	spriteType = {
+		name = "GFX_leader_AR_15"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_portrait//Portrait_Girls_Frontline_Ar_15.tga"
+	}
+
+	spriteType = {
+		name = "GFX_base_background"
+		textureFile = "gfx//interface//bugwan_interface//bugwan_background//griffon_base.tga"
+		transparencecheck = yes	
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_hk416"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//HK416.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_g11"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//G11.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_ump45"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//UMP45.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_ump9"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//UMP9.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_m4a1"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//M4A1.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_m4_sopmod"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//M4_sopmod.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_st_ar_15"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//ST_AR_15.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_m16a1"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//M16.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_ro635"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//RO635.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_ak_12"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//AK_12.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_ak_15"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//AK_15.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_an_94"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//AN_94.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_rpk_16"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//RPK_16.tga"
+	}
+
+	spriteType = {
+		name = "GFX_bugwan_button_off"
+		textureFile = "gfx//interface//bugwan_interface//smt_mark_button_frame_1.dds"
+	}
+}

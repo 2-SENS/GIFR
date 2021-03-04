@@ -1,0 +1,30 @@
+spriteTypes = {
+	# New Opening 
+	spriteType = {
+		name = "GFX_topbar_star_button"
+		textureFile = "gfx/interface/topbar/topbar_star_button.dds"
+	}
+
+	# Backgrounds
+	spriteType = {
+		name = "GFX_TNO_Intro_BG"
+		textureFile = "gfx/interface/opening_screen/TNO_Intro_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_Closing_BG"
+		textureFile = "gfx/interface/opening_screen/TNO_Closing_BG.dds"
+	}
+
+	# Buttons
+	spriteType = {
+		name = "GFX_TNO_demo_tab_button"
+		textureFile = "gfx/interface/opening_screen/TNO_demo_tab_button.dds"
+	}
+
+	# Posters
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_Hawaii"
+		textureFile = "gfx/interface/opening_screen/GAK_opening_an94.tga"
+	}
+	
+}
