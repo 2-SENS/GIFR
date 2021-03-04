@@ -21,7 +21,7 @@ guiTypes = {
 		fade_type = linear
 		moveable = yes
 		show_sound = menu_open_window
-		verticalScrollbar = "right_vertical_slider_intel"
+		verticalScrollbar = "right_vertical_slider_intel" 
 		click_to_front = yes
 
 		orientation = center
