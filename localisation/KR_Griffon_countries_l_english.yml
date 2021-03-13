@@ -2,380 +2,44 @@
 
 
 
-GAK_totalist:0 "그리폰 하와이 코뮌"
-GAK_totalist_ADJ:0 "하와이"
-GAK_totalist_DEF:0 "그리폰 하와이 코뮌"
+GAK_totalist:0 "적군 민병대"
+GAK_totalist_ADJ:0 "적군"
+GAK_totalist_DEF:0 "적군 민병대"
 
-GAK_syndicalist:0 "그리폰 하와이 코뮌"
-GAK_syndicalist_ADJ:0 "하와이"
-GAK_syndicalist_DEF:0 "그리폰 하와이 코뮌"
+GAK_syndicalist:0 "적군 민병대"
+GAK_syndicalist_ADJ:0 "적군"
+GAK_syndicalist_DEF:0 "적군 민병대"
 
-GAK_radical_socialist:0 "그리폰 하와이 코뮌"
-GAK_radical_socialist_ADJ:0 "하와이"
-GAK_radical_socialist_DEF:0 "그리폰 하와이 코뮌"
+GAK_radical_socialist:0 "적군 민병대"
+GAK_radical_socialist_ADJ:0 "적군"
+GAK_radical_socialist_DEF:0 "적군 민병대"
 
-GAK_social_democrat:0 "하와이 공화국"
-GAK_social_democrat_ADJ:0 "하와이"
-GAK_social_democrat_DEF:0 "하와이 공화국"
+GAK_social_democrat:0 "그리폰-크루거 지휘부"
+GAK_social_democrat_ADJ:0 "지휘부"
+GAK_social_democrat_DEF:0 "그리폰-크루거 지휘부"
 
-GAK_social_liberal:0 "하와이 공화국"
-GAK_social_liberal_ADJ:0 "하와이"
-GAK_social_liberal_DEF:0 "하와이 공화국"
+GAK_social_liberal:0 "그리폰-크루거 지휘부"
+GAK_social_liberal_ADJ:0 "지휘부"
+GAK_social_liberal_DEF:0 "그리폰-크루거 지휘부"
 
-GAK_market_liberal:0 "하와이 공화국"
-GAK_market_liberal_ADJ:0 "하와이"
-GAK_market_liberal_DEF:0 "하와이 공화국"
+GAK_market_liberal:0 "그리폰-크루거 지휘부"
+GAK_market_liberal_ADJ:0 "지휘부"
+GAK_market_liberal_DEF:0 "그리폰-크루거 지휘부"
 
-GAK_social_conservative:0 "하와이 공화국"
-GAK_social_conservative_ADJ:0 "하와이"
-GAK_social_conservative_DEF:0 "하와이 공화국"
+GAK_social_conservative:0 "그리폰-크루거 지휘부"
+GAK_social_conservative_ADJ:0 "지휘부"
+GAK_social_conservative_DEF:0 "그리폰-크루거 지휘부"
 
-GAK_authoritarian_democrat:0 "하와이 공화국"
-GAK_authoritarian_democrat_ADJ:0 "하와이"
-GAK_authoritarian_democrat_DEF:0 "하와이 공화국"
+GAK_authoritarian_democrat:0 "그리폰-크루거 지휘부"
+GAK_authoritarian_democrat_ADJ:0 "지휘부"
+GAK_authoritarian_democrat_DEF:0 "그리폰-크루거 지휘부"
 
-GAK_paternal_autocrat:0 "하와이 공화국"
-GAK_paternal_autocrat_ADJ:0 "하와이"
-GAK_paternal_autocrat_DEF:0 "하와이 공화국"
+GAK_paternal_autocrat:0 "그리폰-크루거 지휘부"
+GAK_paternal_autocrat_ADJ:0 "지휘부"
+GAK_paternal_autocrat_DEF:0 "그리폰-크루거 지휘부"
 
-GAK_national_populist:0 "하와이 공화국"
-GAK_national_populist_ADJ:0 "하와이"
-GAK_national_populist_DEF:0 "하와이 공화국"
+GAK_national_populist:0 "그리폰-크루거 지휘부"
+GAK_national_populist_ADJ:0 "지휘부"
+GAK_national_populist_DEF:0 "그리폰-크루거 지휘부"
 
 ####################################################
-
-GUS_totalist:0 "미 연방 사회주의 공화국"
-GUS_totalist_ADJ:0 "미국"
-GUS_totalist_DEF:0 "미 연방 사회주의 공화국"
-
-GUS_syndicalist:0 "미국 연방"
-GUS_syndicalist_ADJ:0 "미국"
-GUS_syndicalist_DEF:0 "미국 연방"
-
-GUS_radical_socialist:0 "미 사회주의 공화국"
-GUS_radical_socialist_ADJ:0 "미국"
-GUS_radical_socialist_DEF:0 "미 사회주의 공화국"
-
-GUS_social_democrat:0 "아메리카 기사단국"
-GUS_social_democrat_ADJ:0 "미국"
-GUS_social_democrat_DEF:0 "아메리카 기사단국"
-
-GUS_social_liberal:0 "아메리카 기사단국
-GUS_social_liberal_ADJ:0 "미국"
-GUS_social_liberal_DEF:0 "아메리카 기사단국"
-
-GUS_market_liberal:0 "아메리카 기사단국"
-GUS_market_liberal_ADJ:0 "미국"
-GUS_market_liberal_DEF:0 "아메리카 기사단국"
-
-GUS_social_conservative:0 "아메리카 기사단국"
-GUS_social_conservative_ADJ:0 "미국"
-GUS_social_conservative_DEF:0 "아메리카 기사단국"
-
-GUS_authoritarian_democrat:0 "아메리카 기사단국"
-GUS_authoritarian_democrat_ADJ:0 "미국"
-GUS_authoritarian_democrat_DEF:0 "아메리카 기사단국"
-
-GUS_paternal_autocrat:0 "아메리카 기사단국"
-GUS_paternal_autocrat_ADJ:0 "미국"
-GUS_paternal_autocrat_DEF:0 "아메리카 기사단국"
-
-GUS_national_populist:0 "아메리카 기사단국"
-GUS_national_populist_ADJ:0 "미국"
-GUS_national_populist_DEF:0 "아메리카 기사단국"
-
-##############################################
-
-GUG_totalist:0 "독일 사회주의 연방"
-GUG_totalist_ADJ:0 "독일"
-GUG_totalist_DEF:0 "독일 사회주의 연방"
-
-GUG_syndicalist:0 "독일 사회주의 연방"
-GUG_syndicalist_ADJ:0 "독일"
-GUG_syndicalist_DEF:0 "독일 사회주의 연방"
-
-GUG_radical_socialist:0 "독일 사회주의 공화국"
-GUG_radical_socialist_ADJ:0 "독일"
-GUG_radical_socialist_DEF:0 "독일 사회주의 공화국"
-
-GUG_social_democrat:0 "바이마르 공화국"
-GUG_social_democrat_ADJ:0 "독일국"
-GUG_social_democrat_DEF:0 "바이마르 공화국"
-
-GUG_social_liberal:0 "바이마르 공화국"
-GUG_social_liberal_ADJ:0 "독일국"
-GUG_social_liberal_DEF:0 "바이마르 공화국"
-
-GUG_market_liberal:0 "바이마르 공화국"
-GUG_market_liberal_ADJ:0 "독일국"
-GUG_market_liberal_DEF:0 "바이마르 공화국"
-
-GUG_social_conservative:0 "바이마르 공화국"
-GUG_social_conservative_ADJ:0 "독일국"
-GUG_social_conservative_DEF:0 "바이마르 공화국"
-
-GUG_authoritarian_democrat:0 "바이마르 공화국"
-GUG_authoritarian_democrat_ADJ:0 "독일국"
-GUG_authoritarian_democrat_DEF:0 "바이마르 공화국"
-
-GUG_paternal_autocrat:0 "바이마르 공화국"
-GUG_paternal_autocrat_ADJ:0 "독일국"
-GUG_paternal_autocrat_DEF:0 "바이마르 공화국"
-
-GUG_national_populist:0 "바이마르 공화국"
-GUG_national_populist_ADJ:0 "독일국"
-GUG_national_populist_DEF:0 "바이마르 공화국"
-
-##############################################
-
-GUJ_totalist:0 "일본 사회주의 공화국"
-GUJ_totalist_ADJ:0 "일본"
-GUJ_totalist_DEF:0 "일본 사회주의 공화국"
-
-GUJ_syndicalist:0 "일본 사회주의 공화국"
-GUJ_syndicalist_ADJ:0 "일본"
-GUJ_syndicalist_DEF:0 "일본 사회주의 공화국"
-
-GUJ_radical_socialist:0 "일본 사회주의 공화국"
-GUJ_radical_socialist_ADJ:0 "일본"
-GUJ_radical_socialist_DEF:0 "일본 사회주의 공화국"
-
-GUJ_social_democrat:0 "일본국"
-GUJ_social_democrat_ADJ:0 "일본국"
-GUJ_social_democrat_DEF:0 "일본국"
-
-GUJ_social_liberal:0 "일본국"
-GUJ_social_liberal_ADJ:0 "일본국"
-GUJ_social_liberal_DEF:0 "일본국"
-
-GUJ_market_liberal:0 "일본국"
-GUJ_market_liberal_ADJ:0 "일본국"
-GUJ_market_liberal_DEF:0 "일본국"
-
-GUJ_social_conservative:0 "일본국"
-GUJ_social_conservative_ADJ:0 "일본국"
-GUJ_social_conservative_DEF:0 "일본국"
-
-GUJ_authoritarian_democrat:0 "일본국"
-GUJ_authoritarian_democrat_ADJ:0 "일본국"
-GUJ_authoritarian_democrat_DEF:0 "일본국"
-
-GUJ_paternal_autocrat:0 "일본국"
-GUJ_paternal_autocrat_ADJ:0 "일본국"
-GUJ_paternal_autocrat_DEF:0 "일본국"
-
-GUJ_national_populist:0 "일본국"
-GUJ_national_populist_ADJ:0 "일본국"
-GUJ_national_populist_DEF:0 "일본국"
-
-##############################################
-
-GUK_totalist:0 "조선민주주의인민공화국"
-GUK_totalist_ADJ:0 "한국"
-GUK_totalist_DEF:0 "조선민주주의인민공화국"
-
-GUK_syndicalist:0 "조선민주주의인민공화국"
-GUK_syndicalist_ADJ:0 "한국"
-GUK_syndicalist_DEF:0 "조선민주주의인민공화국"
-
-GUK_radical_socialist:0 "조선민주주의인민공화국"
-GUK_radical_socialist_ADJ:0 "한국"
-GUK_radical_socialist_DEF:0 "조선민주주의인민공화국"
-
-GUK_social_democrat:0 "대한국"
-GUK_social_democrat_ADJ:0 "한국"
-GUK_social_democrat_DEF:0 "대한국"
-
-GUK_social_liberal:0 "대한국"
-GUK_social_liberal_ADJ:0 "한국"
-GUK_social_liberal_DEF:0 "대한국"
-
-GUK_market_liberal:0 "대한국"
-GUK_market_liberal_ADJ:0 "한국"
-GUK_market_liberal_DEF:0 "대한국"
-
-GUK_social_conservative:0 "대한국"
-GUK_social_conservative_ADJ:0 "한국"
-GUK_social_conservative_DEF:0 "대한국"
-
-GUK_authoritarian_democrat:0 "대한국"
-GUK_authoritarian_democrat_ADJ:0 "한국"
-GUK_authoritarian_democrat_DEF:0 "대한국"
-
-GUK_paternal_autocrat:0 "대한국"
-GUK_paternal_autocrat_ADJ:0 "한국"
-GUK_paternal_autocrat_DEF:0 "대한국"
-
-GUK_national_populist:0 "대한국"
-GUK_national_populist_ADJ:0 "한국"
-GUK_national_populist_DEF:0 "대한국"
-
-##############################################
-
-GUR_totalist:0 "러시아 사회주의 공화국"
-GUR_totalist_ADJ:0 "러시아"
-GUR_totalist_DEF:0 "러시아 사회주의 공화국"
-
-GUR_syndicalist:0 "러시아 사회주의 공화국"
-GUR_syndicalist_ADJ:0 "러시아"
-GUR_syndicalist_DEF:0 "러시아 사회주의 공화국"
-
-GUR_radical_socialist:0 "러시아 사회주의 공화국"
-GUR_radical_socialist_ADJ:0 "러시아"
-GUR_radical_socialist_DEF:0 "러시아 사회주의 공화국"
-
-GUR_social_democrat:0 "예카테린부르크 국가판무관부"
-GUR_social_democrat_ADJ:0 "러시아"
-GUR_social_democrat_DEF:0 "예카테린부르크 국가판무관부"
-
-GUR_social_liberal:0 "예카테린부르크 국가판무관부"
-GUR_social_liberal_ADJ:0 "러시아"
-GUR_social_liberal_DEF:0 "예카테린부르크 국가판무관부"
-
-GUR_market_liberal:0 "예카테린부르크 국가판무관부"
-GUR_market_liberal_ADJ:0 "러시아"
-GUR_market_liberal_DEF:0 "예카테린부르크 국가판무관부"
-
-GUR_social_conservative:0 "예카테린부르크 국가판무관부"
-GUR_social_conservative_ADJ:0 "러시아"
-GUR_social_conservative_DEF:0 "예카테린부르크 국가판무관부"
-
-GUR_authoritarian_democrat:0 "예카테린부르크 국가판무관부"
-GUR_authoritarian_democrat_ADJ:0 "러시아"
-GUR_authoritarian_democrat_DEF:0 "예카테린부르크 국가판무관부"
-
-GUR_paternal_autocrat:0 "예카테린부르크 국가판무관부"
-GUR_paternal_autocrat_ADJ:0 "러시아"
-GUR_paternal_autocrat_DEF:0 "예카테린부르크 국가판무관부"
-
-GUR_national_populist:0 "예카테린부르크 국가판무관부"
-GUR_national_populist_ADJ:0 "러시아"
-GUR_national_populist_DEF:0 "예카테린부르크 국가판무관부"
-
-##############################################
-
-GUO_totalist:0 "러시아 사회주의 공화국"
-GUO_totalist_ADJ:0 "러시아"
-GUO_totalist_DEF:0 "러시아 사회주의 공화국"
-
-GUO_syndicalist:0 "러시아 사회주의 공화국"
-GUO_syndicalist_ADJ:0 "러시아"
-GUO_syndicalist_DEF:0 "러시아 사회주의 공화국"
-
-GUO_radical_socialist:0 "러시아 사회주의 공화국"
-GUO_radical_socialist_ADJ:0 "러시아"
-GUO_radical_socialist_DEF:0 "러시아 사회주의 공화국"
-
-GUO_social_democrat:0 "톰스크 국가판무관부"
-GUO_social_democrat_ADJ:0 "러시아"
-GUO_social_democrat_DEF:0 "톰스크 국가판무관부"
-
-GUO_social_liberal:0 "톰스크 국가판무관부"
-GUO_social_liberal_ADJ:0 "러시아"
-GUO_social_liberal_DEF:0 "톰스크 국가판무관부"
-
-GUO_market_liberal:0 "톰스크 국가판무관부"
-GUO_market_liberal_ADJ:0 "러시아"
-GUO_market_liberal_DEF:0 "톰스크 국가판무관부"
-
-GUO_social_conservative:0 "톰스크 국가판무관부"
-GUO_social_conservative_ADJ:0 "러시아"
-GUO_social_conservative_DEF:0 "톰스크 국가판무관부"
-
-GUO_authoritarian_democrat:0 "톰스크 국가판무관부"
-GUO_authoritarian_democrat_ADJ:0 "러시아"
-GUO_authoritarian_democrat_DEF:0 "톰스크 국가판무관부"
-
-GUO_paternal_autocrat:0 "톰스크 국가판무관부"
-GUO_paternal_autocrat_ADJ:0 "러시아"
-GUO_paternal_autocrat_DEF:0 "톰스크 국가판무관부"
-
-GUO_national_populist:0 "톰스크 국가판무관부"
-GUO_national_populist_ADJ:0 "러시아"
-GUO_national_populist_DEF:0 "톰스크 국가판무관부"
-
-##############################################
-
-GUE_totalist:0 "러시아 사회주의 공화국"
-GUE_totalist_ADJ:0 "러시아"
-GUE_totalist_DEF:0 "러시아 사회주의 공화국"
-
-GUE_syndicalist:0 "러시아 사회주의 공화국"
-GUE_syndicalist_ADJ:0 "러시아"
-GUE_syndicalist_DEF:0 "러시아 사회주의 공화국"
-
-GUE_radical_socialist:0 "러시아 사회주의 공화국"
-GUE_radical_socialist_ADJ:0 "러시아"
-GUE_radical_socialist_DEF:0 "러시아 사회주의 공화국"
-
-GUE_social_democrat:0 "치타 국가판무관부"
-GUE_social_democrat_ADJ:0 "러시아"
-GUE_social_democrat_DEF:0 "치타 국가판무관부"
-
-GUE_social_liberal:0 "치타 국가판무관부"
-GUE_social_liberal_ADJ:0 "러시아"
-GUE_social_liberal_DEF:0 "치타 국가판무관부"
-
-GUE_market_liberal:0 "치타 국가판무관부"
-GUE_market_liberal_ADJ:0 "러시아"
-GUE_market_liberal_DEF:0 "치타 국가판무관부"
-
-GUE_social_conservative:0 "치타 국가판무관부"
-GUE_social_conservative_ADJ:0 "러시아"
-GUE_social_conservative_DEF:0 "치타 국가판무관부"
-
-GUE_authoritarian_democrat:0 "치타 국가판무관부"
-GUE_authoritarian_democrat_ADJ:0 "러시아"
-GUE_authoritarian_democrat_DEF:0 "치타 국가판무관부"
-
-GUE_paternal_autocrat:0 "치타 국가판무관부"
-GUE_paternal_autocrat_ADJ:0 "러시아"
-GUE_paternal_autocrat_DEF:0 "치타 국가판무관부"
-
-GUE_national_populist:0 "치타 국가판무관부"
-GUE_national_populist_ADJ:0 "러시아"
-GUE_national_populist_DEF:0 "치타 국가판무관부"
-
-##############################################
-
-GUN_totalist:0 "러시아 사회주의 공화국"
-GUN_totalist_ADJ:0 "러시아"
-GUN_totalist_DEF:0 "러시아 사회주의 공화국"
-
-GUN_syndicalist:0 "러시아 사회주의 공화국"
-GUN_syndicalist_ADJ:0 "러시아"
-GUN_syndicalist_DEF:0 "러시아 사회주의 공화국"
-
-GUN_radical_socialist:0 "러시아 사회주의 공화국"
-GUN_radical_socialist_ADJ:0 "러시아"
-GUN_radical_socialist_DEF:0 "러시아 사회주의 공화국"
-
-GUN_social_democrat:0 "니콜라옙스크 국가판무관부"
-GUN_social_democrat_ADJ:0 "러시아"
-GUN_social_democrat_DEF:0 "니콜라옙스크 국가판무관부"
-
-GUN_social_liberal:0 "니콜라옙스크 국가판무관부"
-GUN_social_liberal_ADJ:0 "러시아"
-GUN_social_liberal_DEF:0 "니콜라옙스크 국가판무관부"
-
-GUN_market_liberal:0 "니콜라옙스크 국가판무관부"
-GUN_market_liberal_ADJ:0 "러시아"
-GUN_market_liberal_DEF:0 "니콜라옙스크 국가판무관부"
-
-GUN_social_conservative:0 "니콜라옙스크 국가판무관부"
-GUN_social_conservative_ADJ:0 "러시아"
-GUN_social_conservative_DEF:0 "니콜라옙스크 국가판무관부"
-
-GUN_authoritarian_democrat:0 "니콜라옙스크 국가판무관부"
-GUN_authoritarian_democrat_ADJ:0 "러시아"
-GUN_authoritarian_democrat_DEF:0 "니콜라옙스크 국가판무관부"
-
-GUN_paternal_autocrat:0 "니콜라옙스크 국가판무관부"
-GUN_paternal_autocrat_ADJ:0 "러시아"
-GUN_paternal_autocrat_DEF:0 "니콜라옙스크 국가판무관부"
-
-GUN_national_populist:0 "니콜라옙스크 국가판무관부"
-GUN_national_populist_ADJ:0 "러시아"
-GUN_national_populist_DEF:0 "니콜라옙스크 국가판무관부"
-
-##############################################

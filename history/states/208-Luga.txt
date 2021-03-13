@@ -1,0 +1,29 @@
+state = {
+	id = 208
+	name = "STATE_208" # Luga
+	manpower = 681819
+	state_category = ten
+	resources = {
+		steel = 6
+		tungsten = 2
+		aluminium = 10
+		chromium = 5
+	}
+
+	history = {
+		owner = GAK
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = GAK
+		add_claim_by = RUS
+		add_claim_by = TRM
+		victory_points = {
+			9098 1
+		}
+	}
+	local_building_slots_factor = 1
+	provinces = {
+		104 126 181 3120 6139 6197 9098 11032 11080 11139 11186
+	}
+}
