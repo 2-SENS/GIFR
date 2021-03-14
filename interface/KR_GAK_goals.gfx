@@ -339,5 +339,30 @@ spriteTypes = {
 		name = "GFX_goal_GAK_are_we_ready_ha"
 		texturefile = "gfx/interface/goals/GFX_goal_GAK_are_we_ready_ha.tga"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_four_wolves"
+		texturefile = "gfx/interface/goals/GAK_four_wolves.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_groza_focus_icon"
+		texturefile = "gfx/interface/goals/GAK_groza_focus_icon.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_answer_to_hero"
+		texturefile = "gfx/interface/goals/GAK_answer_to_hero.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_dark_side_on_G36"
+		texturefile = "gfx/interface/goals/GAK_dark_side_on_G36.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_phone_call"
+		texturefile = "gfx/interface/goals/GAK_phone_call.tga"
+	}
 	
 }

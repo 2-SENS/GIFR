@@ -145,7 +145,6 @@ set_convoys = 50
 add_ideas = {
 	closed_economy
     #국가 정신#
-	GAK_socialist_underground_ideas
     GAK_Tactical_dolls_ideas
 	GAK_Legency_of_IOP_ideas
 	GAK_american_problem_ideas
@@ -153,9 +152,9 @@ add_ideas = {
 	
 	
 	GAK_g36_hog_ade
-	GAK_paul_joseph_goebbels_for_tot
-	GAK_ak15_eco_ade
 	GAK_rpk16_sec_ade
+	GAK_ak15_eco_ade
+	GAK_an94_sec_npo
 	
 }
 

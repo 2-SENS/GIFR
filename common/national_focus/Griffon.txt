@@ -9,7 +9,168 @@ focus_tree = {
 			tag = GAK
 		}
 	}
+
+	continuous_focus_position = { x = 4000 y = 1000 }
 	
 	default = no
+
+	focus = {
+		id = GAK_a_doll_on_the_earth
+		icon = GFX_goal_GAK_inbang
+		x = 1
+		y = 1
+		cost = 0.2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_a_doll_on_the_earth"
+			add_political_power = 50
+			custom_effect_tooltip = GAK_a_doll_on_the_earth_tt
+			hidden_effect = {
+				country_event = {
+					id = gakdom.1
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_a_doll_on_the_earth_2
+		icon = GFX_goal_GAK_four_wolves
+		x = 5
+		y = 1
+		cost = 0.2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_a_doll_on_the_earth_2"
+			add_political_power = 50
+			custom_effect_tooltip = GAK_a_doll_on_the_earth_2_tt
+			hidden_effect = {
+				country_event = {
+					id = gakdom.2
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_a_doll_on_the_earth_3
+		icon = GFX_goal_GAK_answer_to_hero
+		x = 9
+		y = 1
+		cost = 0.2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_a_doll_on_the_earth_3"
+			add_political_power = 50
+			custom_effect_tooltip = GAK_a_doll_on_the_earth_3_tt
+			hidden_effect = {
+				country_event = {
+					id = gakdom.3
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_a_doll_on_the_earth_4
+		icon = GFX_goal_GAK_groza_focus_icon
+		x = 3
+		y = 2
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_a_doll_on_the_earth_3
+		}
+		prerequisite = {
+			focus = GAK_a_doll_on_the_earth_2
+		}
+		prerequisite = {
+			focus = GAK_a_doll_on_the_earth
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_a_doll_on_the_earth_4"
+			add_political_power = 50
+			custom_effect_tooltip = GAK_a_doll_on_the_earth_4_tt
+			hidden_effect = {
+				country_event = {
+					id = gakdom.4
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_a_doll_on_the_earth_5
+		icon = GFX_goal_GAK_dark_side_on_G36
+		x = 7
+		y = 2
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_a_doll_on_the_earth_3
+		}
+		prerequisite = {
+			focus = GAK_a_doll_on_the_earth_2
+		}
+		prerequisite = {
+			focus = GAK_a_doll_on_the_earth
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_a_doll_on_the_earth_5"
+			add_political_power = 50
+			custom_effect_tooltip = GAK_a_doll_on_the_earth_5_tt
+			hidden_effect = {
+				country_event = {
+					id = gakdom.5
+				} 
+			}
+		}
+	}
 	
+	focus = { 
+		id = GAK_urgent_call
+		icon = "GFX_goal_GAK_phone_call"
+		x = 5
+		y = 3
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_a_doll_on_the_earth_4
+		}
+		prerequisite = {
+			focus = GAK_a_doll_on_the_earth_5			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_slight_misfortune"
+			add_political_power = 50
+			custom_effect_tooltip = GAK_slight_misfortune_tt
+			hidden_effect = {
+				country_event = {
+					id = gakdom.6
+				}
+			}
+		}
+	}
+
 }

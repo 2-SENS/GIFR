@@ -126,7 +126,7 @@ equipments = {
 	}
 	
 	tac_dolls_m14_equipments = {
-		year = 2060
+		year = 1955
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_3
@@ -151,7 +151,7 @@ equipments = {
 	}
 	
 	tac_dolls_m16a1_equipments = {
-		year = 2060
+		year = 1960
 	
 		archetype = infantry_equipment
 		parent = tac_dolls_m14_equipments
@@ -160,7 +160,7 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 45
-		breakthrough = 12
+		breakthrough = 9
 
 		#Offensive Abilities
 		soft_attack = 19
@@ -176,7 +176,7 @@ equipments = {
 	}
 	
 	tac_dolls_m4a1_equipments = {
-		year = 2060
+		year = 2000
 	
 		archetype = infantry_equipment
 		parent = tac_dolls_m16a1_equipments
@@ -185,7 +185,7 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 50
-		breakthrough = 15
+		breakthrough = 12
 
 		#Offensive Abilities
 		soft_attack = 30
@@ -201,7 +201,7 @@ equipments = {
 	}
 	
 	tac_dolls_ump45_equipments = {
-		year = 2060
+		year = 2000
 	
 		archetype = infantry_equipment
 		parent = tac_dolls_m16a1_equipments

@@ -66,8 +66,6 @@ leader_traits = {
 		dig_in_speed_factor = 0.05
 		naval_speed_factor = 0.05
 		research_speed_factor = 0.08
-		
-		
 		random = no
 	}
 	
@@ -83,6 +81,12 @@ leader_traits = {
 		drift_defence_factor = 0.25	
 		war_support_factor = 0.05
 
+		random = no
+	}
+
+	for_sly_foreign_minister = { #능글맞은 외교관 - GAK
+		justify_war_goal_time = -0.08
+		trade_opinion_factor = 0.05
 		random = no
 	}
 	
@@ -225,7 +229,7 @@ leader_traits = {
 		stability_factor = 0.02
 		consumer_goods_factor = 0.05
 		industrial_capacity_factory = 0.11
-		industrial_capacity_dockyard = 0.22
+		industrial_capacity_dockyard = 0.11
 		random = no
 	}
 	
@@ -446,7 +450,6 @@ leader_traits = {
 				instant = yes
 			}
 		}
-
 		random = no
 	}
 

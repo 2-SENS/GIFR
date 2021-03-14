@@ -1,0 +1,105 @@
+add_namespace = gakdom
+
+country_event = {
+	id = gakdom.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.1" }
+	title = gakdom.1.t
+	desc = gakdom.1.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.1.a
+	}
+
+    option = {
+		name = gakdom.1.b
+	}
+}
+
+country_event = {
+	id = gakdom.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.2" }
+	title = gakdom.2.t
+	desc = gakdom.2.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.2.a
+	}
+
+    option = {
+		name = gakdom.2.b
+	}
+}
+
+country_event = {
+	id = gakdom.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.3" }
+	title = gakdom.3.t
+	desc = gakdom.3.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.3.a
+	}
+
+    option = {
+		name = gakdom.3.b
+	}
+}
+
+country_event = {
+	id = gakdom.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.4" }
+	title = gakdom.4.t
+	desc = gakdom.4.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.4.a
+	}
+
+    option = {
+		name = gakdom.4.b
+	}
+}
+
+country_event = {
+	id = gakdom.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.5" }
+	title = gakdom.5.t
+	desc = gakdom.5.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.5.a
+	}
+
+    option = {
+		name = gakdom.5.b
+	}
+}
+
+country_event = {
+	id = gakdom.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.6" }
+	title = gakdom.6.t
+	desc = gakdom.6.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.6.a
+	}
+}

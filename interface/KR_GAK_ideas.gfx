@@ -77,7 +77,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_GAK_christian_union_ideas"
-		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_christian_union_ideas.dds"
+		texturefile = "gfx/interface/ideas/ideas/GFX_idea_GAK_christian_union_ideas.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_GAK_national_council_ideas"

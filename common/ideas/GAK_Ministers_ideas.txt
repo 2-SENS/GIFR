@@ -1,0 +1,454 @@
+ideas = {  
+  ################################################################################################################################################################################################
+  ### GAK
+  ################################################################################################################################################################################################
+
+	head_of_government = { ### Head of Government ###
+		GAK_g36_hog_ade = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_g36_hog_ade"
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_hawaii_numb_two
+			}
+		}
+		
+		GAK_ak_12_hog_npo = { # 사실 움사오임 #
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_ak_12_hog_npo"
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_right_arms_dictator
+			}
+		}
+
+		GAK_mosin_nagant_hog_rso = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_mosin_nagant_hog_rso"
+			}
+			traits = {
+				head_of_government
+				radical_socialist
+				hog_ace_agitator
+			}
+		}
+
+		GAK_mosin_nagant_hog_tot = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_mosin_nagant_hog_tot"
+			}
+			traits = {
+				head_of_government
+				totalist
+				hog_ace_agitator
+			}
+		}
+		
+		GAK_mg4_hog_syn = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_mg4_hog_syn"
+			}
+			traits = {
+				head_of_government
+				syndicalist
+				hog_friend_of_labor
+			}
+		}
+
+	}
+
+	person_of_influence = { ### Person of Influence ###
+		## Foreign Minister ##
+        GAK_rpk16_sec_ade = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_rpk16_sec_ade"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_sly_foreign_minister
+			}
+		}
+
+		## Economy Minister ##
+		GAK_saiga_12_eco_tot = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_saiga_12_eco_tot"
+			}
+			traits = {
+				economy_minister
+				totalist
+				eco_total_economy_fucker
+			}
+		}
+
+		GAK_Thunder_eco_syn = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_Thunder_eco_syn"
+			}
+			traits = {
+				economy_minister
+				syndicalist
+				eco_accounting_ability_of_whorehouse_ace
+			}
+		}
+
+		GAK_pps43_eco_rso = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_pps43_eco_rso"
+			}
+			traits = {
+				economy_minister
+				radical_socialist
+				eco_socialist_free_market_seeker
+			}
+		}
+
+		GAK_px4_eco_mli = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_px4_eco_mli"
+			}
+			traits = {
+				economy_minister
+				market_liberal
+				eco_tremendous_savings
+			}
+		}
+		
+		GAK_ak15_eco_ade = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_ak15_eco_ade"
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_extreme_efficiency
+			}
+		}
+		
+		GAK_hk416_eco_npo = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_ak15_eco_npo"
+			}
+			traits = {
+				economy_minister
+				national_populist
+				eco_motherly_meticulousness
+			}
+		}
+
+
+		## Security Minister ##
+		GAK_asval_sec_tot = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_asval_sec_tot"
+			}
+			traits = {
+				security_minister
+				totalist
+				sec_former_NKVD_chief_s_skill
+			}
+		}
+
+		GAK_an94_sec_npo = {
+			allowed = { original_tag = GAK }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_an94_sec_npo"
+			}
+			traits = {
+				security_minister
+				national_populist
+				sec_king_of_animal
+				}
+			}
+
+		}
+
+	chief_of_staff = { ### Chief of Staff ###
+		GAK_ak12_cos_npo = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_ak12_cos_npo"
+			}
+			traits = {
+				chief_of_staff
+				GAK_eye_of_white_wolf_cos
+			}
+			cancel_if_invalid = yes
+		}
+
+		GAK_m4a1_cos_ade = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_m4a1_cos_ade"
+			}
+			traits = {
+				chief_of_staff
+				GAK_great_armpit_cos
+			}
+			cancel_if_invalid = yes
+		}
+
+		GAK_hs2000_cos_mli = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_hs2000_cos_mli"
+			}
+			traits = {
+				chief_of_staff
+				GAK_heal_for_friend_cos
+			}
+			cancel_if_invalid = yes
+		}
+		
+		GAK_cms_cos_mli = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_cms_cos_mli"
+			}
+			traits = {
+				chief_of_staff
+				GAK_nice_stew_cos
+			}
+			cancel_if_invalid = yes
+		}
+		
+		GAK_ots_14_cos_mli = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_ots_14_cos_mli"
+			}
+			traits = {
+				chief_of_staff
+				GAK_nightfight_ace_cos
+			}
+			cancel_if_invalid = yes
+			}
+		
+		}
+
+	chief_of_army = { ### Chief of Army ###
+		GAK_g11_carm_mli = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_g11_carm_mli"
+			}
+			traits = {
+				chief_of_army
+				GAK_sleep_tight_cos
+			}
+			cancel_if_invalid = yes
+		}
+		
+		GAK_c93_carm_mli = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_c93_carm_mli"
+			}
+			traits = {
+				chief_of_army
+				GAK_prussian_style_army_coa
+			}
+			cancel_if_invalid = yes
+		}
+		
+		GAK_sop2_carm_mli = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_sop2_carm_mli"
+			}
+			traits = {
+				chief_of_army
+				GAK_destory_everything_coa
+			}
+			cancel_if_invalid = yes
+		}
+		
+		GAK_webley_revolver_carm_mli = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_webley_revolver_carm_mli"
+			}
+			traits = {
+				chief_of_army
+				GAK_lady_on_battlefield_coa
+			}
+			cancel_if_invalid = yes
+		}
+		
+		GAK_Mondragon_carm_mli = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_Mondragon_carm_mli"
+			}
+			traits = {
+				chief_of_army
+				GAK_veteran_trench_albosis
+			}
+			cancel_if_invalid = yes
+		}
+		
+		GAK_General_liu_carm_mli = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_General_liu_carm_mli"
+			}
+			traits = {
+				chief_of_army
+				GAK_grand_strategist_lover
+			}
+			cancel_if_invalid = yes
+		}
+		
+		GAK_Fg_42_carm_mli = {
+			allowed = { original_tag = GAK }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GAK_Fg_42_carm_mli"
+			}
+			traits = {
+				chief_of_army
+				GAK_Fallschirmjaeger_experience
+			}
+			cancel_if_invalid = yes
+			}
+		}
+
+	chief_of_navy = { 
+	
+	### Chief of Navy ###
+
+	}
+
+	chief_of_air_force = { 
+	
+	### Chief of Air Force ###
+
+	}
+}
