@@ -1,0 +1,1250 @@
+focus_tree = {
+	id = GAK_Griffon_focus
+
+	country = {
+		factor = 0
+	}
+
+    default = no
+	continuous_focus_position = { x = 3000 y = 700 }
+
+    focus = {
+		id = GAK_legacy_of_revolution_focus
+		icon = GFX_goal_GAK_inbang
+		x = 20
+		y = 1
+		cost = 0.2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_legacy_of_revolution_focus"
+			custom_effect_tooltip = GAK_legacy_of_revolution_focus_tt
+			
+		}
+	}
+
+    focus = {
+		id = GAK_hail_to_fuhrer_focus
+		icon = GFX_goal_GAK_inbang
+		x = 20
+		y = 2
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_legacy_of_revolution_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_hail_to_fuhrer_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_loyalty_experiment_focus
+		icon = GFX_goal_GAK_inbang
+		x = 18
+		y = 3
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_hail_to_fuhrer_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_hail_to_fuhrer_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_maintaining_purity_focus
+		icon = GFX_goal_GAK_inbang
+		x = 18
+		y = 4
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_loyalty_experiment_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_hail_to_fuhrer_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_overcoming_adversity_focus
+		icon = GFX_goal_GAK_inbang
+		x = 18
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_maintaining_purity_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_hail_to_fuhrer_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_center_of_power_focus
+		icon = GFX_goal_GAK_inbang
+		x = 22
+		y = 3
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_hail_to_fuhrer_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_hail_to_fuhrer_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_surveillance_control_focus
+		icon = GFX_goal_GAK_inbang
+		x = 22
+		y = 4
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_center_of_power_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_surveillance_control_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_decadent_cleaning_focus
+		icon = GFX_goal_GAK_inbang
+		x = 22
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_surveillance_control_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_decadent_cleaning_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_political_turmoil_focus
+		icon = GFX_goal_GAK_inbang
+		x = 20
+		y = 6
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_decadent_cleaning_focus
+            focus = GAK_overcoming_adversity_focus  
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_political_turmoil_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_morbid_problem_focus
+		icon = GFX_goal_GAK_inbang
+		x = 20
+		y = 7
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_political_turmoil_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_morbid_problem_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_putting_in_jail_focus
+		icon = GFX_goal_GAK_inbang
+		x = 18
+		y = 8
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_morbid_problem_focus 
+        }
+        mutually_exclusive = {
+            focus = GAK_policy_of_appeasement_focus
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_putting_in_jail_focus"
+            custom_effect_tooltip = GAK_putting_in_jail_focus_tt
+			
+		}
+	}
+
+    focus = {
+		id = GAK_underground_factory_focus
+		icon = GFX_goal_GAK_inbang
+		x = 18
+		y = 9
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_putting_in_jail_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_underground_factory_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_series_of_deaths_focus
+		icon = GFX_goal_GAK_inbang
+		x = 18
+		y = 10
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_underground_factory_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_series_of_deaths_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_factory_of_misfortune_focus
+		icon = GFX_goal_GAK_inbang
+		x = 18
+		y = 11
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_series_of_deaths_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_factory_of_misfortune_focus"
+			
+		}
+	}
+
+    focus = {
+		id = GAK_policy_of_appeasement_focus
+		icon = GFX_goal_GAK_inbang
+		x = 22
+		y = 8
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_morbid_problem_focus 
+        }
+        mutually_exclusive = {
+            focus = GAK_putting_in_jail_focus
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_policy_of_appeasement_focus"
+			custom_effect_tooltip = GAK_policy_of_appeasement_focus_tt
+		}
+	}
+
+    focus = {
+		id = GAK_labor_school_focus
+		icon = GFX_goal_GAK_inbang
+		x = 22
+		y = 9
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_policy_of_appeasement_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_labor_school_focus"
+		}
+	}
+
+    focus = {
+		id = GAK_inject_loyalty_focus
+		icon = GFX_goal_GAK_inbang
+		x = 22
+		y = 10
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_labor_school_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_inject_loyalty_focus"
+		}
+	}
+
+    focus = {
+		id = GAK_2nd_citizen_focus
+		icon = GFX_goal_GAK_inbang
+		x = 22
+		y = 11
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_inject_loyalty_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_2nd_citizen_focus"
+		}
+	}
+
+    focus = {
+		id = GAK_fuhrer_army_focus
+		icon = GFX_goal_GAK_inbang
+		x = 10
+		y = 2
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_legacy_of_revolution_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_fuhrer_army_focus"
+			
+		}
+	}
+	
+	focus = {
+		id = GAK_always_faithfully_focus
+		icon = GFX_goal_GAK_inbang
+		x = 14
+		y = 3
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_fuhrer_army_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_always_faithfully_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_human_soldier_focus
+		icon = GFX_goal_GAK_inbang
+		x = 14
+		y = 4
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_always_faithfully_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_human_soldier_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_cooperation_with_human_focus
+		icon = GFX_goal_GAK_inbang
+		x = 14
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_human_soldier_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_cooperation_with_human_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_deeper_than_friend_focus
+		icon = GFX_goal_GAK_inbang
+		x = 14
+		y = 6
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_cooperation_with_human_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_deeper_than_friend_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_maneuver_warfare_focus
+		icon = GFX_goal_GAK_inbang
+		x = 11
+		y = 3
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_fuhrer_army_focus 
+        }
+
+		mutually_exclusive = {
+			focus = GAK_firepower_superiority_focus
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_maneuver_warfare_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_vehicle_supply_focus
+		icon = GFX_goal_GAK_inbang
+		x = 11
+		y = 4
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_maneuver_warfare_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_vehicle_supply_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_research_on_russian_made_tanks_focus
+		icon = GFX_goal_GAK_inbang
+		x = 11
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_vehicle_supply_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_research_on_russian_made_tanks_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_end_of_the_march_focus
+		icon = GFX_goal_GAK_inbang
+		x = 11
+		y = 6
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_research_on_russian_made_tanks_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_end_of_the_march_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_firepower_superiority_focus
+		icon = GFX_goal_GAK_inbang
+		x = 9
+		y = 3
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_fuhrer_army_focus 
+        }
+
+		mutually_exclusive = {
+			focus = GAK_maneuver_warfare_focus
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_firepower_superiority_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_artillery_development_focus
+		icon = GFX_goal_GAK_inbang
+		x = 9
+		y = 4
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_firepower_superiority_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_artillery_development_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_skilled_engineer_focus
+		icon = GFX_goal_GAK_inbang
+		x = 9
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_artillery_development_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_skilled_engineer_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_trench_raider_focus
+		icon = GFX_goal_GAK_inbang
+		x = 9
+		y = 6
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_skilled_engineer_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_trench_raider_focus"
+			
+		}
+	}
+
+
+
+	focus = {
+		id = GAK_preparation_for_war_supplies_focus
+		icon = GFX_goal_GAK_inbang
+		x = 6
+		y = 3
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_fuhrer_army_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_preparation_for_war_supplies_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_contract_with_company_focus
+		icon = GFX_goal_GAK_inbang
+		x = 6
+		y = 4
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_preparation_for_war_supplies_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_contract_with_company_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_land_purchase_focus
+		icon = GFX_goal_GAK_inbang
+		x = 6
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_contract_with_company_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_land_purchase_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_add_munition_factory_focus
+		icon = GFX_goal_GAK_inbang
+		x = 6
+		y = 6
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_land_purchase_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_add_munition_factory_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_complete_army_plan_focus
+		icon = GFX_goal_GAK_inbang
+		x = 10
+		y = 7
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_add_munition_factory_focus 
+        }
+		prerequisite = { 
+            focus = GAK_deeper_than_friend_focus 
+        }
+		prerequisite = { 
+            focus = GAK_trench_raider_focus
+			focus = GAK_end_of_the_march_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_complete_army_plan_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_navy_air_force_focus
+		icon = GFX_goal_GAK_inbang
+		x = 5
+		y = 8
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_complete_army_plan_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_navy_air_force_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_chair_force_one_focus
+		icon = GFX_goal_GAK_inbang
+		x = 2
+		y = 9
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_navy_air_force_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_chair_force_one_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_fighter_research_focus
+		icon = GFX_goal_GAK_inbang
+		x = 6
+		y = 10
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_chair_force_one_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_chair_force_one_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_air_defense_network_focus
+		icon = GFX_goal_GAK_inbang
+		x = 2
+		y = 10
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_chair_force_one_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_air_defense_network_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_attacker_research_focus
+		icon = GFX_goal_GAK_inbang
+		x = -2
+		y = 10
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_chair_force_one_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_attacker_research_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_plane_high_school_focus
+		icon = GFX_goal_GAK_inbang
+		x = 2
+		y = 11
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_fighter_research_focus
+			focus = GAK_attacker_research_focus 
+        }
+		prerequisite = { 
+            focus = GAK_air_defense_network_focus
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_plane_high_school_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_bomber_research_focus
+		icon = GFX_goal_GAK_inbang
+		x = 0
+		y = 12
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_attacker_research_focus 
+        }
+		prerequisite = { 
+            focus = GAK_plane_high_school_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_bomber_research_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_heavy_fighter_research_focus
+		icon = GFX_goal_GAK_inbang
+		x = 4
+		y = 12
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_fighter_research_focus 
+        }
+		prerequisite = { 
+            focus = GAK_plane_high_school_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_bomber_research_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_let_get_jet_research_focus
+		icon = GFX_goal_GAK_inbang
+		x = 2
+		y = 13
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_bomber_research_focus 
+        }
+		prerequisite = { 
+            focus = GAK_heavy_fighter_research_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_let_get_jet_research_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_sea_dog_focus
+		icon = GFX_goal_GAK_inbang
+		x = 8
+		y = 9
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_navy_air_force_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_chair_force_one_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_petrograd_shipyard_focus
+		icon = GFX_goal_GAK_inbang
+		x = 8
+		y = 11
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_sea_dog_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_petrograd_shipyard_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_yellow_carrier_focus
+		icon = GFX_goal_GAK_inbang
+		x = 10
+		y = 12
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_petrograd_shipyard_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_yellow_carrier_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_research_submarine_focus
+		icon = GFX_goal_GAK_inbang
+		x = 10
+		y = 13
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_yellow_carrier_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_research_submarine_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_black_battleship_focus
+		icon = GFX_goal_GAK_inbang
+		x = 6
+		y = 12
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_petrograd_shipyard_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_black_battleship_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_research_destroyer_focus
+		icon = GFX_goal_GAK_inbang
+		x = 6
+		y = 13
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_black_battleship_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_research_destroyer_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_research_cruiser_focus
+		icon = GFX_goal_GAK_inbang
+		x = 8
+		y = 13
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_black_battleship_focus
+			focus = GAK_yellow_carrier_focus  
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_research_cruiser_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_coast_saver_focus
+		icon = GFX_goal_GAK_inbang
+		x = 8
+		y = 14
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_research_destroyer_focus
+        }
+		prerequisite = { 
+            focus = GAK_research_cruiser_focus
+        }
+		prerequisite = { 
+            focus = GAK_research_submarine_focus
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_coast_saver_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_allocation_of_budget_to_army_focus
+		icon = GFX_goal_GAK_inbang
+		x = 12
+		y = 8
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_complete_army_plan_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_allocation_of_budget_to_army_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_preferential_production_of_military_supplies_focus
+		icon = GFX_goal_GAK_inbang
+		x = 14
+		y = 9
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_allocation_of_budget_to_army_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_preferential_production_of_military_supplies_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_creation_of_army_research_institute_focus
+		icon = GFX_goal_GAK_inbang
+		x = 12
+		y = 9
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_allocation_of_budget_to_army_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_creation_of_army_research_institute_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_women_s_volunteer_group_focus
+		icon = GFX_goal_GAK_inbang
+		x = 10
+		y = 9
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_allocation_of_budget_to_army_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_women_s_volunteer_group_focus"
+			
+		}
+	}
+
+
+
+
+}

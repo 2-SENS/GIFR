@@ -1,6 +1,22 @@
 add_namespace = gakdom
 
 country_event = {
+	id = gakdom.0
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.0" }
+	title = gakdom.0.t
+	desc = gakdom.0.d
+	picture = GFX_report_event_GER_cons
+
+	trigger = {
+		has_country_flag = GAK_start_game_flag
+	}
+
+	option = {
+		name = gakdom.0.a
+	}
+}
+
+country_event = {
 	id = gakdom.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.1" }
 	title = gakdom.1.t
@@ -101,5 +117,111 @@ country_event = {
 
 	option = {
 		name = gakdom.6.a
+		hidden_effect = {
+			country_event = {
+				id = gakdom.7
+				days = 3
+			}
+		}
+	}
+
+	option = {
+		name = gakdom.6.b
+		hidden_effect = {
+			country_event = {
+				id = gakdom.8
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.7" }
+	title = gakdom.7.t
+	desc = gakdom.7.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.7.a
+		hidden_effect = {
+			country_event = {
+				id = gakdom.9
+				days = 3
+			}
+		}
+	}
+
+	option = {
+		name = gakdom.7.b
+		hidden_effect = {
+			country_event = {
+				id = gakdom.10
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.8" }
+	title = gakdom.11.t
+	desc = gakdom.11.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.8.a
+		hidden_effect = {
+			country_event = {
+				id = gakdom.10
+				days = 3
+			}
+		}
+	}
+
+	option = {
+		name = gakdom.8.b
+		hidden_effect = {
+			country_event = {
+				id = gakdom.9
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.9" }
+	title = gakdom.9.t
+	desc = gakdom.9.d
+	picture = GFX_report_event_GER_cons
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.9.a
+	}
+}
+
+country_event = {
+	id = gakdom.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.10" }
+	title = gakdom.10.t
+	desc = gakdom.10.d
+	picture = GFX_report_event_GER_cons
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.10.a
 	}
 }

@@ -151,6 +151,9 @@ focus_tree = {
 		x = 5
 		y = 3
 		cost = 0.2
+		available = {
+			NOT = { has_country_flag = GAK_die_of_gentiane_flag }
+		}
 		prerequisite = {
 			focus = GAK_a_doll_on_the_earth_4
 		}
@@ -162,9 +165,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GAK_slight_misfortune"
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_urgent_call"
 			add_political_power = 50
-			custom_effect_tooltip = GAK_slight_misfortune_tt
+			custom_effect_tooltip = GAK_urgent_call_tt
 			hidden_effect = {
 				country_event = {
 					id = gakdom.6
@@ -172,5 +175,179 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = { 
+		id = GAK_red_soc_jipgueul
+		icon = "GFX_goal_red_star_green_wreath"
+		x = 2
+		y = 4
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_urgent_call
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_red_soc_jipgueul"
+			custom_effect_tooltip = GAK_red_soc_jipgueul_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_crazy_propaganda
+		icon = "GFX_goal_big_news"
+		x = 2
+		y = 5
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_red_soc_jipgueul
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_crazy_propaganda"
+			custom_effect_tooltip = GAK_crazy_propaganda_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_progressive_stimulus
+		icon = "GFX_goal_ideology_libsoc"
+		x = 2
+		y = 6
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_crazy_propaganda
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_progressive_stimulus"
+			custom_effect_tooltip = GAK_progressive_stimulus_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_maid_s_coping
+		icon = "GFX_goal_GAK_G36_make_alright"
+		x = 5
+		y = 4
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_urgent_call
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_maid_s_coping"
+			custom_effect_tooltip = GAK_maid_s_coping_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_primary_person_gamsi
+		icon = "GFX_goal_secret_agents"
+		x = 5
+		y = 5
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_maid_s_coping
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_primary_person_gamsi"
+			custom_effect_tooltip = GAK_primary_person_gamsi_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_quiet_kidnapping
+		icon = "GFX_goal_imprison_opposition1"
+		x = 5
+		y = 6
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_primary_person_gamsi
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_quiet_kidnapping"
+			custom_effect_tooltip = GAK_quiet_kidnapping_tt
+		}
+	}
+
+
+	focus = { 
+		id = GAK_making_money
+		icon = "GFX_goal_bag_of_money"
+		x = 8
+		y = 4
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_urgent_call
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_making_money"
+			custom_effect_tooltip = GAK_making_money_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_secret_to_undermine
+		icon = "GFX_goal_secret_police"
+		x = 8
+		y = 5
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_making_money
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_secret_to_undermine"
+			custom_effect_tooltip = GAK_secret_to_undermine_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_for_only_live_once
+		icon = "GFX_goal_National_Security_Act"
+		x = 8
+		y = 6
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_secret_to_undermine
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_for_only_live_once"
+			custom_effect_tooltip = GAK_for_only_live_once_tt
+		}
+	}
+
+
 
 }

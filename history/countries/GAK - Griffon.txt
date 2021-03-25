@@ -148,7 +148,6 @@ add_ideas = {
     GAK_Tactical_dolls_ideas
 	GAK_Legency_of_IOP_ideas
 	GAK_american_problem_ideas
-	GAK_american_scientist_ideas
 	
 	
 	GAK_g36_hog_ade

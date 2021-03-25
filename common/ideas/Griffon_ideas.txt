@@ -148,14 +148,6 @@ ideas = {
 			}
 		}
 		
-		GAK_american_scientist_ideas = { #미국인 과학자
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_american_scientist_ideas"}
-			picture = GAK
-			modifier = {
-				research_speed_factor = 0.1
-			}
-		}
-		
 		GAK_american_scientist_2_ideas = { #더 많은 미국인 과학자
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_american_scientist_2_ideas"}
 			picture = GAK
