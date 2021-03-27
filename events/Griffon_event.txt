@@ -1,4 +1,35 @@
 add_namespace = gakdom
+add_namespace = gakgendie
+
+country_event = {
+	id = gakgendie.0
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakgendie.0" }
+	title = gakgendie.0.t
+	desc = gakgendie.0.d
+	picture = GFX_report_event_GER_cons
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = gakgendie.0.a
+		add_stability = -0.3
+		custom_effect_tooltip = GAK_gentiane_die_tt
+		hidden_effect = {
+			set_country_flag = GAK_gentiane_die_event
+			country_event = {
+				id = gakdom.6
+				days = 4
+			}
+			create_country_leader = {
+				name = "Vacancy"
+				picture = "Portrait_martial_law_government.tga"
+				expire = "1965.1.1"
+				ideology = authoritarian_democrat_subtype
+			}
+		}
+	}
+}
 
 country_event = {
 	id = gakdom.0
@@ -7,9 +38,9 @@ country_event = {
 	desc = gakdom.0.d
 	picture = GFX_report_event_GER_cons
 
-	trigger = {
-		has_country_flag = GAK_start_game_flag
-	}
+	is_triggered_only = yes
+
+	fire_only_once = yes
 
 	option = {
 		name = gakdom.0.a
@@ -28,10 +59,6 @@ country_event = {
 	option = {
 		name = gakdom.1.a
 	}
-
-    option = {
-		name = gakdom.1.b
-	}
 }
 
 country_event = {
@@ -45,10 +72,6 @@ country_event = {
 
 	option = {
 		name = gakdom.2.a
-	}
-
-    option = {
-		name = gakdom.2.b
 	}
 }
 
@@ -64,10 +87,6 @@ country_event = {
 	option = {
 		name = gakdom.3.a
 	}
-
-    option = {
-		name = gakdom.3.b
-	}
 }
 
 country_event = {
@@ -81,10 +100,6 @@ country_event = {
 
 	option = {
 		name = gakdom.4.a
-	}
-
-    option = {
-		name = gakdom.4.b
 	}
 }
 
@@ -100,10 +115,6 @@ country_event = {
 	option = {
 		name = gakdom.5.a
 	}
-
-    option = {
-		name = gakdom.5.b
-	}
 }
 
 country_event = {
@@ -114,7 +125,7 @@ country_event = {
 	picture = GFX_report_event_GER_cons
 
 	is_triggered_only = yes
-
+	
 	option = {
 		name = gakdom.6.a
 		hidden_effect = {
@@ -208,6 +219,92 @@ country_event = {
 
 	option = {
 		name = gakdom.9.a
+		add_stability = 0.1
+		hidden_effect = {
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = "Portrait_Girls_Frontline_G36_1.tga"
+				expire = "1975.1.1"
+				ideology = social_democrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = "Portrait_Girls_Frontline_G36_1.tga"
+				expire = "1975.1.1"
+				ideology = social_liberal_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = "Portrait_Girls_Frontline_G36_1.tga"
+				expire = "1975.1.1"
+				ideology = market_liberal_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = "Portrait_Girls_Frontline_G36_1.tga"
+				expire = "1975.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = "Portrait_Girls_Frontline_G36_1.tga"
+				expire = "1975.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = "Portrait_Girls_Frontline_G36_1.tga"
+				expire = "1975.1.1"
+				ideology = paternal_autocrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = "Portrait_Girls_Frontline_G36_1.tga"
+				expire = "1975.1.1"
+				ideology = national_populist_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+		}
 	}
 }
 
@@ -223,5 +320,99 @@ country_event = {
 
 	option = {
 		name = gakdom.10.a
+		load_focus_tree = GAK_Groza_focus_tree
+		add_stability = 0.1
+		set_politics = {
+			ruling_party = paternal_autocrat
+			last_election = "1933.1.1"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		hidden_effect = {
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				expire = "1975.1.1"
+				ideology = social_democrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				expire = "1975.1.1"
+				ideology = social_liberal_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				expire = "1975.1.1"
+				ideology = market_liberal_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				expire = "1975.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				expire = "1975.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				expire = "1975.1.1"
+				ideology = paternal_autocrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				expire = "1975.1.1"
+				ideology = national_populist_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+		}
 	}
 }

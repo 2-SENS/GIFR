@@ -152,7 +152,7 @@ focus_tree = {
 		y = 3
 		cost = 0.2
 		available = {
-			NOT = { has_country_flag = GAK_die_of_gentiane_flag }
+			has_country_flag = GAK_die_of_gentiane_flag
 		}
 		prerequisite = {
 			focus = GAK_a_doll_on_the_earth_4

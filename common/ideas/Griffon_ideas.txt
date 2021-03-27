@@ -120,7 +120,7 @@ ideas = {
 			}
 		}
 		
-		GAK_american_problem_ideas = { #미국인 문제
+		GAK_american_problem_ideas = { #러시아인 문제
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_american_problem_ideas"}
 			picture = GAK
 			modifier = {

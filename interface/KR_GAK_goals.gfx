@@ -364,5 +364,50 @@ spriteTypes = {
 		name = "GFX_goal_GAK_phone_call"
 		texturefile = "gfx/interface/goals/GAK_phone_call.tga"
 	}
+
+	SpriteType = { 
+		name = "GFX_goal_ERE_problem_of_indigenous_peoples"
+		texturefile = "gfx/interface/goals/GFX_goal_ERE_problem_of_indigenous_peoples.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_strategic_punch"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_strategic_punch.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GFX_focus_SWH_reborn_hawaii"
+		texturefile = "gfx/interface/goals/GFX_focus_SWH_reborn_hawaii.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_Leave_It_To_The_Peers"
+		texturefile = "gfx/interface/goals/GAK_Leave_It_To_The_Peers.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_decadent_cleaning_focus"
+		texturefile = "gfx/interface/goals/GAK_decadent_cleaning_focus.tga"
+	}
 	
+	SpriteType = { 
+		name = "GFX_goal_GFX_goal_GAK_determine_cause_of_mistake"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_determine_cause_of_mistake.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_ERE_pieces_were_put_together"
+		texturefile = "gfx/interface/goals/GFX_goal_ERE_pieces_were_put_together.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_steel_and_tear"
+		texturefile = "gfx/interface/goals/GAK_steel_and_tear.tga"
+	}
+
+	SpriteType = { 
+		name = "GAK_petersburg_stock_exchange_focus"
+		texturefile = "gfx/interface/goals/GAK_petersburg_stock_exchange_focus.tga"
+	}
+
 }

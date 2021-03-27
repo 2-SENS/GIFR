@@ -1,17 +1,17 @@
 focus_tree = {
-	id = GAK_Griffon_focus
+	id = GAK_Groza_focus_tree
 
 	country = {
 		factor = 0
 	}
 
     default = no
-	continuous_focus_position = { x = 3000 y = 700 }
+	continuous_focus_position = { x = 1000 y = 2000 }
 
     focus = {
 		id = GAK_legacy_of_revolution_focus
-		icon = GFX_goal_GAK_inbang
-		x = 20
+		icon = GFX_goal_GAK_groza_last
+		x = 30
 		y = 1
 		cost = 0.2
 
@@ -28,8 +28,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_hail_to_fuhrer_focus
-		icon = GFX_goal_GAK_inbang
-		x = 20
+		icon = GFX_goal_ideology_paternal_autocrat
+		x = 30
 		y = 2
 		cost = 0.2
 
@@ -49,8 +49,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_loyalty_experiment_focus
-		icon = GFX_goal_GAK_inbang
-		x = 18
+		icon = GFX_goal_GUS_education_improve
+		x = 28
 		y = 3
 		cost = 0.2
 
@@ -70,8 +70,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_maintaining_purity_focus
-		icon = GFX_goal_GAK_inbang
-		x = 18
+		icon = GFX_goal_national_populism
+		x = 28
 		y = 4
 		cost = 0.2
 
@@ -91,8 +91,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_overcoming_adversity_focus
-		icon = GFX_goal_GAK_inbang
-		x = 18
+		icon = GFX_goal_Centralised_Government
+		x = 28
 		y = 5
 		cost = 0.2
 
@@ -112,8 +112,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_center_of_power_focus
-		icon = GFX_goal_GAK_inbang
-		x = 22
+		icon = GFX_goal_GAK_national_enslavement
+		x = 32
 		y = 3
 		cost = 0.2
 
@@ -133,8 +133,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_surveillance_control_focus
-		icon = GFX_goal_GAK_inbang
-		x = 22
+		icon = GFX_goal_GAK_morido
+		x = 32
 		y = 4
 		cost = 0.2
 
@@ -154,8 +154,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_decadent_cleaning_focus
-		icon = GFX_goal_GAK_inbang
-		x = 22
+		icon = GFX_goal_GAK_decadent_cleaning_focus
+		x = 32
 		y = 5
 		cost = 0.2
 
@@ -175,8 +175,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_political_turmoil_focus
-		icon = GFX_goal_GAK_inbang
-		x = 20
+		icon = GFX_goal_GFX_goal_GAK_determine_cause_of_mistake
+		x = 30
 		y = 6
 		cost = 0.2
 
@@ -197,8 +197,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_morbid_problem_focus
-		icon = GFX_goal_GAK_inbang
-		x = 20
+		icon = GFX_goal_ERE_problem_of_indigenous_peoples
+		x = 30
 		y = 7
 		cost = 0.2
 
@@ -218,8 +218,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_putting_in_jail_focus
-		icon = GFX_goal_GAK_inbang
-		x = 18
+		icon = GFX_goal_tax_slave
+		x = 28
 		y = 8
 		cost = 0.2
 
@@ -243,8 +243,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_underground_factory_focus
-		icon = GFX_goal_GAK_inbang
-		x = 18
+		icon = GFX_goal_munitions_factories
+		x = 28
 		y = 9
 		cost = 0.2
 
@@ -264,8 +264,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_series_of_deaths_focus
-		icon = GFX_goal_GAK_inbang
-		x = 18
+		icon = GFX_goal_death_tracks
+		x = 28
 		y = 10
 		cost = 0.2
 
@@ -285,8 +285,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_factory_of_misfortune_focus
-		icon = GFX_goal_GAK_inbang
-		x = 18
+		icon = GFX_goal
+		x = 28
 		y = 11
 		cost = 0.2
 
@@ -306,8 +306,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_policy_of_appeasement_focus
-		icon = GFX_goal_GAK_inbang
-		x = 22
+		icon = GFX_goal_PAL_Russian_Refugees
+		x = 32
 		y = 8
 		cost = 0.2
 
@@ -330,8 +330,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_labor_school_focus
-		icon = GFX_goal_GAK_inbang
-		x = 22
+		icon = GFX_goal_tblra_union_agreement
+		x = 32
 		y = 9
 		cost = 0.2
 
@@ -350,8 +350,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_inject_loyalty_focus
-		icon = GFX_goal_GAK_inbang
-		x = 22
+		icon = GFX_goal_mass_concentration_of_army
+		x = 32
 		y = 10
 		cost = 0.2
 
@@ -370,8 +370,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_2nd_citizen_focus
-		icon = GFX_goal_GAK_inbang
-		x = 22
+		icon = GFX_goal_GUS_we_are_strong_again
+		x = 32
 		y = 11
 		cost = 0.2
 
@@ -390,8 +390,8 @@ focus_tree = {
 
     focus = {
 		id = GAK_fuhrer_army_focus
-		icon = GFX_goal_GAK_inbang
-		x = 10
+		icon = GFX_goal
+		x = 20
 		y = 2
 		cost = 0.2
 
@@ -411,8 +411,8 @@ focus_tree = {
 	
 	focus = {
 		id = GAK_always_faithfully_focus
-		icon = GFX_goal_GAK_inbang
-		x = 14
+		icon = GFX_goal
+		x = 24
 		y = 3
 		cost = 0.2
 
@@ -432,8 +432,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_human_soldier_focus
-		icon = GFX_goal_GAK_inbang
-		x = 14
+		icon = GFX_goal
+		x = 24
 		y = 4
 		cost = 0.2
 
@@ -453,8 +453,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_cooperation_with_human_focus
-		icon = GFX_goal_GAK_inbang
-		x = 14
+		icon = GFX_goal
+		x = 24
 		y = 5
 		cost = 0.2
 
@@ -474,8 +474,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_deeper_than_friend_focus
-		icon = GFX_goal_GAK_inbang
-		x = 14
+		icon = GFX_goal
+		x = 24
 		y = 6
 		cost = 0.2
 
@@ -495,8 +495,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_maneuver_warfare_focus
-		icon = GFX_goal_GAK_inbang
-		x = 11
+		icon = GFX_goal
+		x = 21
 		y = 3
 		cost = 0.2
 
@@ -520,8 +520,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_vehicle_supply_focus
-		icon = GFX_goal_GAK_inbang
-		x = 11
+		icon = GFX_goal
+		x = 21
 		y = 4
 		cost = 0.2
 
@@ -541,8 +541,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_research_on_russian_made_tanks_focus
-		icon = GFX_goal_GAK_inbang
-		x = 11
+		icon = GFX_goal
+		x = 21
 		y = 5
 		cost = 0.2
 
@@ -562,8 +562,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_end_of_the_march_focus
-		icon = GFX_goal_GAK_inbang
-		x = 11
+		icon = GFX_goal
+		x = 21
 		y = 6
 		cost = 0.2
 
@@ -583,8 +583,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_firepower_superiority_focus
-		icon = GFX_goal_GAK_inbang
-		x = 9
+		icon = GFX_goal
+		x = 19
 		y = 3
 		cost = 0.2
 
@@ -608,8 +608,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_artillery_development_focus
-		icon = GFX_goal_GAK_inbang
-		x = 9
+		icon = GFX_goal
+		x = 19
 		y = 4
 		cost = 0.2
 
@@ -629,8 +629,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_skilled_engineer_focus
-		icon = GFX_goal_GAK_inbang
-		x = 9
+		icon = GFX_goal
+		x = 19
 		y = 5
 		cost = 0.2
 
@@ -650,8 +650,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_trench_raider_focus
-		icon = GFX_goal_GAK_inbang
-		x = 9
+		icon = GFX_goal
+		x = 19
 		y = 6
 		cost = 0.2
 
@@ -673,8 +673,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_preparation_for_war_supplies_focus
-		icon = GFX_goal_GAK_inbang
-		x = 6
+		icon = GFX_goal
+		x = 16
 		y = 3
 		cost = 0.2
 
@@ -694,8 +694,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_contract_with_company_focus
-		icon = GFX_goal_GAK_inbang
-		x = 6
+		icon = GFX_goal
+		x = 16
 		y = 4
 		cost = 0.2
 
@@ -715,8 +715,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_land_purchase_focus
-		icon = GFX_goal_GAK_inbang
-		x = 6
+		icon = GFX_goal
+		x = 16
 		y = 5
 		cost = 0.2
 
@@ -736,8 +736,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_add_munition_factory_focus
-		icon = GFX_goal_GAK_inbang
-		x = 6
+		icon = GFX_goal
+		x = 16
 		y = 6
 		cost = 0.2
 
@@ -757,8 +757,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_complete_army_plan_focus
-		icon = GFX_goal_GAK_inbang
-		x = 10
+		icon = GFX_goal
+		x = 20
 		y = 7
 		cost = 0.2
 
@@ -785,8 +785,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_navy_air_force_focus
-		icon = GFX_goal_GAK_inbang
-		x = 5
+		icon = GFX_goal
+		x = 15
 		y = 8
 		cost = 0.2
 
@@ -806,8 +806,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_chair_force_one_focus
-		icon = GFX_goal_GAK_inbang
-		x = 2
+		icon = GFX_goal
+		x = 12
 		y = 9
 		cost = 0.2
 
@@ -827,8 +827,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_fighter_research_focus
-		icon = GFX_goal_GAK_inbang
-		x = 6
+		icon = GFX_goal
+		x = 16
 		y = 10
 		cost = 0.2
 
@@ -848,8 +848,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_air_defense_network_focus
-		icon = GFX_goal_GAK_inbang
-		x = 2
+		icon = GFX_goal
+		x = 12
 		y = 10
 		cost = 0.2
 
@@ -869,8 +869,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_attacker_research_focus
-		icon = GFX_goal_GAK_inbang
-		x = -2
+		icon = GFX_goal
+		x = 8
 		y = 10
 		cost = 0.2
 
@@ -890,8 +890,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_plane_high_school_focus
-		icon = GFX_goal_GAK_inbang
-		x = 2
+		icon = GFX_goal
+		x = 12
 		y = 11
 		cost = 0.2
 
@@ -915,8 +915,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_bomber_research_focus
-		icon = GFX_goal_GAK_inbang
-		x = 0
+		icon = GFX_goal
+		x = 10
 		y = 12
 		cost = 0.2
 
@@ -939,8 +939,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_heavy_fighter_research_focus
-		icon = GFX_goal_GAK_inbang
-		x = 4
+		icon = GFX_goal
+		x = 14
 		y = 12
 		cost = 0.2
 
@@ -963,8 +963,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_let_get_jet_research_focus
-		icon = GFX_goal_GAK_inbang
-		x = 2
+		icon = GFX_goal
+		x = 12
 		y = 13
 		cost = 0.2
 
@@ -987,8 +987,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_sea_dog_focus
-		icon = GFX_goal_GAK_inbang
-		x = 8
+		icon = GFX_goal
+		x = 18
 		y = 9
 		cost = 0.2
 
@@ -1008,8 +1008,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_petrograd_shipyard_focus
-		icon = GFX_goal_GAK_inbang
-		x = 8
+		icon = GFX_goal
+		x = 18
 		y = 11
 		cost = 0.2
 
@@ -1029,8 +1029,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_yellow_carrier_focus
-		icon = GFX_goal_GAK_inbang
-		x = 10
+		icon = GFX_goal
+		x = 20
 		y = 12
 		cost = 0.2
 
@@ -1050,8 +1050,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_research_submarine_focus
-		icon = GFX_goal_GAK_inbang
-		x = 10
+		icon = GFX_goal
+		x = 20
 		y = 13
 		cost = 0.2
 
@@ -1071,8 +1071,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_black_battleship_focus
-		icon = GFX_goal_GAK_inbang
-		x = 6
+		icon = GFX_goal
+		x = 16
 		y = 12
 		cost = 0.2
 
@@ -1092,8 +1092,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_research_destroyer_focus
-		icon = GFX_goal_GAK_inbang
-		x = 6
+		icon = GFX_goal
+		x = 16
 		y = 13
 		cost = 0.2
 
@@ -1113,8 +1113,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_research_cruiser_focus
-		icon = GFX_goal_GAK_inbang
-		x = 8
+		icon = GFX_goal
+		x = 18
 		y = 13
 		cost = 0.2
 
@@ -1135,8 +1135,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_coast_saver_focus
-		icon = GFX_goal_GAK_inbang
-		x = 8
+		icon = GFX_goal
+		x = 18
 		y = 14
 		cost = 0.2
 
@@ -1162,8 +1162,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_allocation_of_budget_to_army_focus
-		icon = GFX_goal_GAK_inbang
-		x = 12
+		icon = GFX_goal
+		x = 22
 		y = 8
 		cost = 0.2
 
@@ -1183,8 +1183,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_preferential_production_of_military_supplies_focus
-		icon = GFX_goal_GAK_inbang
-		x = 14
+		icon = GFX_goal
+		x = 24
 		y = 9
 		cost = 0.2
 
@@ -1204,8 +1204,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_creation_of_army_research_institute_focus
-		icon = GFX_goal_GAK_inbang
-		x = 12
+		icon = GFX_goal
+		x = 22
 		y = 9
 		cost = 0.2
 
@@ -1225,8 +1225,8 @@ focus_tree = {
 
 	focus = {
 		id = GAK_women_s_volunteer_group_focus
-		icon = GFX_goal_GAK_inbang
-		x = 10
+		icon = GFX_goal
+		x = 20
 		y = 9
 		cost = 0.2
 
@@ -1244,7 +1244,397 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = GAK_industry_problem_focus
+		icon = GFX_goal_generic_industry_reallocation
+		x = 40
+		y = 2
+		cost = 0.2
 
+        prerequisite = { 
+            focus = GAK_legacy_of_revolution_focus 
+        }
 
+		ai_will_do = {
+			factor = 100
+		}
 
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_women_s_volunteer_group_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_farming_industry_focus
+		icon = GFX_focus_AUS_agriculture
+		x = 40
+		y = 3
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_industry_problem_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_farming_industry_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_rice_for_all_focus
+		icon = GFX_goal_DEI_focus_ban_rice_import
+		x = 40
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_farming_industry_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_rice_for_all_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_iron_farming_focus
+		icon = GFX_goal_GAK_steel_and_tear
+		x = 42
+		y = 4
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_industry_problem_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_iron_farming_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_large_steel_mill_focus
+		icon = GFX_goal_generic_coal_mining
+		x = 42
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_industry_problem_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_iron_farming_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_synthetic_oil_drilling_focus
+		icon = GFX_goal_basic_oil
+		x = 44
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_iron_farming_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_synthetic_oil_drilling_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_electronics_manufacturing_focus
+		icon = GFX_goal_generic_lightbulb
+		x = 38
+		y = 4
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_industry_problem_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_electronics_manufacturing_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_personal_computer_focus
+		icon = GFX_TNO_goal_computer_assisted_design
+		x = 38
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_electronics_manufacturing_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_personal_computer_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_color_tv_focus
+		icon = GFX_goal_TNO_television
+		x = 36
+		y = 5
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_electronics_manufacturing_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_color_tv_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_abundant_resources_focus
+		icon = GFX_all_resource
+		x = 42
+		y = 6
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_large_steel_mill_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_abundant_resources_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_automatic_production_focus
+		icon = GFX_goal_generic_improve_industry
+		x = 38
+		y = 6
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_personal_computer_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_automatic_production_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_export_to_west_focus
+		icon = GFX_goal_generic_positive_trade_relations_gold
+		x = 40
+		y = 7
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_automatic_production_focus 
+        }
+		prerequisite = { 
+            focus = GAK_abundant_resources_focus 
+        }
+		prerequisite = { 
+            focus = GAK_color_tv_focus 
+        }
+		prerequisite = { 
+            focus = GAK_synthetic_oil_drilling_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_export_to_west_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_suck_dick_bitches_focus
+		icon = GFX_goal_workers_for_business
+		x = 38
+		y = 8
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_export_to_west_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_suck_dick_bitches_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_inovation_country_focus
+		icon = GFX_TNO_new_tech
+		x = 37
+		y = 9
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_suck_dick_bitches_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_inovation_country_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_petersburg_stock_exchange_focus
+		icon = GAK_petersburg_stock_exchange_focus
+		x = 42
+		y = 8
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_export_to_west_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_petersburg_stock_exchange_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_pleasure_and_corruption_focus
+		icon = GFX_goal_GAK_Leave_It_To_The_Peers
+		x = 40
+		y = 9
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_suck_dick_bitches_focus 
+			focus = GAK_petersburg_stock_exchange_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_pleasure_and_corruption_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_crazy_increase_focus
+		icon = GFX_goal_GFX_focus_SWH_reborn_hawaii
+		x = 43
+		y = 9
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_petersburg_stock_exchange_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_crazy_increase_focus"
+			
+		}
+	}
+
+	focus = {
+		id = GAK_wealth_will_continue_focus
+		icon = GFX_goal_ERE_pieces_were_put_together
+		x = 40
+		y = 11
+		cost = 0.2
+
+        prerequisite = { 
+            focus = GAK_inovation_country_focus 
+        }
+		prerequisite = { 
+            focus = GAK_pleasure_and_corruption_focus 
+        }
+		prerequisite = { 
+            focus = GAK_crazy_increase_focus 
+        }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_wealth_will_continue_focus"
+			
+		}
+	}
 }

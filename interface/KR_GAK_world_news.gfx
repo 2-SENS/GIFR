@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_news_event_GAK_gentiane_die"
+		texturefile = "gfx/news_event_pictures/GAK/GFX_news_event_GAK_gentiane_die.tga"
+	}
+}

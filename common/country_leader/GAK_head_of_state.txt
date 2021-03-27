@@ -16,7 +16,7 @@ leader_traits = {
 		stability_factor = 0.05
 		war_support_factor = 0.05
 		targeted_modifier = {
-			tag = USA
+			tag = RUS
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
 		}
@@ -33,7 +33,7 @@ leader_traits = {
 	
 	GAK_beautiful_dictator = {
 		random = no
-		political_power_gain = 0.1
+		political_power_gain = 0.3
 		intelligence_agency_defense = 1
 		resistance_target = -0.15
 		decryption_factor = 0.15
