@@ -12,5 +12,5 @@ tags={
 }
 name="Kaiserreich Submod - Girls Frontline"
 picture="thumbnail.png"
-supported_version="1.10.3"
+supported_version="1.10.4"
 remote_file_id="2288125587"

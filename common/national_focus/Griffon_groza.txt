@@ -22,7 +22,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_legacy_of_revolution_focus"
 			custom_effect_tooltip = GAK_legacy_of_revolution_focus_tt
-			
+			add_political_power = 100
 		}
 	}
 
@@ -64,7 +64,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_hail_to_fuhrer_focus"
-			
+			country_event = {
+				id = gakdom.11
+			}
 		}
 	}
 
@@ -85,7 +87,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_hail_to_fuhrer_focus"
-			
+			add_popularity = {
+				ideology = national_populist
+				popularity = 0.3
+			}
 		}
 	}
 
@@ -106,7 +111,38 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_hail_to_fuhrer_focus"
-			
+			add_popularity = {
+				ideology = totalist
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = syndicalist
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = radical_socialist
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = market_liberal
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = social_conservative
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = -0.5
+			}
 		}
 	}
 
@@ -126,8 +162,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GAK_hail_to_fuhrer_focus"
-			
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_center_of_power_focus"
+			add_ideas = GAK_power_grab_ideas
 		}
 	}
 
@@ -148,7 +184,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_surveillance_control_focus"
-			
+			swap_ideas = {
+				remove_idea = GAK_power_grab_ideas
+				add_idea = GAK_power_grab2_ideas
+			}
 		}
 	}
 
@@ -169,7 +208,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_decadent_cleaning_focus"
-			
+			swap_ideas = {
+				remove_idea = GAK_power_grab2_ideas
+				add_idea = GAK_power_grab3_ideas
+			}
+			add_stability = -0.05
+			custom_effect_tooltip = GAK_decadent_cleaning_focus_tt
 		}
 	}
 
@@ -191,7 +235,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_political_turmoil_focus"
-			
+			add_stability = 0.1
 		}
 	}
 
@@ -405,7 +449,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_fuhrer_army_focus"
-			
+			army_experience = 100
 		}
 	}
 	

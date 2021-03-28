@@ -323,7 +323,7 @@ country_event = {
 		load_focus_tree = GAK_Groza_focus_tree
 		add_stability = 0.1
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = national_populist
 			last_election = "1933.1.1"
 			election_frequency = 60
 			elections_allowed = no
@@ -414,5 +414,19 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+
+country_event = {
+	id = gakdom.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.11" }
+	title = gakdom.11.t
+	desc = gakdom.11.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.11.a
 	}
 }

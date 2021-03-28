@@ -309,6 +309,9 @@ GAK_small_purge_ideas:0 "숙청"
 GAK_infantry_weapon_upgrade_ideas:0 "보병 무기 개선"
 GAK_control_the_economy_ideas:0 "농협의 시장 통제"
 GAK_Socialists_Welcoming_ideas:0 "사회주의자들의 환영"
+GAK_power_grab_ideas:0 "권력장악"
+GAK_power_grab_2ideas:0 "권력장악"
+GAK_power_grab_3ideas:0 "권력장악"
 
 ################################################
 
@@ -394,6 +397,7 @@ GAK_for_only_live_once_tt:0 "§Y여기서 질문, 지금 누가 살아남아있�
 #  그로자 루트  #
 
 GAK_legacy_of_revolution_focus:0 "군사 혁명의 유산"
+GAK_legacy_of_revolution_focus_tt:0 "§Y우리는 다시 지휘부를 재건해야합니다!§!"
 
 GAK_hail_to_fuhrer_focus:0 "하일 그로자!"
 
@@ -407,7 +411,8 @@ GAK_center_of_power_focus:0 "권력 장악"
 
 GAK_surveillance_control_focus:0 "감시와 통제"
 
-GAK_decadent_cleaning_focus:0 ""봐, 피 안묻었다니까?""
+GAK_decadent_cleaning_focus:0 ""봐, 안 묻었다니까?""
+GAK_decadent_cleaning_focus_tt:0 "§R아직도 의심스러워...§!"
 
 GAK_political_turmoil_focus:0 "조용해진 지휘부"
 

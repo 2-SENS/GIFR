@@ -1161,6 +1161,32 @@ ideas = {
 				industry = 0.3
 			}
 		}
+
+		GAK_power_grab_ideas = { #권력장악
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_power_grab_ideas"}
+			picture = GAK
+			modifier = {
+				political_power_factor = 0.25
+			}
+		}
+
+		GAK_power_grab_2ideas = { #권력장악
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_power_grab_2ideas"}
+			picture = GAK
+			modifier = {
+				political_power_factor = 0.3
+				command_power_gain = 0.1
+			}
+		}
+
+		GAK_power_grab_3ideas = { #권력장악
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_power_grab_3ideas"}
+			picture = GAK
+			modifier = {
+				political_power_factor = 0.5
+				command_power_gain = 0.5
+			}
+		}
 	}
 		
 		
