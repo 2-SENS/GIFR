@@ -256,7 +256,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_morbid_problem_focus"
-			
+			add_ideas = GAK_tactical_dolls_ideas
 		}
 	}
 
@@ -646,7 +646,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_firepower_superiority_focus"
-			
+			add_tech_bonus = {
+				name = GAK_firepower_research
+				bonus = 1
+				uses = 2
+				category = cat_mobile_warfare
+			}
 		}
 	}
 
@@ -667,7 +672,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_artillery_development_focus"
-			
+			add_tech_bonus = {
+				name = GAK_artillery_research
+				bonus = 1
+				uses = 1
+				category = artillery
+			}
 		}
 	}
 
@@ -688,7 +698,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_skilled_engineer_focus"
-			
+			add_ideas = GAK_staffed_engineer_ideas
 		}
 	}
 
@@ -709,7 +719,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_trench_raider_focus"
-			
+			add_ideas = GAK_trench_raider_ideas
 		}
 	}
 

@@ -16,6 +16,7 @@ ideas = {
 				experience_gain_army = 0.05
 				experience_loss_factor = -0.1
 				conscription_factor = 0.1
+				recruitable_population_factor = -0.95
 			}
 		}
 
@@ -1185,6 +1186,26 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.5
 				command_power_gain = 0.5
+			}
+		}
+
+		GAK_staffed_engineer_ideas = { #숙련된 공병
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_staffed_engineer_ideas"}
+			picture = GAK
+			modifier = {
+				dig_in_speed_factor = 0.2
+				cas_damage_reduction = 0.3
+				army_defence_factor = 0.1
+			}
+		}
+
+		GAK_trench_raider_ideas = { #트렌치 레이더
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_trench_raider_ideas"}
+			picture = GAK
+			modifier = {
+				army_infantry_attack_factor = 0.1
+				army_infantry_speed_factor = 0.15
+				breakthrough_factor = 0.1
 			}
 		}
 	}
