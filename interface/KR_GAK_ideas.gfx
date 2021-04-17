@@ -207,6 +207,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
 	}
 	spriteType = {
+		name = "GFX_idea_GAK_putilov"
+		texturefile = "gfx/interface/ideas/RUS/companies/putilovsky.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GAK_oktava"
+		texturefile = "gfx/interface/ideas/RUS/companies/oktava.tga"
+	}
+	spriteType = {
 		name = "GFX_idea_GAK_iop_manufacturing_company"
 		texturefile = "gfx/interface/ideas/GAK/companies/GAK_IOP.tga"
 	}

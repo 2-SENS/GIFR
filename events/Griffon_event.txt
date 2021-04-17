@@ -321,7 +321,12 @@ country_event = {
 	option = {
 		name = gakdom.10.a
 		load_focus_tree = GAK_Groza_focus_tree
+		set_country_flag = GAK_groza_control_russia
 		add_stability = 0.1
+		add_popularity = {
+			ideology = national_populist
+			popularity = 0.3
+		}
 		set_politics = {
 			ruling_party = national_populist
 			last_election = "1933.1.1"
@@ -332,7 +337,7 @@ country_event = {
 			create_country_leader = {
 				name = "OTs-14 'Groza'" 
 				desc = "POLITICS_GROZA_DESC"
-				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
 				ideology = social_democrat_subtype
 				traits = {
@@ -344,7 +349,7 @@ country_event = {
 			create_country_leader = {
 				name = "OTs-14 'Groza'" 
 				desc = "POLITICS_GROZA_DESC"
-				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
 				ideology = social_liberal_subtype
 				traits = {
@@ -357,7 +362,7 @@ country_event = {
 			create_country_leader = {
 				name = "OTs-14 'Groza'" 
 				desc = "POLITICS_GROZA_DESC"
-				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
 				ideology = market_liberal_subtype
 				traits = {
@@ -369,7 +374,7 @@ country_event = {
 			create_country_leader = {
 				name = "OTs-14 'Groza'" 
 				desc = "POLITICS_GROZA_DESC"
-				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
 				ideology = social_conservative_subtype
 				traits = {
@@ -381,7 +386,7 @@ country_event = {
 			create_country_leader = {
 				name = "OTs-14 'Groza'" 
 				desc = "POLITICS_GROZA_DESC"
-				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
 				ideology = authoritarian_democrat_subtype
 				traits = {
@@ -393,7 +398,7 @@ country_event = {
 			create_country_leader = {
 				name = "OTs-14 'Groza'" 
 				desc = "POLITICS_GROZA_DESC"
-				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
 				ideology = paternal_autocrat_subtype
 				traits = {
@@ -405,13 +410,30 @@ country_event = {
 			create_country_leader = {
 				name = "OTs-14 'Groza'" 
 				desc = "POLITICS_GROZA_DESC"
-				picture = "Portrait_Girls_Frontline_OTs_14_Groza_1.tga"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
 				ideology = national_populist_subtype
 				traits = {
 					GAK_save_our_doll
 					GAK_beautiful_dictator
 				}
+			}
+
+			create_field_marshal = {
+				name = "OTs-14 'Groza'"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
+				traits = { 
+					brilliant_strategist 
+					inflexible_strategist 
+					defensive_doctrine 
+					organizer 
+					thorough_planner
+				}
+				skill = 4
+				attack_skill = 2
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 3
 			}
 		}
 	}
@@ -428,5 +450,106 @@ country_event = {
 
 	option = {
 		name = gakdom.11.a
+	}
+}
+
+country_event = {
+	id = gakdom.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.12" }
+	title = gakdom.12.t
+	desc = gakdom.12.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.12.a
+		add_timed_idea = {
+			idea = GAK_buy_some_land
+			days = 60
+		}
+	}
+
+	option = {
+		name = gakdom.12.b
+		add_stability = -0.2
+		add_popularity = {
+			ideology = paternal_autocrat
+			popularity = -0.08
+		}
+		add_popularity = {
+			ideology = national_populist
+			popularity = -0.08
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.13" }
+	title = gakdom.13.t
+	desc = gakdom.13.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.13.a
+	}
+}
+
+country_event = {
+	id = gakdom.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.14" }
+	title = gakdom.14.t
+	desc = gakdom.14.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.14.a
+	}
+}
+
+country_event = {
+	id = gakdom.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.15" }
+	title = gakdom.15.t
+	desc = gakdom.15.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.15.a
+	}
+}
+
+country_event = {
+	id = gakdom.16 #퍼스널 컴퓨터 보급
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.16" }
+	title = gakdom.16.t
+	desc = gakdom.16.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.16.a
+	}
+}
+
+country_event = {
+	id = gakdom.17 #컬러tv 보급
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.17" }
+	title = gakdom.17.t
+	desc = gakdom.17.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.17.a
 	}
 }

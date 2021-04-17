@@ -22,6 +22,12 @@ leader_traits = {
 		}
 	}
 
+	GAK_russia_tsar = {
+		random = no
+		compliance_gain = 0.1
+		resistance_growth = -0.15
+	}
+
 	GAK_Lord_Protector = {
 		random = no
 		political_power_gain = 0.15

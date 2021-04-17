@@ -6,7 +6,8 @@ focus_tree = {
 	}
 
     default = no
-	continuous_focus_position = { x = 1000 y = 2000 }
+	shared_focus = GAK_selected_the_war_plan
+	shared_focus = GAK_groza_s_world
 
     focus = {
 		id = GAK_legacy_of_revolution_focus
@@ -256,7 +257,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_morbid_problem_focus"
-			add_ideas = GAK_tactical_dolls_ideas
+			custom_effect_tooltip = GAK_morbid_problem_focus_tt
 		}
 	}
 
@@ -281,7 +282,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_putting_in_jail_focus"
             custom_effect_tooltip = GAK_putting_in_jail_focus_tt
-			
+			remove_ideas = GAK_american_problem_ideas
+			add_political_power = -100
+			RUS = {
+				add_opinion_modifier = { 
+					target = GAK 
+					modifier = KR_hostile 
+				}
+			}
 		}
 	}
 
@@ -302,7 +310,17 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_underground_factory_focus"
-			
+			custom_effect_tooltip = GAK_underground_factory_focus_tt
+			add_manpower = -1562
+			add_political_power = -100
+			add_offsite_building = { 
+				type = arms_factory 
+				level = 4 
+			}
+			add_offsite_building = { 
+				type = industrial_complex 
+				level = 5
+			}
 		}
 	}
 
@@ -323,7 +341,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_series_of_deaths_focus"
-			
+			custom_effect_tooltip = GAK_series_of_deaths_focus_tt
+			add_political_power = -100
+			add_manpower = -1516
 		}
 	}
 
@@ -344,7 +364,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_factory_of_misfortune_focus"
-			
+			custom_effect_tooltip = GAK_factory_of_misfortune_focus_tt
+			add_political_power = -300
+			add_ideas = GAK_factory_of_misfortune_ideas
 		}
 	}
 
@@ -369,8 +391,11 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_policy_of_appeasement_focus"
 			custom_effect_tooltip = GAK_policy_of_appeasement_focus_tt
+			set_country_flag = GAK_friend_with_russian_bois
 		}
 	}
+
+	
 
     focus = {
 		id = GAK_labor_school_focus
@@ -389,6 +414,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_labor_school_focus"
+			add_ideas = GAK_russian_diligence_ideas
+			custom_effect_tooltip = GAK_labor_school_focus_tt
 		}
 	}
 
@@ -409,6 +436,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_inject_loyalty_focus"
+			add_ideas = GAK_conciliatory_and_incitement_ideas
+			custom_effect_tooltip = GAK_inject_loyalty_focus_tt
 		}
 	}
 
@@ -429,6 +458,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_2nd_citizen_focus"
+			add_political_power = 100
+			stability_factor = 0.1
+			remove_ideas = GAK_american_problem_ideas
+			custom_effect_tooltip = GAK_2nd_citizen_focus_tt
 		}
 	}
 
@@ -470,7 +503,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_always_faithfully_focus"
-			
+			army_experience = 150
 		}
 	}
 
@@ -484,6 +517,9 @@ focus_tree = {
         prerequisite = { 
             focus = GAK_always_faithfully_focus 
         }
+		available = {
+			has_country_flag = GAK_friend_with_russian_bois
+		}
 
 		ai_will_do = {
 			factor = 100
@@ -491,7 +527,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_human_soldier_focus"
-			
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_ideas
+				add_idea = GAK_tactical_dolls_1_ideas
+			}
+			country_event = {
+				id = gakdom.13
+				days = 12
+			}
 		}
 	}
 
@@ -512,7 +555,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_cooperation_with_human_focus"
-			
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_1_ideas
+				add_idea = GAK_tactical_dolls_2_ideas
+			}
+			country_event = {
+				id = gakdom.14
+				days = 8
+			}
 		}
 	}
 
@@ -533,7 +583,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_deeper_than_friend_focus"
-			
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_2_ideas
+				add_idea = GAK_tactical_dolls_3_ideas
+			}
+			country_event = {
+				id = gakdom.15
+				days = 17
+			}
 		}
 	}
 
@@ -558,7 +615,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_maneuver_warfare_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = cat_mobile_warfare
+			}
 		}
 	}
 
@@ -579,7 +640,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_vehicle_supply_focus"
-			
+			set_technology = {
+				mechanised_infantry = 1
+			}
+			add_equipment_to_stockpile = {
+				type = mechanized_equipment_1
+				amount = 400
+				producer = GAK
+			}
 		}
 	}
 
@@ -600,7 +668,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_research_on_russian_made_tanks_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = armor
+			}
 		}
 	}
 
@@ -621,7 +694,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_end_of_the_march_focus"
-			
+			add_ideas = GAK_end_of_the_march_ideas
 		}
 	}
 
@@ -647,10 +720,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_firepower_superiority_focus"
 			add_tech_bonus = {
-				name = GAK_firepower_research
 				bonus = 1
-				uses = 2
-				category = cat_mobile_warfare
+				uses = 3
+				category = cat_superior_firepower
 			}
 		}
 	}
@@ -675,7 +747,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = GAK_artillery_research
 				bonus = 1
-				uses = 1
+				uses = 3
 				category = artillery
 			}
 		}
@@ -742,7 +814,22 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_preparation_for_war_supplies_focus"
-			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 5000
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 250
+				producer = RUS
+			}
+			RUS = {
+				country_event = {
+					id = gakfor.1
+					days = 2
+				}
+			}
 		}
 	}
 
@@ -763,7 +850,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_contract_with_company_focus"
-			
+			custom_effect_tooltip = GAK_contract_with_company_focus_tt
+			add_ideas = {
+				GAK_putilov
+				GAK_oktava
+			}
 		}
 	}
 
@@ -784,7 +875,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_land_purchase_focus"
-			
+			custom_effect_tooltip = GAK_land_purchase_focus_tt
+			country_event = {
+				id = gakdom.12
+			}
 		}
 	}
 
@@ -805,7 +899,23 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_add_munition_factory_focus"
-			
+			custom_effect_tooltip = GAK_add_munition_factory_focus_tt
+			195 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			208 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -833,7 +943,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_complete_army_plan_focus"
-			
+			add_ideas = GAK_unified_hq
 		}
 	}
 
@@ -854,7 +964,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_navy_air_force_focus"
-			
+			custom_effect_tooltip = GAK_navy_air_force_focus_tt
 		}
 	}
 
@@ -875,7 +985,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_chair_force_one_focus"
-			
+			air_experience = 100
 		}
 	}
 
@@ -896,7 +1006,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_chair_force_one_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = light_fighter
+			}
 		}
 	}
 
@@ -917,7 +1032,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_air_defense_network_focus"
-			
+			add_ideas = GAK_anti_air_aegis_sys_ideas
 		}
 	}
 
@@ -938,7 +1053,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_attacker_research_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = cas_bomber
+			}
 		}
 	}
 
@@ -963,7 +1083,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_plane_high_school_focus"
-			
+			add_ideas = GAK_doctrine_anal_school_ideas
 		}
 	}
 
@@ -987,7 +1107,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_bomber_research_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = cat_strategic_bomber
+			}
 		}
 	}
 
@@ -1011,7 +1136,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_bomber_research_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = cat_heavy_fighter
+			}
 		}
 	}
 
@@ -1035,7 +1165,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_let_get_jet_research_focus"
-			
+			set_technology = {
+				jet_engines = 1
+			}
 		}
 	}
 
@@ -1056,7 +1188,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_chair_force_one_focus"
-			
+			navy_experience = 100
 		}
 	}
 
@@ -1077,7 +1209,19 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_petrograd_shipyard_focus"
-			
+			if = {
+				limit = {
+					owns_state = 195
+				}
+				195 = {
+					add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 
@@ -1098,7 +1242,13 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_yellow_carrier_focus"
-			
+			add_tech_bonus = {
+				name = GER_doctrine_base_strike3
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = cv_tech
+			}
 		}
 	}
 
@@ -1119,7 +1269,13 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_research_submarine_focus"
-			
+			add_tech_bonus = {
+				name = GER_doctrine_fleet_in_beeing2
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = ss_tech
+			}
 		}
 	}
 
@@ -1140,7 +1296,13 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_black_battleship_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 2
+				uses = 3
+				category = bb_tech
+				category = shbb_tech
+			}
 		}
 	}
 
@@ -1161,7 +1323,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_research_destroyer_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = dd_tech
+			}
 		}
 	}
 
@@ -1183,7 +1350,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_research_cruiser_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 4
+				category = cl_tech
+				category = ca_tech
+			}
 		}
 	}
 
@@ -1210,7 +1382,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_coast_saver_focus"
-			
+			add_ideas = GAK_navy_research_help_school_ideas
 		}
 	}
 
@@ -1231,7 +1403,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_allocation_of_budget_to_army_focus"
-			
+			add_political_power = -300
 		}
 	}
 
@@ -1252,7 +1424,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_preferential_production_of_military_supplies_focus"
-			
+			add_ideas = GAK_military_factory_ideas
 		}
 	}
 
@@ -1273,7 +1445,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_creation_of_army_research_institute_focus"
-			
+			add_research_slot = 1
 		}
 	}
 
@@ -1294,7 +1466,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_women_s_volunteer_group_focus"
-			
+			add_ideas = GAK_women_s_volunteer_group_focus_ideas
 		}
 	}
 
@@ -1315,7 +1487,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_women_s_volunteer_group_focus"
-			
+			custom_effect_tooltip = GAK_industry_problem_focus_tt
 		}
 	}
 
@@ -1336,7 +1508,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_farming_industry_focus"
-			
+			add_ideas = GAK_farm_1_ideas
 		}
 	}
 
@@ -1357,7 +1529,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_rice_for_all_focus"
-			
+			swap_ideas = {
+				remove_idea = GAK_farm_1_ideas
+				add_idea = GAK_farm_2_ideas
+			}
 		}
 	}
 
@@ -1378,7 +1553,16 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_iron_farming_focus"
-			
+			add_resource = {
+				type = steel
+				amount = 12
+				state = 195 
+			}
+			add_resource = {
+				type = steel
+				amount = 17
+				state = 208 
+			}
 		}
 	}
 
@@ -1399,7 +1583,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_iron_farming_focus"
-			
+			modify_building_resources = {
+				building = industrial_complex
+				resource = steel
+				amount = 1
+			}
 		}
 	}
 
@@ -1420,7 +1608,19 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_synthetic_oil_drilling_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = synth_resources
+			}
+			195 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1441,7 +1641,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_electronics_manufacturing_focus"
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = electronics
+			}
 		}
 	}
 
@@ -1462,7 +1666,17 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_personal_computer_focus"
-			
+			add_tech_bonus = {
+				bonus = 0.75
+				ahead_reduction = 2
+				uses = 3
+				category = computing_tech
+			}
+			hidden_effect = {
+				country_event = {
+					id = gakdom.16
+				}
+			}
 		}
 	}
 
@@ -1483,7 +1697,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_color_tv_focus"
-			
+			add_stability = 0.03
+			country_event = {
+				id = gakdom.17
+			}
 		}
 	}
 
@@ -1504,7 +1721,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_abundant_resources_focus"
-			
+			add_ideas = GAK_resorce_many_ideas
 		}
 	}
 
@@ -1525,7 +1742,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_automatic_production_focus"
-			
+			add_ideas = GAK_develop_industry_ideas
 		}
 	}
 
@@ -1555,7 +1772,32 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_export_to_west_focus"
-			
+			add_political_power = 100
+			hidden_effect = {
+				add_ideas = GAK_hidden_ideas_one
+			}
+			custom_effect_tooltip = GAK_export_to_west_focus_tt
+			if = {
+				limit = { has_idea = export_focus }
+				swap_ideas = {
+					remove_idea = export_focus
+					add_idea = free_trade
+				}
+			}
+			if = {
+				limit = { has_idea = limited_exports }
+				swap_ideas = {
+					remove_idea = limited_exports
+					add_idea = free_trade
+				}
+			}
+			if = {
+				limit = { has_idea = closed_economy }
+				swap_ideas = {
+					remove_idea = closed_economy
+					add_idea = free_trade
+				}
+			}
 		}
 	}
 
@@ -1576,7 +1818,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_suck_dick_bitches_focus"
-			
+			add_timed_idea = {
+				idea = GAK_fast_building_ideas
+				days = 180
+			}
 		}
 	}
 

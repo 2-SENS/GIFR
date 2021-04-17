@@ -3,7 +3,7 @@
 Griffon_focus:0 "그리폰-크루거 공화국 중점계통도"
 America_Under_focus:0 "하와이령 미합중국 중점계통도"
 GAK_KR_GATHERING_STORM_DESC:0 "S09지역의 장시안의 지휘부가 초자연적인 현상으로 1933년 7월 21일의 페트로그라드에 트립하는 초자연적인 사건이 발생합니다. 3일뒤에 G36은 엘리트 인형들을 급히 소집하여 테스크 포스를 소집합니다. 이들의 임무는 페트로그라드와 이 일대의 점령이었고, 단 하루만에 인근의 구역을 장악하는데 성공합니다.\n\n이 위풍당당한 소녀들의 국가는 러시아에게 크게 미움을 받고 있으며, 자그만한 지휘부의 운명은 거대한 합중국의 국력앞에서는 바람앞의 등잔불과도 같은 상황입니다. 게다가 장시안의 건강은 그녀가 납치당한 이후에 크게 악화되었고, 설상가상으로 극단주의자는 틈을 타 자신들의 세력을 넓히려합니다. 지휘부는 현재 대 시련을 겪고있습니다."
-LOGO_MAIN_MENU_LINK_GF:0 "0.1 베타버전 입니다."
+LOGO_MAIN_MENU_LINK_GF:0 "0.3 베타버전 입니다."
 GAK_Groza_focus_tree:0 "그로자 포커스 트리"
 ################################################
 
@@ -30,9 +30,9 @@ GAK_social_conservative_party:0 "민정당"
 GAK_social_conservative_party_long:0 "하와이 민주정의당"
 GAK_authoritarian_democrat_party:0 "G&K 총 사령부"
 GAK_authoritarian_democrat_party_long:0 "그리폰-크루거 총 사령부"
-GAK_paternal_autocrat_party:0 "국가재건최고회의"
+GAK_paternal_autocrat_party:0 "우담회"
 GAK_paternal_autocrat_party_long:0 "국가재건최고회의"
-GAK_national_populist_party:0 "국가재건최고회의"
+GAK_national_populist_party:0 "우담회"
 GAK_national_populist_party_long:0 "국가재건최고회의"
 GAK_groza_strong_long:0 "KBP 그로자 왕조"
 GAK_groza_strong:0 "그로자 왕조"
@@ -113,7 +113,384 @@ GAK_G36C_ARMY_DESC:0 "§Y인형 설명\n§Y모델:§WH&K G36C\n§총기 설명:�
 
 # 기타 #
 GAK_DL_G36:0 "G36"
+GAK_russia_tsar:0 "§G러시아의 여제§!"
 
+################################################
+
+# 기술 #
+
+INFANTRY_TITLE_AUTOMATIC:0 "소형화된 자동화기"
+INFANTRY_TITLE_AUTOMATIC_description:0 "세상의 산업화 비율은 점점 높아져가고 있습니다.\n그 의미는 우린 더 이상 평야나 산지에서만 싸울 뿐만 아니라 시가지에서 전투를 치를 가능성이 높습니다.\n시가지에서의 전투는 교전 거리가 짧고, 언제 돌발상황이 벌어질지 모릅니다. 그러니 현대전은 단 시간안에 강한 화력을 퍼부을수 있는 개인화기가 필수적입니다."
+
+GAK_support_weapons:0 "M2 브라우닝 중기관총 & M1 81mm 박격포"
+GAK_support_weapons_desc:0 "구시대스러운 지원화기들이지만, 이 시대에서는 꽤나 위력적이라고 불릴만한 지원화기입니다."
+
+GAK_support_weapons2:0 "M2HB QCB 브라우닝 중기관총 & M2 60 mm 박격포"
+GAK_support_weapons2_desc:0 "M2 중기관총은 너무 무겁고, 총열 교체가 어렵다는 문제점이 지적되었습니다. 그렇게되어 내부에 적용된 잠금턱 구조로 인해 기존의 복잡하고 시간을 많이 잡아먹는 두격 및 격발 간격 조정이 배제되었고, 덕분에 총열 교체 시간이 10초 내로 크게 줄어들었습니다."
+
+GAK_support_weapons3:0 "M60 다목적기관총 & 81mm M252A1 박격포"
+GAK_support_weapons3_desc:0 "뛰어난 화력과 긴 유효사거리를 지닌 이 기관총과 인코넬 합금과 알루미늄, 티타늄, 나일론덕에 다이어트에 성공하였지만, 여전히 인형들을 고되게 만들것입니다. 여전히 무겁거든요."
+
+GAK_support_weapons4:0 "M240L 다목적기관총 & 120mm M327 박격포"
+GAK_support_weapons4_desc:0 "총몸과 운반 손잡이의 구성 소재가 티타늄으로 변경되면서 총 중량이 약 10.1kg으로 감소하였고, 박격포는 포신 내부에는 강선처리가 되있어서 포격시 안정된 탄도를 배달할수 있습니다."
+
+GAK_infantry_at:0 "RPG-1"
+GAK_infantry_at2:0 "RPG-2"
+
+infantry_equipment_4:0 "보병장비 IV"
+infantry_equipment_4_desc:0 ""
+infantry_equipment_4_short:0 "화기 IV"
+
+infantry_equipment_5:0 "보병장비 V"
+infantry_equipment_5_desc:0 ""
+infantry_equipment_5_short:0 "화기 V"
+
+infantry_equipment_6:0 "보병장비 VI"
+infantry_equipment_6_desc:0 ""
+infantry_equipment_6_short:0 "화기 VI"
+
+infantry_equipment_7:0 "보병장비 VII"
+infantry_equipment_7_desc:0 ""
+infantry_equipment_7_short:0 "화기 VII"
+
+infantry_equipment_8:0 "보병장비 VIII"
+infantry_equipment_8_desc:0 ""
+infantry_equipment_8_short:0 "화기 VIII"
+
+infantry_equipment_9:0 "보병장비 VIIII"
+infantry_equipment_9_desc:0 ""
+infantry_equipment_9_short:0 "화기 VIIII"
+
+modern_infantry_weapons:0 "현대적인 보병 장비 I"
+modern_infantry_weapons_desc:0 ""
+
+modern_infantry_weapons2:0 "현대적인 보병 장비 II"
+modern_infantry_weapons2_desc:0 ""
+
+modern_infantry_weapons3:0 "현대적인 보병 장비 III"
+modern_infantry_weapons3_desc:0 ""
+
+modern_infantry_weapons4:0 "현대적인 보병 장비 IV"
+modern_infantry_weapons4_desc:0 ""
+
+modern_infantry_weapons5:0 "현대적인 보병 장비 V"
+modern_infantry_weapons5_desc:0 ""
+
+modern_infantry_weapons6:0 "현대적인 보병 장비 VI"
+modern_infantry_weapons6_desc:0 ""
+
+modern_infantry_weapons7:0 "현대적인 보병 장비 VII"
+modern_infantry_weapons7_desc:0 ""
+
+GAK_infantry_equipment_0:0 "전술인형용 제식소총 모신나강"
+GAK_infantry_equipment_0_desc:0 "자재 수급과 기술부족, 탄약 수급이 힘들게 되어.7.62x54mmR 탄약을 사용하는 이 원시적인 볼트 액션 소총을 사용해야하는 사실을 안 전술인형들은 처음엔 충격, 다음엔 협상, 또 다음엔 분노로 감정이 급격하게 바뀌었습니다. 자연스럽게 작전능력도 현저히 떨어질수밖에 없었습니다."
+GAK_infantry_equipment_0_short:0 "모신나강"
+
+GAK_infantry_equipment_1:0 "전술인형용 제식소총 SVT-38"
+GAK_infantry_equipment_1_desc:0 "상황이 더 나아진후, 반자동소총까지 제작할 기반이 생겨 인형들이 그나마 얼굴살을 피게 되었습니다. 추운 러시아 평야에서도 사용할수 있는 신뢰도가 이점입니다."
+GAK_infantry_equipment_1_short:0 "SVT-38"
+
+GAK_infantry_equipment_2:0 "전술인형용 제식소총 PPSh-41"
+GAK_infantry_equipment_2_desc:0 "싸고, 튼튼합니다. 이 총을 들며 개좆같이 추운 러시아 전역을 누비며 다녀도 괜찮다는 뜻입니다. 또한 초당 15발이라는 엄청난 연사속도는 개개인의 전투력의 큰 향상을 안겨주었고. 이러한 이점덕에 소수의 인원으로 유연한 게릴라전을 펼칠수 있습니다. 또한 총 본연의 정밀도의 문제나 송탄불량의 문제도 해결하여 현시대 기준으로 최강의 기관단총으로 왕좌에 올랐지만, 인형들은 고작 이정도에 만족하지 않습니다."
+GAK_infantry_equipment_2_short:0 "PPSh-41"
+
+GAK_infantry_equipment_3:0 "전술인형용 제식소총 MAR-1"
+GAK_infantry_equipment_3_desc:0 "Multipurpose Assault Rifle (다목적 돌격소총) : MAR-1 돌격소총은 지휘부의 독자적인 기술력으로 개발한 돌격소총입니다. 투박한 생김새와는 달리 적절한 무게와 적은 반동, 적절한 대인지지력으로 인형들에게 괜찮다는 평가를 받고 있습니다. 혹은 인형들이 오랫동안 모신나강이나 PPsh-41같은걸 쓰다보니 눈이 낮아진건지도 모릅니다."
+GAK_infantry_equipment_3_short:0 "MAR-1"
+
+GAK_infantry_equipment_4:0 "전술인형용 제식소총 SKS"
+GAK_infantry_equipment_4_desc:0 ""
+GAK_infantry_equipment_4_short:0 "SKS"
+
+GAK_infantry_equipment_5:0 "전술인형용 제식소총 AK-47"
+GAK_infantry_equipment_5_desc:0 ""
+GAK_infantry_equipment_5_short:0 "AK-47"
+
+GAK_infantry_equipment_6:0 "전술인형용 제식소총 AK-74"
+GAK_infantry_equipment_6_desc:0 ""
+GAK_infantry_equipment_6_short:0 "AK-74"
+
+GAK_infantry_equipment_7:0 "전술인형용 제식소총 AK-74M"
+GAK_infantry_equipment_7_desc:0 ""
+GAK_infantry_equipment_7_short:0 "AK-74M"
+
+GAK_infantry_equipment_8:0 "전술인형용 제식소총 AN-94"
+GAK_infantry_equipment_8_desc:0 ""
+GAK_infantry_equipment_8_short:0 "AN-94"
+
+GAK_infantry_equipment_9:0 "전술인형용 제식소총 AK-12"
+GAK_infantry_equipment_9_desc:0 ""
+GAK_infantry_equipment_9_short:0 "AK-12"
+
+GAK_motorized_equipment_1:0 "AMO mod.6"
+GAK_motorized_equipment_1_short:0 "AMO-6"
+
+GAK_motorized_rocket_equipment_1:0 "Boyevaya Mashina M-13-16"
+GAK_motorized_rocket_equipment_1_short:0 "BM-13"
+
+GAK_mechanized_equipment_1:0 "Bronevoy Avtomobil Lebedev-6 obr.39"
+GAK_mechanized_equipment_1_short:0 "BA-39"
+
+GAK_mechanized_equipment_2:0 "Tyazhely Bronetransportyer obr.1942"
+GAK_mechanized_equipment_2_short:0 "TB-42"
+
+GAK_mechanized_equipment_3:0 "Bronetransportyer mod.3"
+GAK_mechanized_equipment_3_short:0 "B-3"
+
+GAK_mechanized_equipment_4:0 "BTR-50"
+GAK_mechanized_equipment_4_short:0 "BTR-50"
+
+GAK_mechanized_equipment_5:0 "MT-LB"
+GAK_mechanized_equipment_5_short:0 "MT-LB"
+
+GAK_mechanized_equipment_6:0 "BTR-70"
+GAK_mechanized_equipment_6_short:0 "BTR-70"
+
+GAK_mechanized_equipment_7:0 "BTR-80"
+GAK_mechanized_equipment_7_short:0 "BTR-80"
+
+GAK_mechanized_equipment_8:0 "BTR-90"
+GAK_mechanized_equipment_8_short:0 "BTR-90"
+
+GAK_mechanized_equipment_9:0 "Kurganets-25"
+GAK_mechanized_equipment_9_short:0 "Kurganets-25"
+
+GAK_amphibious_mechanized_equipment_1:0 "플라바유시 브로네압토모빌 mod.5M Transportny"
+GAK_amphibious_mechanized_equipment_1_short:0 "PB-5MT"
+
+GAK_amphibious_mechanized_equipment_2:0 "플라바유시 브로네압토모빌 mod.7 Transportny"
+GAK_amphibious_mechanized_equipment_2_short:0 "PB-7T"
+
+GAK_amphibious_tank_equipment_1:0 "T-40"
+GAK_amphibious_tank_equipment_2:0 "PT-43"
+
+GAK_gw_armored_car_equipment:0 "Bronevoy Avtomobil obr.27"
+GAK_gw_armored_car_equipment_short:0 "BA-27"
+
+GAK_armored_car_equipment_1:0 "Bronevoy Avtomobil mod.10"
+GAK_armored_car_equipment_1_short:0 "BA-10"
+
+GAK_armored_car_equipment_2:0 "Bronevoy Avtomobil NAZ-64"
+GAK_armored_car_equipment_2_short:0 "BA-64"
+
+GAK_armored_car_at_equipment:0 "Kolyesnaya Samokhodnaya Pushka NAZ-76"
+GAK_armored_car_at_equipment_short:0 "KSP-76"
+
+GAK_artillery_equipment_1:0 "76mm obr.1902/1930"
+GAK_artillery_equipment_1_short:0 "76mm obr.1902/1930"
+
+GAK_artillery_equipment_2:0 "107mm obr.1940"
+GAK_artillery_equipment_2_short:0 "107mm obr.1940" 
+
+GAK_artillery_equipment_3:0 "152mm MT-1 obr.1944"
+GAK_artillery_equipment_3_short:0 "152mm MT-1"
+
+GAK_anti_tank_equipment_1:0 "45mm 19-K obr.1931"
+GAK_anti_tank_equipment_1_short:0 "45mm 19-K"
+
+GAK_anti_tank_equipment_2:0 "57mm AMO-2 obr.1940"
+GAK_anti_tank_equipment_2_short:0 "57mm AMO-2"
+
+GAK_anti_tank_equipment_3:0 "100mm OB-3 obr.1943"
+GAK_anti_tank_equipment_3_short:0 "100mm OB-3"
+
+GAK_anti_air_equipment_1:0 "37mm 61-K obr.1932"
+GAK_anti_air_equipment_1_short:0 "37mm 61-K"
+
+GAK_anti_air_equipment_2:0 "85mm 52-K obr.1938"
+GAK_anti_air_equipment_2_short:0 "85mm 52-K"
+
+GAK_anti_air_equipment_3:0 "100mm VT-19 obr.1943" 
+GAK_anti_air_equipment_3_short:0 "100mm VT-19"
+
+GAK_rocket_artillery_equipment_1:0 "132mm M-8-24"
+GAK_rocket_artillery_equipment_1_short:0 "132mm M-8-24"
+
+GAK_rocket_artillery_equipment_2:0 "302mm M-20-12"
+GAK_rocket_artillery_equipment_2_short:0 "302mm M-20-12"
+
+GAK_gw_tank_equipment:0 "푸틸로프 T-19"
+GAK_gw_tank_equipment_short:0 "T-19"
+
+GAK_light_tank_equipment_1:0 "오부코프 T-26"
+GAK_light_tank_equipment_1_short:0 "T-26"
+
+GAK_light_tank_equipment_2:0 "AMO BT-10"
+GAK_light_tank_equipment_2_short:0 "BT-10"
+
+GAK_light_tank_equipment_3:0 "AMO BT-20"
+GAK_light_tank_equipment_3_short:0 "BT-20"
+
+GAK_medium_tank_equipment_1:0 "푸틸로프 T-28"
+GAK_medium_tank_equipment_1_short:0 "T-28"
+
+GAK_medium_tank_equipment_2:0 "오부코프 T-43"
+GAK_medium_tank_equipment_2_short:0 "T-43"
+
+GAK_medium_tank_equipment_3:0 "오부코프 T-43-2"
+GAK_medium_tank_equipment_3_short:0 "T-43-2" 
+
+GAK_heavy_tank_equipment_1:0 "푸틸로프 T-76"
+GAK_heavy_tank_equipment_1_short:0 "T-76"
+
+GAK_heavy_tank_equipment_2:0 "우랄트라크 T-85"
+GAK_heavy_tank_equipment_2_short:0 "T-85"
+
+GAK_heavy_tank_equipment_3:0 "우랄트라크 T-120"
+GAK_heavy_tank_equipment_3_short:0 "T-120"
+
+GAK_modern_tank_equipment_1:0 "오부코프 T-45"
+GAK_modern_tank_equipment_1_short:0 "T-45"
+
+GAK_super_heavy_tank_equipment_1:0 "푸틸로프 T-107"
+GAK_super_heavy_tank_equipment_1_short:0 "T-107"
+
+INFANTRY_TITLE_HELI:0 "헬리콥터"
+INFANTRY_TITLE_HELI_description:0 "헬리콥터의 등장으로 전쟁은 입체적으로 변모하였습니다.\n더 이상 군인들은 산을 넘기위해 행군하지 않습니다.\n그저 날아갈뿐이죠."
+
+helicopter_engine:0 "헬리콥터 엔진"
+helicopter_engine_desc:0 ""
+
+utility_helicopter_equipment_1:0 "Mil Mi-8 '히프'"
+utility_helicopter_equipment_1_short:0 "Mi-8 '히프'"
+
+utility_helicopter_equipment_2:0 "Mil Mi-17 '히프'"
+utility_helicopter_equipment_2_short:0 "Mi-17 '히프'"
+
+utility_helicopter_equipment_3:0 "Mil Mi-26 '헤일로'"
+utility_helicopter_equipment_3_short:0 "Mi-26 '헤일로'"
+
+utility_helicopter_equipment_4:0 "Kamov Ka-52K '카트란'"
+utility_helicopter_equipment_4_short:0 "Ka-52K '카트란'"
+
+utility_helicopter_equipment_5:0 "Mil Mi-70 '보로나'"
+utility_helicopter_equipment_5_short:0 "Mi-70 '보로나'"
+
+attack_helicopter_equipment_1:0 "Mil Mi-24 '하인드'"
+attack_helicopter_equipment_1_short:0 "Mi-24 '하인드'"
+
+attack_helicopter_equipment_2:0 "Mil Mi-24A '하인드'"
+attack_helicopter_equipment_2_short:0 "Mi-24A '하인드'"
+
+attack_helicopter_equipment_3:0 "Mil Mi-28 '하복'"
+attack_helicopter_equipment_3_short:0 "Mi-28 '하복'"
+
+attack_helicopter_equipment_4:0 "Kamov Ka-52 '앨리게이터'"
+attack_helicopter_equipment_4_short:0 "Ka-52 '앨리게이터'"
+
+attack_helicopter_equipment_5:0 "Kamov Ka-60 '디아텔'"
+attack_helicopter_equipment_5_short:0 "Ka-60 '디아텔'"
+
+GAK_CAS_equipment_1:0 "그루신 공격기 mod.1"
+GAK_CAS_equipment_1_short:0 "Sh-1"
+
+GAK_cv_CAS_equipment_1:0 "수호이 단거리폭격기 mod.1P"
+GAK_cv_CAS_equipment_1_short:0 "BB-1P"
+
+GAK_CAS_equipment_2:0 "일류신 장갑공격기 mod.2"
+GAK_CAS_equipment_2_short:0 "BSh-2"
+
+GAK_cv_CAS_equipment_2:0 "코체르긴 장갑공격기 mod.5P"
+GAK_cv_CAS_equipment_2_short:0 "BSh-5P"
+
+GAK_CAS_equipment_3:0 "수호이 장갑공격기 mod.6"
+GAK_CAS_equipment_3_short:0 "BSh-6"
+
+GAK_cv_CAS_equipment_3:0 "세버스키 전투기 mod.22P"
+GAK_cv_CAS_equipment_3_short:0 "I-22P"
+
+GAK_fighter_equipment_0:0 "폴리카포프 전투기 mod.16"
+GAK_fighter_equipment_0_short:0 "I-16"
+
+GAK_cv_fighter_equipment_0:0 "폴리카포프 전투기 mod.16P"
+GAK_cv_fighter_equipment_0_short:0 "I-16P"
+
+GAK_fighter_equipment_1:0 "예첸코 전투기 mod.17"
+GAK_fighter_equipment_1_short:0 "I-17"
+
+GAK_cv_fighter_equipment_1:0 "예첸코 전투기 mod.17P"
+GAK_cv_fighter_equipment_1_short:0 "I-17P"
+
+GAK_fighter_equipment_2:0 "폴리카포프 전투기 mod.18M"
+GAK_fighter_equipment_2_short:0 "I-18M"
+
+GAK_cv_fighter_equipment_2:0 "라보츠킨-고르부노프-구드코프 전투기 mod.20P"
+GAK_cv_fighter_equipment_2_short:0 "I-20P"
+
+GAK_fighter_equipment_3:0 "미코얀-구레비치 전투기 mod.21"
+GAK_fighter_equipment_3_short:0 "I-21"
+
+GAK_cv_fighter_equipment_3:0 "라보츠킨 전투기 mod.23P"
+GAK_cv_fighter_equipment_3_short:0 "I-23P"
+
+GAK_jet_fighter_equipment_1:0 "미코얀-구레비치 전투기 mod.25R"
+GAK_jet_fighter_equipment_1_short:0 "I-25R"
+
+GAK_jet_fighter_equipment_2:0 "미코얀-구레비치 제트 전투기 mod.2" 
+GAK_jet_fighter_equipment_2_short:0 "RI-2"
+
+GAK_nav_bomber_equipment_1:0 "일류신 장거리폭격기 mod.3T"
+GAK_nav_bomber_equipment_1_short:0 "DB-3T"
+
+GAK_cv_nav_bomber_equipment_1:0 "일류신 장거리폭격기 mod.3TP"
+GAK_cv_nav_bomber_equipment_1_short:0 "DB-3TP"
+
+GAK_nav_bomber_equipment_2:0 "일류신 장거리폭격기 mod.4T"
+GAK_nav_bomber_equipment_2_short:0 "DB-4T"
+
+GAK_cv_nav_bomber_equipment_2:0 "일류신 장거리폭격기 mod.4TP"
+GAK_cv_nav_bomber_equipment_2_short:0 "DB-4TP"
+
+GAK_nav_bomber_equipment_3:0 "일류신 장거리폭격-뇌격기 mod.1"
+GAK_nav_bomber_equipment_3_short:0 "DBT-1"
+
+GAK_cv_nav_bomber_equipment_3:0 "일류신 장거리폭격-뇌격기 mod.1P"
+GAK_cv_nav_bomber_equipment_3_short:0 "DBT-1P"
+
+GAK_heavy_fighter_equipment_1:0 "페틀랴코프 고고도전투기 STO-M"
+GAK_heavy_fighter_equipment_1_short:0 "VI-100M"
+
+GAK_heavy_fighter_equipment_2:0 "페틀랴코프 고고도전투기 STO mod.4"
+GAK_heavy_fighter_equipment_2_short:0 "VI-104"
+
+GAK_heavy_fighter_equipment_3:0 "투폴레프 중전투기 STO mod.5"
+GAK_heavy_fighter_equipment_3_short:0 "TI-105"
+
+GAK_tac_bomber_equipment_0:0 "투폴레프 중폭격기 mod.3"
+GAK_tac_bomber_equipment_0_short:0 "TB-3"
+
+GAK_tac_bomber_equipment_1:0 "아르한겔스크 고속폭격기 mod.2"
+GAK_tac_bomber_equipment_1_short:0 "SB-2"
+
+GAK_tac_bomber_equipment_2:0 "예르몰라예프 고속폭격기 mod.6"
+GAK_tac_bomber_equipment_2_short:0 "SB-6"
+
+GAK_tac_bomber_equipment_3:0 "투폴레프 고속폭격기 mod.10"
+GAK_tac_bomber_equipment_3_short:0 "SB-10"
+
+GAK_jet_tac_bomber_equipment_1:0 "일류신 제트 폭격기 mod.1"
+GAK_jet_tac_bomber_equipment_1_short:0 "RB-1"
+
+GAK_jet_tac_bomber_equipment_2:0 "일류신 제트 폭격기 mod.2"
+GAK_jet_tac_bomber_equipment_2_short:0 "RB-2"
+
+GAK_strat_bomber_equipment_1:0 "페틀랴코프 중폭격기 mod.7"
+GAK_strat_bomber_equipment_1_short:0 "TB-7"
+
+GAK_strat_bomber_equipment_2:0 "페틀랴코프-네즈발 중폭격기 mod.8"
+GAK_strat_bomber_equipment_2_short:0 "TB-8"
+
+GAK_strat_bomber_equipment_3:0 "투폴레프 중폭격기 mod.10"
+GAK_strat_bomber_equipment_3_short:0 "TB-10"
+
+GAK_jet_strat_bomber_equipment_1:0 "투폴레프 제트 폭격기 mod.4"
+GAK_jet_strat_bomber_equipment_1_short:0 "RB-4"
+
+GAK_scout_plane_equipment_1:0 "카모프 오토자이로 mod.1"
+GAK_scout_plane_equipment_1_short:0 "A-1"
+
+GAK_scout_plane_equipment_2:0 "야코블레프 단거리폭격기 mod.3"
+GAK_scout_plane_equipment_2_short:0 "BB-3"
 
 ################################################
 
@@ -227,6 +604,9 @@ GAK_Fg_42_carm_mli:0 "FG-42"
 # 국민 정신 #
 GAK_tactical_dolls_ideas:0 "전술인형"
 GAK_tactical_dolls_ideas_desc:0 "\n\n\n\n\n\n£GFX_GAK_tac_doll\n\n\n\n\n\n\n\n전술인형은 자율인형의 종류중 하나입니다. 지난 전쟁 이후 인력 부족과 환경 악화때문에 군부에서는 인형의 수요가 갈수록 늘어났으며, 전투에 특화된 자율인형이 탄생하였습니다. 제1세대 전술인형은 단순히 총을 쥔 자율인형에 불과했지만, 제2세대는 "각인"과 "더미 네트워크"를 통해 효율 높은 작전능력을 갖추고 대규모 작전 지휘에 적합한 전술인형들입니다.\n\n각인 기술 식각 이론에서 파생된 실용 기술. 약칭 §Y'ASST'.§! 전술인형은 출고될 때 ASST기술을 통해 특정 무기와 1대1 독립적 식별 관계를 맺습니다. 전술인형이 자신의 전용 무기를 사용할 때 운용 효율과 정확성 모두 대폭 상승하고, 언제든지 자신의 무기의 위치를 알 수 있습니다.\n\n더미 네트워크란 편제확대를 통해 더미 인형을 다수 운용하는 능력입니다. 더미 인형의 작전능력은 본체와 같지만, 복잡한 연산 능력은 없이 명령을 받고 실행하는 기초 기능만 가지고 있습니다. 그 외에도 더미 인형은 본체와 똑같은 무기와 장구류를 착용하여 본체가 공격받을 위험을 줄여줍니다."
+GAK_tactical_dolls_1_ideas:0 "전술인형 - 인간 혼성"
+GAK_tactical_dolls_2_ideas:0 "전술인형 - 인간 혼성"
+GAK_tactical_dolls_3_ideas:0 "전술인형 - 인간 혼성"
 GAK_Legency_of_IOP_ideas:0 "IOP 공작기계의 유산"
 GAK_Legency_of_IOP_ideas_desc:0 "비록 적은 수이지만 이 자동화된 최첨단 공작기계는 이시대에 어떤 공업품이던 제조할수 있으며, 비록 적은 수지만 전술인형을 생산할수 있습니다. 동시에 이 공작기계는 우리가 양지를 향해 뻗어나갈수 있도록 도울것입니다."
 GAK_american_problem_ideas:0 "러시아 현지인 문제"
@@ -260,12 +640,14 @@ GAK_quality_improvement:0 "군수품 품질 개선"
 GAK_paper_clip_crew_ideas:0 "페이퍼클립 크류"
 GAK_smart_proccess_ideas:0 "똑똑해진 인형 생산 공정"
 GAK_total_war_lab_ideas:0 "총력전 연구소"
-GAK_anti_air_aegis_sys_ideas:0 "대공방어체계 '앙킬라'"
+GAK_anti_air_aegis_sys_ideas:0 "대공방어시스템"
 GAK_welcome_to_ricefield_ideas:0 "논밭에 온걸 환영한다"
 GAK_zaibatsu_economic_ideas:0 "재벌 독식형 경제"
 GAK_industrial_machine_ideas:0 "산업 로봇"
 GAK_new_engine_ideas:0 "개선된 기체 엔진"
 GAK_justice_of_20mm_ideas:0 "20mm 기관포의 정의"
+GAK_navy_research_help_school_ideas:0 "발트해의 수호자"
+GAK_doctrine_anal_school_ideas:0 "공군사관학교"
 GAK_baeklin_und_napalm_ideas:0 "백린과 네이팜"
 GAK_airframe_skilled_personnel_ideas:0 "기체숙련요원"
 GAK_new_airborn_ideas:0 "팔시름예거"
@@ -317,7 +699,9 @@ GAK_power_grab_3ideas:0 "권력장악"
 
 # 국민 정신 - 기업 #
 GAK_industry1:0 "G&K 인더스트리"
-GAK_iop_manufacturing_company:0 "IOP 제조회사 - 하와이지부"
+GAK_oktava:0 "옥타바"
+GAK_putilov:0 "키로프 공장 - 페트로그라드 지부"
+GAK_iop_manufacturing_company:0 "IOP 제조회사 - 페트로그라드 지부"
 GAK_tank_laboratory_1:0 "IOP제조회사 전차 연구소 - 경전차 부서"
 GAK_tank_laboratory_2:0 "IOP제조회사 전차 연구소 - 중형전차 부서"
 GAK_tank_laboratory_3:0 "IOP제조회사 전차 연구소 - 중전차 부서"
@@ -367,7 +751,7 @@ GAK_crazy_propaganda_desc:0 "논리는 필요없습니다. 그저 상대를 비�
 GAK_crazy_propaganda_tt:0 "§R호외요 호외!§!"
 
 GAK_progressive_stimulus:0 "과장된 몸짓, 과장된 행동."
-GAK_progressive_stimulus_desc:0 "잘못된건 장시안입니다. 그녀는 20XX년에 XXX에서 태어났고, 그녀는 사실 이성애자가 아닌 동성애자 입니다. 동성애는 어린이들에게 잘못된 성 가치관을 심어줄수 있으며, 그리고 우리가 알다시피 모든 동성애는 문란하게 짝이 없습니다. 또한 그녀의 똘마니들은 단순한 콜걸에 불과하며, 어느 정치적 능력없는 허리만 흔드는데 재능있을뿐입니다."
+GAK_progressive_stimulus_desc:0 ""
 GAK_progressive_stimulus_tt:0 "§R이게 사실일까?§!"
 
 GAK_maid_s_coping:0 "메이드의 대처"
@@ -376,7 +760,7 @@ GAK_maid_s_coping_tt:0 "§W좋은 소식인거 맞지...?§!"
 
 GAK_primary_person_gamsi:0 "연기"
 GAK_primary_person_gamsi_desc:0 "우리의 행각을 숨겨야한다. 거점을 불태워라. 증거도 불태워라. 모두 다 태우고, 불태워서 이 얼음의 땅을 녹여라. 그러고 나선 우리는 지휘부를 위해 봉사하고 있다는 연기를 보여야한다. 움직여라. 언제나 웃음을 지어라. 자애로운 지휘관에게 모든것이 멀쩡하게 돌아간다고 말해라. 기회는 언젠간 돌아온다."
-GAK_primary_person_gamsi_tt:0 "§W청소반을 투입해야겠어.§!"
+GAK_primary_person_gamsi_tt:0 "§W청소반 투입해!.§!"
 
 GAK_quiet_kidnapping:0 "형장의 이슬로 사라지다."
 GAK_quiet_kidnapping_desc:0 "죽여라. 우리의 협력자도, 우리를 미워하는 놈들 모두 다 죽여야 한다. 잠시만, 왜 우린 겁을 먹고 있는거지?"
@@ -387,7 +771,7 @@ GAK_making_money_desc:0 "외화는 괜히 꿍쳐놨겠냐? 움직여 병신들�
 GAK_making_money_tt:0 "§Y저 중에 조금만 빼돌린다면...§!"
 
 GAK_secret_to_undermine:0 "우담회 주요 간부 긴급 소집"
-GAK_secret_to_undermine_desc:0 "...정말 좋지 않은 시기에 오랜만에 소집했네. 오늘 회의는 그렇게 길지 않을거야. 동시에 우린 희망적인 미래에 대해서 이야기 할 수는 없을거야.\n\n다들 알다시피 장시안이 깨어났어. 죽은줄만 알았던, 그래. 우리는 급진적으로 행동해야하며, 최대한 빠르게 관공서와 부대를 장악해야해. 다들 준비는 했을거라고 믿어."
+GAK_secret_to_undermine_desc:0 "...정말 좋지 않은 시기에 오랜만에 소집했네. 오늘 회의는 그렇게 길지 않을거야. 동시에 우린 희망적인 미래에 대해서 이야기 할 수는 없을거야.\n\n다들 알다시피 장시안이 깨어났어. 죽은줄만 알았던, 그래. 우리는 과격하게 행동할 때야."
 GAK_secret_to_undermine_tt:0 "§Y첫번째 안건을 시작하지.§!"
 
 GAK_for_only_live_once:0 "구국의 결단"
@@ -417,35 +801,44 @@ GAK_decadent_cleaning_focus_tt:0 "§R아직도 의심스러워...§!"
 GAK_political_turmoil_focus:0 "조용해진 지휘부"
 
 GAK_morbid_problem_focus:0 "러시아인 문제"
+GAK_morbid_problem_focus_tt:0 "§Y러시아인들을 통제하고 그들을 다룰 방법을 모색해야합니다.§!"
 
 GAK_putting_in_jail_focus:0 "강제 노동"
 GAK_putting_in_jail_focus_tt:0 "§R이는 러시아를 격분하게 만들겁니다!§!"
 
 GAK_underground_factory_focus:0 "지하 공장"
+GAK_underground_factory_focus_tt:0 "§Y기반이 불안정한 구역 지하에 공장을 짓는건 멍청한 생각입니다...§!"
 
 GAK_series_of_deaths_focus:0 "사망자 속출"
+GAK_series_of_deaths_focus_tt:0 "§R이제 좀 후련하십니까?§!"
 
 GAK_factory_of_misfortune_focus:0 "불행을 찍어내는 공장"
+GAK_factory_of_misfortune_focus_tt:0 "§R할당량을 못 채우면 죽을때까지 때린다니, 어디서 본 모습 아닌가요?§!"
 
 GAK_policy_of_appeasement_focus:0 "당근 흔들기"
-
 GAK_policy_of_appeasement_focus_tt:0 "§Y러시아인들을 회유하여 관용의 눈빛으로 수용합니다.§!"
 
 GAK_labor_school_focus:0 "노동 교육대"
+GAK_labor_school_focus_tt:0 "§Y노동은 육체를 자유롭게 합니다. 그렇지 않나요?§!"
 
 GAK_inject_loyalty_focus:0 "충성심 주입"
+GAK_inject_loyalty_focus_tt:0 "§O폭력으로 주입된 충성은 절대적이지 않습니다.§!"
 
 GAK_2nd_citizen_focus:0 "2등 신민"
+GAK_2nd_citizen_focus_tt:0 "§G그들의 문화를 존중하며, 우린 함께 나아갈겁니다. 영원하리라! 인형과 슬라브!§!"
 
 GAK_fuhrer_army_focus:0 "총통의 군대"
 
 GAK_preparation_for_war_supplies_focus:0 "군수물자 확보"
 
 GAK_contract_with_company_focus:0 "러시아 기업 국유화"
+GAK_contract_with_company_focus_tt:0 "§Y그러니까요. 우리가 말하는 국유화는 약간 과격할겁니다... 이제 옥타바와 키로프 공장을 사용 할 수 있습니다...§!"
 
 GAK_land_purchase_focus:0 "토지 구입"
+GAK_land_purchase_focus_tt:0 "§Y어느쪽이나 골치아픈건 사실입니다.§!"
 
-GAK_add_munition_factory_focus:0 "끝없는 공산품"
+GAK_add_munition_factory_focus:0 "끝없는 군수품"
+GAK_add_munition_factory_focus_tt:0 "§G이제야 녀석을 대적할수 있어...§!"
 
 GAK_firepower_superiority_focus:0 "화력우세"
 
@@ -454,35 +847,37 @@ GAK_artillery_development_focus:0 "대포 개발"
 GAK_skilled_engineer_focus:0 "숙련된 공병"
 
 GAK_trench_raider_focus:0 "시가지 돌파병"
-GAK_trench_raider_focus_desc:0 "전차의 발전으로 앞으로의 참호전을 상상하기는 힘들겁니다. 오히려 우리는 세계의 산업화 비율을 보아하니 장차 도시나 마을에서 전투를 치룰 것입니다. 그런 시가지 같은 경우, 돌발 상황이 일어나기 쉽습니다. 그 이유를 따지자면, 교전거리가 짧으며, 포탄이나 항공폭탄으로 인한 무수한 건물 잔해와 수많은 건물들은 적들이나 우리가 숨어서 매복 할수 있는 기회를 주었습니다. 전차도 이곳에서는 기동이 어려우며, 만약 적들의 함정에 걸린다면 통발에 걸린 물고기처럼 전차는 이리저리 저항하다가, 만약 보병과 함께 다니지 않았다면, 결국 대전차무기로 인해 이 불행한 전차는 제압당할 가능성이 농후합니다.\n\n그러한 이유로, 우리는 지긋지긋한 시가지를 빠르게 돌파할수 있도록 지뢰를 탐지해 빠르게 제거하거나, 철조망을 자르고. 기관단총이나 산탄총을 장비하여 빠르게 적들을 무너뜨리며 아군의 진전을 돕는것이 그들의 임무입니다. 척후병과 비슷해보인다고요? 어쩌라고요."
+GAK_trench_raider_focus_desc:0 "전차의 발전으로 앞으로의 참호전을 상상하기는 힘들겁니다. 우리는 세계의 근대화의 현황을 보아하니 장차 도시나 마을에서 전투를 치룰 것입니다. 그런 시가지 같은 경우, 돌발 상황이 일어나기 쉽습니다. 그 이유를 따지자면, 교전거리가 짧으며, 포탄이나 항공폭탄으로 인한 무수한 건물 잔해와 수많은 건물들은 적들이나 우리가 숨어서 매복 할수 있는 기회를 주었습니다. 전차도 이곳에서는 기동이 어려우며, 만약 적들의 함정에 걸린다면 통발에 걸린 물고기처럼 전차는 이리저리 저항하다가, 만약 보병과 함께 다니지 않았다면, 결국 대전차무기로 인해 이 불행한 전차는 제압당할 가능성이 농후합니다.\n\n그러한 이유로, 우리는 지긋지긋한 시가지를 빠르게 돌파할수 있도록 지뢰를 탐지해 빠르게 제거하거나, 철조망을 자르고. 기관단총이나 산탄총을 장비하여 빠르게 적들을 무너뜨리며 아군의 진전을 돕는것이 그들의 임무입니다. 척후병과 비슷해보인다고요? 어쩌라고요."
 
 GAK_maneuver_warfare_focus:0 "기동전"
 
 GAK_vehicle_supply_focus:0 "차량화 보급"
 
-GAK_research_on_russian_made_tanks_focus:0 "러시아제 판처 역설계"
+GAK_research_on_russian_made_tanks_focus:0 "판처 역설계"
 
 GAK_end_of_the_march_focus:0 "행진의 끝"
 
 GAK_always_faithfully_focus:0 "항상 충실하게"
 
 GAK_human_soldier_focus:0 "인간 병사 동원"
+GAK_friend_with_russian_bois:0 "러시아인들에게 관용을 배풉니다."
 
 GAK_cooperation_with_human_focus:0 "이해관계 절충"
 
 GAK_deeper_than_friend_focus:0 "친구가 아니라 웬수야"
 
-GAK_complete_army_plan_focus:0 "폐허에서 부활하여"
+GAK_complete_army_plan_focus:0 "국방군"
 
 GAK_allocation_of_budget_to_army_focus:0 "육군 예산 재검토"
 
-GAK_women_s_volunteer_group_focus:0 "자유 인민 봉사원"
+GAK_women_s_volunteer_group_focus:0 "자유 인민 봉사단"
 
 GAK_creation_of_army_research_institute_focus:0 "국방 과학 연구소 설립"
 
-GAK_preferential_production_of_military_supplies_focus:0 "군수품이 복사가 된다고"
+GAK_preferential_production_of_military_supplies_focus:0 "인형들의 기적"
 
 GAK_navy_air_force_focus:0 "공해군 예산 재검토"
+GAK_navy_air_force_focus_tt:0 "§Y그 누구도 관심가지지 않았던, 그 누구도 신경쓰지 않은 자들을 돌볼 때 입니다.§!"
 
 GAK_chair_force_one_focus:0 "육군 항공대"
 
@@ -516,7 +911,8 @@ GAK_research_submarine_focus:0 "잠수함 연구"
 
 GAK_coast_saver_focus:0 "해안의 수호자"
 
-GAK_industry_problem_focus:0 "산업 문제"
+GAK_industry_problem_focus:0 "미뤄둔것들"
+GAK_industry_problem_focus_tt:0 "§Y지휘부의 산업을 확장할때가 왔습니다.§!"
 
 GAK_farming_industry_focus:0 "농업 개선"
 
@@ -524,7 +920,7 @@ GAK_rice_for_all_focus:0 "유럽의 쌀바구니"
 
 GAK_electronics_manufacturing_focus:0 "진공관부터..."
 
-GAK_color_tv_focus:0 "천연색 TV"
+GAK_color_tv_focus:0 "공공방송"
 
 GAK_personal_computer_focus:0 "퍼스널 컴퓨터!"
 
@@ -536,9 +932,10 @@ GAK_synthetic_oil_drilling_focus:0 "합성석유 실험"
 
 GAK_large_steel_mill_focus:0 "대규모 제철소"
 
-GAK_abundant_resources_focus:0 "위험은 면했다"
+GAK_abundant_resources_focus:0 "유명한 말 하나 있지, 'no pain no gain'"
 
 GAK_export_to_west_focus:0 "서방에 도착한 도전장"
+GAK_export_to_west_focus_tt:0 "§G이제 유럽 전역을 경제적으로 종속시킬때 입니다.§!"
 
 GAK_suck_dick_bitches_focus:0 "수요를 맞춰라"
 
@@ -551,6 +948,13 @@ GAK_pleasure_and_corruption_focus:0 "향락과 사치"
 GAK_crazy_increase_focus:0 "돈이 복사가 된다고!"
 
 GAK_wealth_will_continue_focus:0 "번영은 계속됩니다!"
+
+################################################
+#신질서#
+
+GAK_groza_s_world:0 "신질서"
+GAK_groza_s_world_desc:0 "1934년, 우리가 이곳에 도래했을땐 그저 이방인이었습니다. 그들은 우리를 배척하고, 밀어내기 위한 갖은 수단과 방법을 동원했지만, 우린 더더욱 저항했습니다. 그 결과, 우린 올라섰습니다. 단순한 지휘부의 자격이 아닌 하나의 국가로 거듭났고, 더 이상 함부로 우리에게 대적할수 있는 국가는 없습니다.\n\n그동안 많은 시련과 고통이 있었습니다. 우리가 어느 길을 걸어왔던간에, 확실한건 단 하나입니다. 신도, 인간도 그 누구도 우릴 구원하지 못합니다. 오로지 우리가 가꾸어 나가야하는 길이라는걸 뒤늦게 깨달았습니다.\n\n끝까지 우리의 길을 떳떳하게 걸어갑시다. 모든 죽어가는것들을 증오합시다. 쫓기는 사람처럼 보여도 부끄러워도, 모든 미련을 벗어던져서 새로운 세계를 구축하고, 추억처럼 아른거리는 지휘관은 마인드맵에서 지워버립시다."
+GAK_groza_control_russia_tt:0 "§G그로자는 새로운 차르로 즉위할겁니다!§!"
 
 ################################################
 
@@ -601,52 +1005,8 @@ gakdom.10.a:0 "점심은 모스크바에서, 저녁은 블라디보스토크에�
 ################################################
 
 # 기술 #
-GAK_infantry_equipment_0:0 "전술인형용 제식소총 모신나강"
-GAK_infantry_equipment_0_desc:0 "자재 수급과 기술부족, 탄약 수급이 힘들게 되어.7.62x54mmR 탄약을 사용하는 이 원시적인 볼트 액션 소총을 사용해야하는 사실을 안 전술인형들은 처음엔 충격, 다음엔 협상, 또 다음엔 분노로 감정이 급격하게 바뀌었습니다. 자연스럽게 작전능력도 현저히 떨어질수밖에 없었습니다."
-GAK_infantry_equipment_0_short:0 "모신나강"
-GAK_infantry_equipment_1:0 "전술인형용 제식소총 SVT-38"
-GAK_infantry_equipment_1_desc:0 "상황이 더 나아진후, 반자동소총까지 제작할 기반이 생겨 인형들이 그나마 얼굴살을 피게 되었습니다. 추운 러시아 평야에서도 사용할수 있는 신뢰도가 이점입니다."
-GAK_infantry_equipment_1_short:0 "SVT-38"
-GAK_infantry_equipment_2:0 "전술인형용 제식소총 PPSh-41"
-GAK_infantry_equipment_2_desc:0 "싸고, 튼튼합니다. 이 총을 들며 개좆같이 추운 러시아 전역을 누비며 다녀도 괜찮다는 뜻입니다. 또한 초당 15발이라는 엄청난 연사속도는 개개인의 전투력의 큰 향상을 안겨주었고. 이러한 이점덕에 소수의 인원으로 유연한 게릴라전을 펼칠수 있습니다. 또한 총 본연의 정밀도의 문제나 송탄불량의 문제도 해결하여 현시대 기준으로 최강의 기관단총으로 왕좌에 올랐지만, 인형들은 고작 이정도에 만족하지 않습니다."
-GAK_infantry_equipment_2_short:0 "PPSh-41"
-GAK_infantry_equipment_3:0 "전술인형용 제식소총 MAR-1"
-GAK_infantry_equipment_3_desc:0 "Multipurpose Assault Rifle (다목적 돌격소총) : MAR-1 돌격소총은 지휘부의 독자적인 기술력으로 개발한 돌격소총입니다. 투박한 생김새와는 달리 적절한 무게와 적은 반동, 적절한 대인지지력으로 인형들에게 괜찮다는 평가를 받고 있습니다. 혹은 인형들이 오랫동안 모신나강이나 PPsh-41같은걸 쓰다보니 눈이 낮아진건지도 모릅니다."
-GAK_infantry_equipment_3_short:0 "MAR-1"
-utility_helicopter_equipment:0 "CH-47 '치누크'"
-utility_helicopter_equipment_4:0 "CH-47 '치누크'"
-utility_helicopter_equipment_desc:0 "33명~55명의 중무장 병력 또는 10,886 kg의 물자를 수송할수 있는 이 최첨단의 오토자이로는 활주로가 없어도 아무곳이나 이착륙이 간단하여 전선의 부상병도 쉽게 후방으로 옮기는 것이 가능하며, 반대로 병사들을 빠르게 전선으로 실어나르는 '전장 택시'의 역활을 한다."
-utility_helicopter_equipment_4_desc:0 "33명~55명의 중무장 병력 또는 10,886 kg의 물자를 수송할수 있는 이 최첨단의 오토자이로는 활주로가 없어도 아무곳이나 이착륙이 간단하여 전선의 부상병도 쉽게 후방으로 옮기는 것이 가능하며, 반대로 병사들을 빠르게 전선으로 실어나르는 '전장 택시'의 역활을 한다."
-utility_helicopter_equipment_3:0 "Atlas Oryx"
-utility_helicopter_equipment_1:0 "Bell 212"
-utility_helicopter_equipment_1_desc:0 "2엽 로터, 쌍발 엔진의 중형 헬리콥터입니다. 15인승이며, 최대 2톤까지의 화물을 운반할수 있기에 보급용으로 적당합니다."
-utility_helicopter_equipment_3_desc:0 "Atlas Oryx는 더운 하와이의 환경에서도 운용될수 있도록 설계된 중형 헬리콥터입니다. 20명의 사람을 태울수 있습니다."
-utility_helicopter_equipment_1_desc:0 "Bell 212는 2엽 로터, 쌍발 엔진의 중형 헬리콥터입니다. 15명의 사람을 태울수 있습니다."
-GAK_infantry_at:0 "RPG-1"
-GAK_infantry_at2:0 "RPG-2"
-GAK_support_weapons:0 "M2 브라우닝 중기관총 & M1 81mm 박격포"
-GAK_support_weapons_desc:0 "구시대스러운 지원화기들이지만, 이 시대에서는 꽤나 위력적이라고 불릴만한 지원화기입니다."
-GAK_support_weapons2:0 "M2HB QCB 브라우닝 중기관총 & M2 60 mm 박격포"
-GAK_support_weapons2_desc:0 "M2 중기관총은 너무 무겁고, 총열 교체가 어렵다는 문제점이 지적되었습니다. 그렇게되어 내부에 적용된 잠금턱 구조로 인해 기존의 복잡하고 시간을 많이 잡아먹는 두격 및 격발 간격 조정이 배제되었고, 덕분에 총열 교체 시간이 10초 내로 크게 줄어들었습니다."
-GAK_support_weapons3:0 "M60 다목적기관총 & 81mm M252A1 박격포"
-GAK_support_weapons3_desc:0 "뛰어난 화력과 긴 유효사거리를 지닌 이 기관총과 인코넬 합금과 알루미늄, 티타늄, 나일론덕에 다이어트에 성공하였지만, 여전히 인형들을 고되게 만들것입니다. 여전히 무겁거든요."
-GAK_support_weapons4:0 "M240L 다목적기관총 & 120mm M327 박격포"
-GAK_support_weapons4_desc:0 "총몸과 운반 손잡이의 구성 소재가 티타늄으로 변경되면서 총 중량이 약 10.1kg으로 감소하였고, 박격포는 포신 내부에는 강선처리가 되있어서 포격시 안정된 탄도를 배달할수 있습니다."
-GAK_night_vision:0 "야간투시경"
 GAK_light_hawaii:0 "하와이는 정치적으로 안전합니다"
 GAK_end_all_reform:0 "하와이의 내부 문제가 해결되었습니다"
-tac_dolls_fighter_tech_equipment:0 "아르카브 프리오르"
-tac_dolls_fighter_tech_equipment_desc:0 ""
-tac_dolls_fighter_cv_tech_equipment:0 "아르카브 프리오르"
-tac_dolls_fighter_cv_tech_equipment_desc:0 ""
-tac_dolls_cas_tech_equipment:0 "코르 카롤리"
-tac_dolls_cas_tech_equipment_desc:0 ""
-tac_dolls_cas_cv_tech_equipment:0 "코르 카롤리"
-tac_dolls_cas_cv_tech_equipment_desc:0 ""
-tac_dolls_bomb_tech_equipment:0 "카타스트로피"
-tac_doll_heli:0 "벨 212"
-tac_doll_heli_2:0 "Atlas Oryx"
-tac_doll_heli_3:0 "CH-47 "치누크""
 tac_doll_weapons:0 "M14"
 tac_doll_weapons_2:0 "현대형 지원장비"
 tac_doll_weapons_3:0 "M16"
@@ -680,6 +1040,7 @@ tac_doll_gun_anti_tank_upgrade:0 "대전차 공격"
 tac_doll_gun_anti_air_upgrade:0 "대공 공격"
 tac_dolls:0 "전술인형"
 tac_dolls_carry_helicopter_unit:0 "수송 헬기"
+tac_dolls_attack_helicopter_unit:0 "공격 헬기"
 iop_light_manufacturing_company:0 "IOP 소화기 제조사"
 tank_producer_perfect_1_light:0 "IOP 경전차 제조부"
 tank_producer_perfect_2_medium:0 "IOP 중형전차 제조부"

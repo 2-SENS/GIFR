@@ -1,0 +1,203 @@
+focus_tree = {
+	id = deltarune_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = DEL
+		}
+	}
+    default = no
+
+    focus = {
+		id = del_1
+		icon = GFX_goal
+		x = 10
+		y = 1
+		cost = 0.2
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = del_2
+		icon = GFX_goal
+		x = 10
+		y = 2
+		cost = 0.2
+
+        prerequisite = {
+			focus = del_1
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = del_3
+		icon = GFX_goal
+		x = 10
+		y = 3
+		cost = 0.2
+
+        prerequisite = {
+			focus = del_2
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = del_4
+		icon = GFX_goal
+		x = 9
+		y = 4
+		cost = 0.2
+
+        prerequisite = {
+			focus = del_3
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = del_5
+		icon = GFX_goal
+		x = 11
+		y = 4
+		cost = 0.2
+
+        prerequisite = {
+			focus = del_3
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = del_6
+		icon = GFX_goal
+		x = 8
+		y = 5
+		cost = 0.2
+
+        prerequisite = {
+			focus = del_4
+		}
+        prerequisite = {
+			focus = del_5
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = del_7
+		icon = GFX_goal
+		x = 10
+		y = 5
+		cost = 0.2
+
+        prerequisite = {
+			focus = del_4
+		}
+        prerequisite = {
+			focus = del_5
+		}
+        mutually_exclusive = {
+            focus = del_8
+        }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = del_8
+		icon = GFX_goal
+		x = 12
+		y = 5
+		cost = 0.2
+
+        prerequisite = {
+			focus = del_5
+		}
+        prerequisite = {
+			focus = del_4
+		}
+        mutually_exclusive = {
+            focus = del_7
+        }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = del_9
+		icon = GFX_goal
+		x = 9
+		y = 6
+		cost = 0.2
+
+        prerequisite = {
+			focus = del_6
+		}
+        prerequisite = {
+			focus = del_7
+            focus = del_8
+		}
+
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = del_10
+		icon = GFX_goal
+		x = 11
+		y = 6
+		cost = 0.2
+
+        prerequisite = {
+			focus = del_7
+            focus = del_8
+		}
+        prerequisite = {
+			focus = del_6
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = del_11
+		icon = GFX_goal
+		x = 10
+		y = 7
+		cost = 0.2
+
+        prerequisite = {
+			focus = del_9
+		}
+        prerequisite = {
+			focus = del_10
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+}
