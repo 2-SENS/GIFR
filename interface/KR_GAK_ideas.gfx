@@ -1,9 +1,5 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_intelligence_agency_logo_kr_gak"
-		texturefile = "gfx/interface/operatives/agencies/404_not_found.tga"
-	}
-	spriteType = {
 		name = "GFX_idea_GAK_tactical_dolls_ideas"
 		texturefile = "gfx/interface/ideas/ideas/idea_GAK_tactical_dolls_ideas.dds"
 	}
@@ -198,6 +194,46 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_GAK_soul_worker_Ephnel_ideas"
 		texturefile = "gfx/interface/ideas/ideas/Ephnel.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_gorki_tank_factory"
+		texturefile = "gfx/interface/ideas/ideas/RUS_gorki_tank_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KIR_The_Izhevsk_Arsenal"
+		texturefile = "gfx/interface/ideas/ideas/idea_KIR_The_Izhevsk_Arsenal.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_ural_automotive_plant"
+		texturefile = "gfx/interface/ideas/ideas/RUS_ural_automotive_plant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_zlatoust_arms_plant"
+		texturefile = "gfx/interface/ideas/ideas/RUS_zlatoust_arms_plant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_port_of_magadan"
+		texturefile = "gfx/interface/ideas/ideas/RUS_port_of_magadan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_novosibirsk_aircraft_plant"
+		texturefile = "gfx/interface/ideas/ideas/RUS_novosibirsk_aircraft_plant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_kuznetsk_basin"
+		texturefile = "gfx/interface/ideas/ideas/RUS_kuznetsk_basin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_krasnoyarsk_railway_junction"
+		texturefile = "gfx/interface/ideas/ideas/RUS_krasnoyarsk_railway_junction.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_chita_airport"
+		texturefile = "gfx/interface/ideas/ideas/RUS_chita_airport.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_irkutsk_hydroelectric_station"
+		texturefile = "gfx/interface/ideas/ideas/RUS_irkutsk_hydroelectric_station.dds"
 	}
 	
 	#기업# 

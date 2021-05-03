@@ -1,0 +1,25 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_research_doll_line_button_open"
+		texturefile = "gfx/interface/GAK_research_doll_line_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_DOLL_remodeling"
+		texturefile = "gfx/interface/DOLL_remodeling.dds"
+	}
+	
+	progressbartype = {
+		name = "GFX_GF_research_progressbar"
+		textureFile1 = "gfx//interface//DOLL_progress_Bar_2.dds"
+		textureFile2 = "gfx//interface//DOLL_progress_Bar_2_bg.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 806
+			y = 35
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+}

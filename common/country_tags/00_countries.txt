@@ -68,18 +68,9 @@ TUS = "countries/WestEur.txt" #Tuscany
 ULS = "countries/WestEur.txt" #Ulster
 USA = "countries/WestEur.txt"
 WLS = "countries/WestEur.txt"
-WGR = "countries/WestEur.txt" #Rhineland
+RHI = "countries/WestEur.txt" #Rhineland
 WLL = "countries/WestEur.txt"
 VNC = "countries/WestEur.txt" #Venice
-GAK = "countries/WestEur.txt" #하와이 공화국
-GUS = "countries/WestEur.txt" #아메리카 기사단국
-GUG = "countries/WestEur.txt" #바이마르 공화국
-GUE = "countries/WestEur.txt" #AK-12
-GUN = "countries/WestEur.txt" #AN-94
-GUR = "countries/WestEur.txt" #RPK-16
-GUO = "countries/WestEur.txt" #AK-15
-GUJ = "countries/Asian.txt" #일본국
-GUK = "countries/Asian.txt" #한국
 
 ### Eastern Europe ###
 BAT = "countries/EastEur.txt"
@@ -144,7 +135,7 @@ SIR = "countries/Asian.txt" #Siamese Rebels
 SQI = "countries/Asian.txt" #Shanqing
 SZC = "countries/Asian.txt" #Sichuan Clique
 TAJ = "countries/Asian.txt" #Tajikistan
-TAN = "countries/Asian.txt"
+KUM = "countries/Asian.txt"
 TIB = "countries/Asian.txt"
 UZB = "countries/Asian.txt" #Uzbekistan
 VIN = "countries/Asian.txt"
@@ -220,6 +211,13 @@ RJM = "countries/WestEur.txt"
 SPO = "countries/WestEur.txt"
 URG = "countries/WestEur.txt"
 VEN = "countries/WestEur.txt"
+GAK = "countries/WestEur.txt" #지휘부
+GAG = "countries/WestEur.txt" #따까리들
+GAF = "countries/WestEur.txt" #따까리들
+GAU = "countries/WestEur.txt" #따까리들
+GBE = "countries/WestEur.txt" #따까리들
+GAE = "countries/WestEur.txt" #따까리들
+GAA = "countries/WestEur.txt" #따까리들
 
 GYA = "countries/African.txt"
 HAI = "countries/African.txt"
@@ -243,7 +241,7 @@ ADA = "countries/African.txt" #Amadawa
 ANG = "countries/African.txt"
 VOL = "countries/African.txt"
 BOT = "countries/African.txt"
-BRD = "countries/African.txt" #Burundi
+BRD = "countries/African.txt" #Urundi
 BRT = "countries/African.txt" #Barotseland
 CAR = "countries/African.txt"
 CMR = "countries/African.txt"
@@ -290,3 +288,4 @@ ZZB = "countries/African.txt" #Zanzibar
 #### GFX storage only - These tags should always be at the end of this list
 XXA = "countries/WestEur.txt"
 XXB = "countries/WestEur.txt"
+

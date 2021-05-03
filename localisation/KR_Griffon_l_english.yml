@@ -31,9 +31,9 @@ GAK_social_conservative_party_long:0 "하와이 민주정의당"
 GAK_authoritarian_democrat_party:0 "G&K 총 사령부"
 GAK_authoritarian_democrat_party_long:0 "그리폰-크루거 총 사령부"
 GAK_paternal_autocrat_party:0 "우담회"
-GAK_paternal_autocrat_party_long:0 "국가재건최고회의"
+GAK_paternal_autocrat_party_long:0 "국가재건최고회의\n§g그로자를 중심으로 만들어진 국가재건최고회의, '우담회'라고 불리우는 이 조직은 군부에서부터 지휘부의 주요 인사까지 꿰차고 있으며, 수많은 자본과 인맥을 거쳐가는 최정상층의 집합입니다. 하지만 이러한 집합의 구성원들은 여러 사상으로 뒤엉킨 복잡하며, G36을 타도하며 자신의 이익만을 추구하는이를 따라가는 이가 있으며, 그로자를 추앙하며 그녀를 새로운 차르로 모시는 이들도 적지 않습니다.§!"
 GAK_national_populist_party:0 "우담회"
-GAK_national_populist_party_long:0 "국가재건최고회의"
+GAK_national_populist_party_long:0 "국가재건최고회의\n§g그로자를 중심으로 만들어진 국가재건최고회의, '우담회'라고 불리우는 이 조직은 군부에서부터 지휘부의 주요 인사까지 꿰차고 있으며, 수많은 자본과 인맥을 거쳐가는 최정상층의 집합입니다. 하지만 이러한 집합의 구성원들은 여러 사상으로 뒤엉킨 복잡하며, G36을 타도하며 자신의 이익만을 추구하는이를 따라가는 이가 있으며, 그로자를 추앙하며 그녀를 새로운 차르로 모시는 이들도 적지 않습니다.§!"
 GAK_groza_strong_long:0 "KBP 그로자 왕조"
 GAK_groza_strong:0 "그로자 왕조"
 
@@ -69,6 +69,21 @@ POLITICS_G36_DESC:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n£GFX_GAK_g36\n\n\n\n\n\n\n\n
 POLITICS_GROZA_DESC:0 "\n\n\n\n\n\n\n\n\n£GFX_GAK_ots_groza\n\n\n\n\n\n\n\n\n\n\n권위주의적인 야망있는 이 엘리트 인형은 자신의 시간이 찾아왔다고 굳게 믿고있습니다. 그리고 그녀의 오가스 인격인 '아레온'과 함께 야망을 실현하기 위한 모험을 시작하고 있습니다.\n\n그녀는 그 이후로 역사속 독재자들을 자신의 롤모델로 삼아 활동하기 시작했습니다. 독일의 아돌프 히틀러, 루마니아의 이온 안토네스쿠, 이탈리아의 베니토 무솔리니, 영국의 호국경 올리버 크롬웰등. 그들의 실수와 행동을 계속 분석하며, 자신이 '왕좌'에 오르기 가장 적합한 방법들을 모색했습니다.\n\n그리고 그녀에게 기회가 찾아왔습니다. 드디어 장시안이 사망한것입니다. 또한 그녀의 '혁명'은 성공했고. 이 지휘부를 이끌 독재자로 군림하였습니다.\n\n§Y무지와 질투 그리고 시대착오 역사적 반동세력들과 닮아있어.§!\n\n§R여기서 질문, 지금 누가 살아남아 있어?"
 
 ################################################
+
+# 인형 개조 #
+
+RESEARCH_ONE_BUTTON:0 "§B소체 경량화§!"
+RESEARCH_TWO_BUTTON:0 "§O총기 통일화§!"
+RESEARCH_THR_BUTTON:0 "§G마인드맵 고도화§!"
+RESEARCH_FOU_BUTTON:0 "§W전투식량 개선§!"
+RESEARCH_FIV_BUTTON:0 "§C외골격 강화§!"
+RESEARCH_SIX_BUTTON:0 "§H접속 프로토콜 개선§!" 
+RESEARCH_SEV_BUTTON:0 "§R스텔스 도료 도장§!" #스텔스 도료 도장
+RESEARCH_EIH_BUTTON:0 "§R항공정찰 연동§!" #항공정찰 연동
+RESEARCH_NIN_BUTTON:0 "§R유연한 통신§!" #유연한 통신
+RESEARCH_TEN_BUTTON:0 "§R왜곡방벽§!" #왜곡방벽
+RESEARCH_ELE_BUTTON:0 "§R개인 화력 증가§!" #개인 화력 증가
+RESEARCH_TWE_BUTTON:0 "§R오가스§!" #오가스
 
 ################################################
 
@@ -351,6 +366,8 @@ INFANTRY_TITLE_HELI_description:0 "헬리콥터의 등장으로 전쟁은 입체
 helicopter_engine:0 "헬리콥터 엔진"
 helicopter_engine_desc:0 ""
 
+stealth_technology:0 "스텔스 기술"
+
 utility_helicopter_equipment_1:0 "Mil Mi-8 '히프'"
 utility_helicopter_equipment_1_short:0 "Mi-8 '히프'"
 
@@ -396,6 +413,18 @@ GAK_cv_CAS_equipment_2_short:0 "BSh-5P"
 GAK_CAS_equipment_3:0 "수호이 장갑공격기 mod.6"
 GAK_CAS_equipment_3_short:0 "BSh-6"
 
+GAK_jet_CAS_equipment_1:0 "수호이 Su-7"
+GAK_jet_CAS_equipment_1_short:0 "Su-7"
+
+GAK_jet_CAS_equipment_2:0 "수호이 Su-7BM"
+GAK_jet_CAS_equipment_2_short:0 "Su-7BM"
+
+GAK_jet_CAS_equipment_3:0 "수호이 Su-24"
+GAK_jet_CAS_equipment_3_short:0 "Su-24"
+
+GAK_jet_CAS_equipment_4:0 "수호이 Su-27"
+GAK_jet_CAS_equipment_4_short:0 "Su-27"
+
 GAK_cv_CAS_equipment_3:0 "세버스키 전투기 mod.22P"
 GAK_cv_CAS_equipment_3_short:0 "I-22P"
 
@@ -428,6 +457,27 @@ GAK_jet_fighter_equipment_1_short:0 "I-25R"
 
 GAK_jet_fighter_equipment_2:0 "미코얀-구레비치 제트 전투기 mod.2" 
 GAK_jet_fighter_equipment_2_short:0 "RI-2"
+
+GAK_jet_fighter_equipment_3:0 "미코얀-구레비치 MiG-19 'Farmer'" 
+GAK_jet_fighter_equipment_3_short:0 "MiG-19"
+
+GAK_jet_fighter_equipment_4:0 "수호이 Su-15TM 'Flagon-F'" 
+GAK_jet_fighter_equipment_4_short:0 "Su-15TM"
+
+GAK_jet_fighter_equipment_5:0 "미코얀-구레비치 MiG-25 'Foxbat'" 
+GAK_jet_fighter_equipment_5_short:0 "MiG-25"
+
+GAK_jet_fighter_equipment_6:0 "미코얀 MiG-29S 'Eagle'" 
+GAK_jet_fighter_equipment_6_short:0 "MiG-29S"
+
+GAK_jet_fighter_equipment_7:0 "수호이 Su-311S 'Sturgeons'" 
+GAK_jet_fighter_equipment_7_short:0 "Su-311S"
+
+GAK_jet_fighter_equipment_8:0 "수호이 Su-526S 'Stella Unibell'" 
+GAK_jet_fighter_equipment_8_short:0 "Su-526S"
+
+GAK_jet_fighter_equipment_9:0 "스바로그-수호이 Ssu-0101S 'F-NeL'" 
+GAK_jet_fighter_equipment_9_short:0 "Su-0101S"
 
 GAK_nav_bomber_equipment_1:0 "일류신 장거리폭격기 mod.3T"
 GAK_nav_bomber_equipment_1_short:0 "DB-3T"
@@ -811,6 +861,7 @@ GAK_underground_factory_focus_tt:0 "§Y기반이 불안정한 구역 지하에 �
 
 GAK_series_of_deaths_focus:0 "사망자 속출"
 GAK_series_of_deaths_focus_tt:0 "§R이제 좀 후련하십니까?§!"
+GAK_slave_russian_flag:0 "러시아인을 노예처럼 다루다"
 
 GAK_factory_of_misfortune_focus:0 "불행을 찍어내는 공장"
 GAK_factory_of_misfortune_focus_tt:0 "§R할당량을 못 채우면 죽을때까지 때린다니, 어디서 본 모습 아닌가요?§!"
@@ -913,26 +964,33 @@ GAK_coast_saver_focus:0 "해안의 수호자"
 
 GAK_industry_problem_focus:0 "미뤄둔것들"
 GAK_industry_problem_focus_tt:0 "§Y지휘부의 산업을 확장할때가 왔습니다.§!"
+GAK_industry_problem_focus:0 "장시안과 G36은 피와 같은 귀중한 시간을 낭비하며 지휘부의 산업화를 지체하게 만들었으며, 이는 우리의 발목을 크게 잡는 계기가 되었습니다.\N\N하지만 이제 게임은 달라질겁니다. 이곳엔 세계 최고의 연산장치와 적은 수지만 무엇이던 만들어내는 공작기계, 심지어 어떻게된 영문인지는 몰라도 니토의 소체 역시 지휘부에서 발견되었으니, 이를 조사한다면 인형들의 전술능력이 크게 향상될것으로 예상됩니다."
 
 GAK_farming_industry_focus:0 "농업 개선"
+GAK_farming_industry_focus_DESC:0 "농업이란, 땅에 씨앗을 뿌려 그곳에 자란 식물의 씨앗이나 열매를 취하는 직업을 뜻합니다. 이 농업을 통해 고대의 사람들이 정착 생활을 할수있는 기반이 되었고, 이것은 현대에 이르러서도 무시할수 없는 큰 산업이기도 합니다.\N\N인형 역시 식량으로 움직입니다. 우리는 제한적이게나마 우크라이나와 같은 곳에서 비밀리로 밀가루를 수입해왔지만, 우리가 식량 자급자족에 성공한다면 식량에 대한 걱정은 크게 없어질겁니다!"
 
-GAK_rice_for_all_focus:0 "유럽의 쌀바구니"
+GAK_rice_for_all_focus:0 "기계소녀들의 빵집"
+GAK_rice_for_all_focus_desc:0 "우리는 뛰어난 밀 종자를 확보하고 전면 기계화를 통한 선진적인 방식은 우리의 밀 산출량은 몇 십배 넘게 떡상했으며, 덕분에 자급률이 100%를 초과한덕에 우린 다른 국가에 밀을 수출할 지경에 이르렀습니다! 이러한 우리의 행보는 이웃국가에게 "기계소녀들의 빵집"이라고 불리우며, 수많은 농업국가들로부터 그 선망과 존경을 한몸에 받고있습니다."
 
-GAK_electronics_manufacturing_focus:0 "진공관부터..."
+GAK_electronics_manufacturing_focus:0 "전자혁신"
+GAK_electronics_manufacturing_focus_desc:0 "이제 조만간 위대하고 전능한 스크린 앞에서 인간들은 이제 굴복할겁니다. 그리고 압도적인 행정 처리 능력과 효율성을 자랑하며 인간의 위치는 점점 줄어들것이며, 우리의 궁극적인 목표인 행정전산화가 완전히 이뤄진다면, 우리는 산업뿐만 아닌 행정부문에서도 완전한 통제력을 얻게될것입니다!"
 
-GAK_color_tv_focus:0 "공공방송"
+GAK_color_tv_focus:0 "천연색 TV"
+GAK_color_tv_focus_desc:0 "1900년 8월 25일 파리에서 스크린의 마법이 처음 송출되었을때, 세상은 감탄했습니다. 비록 제대로 된 텔레비전이 나오기 위해선 많은 시간이 흘러야만 했지만요.\n\n하지만 현재 개발중인 텔레비전은 우리의 기준으로는 과거의 유물이지만, 현재 이 세계에서는 최첨단을 달리는, 날아가는 수준의 물건입니다. 바로 디지털 텔레비전이기 때문입니다.\n\n디지털 텔레비전은 디지털 신호를 이용해 영상과 소리를 수신합니다. 또한 아날로그의 노이즈 현상 따윈 전혀 없기에 깨끗한 방송을 언제든지 시청할 수 있게 되었습니다.\n\n이것은 우리가 점점 현대화를 달려간다는 증거이며, 모든 인형들은 이 컬러 TV의 상용화를 기다리고있습니다. 각자 볼 영화나 예능이 담긴 CD와 함께요..."
 
 GAK_personal_computer_focus:0 "퍼스널 컴퓨터!"
+
 
 GAK_automatic_production_focus:0 "공장 자동화 시스템"
 
 GAK_iron_farming_focus:0 "철이 없네"
+GAK_iron_farming_focus_DESC:0 "아이고! 뭐라고요? 철이 없으시다고요? 당신이 불행하게도 싸가지 없거나 미성숙하다는 의미가 아닙니다. 만약 그렇다면 정말 심심한 위로를 전할수밖에 없네요! 스틸(Steel), 우리는 산업의 쌀이라고 불리우는 철이 부족합니다.\N\N다행히도 철의 중요성을 잘 알고 있었던 그로자 총통께선 제철소의 건설을 하달하였고, 현재 해안가를 따라 많은 제철소가 지어지고 있다고 합니다..."
 
 GAK_synthetic_oil_drilling_focus:0 "합성석유 실험"
 
 GAK_large_steel_mill_focus:0 "대규모 제철소"
 
-GAK_abundant_resources_focus:0 "유명한 말 하나 있지, 'no pain no gain'"
+GAK_abundant_resources_focus:0 "유명한 말 하나 있지,\n'no pain no gain'"
 
 GAK_export_to_west_focus:0 "서방에 도착한 도전장"
 GAK_export_to_west_focus_tt:0 "§G이제 유럽 전역을 경제적으로 종속시킬때 입니다.§!"
@@ -944,10 +1002,113 @@ GAK_petersburg_stock_exchange_focus:0 "페트로그라드 증권거래소"
 GAK_inovation_country_focus:0 "혁신에 도전"
 
 GAK_pleasure_and_corruption_focus:0 "향락과 사치"
+GAK_pleasure_and_corruption_focus_desc:0 ""발트해의 다이아몬드, 페트로그라드에 오신걸 환영합니다!"\n-페트로그라드를 진입하는 국도에 쓰여진 표지판.\n\n아름다운 죄악의 도시(Sin City)에 오신것을 환영합니다. 이곳에선 법에 어긋나지 않는 한 모든것이 자유입니다. 아뇨, 법도 돈으로 사들일수 있습니다.\n\n§O돈§!이 있다면 창녀를 몇명 산 뒤 몇밤을 향락에 취할수 있습니다.\n\n§O돈§!이 있다면 유명 스타들도 제 집마냥 오고가는 럭셔리 호텔에서 다이아몬드 위에서 탭댄스를 출 수 있습니다.\n\n§O돈§!만 있다면, 그로자와 하룻밤을 보내는것도 불가능 한 일이 아닙니다!\n\n돈, 돈, 돈. 씨부랄 옘병할 §O돈§!만 가져오십시오! 그렇다면 당신은 무능한 하느님의 이름으로 이 도시의 군주입니다. 왕입니다. §R신§!입니다! 뭐하세요? 여기서 발기부전 걸린 샌님처럼 앉아만 있을겁니까?"
+
 
 GAK_crazy_increase_focus:0 "돈이 복사가 된다고!"
 
 GAK_wealth_will_continue_focus:0 "번영은 계속됩니다!"
+GAK_wealth_will_continue_focus_desc:0 ""
+
+GAK_groza_choice_ideology_focus:0 "운명"
+GAK_groza_choice_ideology_focus_tt:0 "§Y우리가 걸어야 할, 걸어가야 했던 길을 걸어갑니다...§!"
+
+GAK_groza_authoritarian_democracy_focus:0 "지휘부의 봄"
+GAK_groza_authoritarian_democracy_focus_tt:0 "§g자유? 민권? 좋지요. 가지 않았던 길도 가야하는 법 아니겠습니까?§!"
+
+GAK_huge_discussion_focus:0 "공개 토론회"
+
+GAK_reflection_ourselves_focus:0 "자기 성찰"
+
+GAK_free_speech_focus:0 "언론의 자유?"
+
+GAK_equal_injung_focus:0 "정당한 처벌"
+
+GAK_ready_for_future_focus:0 "미래를 위한 기반"
+
+GAK_civil_rights_act_focus:0 "민권법 초안"
+
+GAK_keep_it_calm_focus:0 "입막음"
+
+GAK_talk_with_some_russian_bois_focus:0 "러시아계 거물과의 접촉"
+
+GAK_begin_integration_focus:0 "국민적 대통합"
+
+GAK_the_civil_rights_success_focus:0 "나에게는 꿈이 있습니다"
+
+GAK_the_united_nation_focus:0 ""우린 단결되었다.""
+
+GAK_groza_paternal_autocracy_focus:0 "현상유지"
+GAK_groza_paternal_autocracy_focus_tt:0 "§Y서두르지마, 아직 이 밤은 너에게 잘라 나눠줄 정도로 많이 남았어...§!"
+
+GAK_purge_extremist_problem_focus:0 "극단주의자 억압"
+
+GAK_turning_the_army_problem_focus:0 "국방군과 우담회 조율"
+
+GAK_shut_up_student_focus:0 "공부나 해라 애새끼들아!"
+
+GAK_first_national_assembly_focus:0 "제 1차 국가 회의"
+
+GAK_stay_in_neutrality_focus:0 "침착한 중립"
+
+GAK_let_them_fight_focus:0 "싸우게 내버려 둬"
+
+GAK_eat_them_all_focus:0 "뒷정리..."
+
+GAK_rifle_s_night_focus:0 "소총의 밤"
+
+GAK_absolute_silence_focus:0 "절대적인 침묵"
+
+GAK_little_lobby_focus:0 "이거나 먹고 떨어져!"
+
+GAK_uneasy_alliance_focus:0 "아직은 조용하다..."
+
+GAK_groza_national_populism_focus:0 "§R내가 지휘부의 중심이다!§!"
+GAK_groza_national_populism_focus_tt:0 "§R나랑 함께하길 원치 않는 모든 인형들은 다 크렘린의 노친네 틀딱들이다!§!"
+
+GAK_new_history_movement_focus:0 "신역사 운동"
+
+GAK_concentration_power_to_groza_focus:0 "권력 집중"
+
+GAK_rus_policy_of_appeasement_focus:0 "효율적인 노예제 모색"
+
+GAK_areon_s_proposal_focus:0 "아레온의 제안"
+GAK_areon_s_proposal_focus_desc:0 "아레온은 최근 러시아와 우리 지휘부의 대치되는 거지같은 상황에, 아레온은 독일과 임시적인 협력을 도모하는 대안을 제시했습니다."
+
+GAK_facilitate_rocket_research_focus:0 "물은 답을 알고있다"
+GAK_facilitate_rocket_research_focus_desc:0 "개혁을 외치는 애새끼들은 아주 요란하며, 이상한 파티 문화와 섹스에 중독이 된 이상한 족속들입니다. 물론 모두가 섹스를 좋아하시지만, 그들은 정도를 모르고 짐승처럼 허리만 놀리며 미래 걱정따윈 안하는 생각없는 병신들입니다.\n\n이제 더 이상 같은 인형이라도 자비를 배풀어주기엔 각하를 포함한 우담회의 일원들의 인내심은 바닥이 났습니다. 어쩔수 없습니다. 최종 해결책을 수행하는수밖에요. 우리는 역사로부터 많은걸 배우고 그들과 우리들은 상호작용 하며 살고 있습니다. 그중 우린 괜찮은것을 하나 배웠습니다.\n\n§B물은 답을 알고있다는것.§!"
+
+GAK_Reich_focus:0 "제국"
+
+GAK_worrying_about_future_focus:0 "미래에 대한 대비"
+
+GAK_shadow_country_focus:0 "테네보예 스트라나"
+GAK_shadow_country_focus_desc:0 "테네보예 스트라나(Теневое страна), 그림자 국가"
+
+GAK_every_doll_warrior_focus:0 "Every Doll a Warrior!"
+
+GAK_black_zone_of_russia_focus:0 "러시아의 가장 어두운 곳"
+
+################################################
+
+# 전쟁계획 #
+
+GAK_selected_the_war_plan:0 "전쟁계획 수립"
+
+GAK_war_plan_big_brother_raid:0 "쌍두수리 사냥"
+GAK_war_plan_big_brother_raid_tt:0 "우리는 §R2주§!이내로 쌍독수리를 징벌할 계획을 수립할겁니다."
+
+GAK_look_other_sides_focus:0 "주변 살피기"
+GAK_look_other_sides_focus_tt:0 "§Y쌍두수리 사냥 이후, 우리의 헤게모니를 구축하기 위한 투쟁을 시작합니다...§!"
+
+GAK_rebuild_great_russia_focus:0 "재건 "
+
+GAK_east_asia_conquest_focus:0 "극동 파병"
+GAK_east_asia_conquest_focus_tt:0 "§Y한 태양 아래에 두 개의 슬라브 국가가 있을 수 없습니다.§!"
+
+GAK_japan_maneuver_focus:0 "유치한 공작질"
+
+GAK_let_s_eat_transamur:0 "콜차크의 비루한 운명"
 
 ################################################
 #신질서#
@@ -965,6 +1126,7 @@ GAK_die_of_gentiane_flag:0 "장시안이 살아났다"
 ################################################
 
 GAK_gentiane_die_tt:0 "§R꽃이 진다§!"
+GF_research_opener_name_T:0 "인형 개조 연구"
 
 # 이벤트 #
 
@@ -974,7 +1136,7 @@ gakgendie.0.a:0 "안돼!"
 
 gakdom.0.t:0 "카이저라이히 서브모드 소녀전선 - '트리니티 다리는 무너졌냐?'"
 gakdom.0.d:0 "새로운 지휘부에 오신걸 환영합니다! 지휘관님. 당신을 섬길수 있어서 영광입니다!\n\n안내사항:\n-아직 버그가 많습니다! 작동되지 않는 이벤트, 삐걱거리는 트리거, 안보이는 GUI는 언제든지 발생할수 있고 저는 무능한 코더라는것이 입증됩니다. 만약 그런 현상이 발견된다면 알려주세요."
-gakdom.0.a:0 "네~~~~!"
+gakdom.0.a:0 "네!"
 
 gakdom.1.t:0 "청아한 목소리"
 gakdom.1.d:0 "그녀의 목소리는 점점 커지고 있었다. 마인드맵에서 조용히 울리던 목소리는 이제는 성가실 정도로 울리고 있었다.\n\n"저기, 이제 그만하지?"\n\n그로자는 그녀에게 말했다. 보이지도 않는 그녀에게. 하지만 그런 그녀가 싫지는 않은 모양이었다.\n\n"또 왔네~? 잘 왔어! 좀전에 말한거, 정말 해내줬구나? 대단해~ 역시 엘리트 인형인걸?"\n\n"네 부탁은 들어줄 생각은 추호에도 없어. 마침 내 목적과 네 목적이 똑같으니 네 말을 따라주는것 처럼 보이는거겠지. 그나저나 목소리 내는것좀 그만해줄래? 시끄럽잖아! 이 예의범절도 없는 꼬맹아."\n\n그러자 청아한 목소리는 자신이 생각했던것과 다른 대답이 나오지 않자. 혼잣말을 중얼거리더니, 어린이처럼 칭얼거리더니, 떼를 쓰기 시작했다. 그로자는 그 모습에 이미 질린듯, 한숨을 쉬며 그 공간에서 빠져나왔다."
@@ -1002,21 +1164,37 @@ gakdom.9.a:0 "만세!"
 gakdom.10.t:0 "그로자의 군사 혁명 성공"
 gakdom.10.d:0 "마침내 그녀가 해냈습니다. 가식적인 가짜 민주주의 간판을 단 위선적인 지휘부는 이제 없습니다. 우린 새롭게 구 체제에서 탈피할것이며, 지난 나태함 청산하고 우리의 야욕을 이룰것입니다!"
 gakdom.10.a:0 "점심은 모스크바에서, 저녁은 블라디보스토크에서!"
+
+gakdom.18.t:0 "성전"
+gakdom.18.di:0 "담배연기가 지휘부를 가득 채우고 있습니다. 그곳에서 그로자는 마치 수도승의 모습처럼 경건하고 도도하게 그 모습을 유지했습니다. 수많은 방음 장치에도 불구하고, 밖의 웅성이는 몇만의 용사들의 소란을 잠재울수 없었습니다. 그들은 출정 전, 그로자의 아지트로 전략해버린 국회의사당 앞에서 그로자의 연설을 듣기 위해서 모였습니다.\n\n그들중 몇몇은 그냥 이렇게 시간을 죽일바엔 한 명이라도 더 많은 러시아군을 때려 죽이고 싶은 인형도 있었고, 그로자에 대한 진심어린 존경을 가진 이도 있어 그녀를 하염없이 기다리는 인형도 존재했습니다.\n\n수 많은 웅성임과 함께. 그녀가 나타났습니다. 발코니를 열고, 우담회의 친위대와 함께 나서 도도한 그녀의 자태를 세상에 널리 뽐냈습니다.\n\n그러자 그녀에게 충성을 바치는 이, 그저 살육에만 관심있는 이, 모두가 그로자 단 한명에게 이목이 쏠렸습니다.\n\n그로자는 쌓여있던 모든 긴장을 씻어내려 노력하며, 그녀의 마인드맵에 확실히 각인된 문장들을 읽어나가기 시작합니다..."
+gakdom.18.a:0 "대통령 각하의 연설이라니! 당연히 경청해야지!"
+gakdom.18.b:0 "총통 각하의 연설이라고? 영광스러워라!"
+gakdom.18.c:0 "연설 조까!"
+gakdom.18.d:0 "연설 조까!"
+
+gakdom.23.t:0 "그로자의 연설"
+gakdom.23.d:0 ""
+gakdom.23.a:0 "우리는 일출처럼 필연적이며, 우리의 불꽃은 모두를 덮칠것이다!"
+
+gakdom.24.t:0 "G36의 연설"
+gakdom.24.d:0 ""
+gakdom.24.a:0 "매화가 만개할때, 우리들은 민주주의의 횃불을 들고 인민을 해방하리라!"
+
+# 슈퍼 이벤트 #
+
+GAK_SG_groza_accession_to_throne_T:0 "그로자의 즉위식"
+GAK_SG_groza_accession_to_throne_D:0 ""
+GAK_SG_groza_accession_to_throne_O:0 "인간들은 새로운 군주를 맞이한다."
+
+GAK_SG_groza_united_russia_T:0 "러시아 재수복"
+GAK_SG_groza_united_russia_D:0 ""
+GAK_SG_groza_united_russia_O:0 "시대는 새로운 혁명가들을 선택했다."
+
 ################################################
 
 # 기술 #
 GAK_light_hawaii:0 "하와이는 정치적으로 안전합니다"
 GAK_end_all_reform:0 "하와이의 내부 문제가 해결되었습니다"
-tac_doll_weapons:0 "M14"
-tac_doll_weapons_2:0 "현대형 지원장비"
-tac_doll_weapons_3:0 "M16"
-tac_doll_weapons_4:0 "현대형 지원장비 II"
-tac_doll_weapons_5:0 "M4A1"
-tac_doll_weapons_6:0 "강습용 기관단총 UMP45"
-tac_dolls_m14_equipments:0 "M14"
-tac_dolls_m14_equipments_desc:0 "M14, 높은 명중률과 긴 사거리, 높은 대인저지력을 지닌 이 전투소총은 참 완벽해보이는 전투소총입니다. 겉으로 쑥 훝어보면 그렇습니다. 하지만 높은 반동, 총의 내구도의 문제등이 맞물렸고, 이 총은 M16에게 바통을 건네줄 운명입니다."
-tac_dolls_m16a1_equipments:0 "M16A1"
-tac_dolls_m16a1_equipments_desc:0 "M16A1, 시대가 지날수록 우리는 정글전이나 시가전과 같은 교전거리가 짧은 전장에서 싸우게 될것입니다. M16은 지난 제식소총인 M14와 다르게 저반동의 소구경 고속탄을 사용하여 자동사격의 정확성을 높이는데 집중한 것이 특징인 소총입니다."
 
 # misc #
 GAK_GENTIANE_NAME:0 "장시안"
@@ -1052,143 +1230,21 @@ small_ship_producer_perfect_1:0 "IOP 경함선및 잠수함 건조부"
 fighter_producer_perfect_1:0 "스바로그 전투기 제조부"
 nav_cas_producer_perfect_1:0 "스바로그 경폭격기 제조부"
 bomber_producer_perfect_1:0 "스바로그 폭격기 제조부"
-tac_dolls_m4a1_equipments:0 "전술인형용 제식소총 M4A1"
-tac_dolls_m4a1_equipments_short:0 "M4A1"
-tac_dolls_m4a1_equipments_desc:0 "트립이후, 각기각종의 탄약의 수급이 힘들고, 또한 지리적 위치상으로 보았을때 불가능할것이라는걸 깨달은 장시안은 인형들을 위한 하나의 제식소총을 채택하기로 결정했습니다. 많은 총들이 그녀의 시선을 오고 갔지만, 결정적으로 채택된 총은 M4 카빈으로, 그녀가 M4를 꼽은 이유로는 단축화, 호환성, 확장성, 친숙성을 꼽았습니다."
-tac_dolls_ump45_equipments:0 "다목적용 기관단총 UMP45"
-tac_dolls_ump45_equipments_short:0 "UMP45"
-tac_dolls_ump45_equipments_desc:0 "소총보다 작은 이 기관단총은 전선 돌파용과 동시에 특수부대 전용으로 새롭게 개발된 §YUMP(Univasale MaschinenPistole)§!45 다목적 기관단총입니다."
-GAK_gentiane_die:0 "장시안이 죽었습니다"
-GAK_follow_her_words_girls:0 "장시안의 유언을 듣기로 결정합니다"
-GAK_fuck_the_gentiane:0 "장시안의 마지막 부탁을 무시합니다"
-GAK_hawaii_begin_dark:0 "하와이에 독재정권이 군림하였습니다"
-GAK_they_take_island:0 "섬을 돌려달라고!"
-GAK_hate_each_other:0 "빌어먹을 양키"
-GAK_girls_frontline:0 "소녀전선"
-GAK_girls_frontline_red:0 "호놀룰루 조약기구"
-GAK_i_hate_red:0 "난 빨갱이가 싫어요"
-GAK_upgrade_doll_allowed:0 "인형들의 개조가 허용되었음"
-future_tac_doll_tech_folder:0 "미래 기술"
-infantry_weapon:0 "진보적 보병무기"
-tac_heli:0 "수송용 헬리콥터"
-infantry_subtitle_weapons_desc:0 "기술의 진보는 동시에 보병들의 화기도 발전시켰습니다.\n\n비록 미사일과 스텔스 전투기가 난무하는 전장이어도 보병들에게 총은 필수적입니다."
-heli_subtitle_weapons_desc:0 "헬리콥터는 전장의 택시역할을 톡톡히 해줄것입니다."
-tac_panzer:0 "주력 전차"
-panzer_subtitle_weapons_desc:0 "주력 전차(MBT)는 신뢰성 높은 고출력 엔진과 적절한 크기의 주포를 장착한 이 만능형 전차는 어느 전장이더라도 큰 활약을 선보일것입니다."
-tac_naval:0 "현대 군함"
-naval_subtitle_weapons_desc:0 "세계대전이 끝나고, 냉전을 거치면서 전자기기의 발전과 항공기 엔진이 발달하면서 프롭기 함재기에서 제트엔진 함재기와 무유도 폭탄에서 정밀 유도 미사일로 전쟁의 모습은 완전히 바뀝니다.\n\n우리는 우리가 걸어왔던 길을 다시 한번 짚으며 해전에서의 절대적인 우위를 차지할것입니다."
-tac_doll_tank_1:0 "T-55"
-tac_doll_tank_1_desc:0 ""
-tac_doll_tank_2:0 "T-72BM"
-tac_doll_tank_2_desc:0 ""
-tac_doll_tank_3:0 "T-90"
-tac_doll_tank_3_desc:0 ""
-tac_doll_tank_4:0 "T-14 "아르마타""
-tac_doll_tank_4_desc:0 ""
-tac_doll_panzer_2:0 "복합장갑"
-tac_doll_panzer_2_desc:0 "전차의 장갑을 연구합니다. 속력은 느려지겠지만, 전차 승무원들에게 든든한 방패가 될것은 확신합니다."
-tac_doll_panzer_3:0 "엔진 개선"
-tac_doll_panzer_3_desc:0 "전차의 엔진을 개선합니다. 속력과 항속거리가 늘어납니다."
-tac_doll_panzer_4:0 "날개안정분리철갑탄"
-tac_doll_panzer_4_desc:0 "날개안정분리철갑탄(APFSDS), 즉 날탄을 개발합니다. 대전차전에서 우리의 전차들이 활약할수 있도록 도와줄것입니다."
-tac_doll_panzer_6:0 "전방위 렌즈"
-tac_doll_panzer_6_desc:0 "전차의 시야를 대폭 늘려 색적능력을 개선합니다."
-tac_doll_panzer_7:0 "자동장전장치"
-tac_doll_panzer_7_desc:0 "자동장전장치덕에 탄약수로 쓸 인력이 절약되며, 장전속도의 가속화로 더욱 빠르게 전차전에 임할수 있습니다."
-tac_doll_panzer_8:0 "전차 수리 공구"
-tac_doll_panzer_8_desc:0 "전차 수리는 정비병에게 중요한 일중 하나입니다. 단 하나의 실수로, 실전에서의 생사를 가르기 때문입니다. 이 개선된 공구들은 정비병의 정비에 큰 도움이 될것입니다."
-tac_doll_panzer_10:0 "개선된 차체"
-tac_doll_panzer_10_desc:0 "전차의 차제를 개선합니다. 효율적인 차체 하나를 채택하고 대량생산을 도입하여 전차의 생산 단가를 최대한으로 줄일것입니다."
-tac_doll_panzer_11:0 "광학위장"
-tac_doll_panzer_11_desc:0 "전차의 위장막을 연구합니다. 숲과 산처럼 나무가 우거지거나, 사막과 같은곳에서 적들에게 혼선을 줄것입니다."
-tac_doll_panzer_12:0 "강화된 서스펜션"
-tac_doll_panzer_12_desc:0 "전차의 서스펜션을 개선합니다. 전차의 탑승감을 개선하고, 수리에 용이하도록 개선할것입니다."
-GAK_economy_block_idea:0 "파시픽팍스"
-GAK_comm_faction_research_tech_group_name:0 "하와이 태평양 연구 학회"
-GAK_comm_faction_research_tech_group_desc:0 ""소녀전선"의 여명과 화창한 앞날을 위해서, 우리는 다른 국가에 뒤쳐질수 없습니다."
 
 # 디시전 #
+GAK_rebuild_great_russia:0 "러시아를 다시금 위대하게"
+GAK_rebuild_great_russia_desc:0 "러시아는 황폐해졌고 옛날의 그 찬란함은 전쟁으로 인해 모두 박살이 나버렸습니다. 우리는 신성한 조국을 재건할 의무가 있으며, 모든 슬라브인들은 우리의 대의에 동참할겁니다!"
+GAK_rebuild_gorky_tank_factory:0 "크라스노예 소르모보 군수공장"
+GAK_rebuild_the_izhevsk_arsenal:0 "이젭스크 군수공장"
+GAK_rebuild_ural_automotive_plant:0 "우랄 자동차공장"
+GAK_rebuild_zlatoust_arms_plant:0 "즐라토우스트 병기창"
+GAK_rebuild_krasnoyarsk_railway_junction:0 "크라스노야르스크 환승역"
+GAK_rebuild_kuznetsk_basin:0 "쿠즈네츠크 탄광"
+GAK_rebuild_novosibirsk_aircraft_plant:0 "노보시비르스크 항공기공장"
+GAK_rebuild_port_of_magadan:0 "마가단 항구"
+GAK_rebuild_irkutsk_hydro_station:0 "이르쿠츠크 수력발전소"
+GAK_rebuild_cheryomushki:0 "체료무시키 공군기지"
 
-GAK_bugwan_favorability:0 "부관과의 관계"
-GAK_bugwan_favorability_desc:0 "부관과의 관계를 잘 유지하는것은 중요합니다. 현재 부관은 HK416이며, 당신이 이 국가를 위해 많은 공장을 건설하여 발전에 도모한다면 그녀는 당신에게 여러가지 선물을 해줄지도 모릅니다.\n\n현재 부관의 호감도 : [?GAK.Favorability|H0]"
-GAK_bugwan_favorability_1:0 "어색한 사이"
-GAK_bugwan_favorability_2:0 "지인"
-GAK_bugwan_favorability_3:0 "친구"
-GAK_bugwan_favorability_4:0 "단짝 친구"
-GAK_bugwan_favorability_5:0 "인생의 동반자"
-GAK_bugwan_favorability_date:0 "부관과의 데이트"
-GAK_new_fighter_develop:0 "차세대 전투기 개발"
-GAK_new_fighter_develop_desc:0 "기술의 발전으로 전쟁의 양상은 발전할것입니다. 그 거대한 파도에 앞서 제트엔진과 미사일, 스텔스기능으로 무장한 전투기를 제작할것입니다. 개발까지는 긴 시간이 예상됩니다. 개발에 더욱 힘쓰면 힘쓸수록 그 보답은 클것입니다..."
-GAK_new_fighter_develop_1:0 "기체 소재 개발"
-GAK_fighter_develop_progress:0 "전투기의 개발 단계가 올라갑니다"
-GAK_new_fighter_develop_2:0 "기체 소재 생산"
-GAK_new_fighter_develop_3:0 "시제기 생산"
-GAK_fighter_develop_progress_large:0 "전투기의 개발 단계가 많이 올라갑니다"
-GAK_stealth_install:0 "스텔스 연구"
-GAK_fighter_develop_finish:0 "전투기 연구를 끝마치다"
-GAK_fighter_develop_ideas:0 "전투기의 모든 연구를 끝마치고 생산전선에 투입시킵니다."
-GAK_fighter_develop_ideas_fail:0 "우린 차세대 전투기 연구에 실패했습니다.. 적은 연구 횟수, 소량의 연구비 투입이 그 원인입니다."
-GAK_new_fighter_develop_in_progress:0 "신식 전투기가 개발중임"
-GAK_part_one_fighter_develop:0 "전투기 개발 진행도가 50% 미만임"
-GAK_part_two_fighter_develop:0 "전투기 개발 진행도가 50% 초과함"
-GAK_new_cas_develop_progress:0 "신식 공격기가 개발중임"
-GAK_part_one_cas_develop:0 "공격기 개발 진행도가 50% 미만임"
-GAK_part_two_cas_develop:0 "공격기 개발 진행도가 50% 초과함"
-GAK_new_bomber_develop_progress:0 "신식 폭격기가 개발중임"
-GAK_part_one_bomber_develop:0 "폭격기 개발 진행도가 50% 미만임"
-GAK_part_two_bomber_develop:0 "폭격기 개발 진행도가 50% 초과함"
-GAK_new_cas_develop:0 "차세대 공격기 개발"
-GAK_new_cas_develop_desc:0 "현대전장은 더욱 격렬해지고, 공군과 육군의 사이는 긴밀해지고 있습니다. 대형 폭격기는 전장에 신속하게 나타나 개입하기란 어렵습니다. 그렇기에 전략폭격기보다 작지만, 위력적인 공격기를 개발하기로 했습니다."
-GAK_new_cas_develop_1:0 "기체 소재 개발"
-GAK_cas_develop_progress:0 "공격기의 개발 단계가 올라갑니다"
-GAK_new_cas_develop_2:0 "기체 소재 생산"
-GAK_new_cas_develop_3:0 "시제기 생산"
-GAK_cas_develop_progress_large:0 "공격기의 개발 단계가 많이 올라갑니다"
-GAK_cas_stealth_install:0 "스텔스 연구"
-GAK_cas_develop_finish:0 "공격기 연구를 끝마치다"
-GAK_cas_develop_ideas:0 "공격기의 모든 연구를 끝마치고 생산전선에 투입시킵니다."
-GAK_cas_develop_ideas_fail:0 "우린 차세대 공격기 연구에 실패했습니다.. 적은 연구 횟수, 소량의 연구비 투입이 그 원인입니다."
-GAK_new_bomber_develop:0 "차세대 폭격기 개발"
-GAK_new_bomber_develop_desc:0 "적들의 산업 기반을 잔인하게 파괴하는 이 하늘의 악마는 현대전에 필수적인 무기로 태어났습니다. 고폭탄과 확산탄, 백린으로 민간인들에게 악몽을 연주할 시간입니다."
-GAK_new_bomber_develop_1:0 "기체 소재 개발"
-GAK_new_bomber_develop_in_progress:0 "폭격기의 개발 단계가 올라갑니다"
-GAK_new_bomber_develop_2:0 "기체 소재 생산"
-GAK_new_bomber_develop_3:0 "시제기 생산"
-GAK_new_bomber_develop_progress_large:0 "폭격기의 개발 단계가 많이 올라갑니다"
-GAK_bomber_stealth_install:0 "스텔스 연구"
-GAK_bomber_develop_finish:0 "폭격기 연구를 끝마치다"
-GAK_bomber_develop_finish_ideas:0 "폭격기의 모든 연구를 끝마치고 생산전선에 투입시킵니다."
-GAK_bomber_develop_ideas_fail:0 "우린 차세대 폭격기 연구에 실패했습니다.. 적은 연구 횟수, 소량의 연구비 투입이 그 원인입니다."
-GAK_war_everything:0 "세계 전쟁 계획"
-GAK_war_everything_desc:0 "우리는 다른 국가들을 음지로 몰아내고, 우리가 양지에서 생활할 '생활권'을 구축해야합니다."
-GAK_war_everything_JAP:0 "동아시아 해방 작전"
-GAK_war_everything_CAN:0 "구제국의 사슬을 분쇄하라"
-GAK_war_everything_LEC:0 "항구에서의 투쟁"
-GAK_war_everything_GEA:0 "남방자원 약탈전"
-GAK_war_everything_AST:0 "이중제국의 종말"
-GAK_war_everything_RUS:0 "해가지는 크렘린"
-GAK_war_everything_GER:0 "베를린 겨울 작전"
-GAK_war_everything_FRA:0 "반공 성전"
-GAK_develop_alaska_development:0 "알레스카 자원 개발 계획"
-GAK_develop_alaska_development_desc:0 "알래스카는 잠재성이 높은 땅입니다. 많은 어류 자원은 물론이며, 황금, 지하자원, 그리고 이 땅에 묻혀진 석유는 우리를 기다립니다."
-GAK_develop_alaska_steel_mines:0 "알래스카 철광 개발"
-GAK_develop_alaska_steel_mines_2:0 "알래스카 제 2차 철광 개발"
-GAK_develop_alaska_oil_mines:0 "알래스카 석유 개발"
-GAK_develop_alaska_oil_mines_2:0 "알래스카 제 2차 석유 개발"
-GAK_develop_alaska_gold_mines:0 "알래스카 금광 개발"
-GAK_alyeshka_resource_develop:0 "알래스카 자원 개발 계획"
-TT_GAK_we_ll_rape_usa:0 "§x미본토를 공략할 계획을 수립합니다.\n이것은 디시전을 통해 결정할수 있습니다.\n당신이 전쟁을 원한다면 여론을 통제하고, 프로파간다를 통해 여론의 지지도를 올리십시오. \n혹은 미 노조연맹을 지원하여 이 전쟁을 우리의 향우 우방국이 승리할수 있도록 도와주십시오!\n하지만 그들에게 너무 많은 도움을 줄 때, 여론 지지도가 떨어질수도 있습니다.§!"
-GAK_go_lenin_s_worrior_tt:0 "§x가라! 레닌의 딸들아. 자본주의 개새끼들을 죽여라!§!\n§O우린 좆망했습니다. 사방은 적이고 우리는 나뭇가지 하나만 들고 설치는꼴입니다.\n그래도 여기까지 왔는데, 끝장을 봐야하지 않겠습니까?§!"
-GAK_give_modern_weapon_CSA_tt:0 "§Y글쎄요, 비록 동지지만, 우리의 무기를 막 넘겨줘도 되는건지 모르겠습니다.§!"
-GAK_battle_vs_america:0 "분열된 거인의 발 아래에서"
-GAK_add_pop_decision:0 "전시 생산능력 향상"
-GAK_propaganda_USA_bitchs:0 "라도 덴버 사는 맥아더를 한대 때리맥이고"
-GAK_support_CSA_friend_weapon:0 "동지에게 무기 전달"
-GAK_volunteer_soldier_expansion:0 "자원병 확충"
-GAK_war_with_USA:0 "브로큰 애로우 작전"
-GAK_doll_doctrine_officer_send:0 "현장지휘관 파견"
-GAK_help_by_weapon:0 "무기 지원"
-GAK_help_by_soldier:0 "자원병 도움"
 ######## 아메리칸 기사단국 ##########
 
 GUS_gimil:0 "§R1급 기밀§!"

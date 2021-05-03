@@ -1,0 +1,175 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GF_research_progress_gui_opener"
+        position = { x = 0 y = 0 }
+		
+		buttonType = {
+			name = "research_button_open"
+			position = { x= 22 y = 890 }
+			quadTextureSprite = "GFX_research_doll_line_button_open"
+		}
+		
+		instantTextBoxType = {
+			name = GF_research_opener_name
+			text = "GF_research_opener_name_T"
+			font = "hoi_36header"
+			position = { x = 200 y = 918 }
+		}
+	}
+	
+	containerWindowType = {
+		name = "GF_research_progress_gui"
+		position = {x=540 y=80}
+        size = { width=1200 height=800 }
+		moveable = yes
+		
+
+        background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+		
+		containerWindowType = {
+			name = "GF_DOLL_TILE_gui"
+			position = { x= 865 y = 25 }
+			size = { width=315 height=750 }
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_bg"
+			}
+		}
+		
+		iconType = {
+			name ="DOLL"
+			spriteType = "GFX_DOLL_remodeling"
+			position = { x= 875 y = -736 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "research_button_close"
+			shortcut = "ESCAPE"
+			position = { x= 9 y = 12 }
+			quadTextureSprite = "GFX_tno_close_button"
+		}
+		
+		iconType = {
+			name = "GF_research_progressbar"
+			position = { x = 40 y = 50 }
+			spriteType = "GFX_GF_research_progressbar"
+			pdx_tooltip = "[?CURRENT_DOLL_PROGRESS]"
+			scale = 1
+		}
+		
+		buttonType = {
+			name = "research_one"
+			position = { x= 50 y = 100 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_ONE_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_two"
+			position = { x= 300 y = 100 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_TWO_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_thr"
+			position = { x= 550 y = 100 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_THR_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_fou"
+			position = { x= 50 y = 270 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_FOU_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_fiv"
+			position = { x= 300 y = 270 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_FIV_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_six"
+			position = { x= 550 y = 270 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_SIX_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_sev"
+			position = { x= 50 y = 440 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_SEV_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_eig"
+			position = { x= 300 y = 440 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_EIH_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_nin"
+			position = { x= 550 y = 440 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_NIN_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_ten"
+			position = { x= 50 y = 610 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_TEN_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_ele"
+			position = { x= 300 y = 610 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_ELE_BUTTON"
+			buttonFont = "hoi_18mbs"
+		}
+		
+		buttonType = {
+			name = "research_twe"
+			position = { x= 550 y = 610 }
+			quadTextureSprite = "GFX_tiled_bg"
+			size = { width=200 height=120 }
+			buttonText = "RESEARCH_TWE_BUTTON" 
+			buttonFont = "hoi_18mbs"
+		}
+		
+	}
+}

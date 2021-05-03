@@ -1,0 +1,253 @@
+shared_focus = {
+    id = GAK_selected_the_war_plan
+	icon = GFX_goal
+	cost = 1
+    x = 45
+	y = 12
+	allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_groza_s_world"
+        custom_effect_tooltip = GAK_selected_the_war_plan_tt
+        add_war_support = 0.05
+    }
+}
+
+shared_focus = {
+    id = GAK_war_plan_big_brother_raid
+	icon = GFX_goal
+	cost = 1
+    x = 45
+	y = 13
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_selected_the_war_plan 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_war_plan_big_brother_raid"
+        custom_effect_tooltip = GAK_war_plan_big_brother_raid_tt
+        hidden_effect = {
+            country_event = {
+				id = gakdom.18
+				days = 14
+			}
+        }
+    }
+}
+
+shared_focus = {
+    id = GAK_look_other_sides_focus
+	icon = GFX_goal
+	cost = 5
+    x = 45
+	y = 14
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+    available = {
+        NOT = {
+            has_war = yes
+        }
+    }
+	prerequisite = { 
+        focus = GAK_war_plan_big_brother_raid 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_look_other_sides_focus"
+        custom_effect_tooltip = GAK_look_other_sides_focus_tt
+    }
+}
+
+shared_focus = {
+    id = GAK_rebuild_great_russia_focus
+	icon = GFX_goal
+	cost = 5
+    x = 45
+	y = 15
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_war_plan_big_brother_raid 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_rebuild_great_russia_focus"
+        custom_effect_tooltip = GAK_rebuild_great_russia_focus_tt
+    }
+}
+
+shared_focus = {
+    id = GAK_middle_asia_eat_focus
+	icon = GFX_goal
+	cost = 1.1
+    x = 43
+	y = 15
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+    bypass = {
+        NOT = {
+            country_exists = TRK
+            country_exists = ALO
+        }
+    }
+	prerequisite = { 
+        focus = GAK_look_other_sides_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_middle_asia_eat_focus"
+        custom_effect_tooltip = GAK_middle_asia_eat_focus_tt
+        hidden_effect = {
+            transfer_state = 1042
+            transfer_state = 407
+            transfer_state = 405
+            transfer_state = 418
+            transfer_state = 584
+            transfer_state = 585
+            transfer_state = 586
+            transfer_state = 712
+            transfer_state = 732
+            transfer_state = 804
+            transfer_state = 861
+            transfer_state = 402
+            transfer_state = 404
+            transfer_state = 406
+            transfer_state = 425
+            transfer_state = 587
+            transfer_state = 589
+            transfer_state = 590
+            transfer_state = 810
+        }
+    }
+}
+
+shared_focus = {
+    id = GAK_middle_asia_eat_core_focus
+	icon = GFX_goal
+	cost = 1.1
+    x = 43
+	y = 17
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_middle_asia_eat_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_middle_asia_eat_core_focus"
+        custom_effect_tooltip = GAK_middle_asia_eat_core_focus_tt
+        hidden_effect = {
+            add_state_core  = 1042
+            add_state_core  = 407
+            add_state_core  = 405
+            add_state_core  = 418
+            add_state_core  = 584
+            add_state_core  = 585
+            add_state_core  = 586
+            add_state_core  = 712
+            add_state_core  = 732
+            add_state_core  = 804
+            add_state_core  = 861
+            add_state_core  = 402
+            add_state_core  = 404
+            add_state_core  = 406
+            add_state_core  = 425
+            add_state_core  = 587
+            add_state_core  = 589
+            add_state_core  = 590
+            add_state_core  = 810
+        }
+    }
+}
+
+shared_focus = {
+    id = GAK_east_asia_conquest_focus
+	icon = GFX_goal
+	cost = 1.2
+    x = 47
+	y = 15
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+    available = {
+        NOT = {
+            has_war = yes
+        }
+    }
+	prerequisite = { 
+        focus = GAK_look_other_sides_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_middle_asia_eat_focus"
+        custom_effect_tooltip = GAK_east_asia_conquest_focus_tt
+        add_state_claim = 409
+        add_state_claim = 408
+    }
+}
+
+shared_focus = {
+    id = GAK_japan_maneuver_focus
+	icon = GFX_goal
+	cost = 1.2
+    x = 47
+	y = 16
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_east_asia_conquest_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_japan_maneuver_focus"
+        custom_effect_tooltip = GAK_japan_maneuver_focus_tt
+        TRM = {
+            country_event = gakdom.21   
+        }
+        hidden_effect = {
+            JAP = {    
+                diplomatic_relation = {
+                    country = TRM
+                    relation = guarantee
+                    active = no
+                }
+                diplomatic_relation = {
+                    country = TRM
+                    relation = military_access
+                    active = no
+                }
+                diplomatic_relation = {
+                    country = TRM
+                    relation = puppet
+                    active = no
+                }
+                remove_from_faction = TRM
+                add_opinion_modifier = {
+                    target = TRM
+                    modifier = faction_traitor
+                }
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = GAK_let_s_eat_transamur
+	icon = GFX_goal
+	cost = 1.3
+    x = 47
+	y = 17
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_japan_maneuver_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_let_s_eat_transamur"
+        custom_effect_tooltip = GAK_let_s_eat_transamur_tt
+        country_event = gakdom.22
+    }
+}

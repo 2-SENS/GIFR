@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_kr_gak"
+		texturefile = "gfx/interface/operatives/agencies/404_not_found.tga"
+		noOfFrames = 2
+	}
+}

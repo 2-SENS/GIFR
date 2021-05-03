@@ -1391,13 +1391,193 @@ ideas = {
 			}
 		}
 
-		GAK_fast_building_ideas = { #자원
+		GAK_fast_building_ideas = { #건설 패스터
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_fast_building_ideas"}
 			picture = GAK
 			modifier = {
 				production_speed_buildings_factor = 0.5
 			}
 		}
+		GAK_gorky_tank_factory = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_gorky_tank_factory"}
+			picture = RUS_gorki_tank_factory
+			
+			modifier = {
+				army_armor_attack_factor = 0.1
+				army_armor_speed_factor = 0.05
+			}
+			
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.1
+					reliability = 0.1					
+					instant = yes
+				}
+				mechanized = {
+					build_cost_ic = -0.15 
+					reliability = 0.1
+					instant = yes
+				}
+			}
+		}
+
+		GAK_the_izhevsk_arsenal = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_the_izhevsk_arsenal"}
+			picture = KIR_The_Izhevsk_Arsenal
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.05
+					reliability = 0.05
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.05
+					reliability = 0.2
+					instant = yes
+				}
+			}
+		}
+
+		GAK_ural_automotive_plant = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_ural_automotive_plant"}
+			picture = RUS_ural_automotive_plant
+			
+			modifier = {
+				motorized_attack_factor = 0.1
+				industrial_capacity_factory = 0.05
+			}
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.15
+					reliability = 0.05
+					instant = yes
+				}
+				mechanized = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+
+		GAK_zlatoust_arms_plant = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_zlatoust_arms_plant"}
+			picture = RUS_zlatoust_arms_plant
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.2
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+
+		GAK_krasnoyarsk_railway_junction = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_krasnoyarsk_railway_junction"}
+			picture = RUS_krasnoyarsk_railway_junction
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				army_speed_factor = 0.1
+				supply_consumption_factor = -0.1
+			}
+		}
+
+		GAK_kuznetsk_basin = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_kuznetsk_basin"}
+			picture = RUS_kuznetsk_basin
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.15
+			}
+		}
+
+		GAK_novosibirsk_aircraft_plant = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_novosibirsk_aircraft_plant"}
+			picture = RUS_novosibirsk_aircraft_plant
+			
+			modifier = {
+				air_close_air_support_agility_factor = 0.1
+				air_close_air_support_attack_factor = 0.075
+			}
+			equipment_bonus = {
+				fighter = {
+					build_cost_ic = -0.15
+					reliability = 0.05
+					instant = yes
+				}
+				strategic_bomber = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+
+		GAK_port_of_magadan = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_port_of_magadan"}
+			picture = RUS_port_of_magadan
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+				production_speed_dockyard_factor = 0.1
+			}
+			equipment_bonus = {
+				convoy = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+		}
+
+		GAK_irkutsk_hydro_station = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_irkutsk_hydro_station"}
+			picture = RUS_irkutsk_hydroelectric_station
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_infrastructure_factor = 0.1
+				production_speed_buildings_factor = 0.15
+			}
+		}
+
+		GAK_cheryomushki = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_cheryomushki"}
+			picture = RUS_chita_airport
+			
+			modifier = {
+				air_accidents_factor = -0.15
+				army_bonus_air_superiority_factor = 0.1
+			}
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+				interceptor_equipment = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+		
 	}
 
 	hidden_ideas = {

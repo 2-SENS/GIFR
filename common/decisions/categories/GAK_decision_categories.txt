@@ -1,89 +1,13 @@
-GAK_new_fighter_develop = {
+GAK_rebuild_great_russia = {
 	icon = GFX_decision_generic_research
 	picture = GFX_new_tech_decision
 	allowed = {
 		tag = GAK
 	}
 	visible = {
-		OR = {
-			has_completed_focus = GAK_HAR_arkab_prior
-			has_completed_focus = GAK_HAR_arkab_prior_r
+		has_completed_focus = GAK_rebuild_great_russia_focus
+		NOT = { 
+			has_country_flag = GAK_rebuild_great_russia_finish 
 		}
-		NOT = { has_country_flag = GAK_new_fighter_develop_finish }
-	}
-}
-
-GAK_new_cas_develop = {
-	icon = GFX_decision_generic_research
-	picture = GFX_new_tech_decision
-	allowed = {
-		tag = GAK
-	}
-	visible = {
-		OR = {
-			has_completed_focus = GAK_attacker_cor_caroli
-			has_completed_focus = GAK_attacker_cor_caroli_r
-		}
-		NOT = { has_country_flag = GAK_new_cas_develop_finish }
-	}
-}
-
-GAK_new_bomber_develop = {
-	icon = GFX_decision_generic_research
-	picture = GFX_new_tech_decision
-	allowed = {
-		tag = GAK
-	}
-	visible = {
-		OR = {
-			has_completed_focus = GAK_high_bomb_catastrophe
-			has_completed_focus = GAK_high_bomb_catastrophe_r
-		}
-		NOT = { has_country_flag = GAK_new_bomber_develop_finish }
-	}
-}
-
-GAK_bugwan_favorability = {
-	icon = GFX_decision_category_bugwan_favorability
-	picture = GFX_decision_bugwan_favorability
-	allowed = {
-		tag = GAK
-	}
-	visible = {
-		NOT = { has_country_flag = fuck_you_flag }
-	}
-}
-
-GAK_war_everything = {
-	icon = GFX_decision_category_hol_war_on_pacifism
-	picture = GFX_world_war_plan
-	allowed = {
-		tag = GAK
-	}
-	visible = {
-		has_completed_focus = GAK_war_target_everything
-	}
-}
-
-GAK_alyeshka_resource_develop = {
-	icon = GFX_decision_category_alyeshka_resource_develop
-	picture = GFX_nono
-	allowed = {
-		tag = GAK
-	}
-	visible = {
-		controls_state = 463
-	}
-}
-
-GAK_battle_vs_america = {
-	icon = GFX_decision_category_battle_vs_america
-	picture = GFX_decision_battle_vs_america
-	allowed = {
-		tag = GAK
-	}
-	visible = {
-		has_completed_focus = GAK_go_eastside_we_rape_usa
-		NOT = { has_country_flag = GAK_end_america_rape }
 	}
 }

@@ -1,5 +1,11 @@
 spriteTypes = {
 
+	spriteType = {
+		name = "GFX_IOP_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_IOP.dds"
+		noOfFrames = 2		
+	}
+	
 	corneredTileSpriteType = {
 		name = "GFX_tiled_research_blue_bg"
 		size= { x=96 y=96 }
@@ -357,7 +363,11 @@ spriteTypes = {
 		name = "GFX_GAK_heavy_fighter3_medium"
 		texturefile = "gfx/interface/technologies/Russia/RUS_heavy_fighter3.dds"
 	}
-
+	### 안녕 나는 스텔스라고 해
+	SpriteType = {
+		name = "GFX_stealth_technology_medium"
+		texturefile = "gfx/interface/technologies/Stealth_Tech.dds"
+	}
 	### CAS
 	SpriteType = {
 		name = "GFX_GAK_CAS1_medium"
@@ -378,6 +388,22 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GAK_CAS3_medium"
 		texturefile = "gfx/interface/technologies/Russia/RUS_CAS3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_cas1_medium"
+		texturefile = "gfx/interface/technologies/CASJ3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_cas2_medium"
+		texturefile = "gfx/interface/technologies/CASJ4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_cas3_medium"
+		texturefile = "gfx/interface/technologies/STR2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_cas4_medium"
+		texturefile = "gfx/interface/technologies/AS2.dds"
 	}
 
 	### NAV Bomber
@@ -434,6 +460,34 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GAK_jet_fighter2_medium"
 		texturefile = "gfx/interface/technologies/Russia/RUS_jet_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_fighter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/FRJ3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_fighter_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/INT5.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_fighter_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/INT.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_fighter_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/MR2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_fighter_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/MR5.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_fighter_equipment_8_medium"
+		texturefile = "gfx/interface/technologies/MR6.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAK_jet_fighter_equipment_9_medium"
+		texturefile = "gfx/interface/technologies/AS4.dds"
 	}
 	SpriteType = {
 		name = "GFX_GAK_jet_tactical_bomber1_medium"

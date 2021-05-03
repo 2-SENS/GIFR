@@ -442,6 +442,11 @@ technologies = {
 			jet_fighter_equipment_2
 		}
 
+		path = {
+			leads_to_tech = jet_fighter_equipment_3
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1950
 
@@ -462,6 +467,458 @@ technologies = {
 			modifier = {
 				factor = 0
 				date < 1950.1.1
+			}
+		}
+	}
+
+	jet_fighter_equipment_3 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_fighter_equipment_3"}
+
+		enable_equipments = {
+			jet_fighter_equipment_3
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_equipment_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1955
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 16 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		sub_technologies = {
+			cv_jet_fighter3
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1955.1.1
+			}
+		}
+	}
+
+	cv_jet_fighter3 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_fighter3"}
+
+		enable_equipments = {
+			cv_jet_fighter_equipment_1
+		}
+
+		research_cost = 2
+		start_year = 1955
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1955.1.1
+			}
+		}
+	}
+
+	jet_fighter_equipment_4 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_fighter_equipment_4"}
+
+		enable_equipments = {
+			jet_fighter_equipment_4
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_equipment_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1965
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 18 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		sub_technologies = {
+			cv_jet_fighter4
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1965.1.1
+			}
+		}
+	}
+
+	cv_jet_fighter4 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_fighter4"}
+
+		enable_equipments = {
+			cv_jet_fighter_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 1965
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1965.1.1
+			}
+		}
+	}
+
+	jet_fighter_equipment_5 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_fighter_equipment_5"}
+
+		enable_equipments = {
+			jet_fighter_equipment_5
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_equipment_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1975
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 20 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		sub_technologies = {
+			cv_jet_fighter5
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1975.1.1
+			}
+		}
+	}
+
+	cv_jet_fighter5 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_fighter5"}
+
+		enable_equipments = {
+			cv_jet_fighter_equipment_3
+		}
+
+		research_cost = 2
+		start_year = 1975
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1975.1.1
+			}
+		}
+	}
+
+	jet_fighter_equipment_6 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_fighter_equipment_6"}
+
+		enable_equipments = {
+			jet_fighter_equipment_6
+		}
+
+		dependencies = {
+			Stealth_Technology = 1
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_equipment_7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1985
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 23 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		sub_technologies = {
+			cv_jet_fighter6
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1985.1.1
+			}
+		}
+	}
+
+	cv_jet_fighter6 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_fighter6"}
+
+		enable_equipments = {
+			cv_jet_fighter_equipment_4
+		}
+
+		research_cost = 3
+		start_year = 1985
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1985.1.1
+			}
+		}
+	}
+
+	jet_fighter_equipment_7 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_fighter_equipment_7"}
+
+		enable_equipments = {
+			jet_fighter_equipment_7
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_equipment_8
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1995
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 25 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		sub_technologies = {
+			cv_jet_fighter7
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1995.1.1
+			}
+		}
+	}
+
+	cv_jet_fighter7 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_fighter7"}
+
+		enable_equipments = {
+			cv_jet_fighter_equipment_5
+		}
+
+		research_cost = 3
+		start_year = 1995
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1995.1.1
+			}
+		}
+	}
+
+	jet_fighter_equipment_8 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_fighter_equipment_8"}
+
+		enable_equipments = {
+			jet_fighter_equipment_8
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_equipment_9
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2005
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 27 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		sub_technologies = {
+			cv_jet_fighter8
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 2005.1.1
+			}
+		}
+	}
+
+	cv_jet_fighter8 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_fighter8"}
+
+		enable_equipments = {
+			cv_jet_fighter_equipment_6
+		}
+
+		research_cost = 3
+		start_year = 2005
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 2005.1.1
+			}
+		}
+	}
+
+	jet_fighter_equipment_9 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_fighter_equipment_9"}
+
+		enable_equipments = {
+			jet_fighter_equipment_9
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_equipment_9
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2015
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 29 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		sub_technologies = {
+			cv_jet_fighter9
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 2015.1.1
+			}
+		}
+	}
+
+	cv_jet_fighter9 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_fighter9"}
+
+		enable_equipments = {
+			cv_jet_fighter_equipment_7
+		}
+
+		research_cost = 3
+		start_year = 2015
+
+		categories = {
+			light_air
+			jet_technology
+			fighter_techs
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 2015.1.1
 			}
 		}
 	}
@@ -661,6 +1118,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = jet_cas1
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1944
@@ -725,6 +1186,301 @@ technologies = {
 			modifier = {
 				factor = 0
 				date < 1944.1.1
+			}
+			modifier = {
+				factor = 2
+				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
+			}
+			modifier = {
+				factor = 0
+				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
+			}
+		}
+	}
+
+	jet_cas1 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_fighter1"}
+
+		enable_equipments = {
+			jet_CAS_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = jet_cas2
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		sub_technologies = {
+			cv_jet_CAS1
+		}
+
+		research_cost = 2
+		start_year = 1955
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 16 }
+		}
+
+		categories = {
+			light_air
+			air_equipment
+			jet_technology
+			cas_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1955.1.1
+			}
+		}
+	}
+
+	cv_jet_CAS1 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_CAS1"}
+
+		enable_equipments = {
+			cv_jet_CAS_equipment_1
+		}
+
+		research_cost = 1
+		start_year = 1955
+
+		categories = {
+			naval_air
+			jet_technology
+			air_equipment
+		}
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1955.1.1
+			}
+			modifier = {
+				factor = 2
+				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
+			}
+			modifier = {
+				factor = 0
+				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
+			}
+		}
+	}
+
+	jet_cas2 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_cas2"}
+
+		enable_equipments = {
+			jet_CAS_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = jet_cas3
+			research_cost_coeff = 1
+		}
+
+		sub_technologies = {
+			cv_jet_CAS2
+		}
+
+		research_cost = 2
+		start_year = 1965
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 18 }
+		}
+
+		categories = {
+			light_air
+			air_equipment
+			jet_technology
+			cas_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1965.1.1
+			}
+		}
+	}
+
+	cv_jet_CAS2 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_CAS2"}
+
+		enable_equipments = {
+			cv_jet_CAS_equipment_2
+		}
+
+		research_cost = 1
+		start_year = 1965
+
+		categories = {
+			naval_air
+			jet_technology
+			air_equipment
+		}
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1965.1.1
+			}
+			modifier = {
+				factor = 2
+				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
+			}
+			modifier = {
+				factor = 0
+				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
+			}
+		}
+	}
+
+	jet_cas3 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_cas3"}
+
+		enable_equipments = {
+			jet_CAS_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_cas4
+			research_cost_coeff = 1
+		}
+
+		sub_technologies = {
+			cv_jet_CAS3
+		}
+
+		research_cost = 2
+		start_year = 1975
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 20 }
+		}
+
+		categories = {
+			light_air
+			air_equipment
+			jet_technology
+			cas_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1975.1.1
+			}
+		}
+	}
+
+	cv_jet_CAS3 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_CAS3"}
+
+		enable_equipments = {
+			cv_jet_CAS_equipment_3
+		}
+
+		research_cost = 1
+		start_year = 1975
+
+		categories = {
+			naval_air
+			jet_technology
+			air_equipment
+		}
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1975.1.1
+			}
+			modifier = {
+				factor = 2
+				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
+			}
+			modifier = {
+				factor = 0
+				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
+			}
+		}
+	}
+
+	jet_cas4 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jet_cas4"}
+
+		enable_equipments = {
+			jet_CAS_equipment_4
+		}
+
+		sub_technologies = {
+			cv_jet_CAS4
+		}
+
+		research_cost = 2
+		start_year = 1985
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 22 }
+		}
+
+		categories = {
+			light_air
+			air_equipment
+			jet_technology
+			cas_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1985.1.1
+			}
+		}
+	}
+
+	cv_jet_CAS4 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech cv_jet_CAS4"}
+
+		enable_equipments = {
+			cv_jet_CAS_equipment_4
+		}
+
+		research_cost = 1
+		start_year = 1985
+
+		categories = {
+			naval_air
+			jet_technology
+			air_equipment
+		}
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date < 1985.1.1
 			}
 			modifier = {
 				factor = 2

@@ -1,0 +1,39 @@
+scripted_gui = {
+	GF_research_progress_gui_opener = {
+		context_type = player_context
+		parent_window_token = technology_tab
+		window_name = "GF_research_progress_gui_opener"
+
+		visible = {
+			tag = GAK
+		}
+		
+		effects = {
+			research_button_open_click = {
+				set_country_flag = GF_research_progress_gui_opened
+			}
+		}
+	}
+	
+	GF_research_progress_gui = {
+		context_type = player_context
+		window_name = "GF_research_progress_gui"
+
+		visible = {
+			tag = GAK
+			has_country_flag = GF_research_progress_gui_opened 
+		}
+		
+		effects = {
+			research_button_close_click = {
+				clr_country_flag = GF_research_progress_gui_opened
+			}
+		}
+		
+		properties = {
+			GF_research_progressbar = {
+				frame = CURRENT_DOLL_PROGRESS
+			}
+		}
+	}
+}

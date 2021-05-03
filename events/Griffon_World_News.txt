@@ -69,3 +69,38 @@ news_event = { #그로자 즉위
 		}
 	}
 }
+
+news_event = { #그로자의 러시아가 통일하다
+	id = GAKworldnews.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event GAKworldnews.3" }
+	title = GAKworldnews.3.t
+	desc = GAKworldnews.3.d
+	picture = GFX_news_event_GAK_gentiane_die
+
+	major = yes
+
+	trigger = {
+		has_country_flag = GAK_gentiane_die_event
+		wants_world_news = yes
+	}
+
+	show_major = {
+		regional_europe_news = yes
+	}
+
+	option = {
+		name = GAKworldnews.3.a
+		trigger = {
+			tag = GAK
+		}
+	}
+
+	option = {
+		name = GAKworldnews.3.b
+		trigger = {
+			NOT = {
+				tag = GAK
+			}
+		}
+	}
+}

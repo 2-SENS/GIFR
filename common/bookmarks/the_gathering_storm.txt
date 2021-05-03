@@ -23,8 +23,6 @@ bookmarks = {
 			}
 		}
 
-		
-		
 		"GER" = {
 			minor = yes
 			history = "GER_KR_GATHERING_STORM_DESC"

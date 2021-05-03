@@ -221,6 +221,7 @@ country_event = {
 		name = gakdom.9.a
 		add_stability = 0.1
 		hidden_effect = {
+			set_country_flag = G361
 			create_country_leader = {
 				name = "G36" 
 				desc = "POLITICS_G36_DESC"
@@ -551,5 +552,204 @@ country_event = {
 
 	option = {
 		name = gakdom.17.a
+	}
+}
+
+country_event = {
+	id = gakdom.18 #러시아를 향한 전쟁
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.18" }
+	title = gakdom.18.t
+	desc = {
+		text = gakdom.18.d #상렬
+		trigger = {
+			has_country_flag = G361
+		}
+	}
+	desc = {
+		text = gakdom.18.di #그로자
+		trigger = {
+			has_country_flag = GAK_groza_control_russia
+		}
+	}
+	picture = GFX_report_event_GER_cons
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #G36 연설 ㅇㅇ
+		name = gakdom.18.a
+		trigger = { 
+			has_country_flag = G361
+		}
+		country_event = {
+			id = gakdom.24
+		}
+	}
+
+	option = {#G36 연설 ㄴㄴ
+		name = gakdom.18.d
+		add_manpower = 25000
+		trigger = { 
+			has_country_flag = G361
+		}
+		declare_war_on = {
+			target = RUS
+			type = annex_everything
+		}
+	}
+
+	option = {#그로자 연설 ㅇㅇ
+		name = gakdom.18.b
+		trigger = { 
+			has_country_flag = GAK_groza_control_russia
+		}
+		country_event = {
+			id = gakdom.23
+		}
+	}
+
+	option = {#그로자 연설 ㄴㄴ
+		name = gakdom.18.c
+		add_manpower = 25000
+		trigger = { 
+			has_country_flag = GAK_groza_control_russia
+		}
+		declare_war_on = {
+			target = RUS
+			type = annex_everything
+		}
+	}
+}
+
+
+country_event = {
+	id = gakdom.19 #모스크바 점령!
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.19" }
+	title = gakdom.19.t
+	desc = gakdom.19.d
+	picture = GFX_report_event_GER_cons
+
+	fire_only_once = yes
+
+	trigger = {
+		controls_state = 219	
+	}
+
+	option = {
+		name = gakdom.19.a
+		RUS = {
+			country_event = {
+				id = gakdom.20
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.20 #러시아를 먹어치우자
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.20" }
+	title = gakdom.20.t
+	desc = gakdom.20.d
+	picture = GFX_report_event_GER_cons
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.20.a
+		hidden_effect = {
+			RUS = {
+				FROM = { 
+					white_peace_with_ROOT = yes 
+				}
+				every_owned_state = {
+					GAK = {
+						add_state_core = PREV
+						transfer_state = PREV
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.21 #일본의 통보
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.21" }
+	title = gakdom.21.t
+	desc = gakdom.21.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.21.a
+	}
+}
+
+country_event = {
+	id = gakdom.22 #해군을 거두다
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.22" }
+	title = gakdom.22.t
+	desc = gakdom.22.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.22.a
+		transfer_state = 408
+		transfer_state = 409
+		transfer_navy = {
+			target = TRM
+		}
+		hidden_effect = {
+			add_state_core = 408
+			add_state_core = 409
+			TRM = {
+				remove_state_claim  = 408
+				remove_state_claim  = 409
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.23 #그로자 연설
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.23" }
+	title = gakdom.23.t
+	desc = gakdom.23.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.23.a
+		add_manpower = 25000
+		declare_war_on = {
+			target = RUS
+			type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.24 #g36 연설
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.24" }
+	title = gakdom.24.t
+	desc = gakdom.24.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.24.a
+		add_manpower = 25000
+		declare_war_on = {
+			target = RUS
+			type = annex_everything
+		}
 	}
 }

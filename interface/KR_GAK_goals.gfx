@@ -410,4 +410,79 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GAK_petersburg_stock_exchange_focus.tga"
 	}
 
+	SpriteType = { 
+		name = "GFX_goal_GAK_rice_for_all_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_rice_for_all_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_groza_authoritarian_democracy_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_groza_authoritarian_democracy_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_groza_paternal_autocracy_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_groza_paternal_autocracy_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_groza_national_populism_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_groza_national_populism_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_new_history_movement_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_new_history_movement_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_concentration_power_to_groza_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_concentration_power_to_groza_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_rus_policy_of_appeasement_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_rus_policy_of_appeasement_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_areon_s_proposal_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_areon_s_proposal_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_facilitate_rocket_research_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_facilitate_rocket_research_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_Reich_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_Reich_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_worrying_about_future_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_worrying_about_future_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_shadow_country_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_shadow_country_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_every_doll_warrior_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_every_doll_warrior_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_black_zone_of_russia_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_black_zone_of_russia_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_groza_choice_ideology_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_groza_choice_ideology_focus.dds"
+	}
+
 }
