@@ -148,7 +148,7 @@ guiTypes = {
 		buttonType = {
 			name = "country"	
 			quadTextureSprite = "GFX_country_selection_entry"
-			position = { x=515 y =0 }
+			position = { x=514 y =0 }
 			clicksound = click_checkbox
 		}		
 		

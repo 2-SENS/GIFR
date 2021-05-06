@@ -1,3 +1,7 @@
+GAK_groza = {
+	color = rgb { 1 1 1 }
+	color_ui = rgb { 1 1 1 }
+}
 NEE_america_blue = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }
@@ -129,13 +133,13 @@ CAR_EMR = {
 }
 
 NMB_GER = {
-	color = rgb { 79 85 42 }
-	color_ui = rgb { 79 85 42 }
+	color = rgb { 125 142 108 }
+	color_ui = rgb { 125 142 108 }
 }
 
 MAF_Reformed = {
-	color = rgb { 79 85 42 }
-	color_ui = rgb { 79 85 42 }
+	color = rgb { 125 142 108 }
+	color_ui = rgb { 125 142 108 }
 }
 
 KEN_KIK = {
@@ -425,9 +429,12 @@ UTA = {
 	color = rgb { 234 233 124 }
 	color_ui = rgb { 234 233 124 }
 }
-
-GAK_groza = {
-	color = rgb { 1 1 1 }
-	color_ui = rgb { 1 1 1 }
+SIA_Parliament = {
+	color = rgb { 198 177 152 }
+	color_ui = rgb { 198 177 152 }
+}
+SIA_Royalist = {
+	color = rgb { 166 202 216 }
+	color_ui = rgb { 166 202 216 }
 }
 
