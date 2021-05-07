@@ -1992,7 +1992,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_huge_discussion_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_huge_discussion_focus
 		x = 50
 		y = 4
 		cost = 0.2
@@ -2013,7 +2013,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_what_we_lack_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_what_we_lack_focus
 		x = 49
 		y = 5
 		cost = 0.2
@@ -2034,7 +2034,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_reflection_ourselves_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_reflection_ourselves_focus
 		x = 51
 		y = 5
 		cost = 0.2
@@ -2055,7 +2055,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_free_speech_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_free_speech_focus
 		x = 50
 		y = 6
 		cost = 0.2
@@ -2079,7 +2079,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_equal_injung_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_equal_injung_focus
 		x = 48
 		y = 6
 		cost = 0.2
@@ -2103,7 +2103,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_ready_for_future_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_ready_for_future_focus
 		x = 52
 		y = 6
 		cost = 0.2
@@ -2127,7 +2127,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_civil_rights_act_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_civil_rights_act_focus
 		x = 50
 		y = 7
 		cost = 0.2
@@ -2154,7 +2154,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_keep_it_calm_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_keep_it_calm_focus
 		x = 48
 		y = 8
 		cost = 0.2
@@ -2175,7 +2175,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_begin_integration_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_begin_integration_focus
 		x = 50
 		y = 8
 		cost = 0.2
@@ -2196,7 +2196,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_talk_with_some_russian_bois_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_talk_with_some_russian_bois_focus
 		x = 52
 		y = 8
 		cost = 0.2
@@ -2217,7 +2217,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_the_civil_rights_success_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_the_civil_rights_success_focus
 		x = 50
 		y = 9
 		cost = 0.2
@@ -2244,7 +2244,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_the_united_nation_focus
-		icon = GFX_goal
+		icon = GFX_goal_GAK_the_united_nation_focus
 		x = 50
 		y = 10
 		cost = 0.2

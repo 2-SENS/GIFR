@@ -1014,11 +1014,13 @@ GAK_groza_choice_ideology_focus:0 "운명"
 GAK_groza_choice_ideology_focus_tt:0 "§Y우리가 걸어야 할, 걸어가야 했던 길을 걸어갑니다...§!"
 
 GAK_groza_authoritarian_democracy_focus:0 "지휘부의 봄"
-GAK_groza_authoritarian_democracy_focus_tt:0 "§g자유? 민권? 좋지요. 가지 않았던 길도 가야하는 법 아니겠습니까?§!"
+GAK_groza_authoritarian_democracy_focus_tt:0 "§g점진적인 개혁, 하지만 보수층에겐 급진적으로 느껴질겁니다.§!"
 
 GAK_huge_discussion_focus:0 "공개 토론회"
 
-GAK_reflection_ourselves_focus:0 "자기 성찰"
+GAK_what_we_lack_focus:0 "우리가 놓친것"
+
+GAK_reflection_ourselves_focus:0 "뒷통수 갈기기"
 
 GAK_free_speech_focus:0 "언론의 자유?"
 
