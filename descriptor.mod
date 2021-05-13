@@ -1,4 +1,4 @@
-version="1.10.*"
+version="1.10.5"
 dependencies={
 	"Kaiserreich"
 	"Korean Language (Europa)"
@@ -12,5 +12,5 @@ tags={
 }
 name="Kaiserreich Submod - Girls Frontline"
 picture="thumbnail.png"
-supported_version="1.10.4"
+supported_version="1.10.5"
 remote_file_id="2288125587"

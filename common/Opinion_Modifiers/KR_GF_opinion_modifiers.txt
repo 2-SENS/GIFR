@@ -29,4 +29,9 @@ opinion_modifiers = {
 		value = 60
 	}
 	
+	GAK_each_other_good = {
+		value = 80
+		days = 300
+	}
+	
 }

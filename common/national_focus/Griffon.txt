@@ -178,7 +178,7 @@ focus_tree = {
 
 	focus = { 
 		id = GAK_red_soc_jipgueul
-		icon = "GFX_goal_red_star_green_wreath"
+		icon = "GFX_goal_GAK_red_soc_jipgueul"
 		x = 2
 		y = 4
 		cost = 0.2
@@ -197,7 +197,7 @@ focus_tree = {
 
 	focus = { 
 		id = GAK_crazy_propaganda
-		icon = "GFX_goal_big_news"
+		icon = "GFX_goal_GAK_crazy_propaganda"
 		x = 2
 		y = 5
 		cost = 0.2
@@ -216,7 +216,7 @@ focus_tree = {
 
 	focus = { 
 		id = GAK_progressive_stimulus
-		icon = "GFX_goal_ideology_libsoc"
+		icon = "GFX_goal_GAK_progressive_stimulus"
 		x = 2
 		y = 6
 		cost = 0.2

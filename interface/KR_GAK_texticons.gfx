@@ -7,7 +7,19 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_GAK_ots_groza"
-		texturefile = "gfx/texticons/GAK_ots_groza.tga"
+		texturefile = "gfx/texticons/GAK_ots_groza_demo.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_ots_demo_groza"
+		texturefile = "gfx/texticons/GAK_ots_groza.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GAK_ots_pop_groza"
+		texturefile = "gfx/texticons/GAK_ots_groza_pop.tga"
 		legacy_lazy_load = no
 	}
 

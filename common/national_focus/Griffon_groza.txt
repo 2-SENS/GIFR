@@ -1956,6 +1956,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_groza_choice_ideology_focus"
 			custom_effect_tooltip = GAK_groza_choice_ideology_focus_tt
+			add_political_power = 150
 		}
 	}
 
@@ -1987,6 +1988,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_groza_authoritarian_democracy_focus"
 			custom_effect_tooltip = GAK_groza_authoritarian_democracy_focus_tt
+			add_political_power = -50
+			add_stability = 0.03
 		}
 	}
 
@@ -2008,6 +2011,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_huge_discussion_focus"
 			custom_effect_tooltip = GAK_huge_discussion_focus_tt
+			country_event = {
+				id = gakdom.25
+			}
 		}
 	}
 
@@ -2029,6 +2035,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_what_we_lack_focus"
 			custom_effect_tooltip = GAK_what_we_lack_focus_tt
+			country_event = {
+				id = gakdom.26
+			}
 		}
 	}
 
@@ -2050,6 +2059,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_reflection_ourselves_focus"
 			custom_effect_tooltip = GAK_reflection_ourselves_focus_tt
+			add_stability = -0.05
+			country_event = {
+				id = gakdom.27
+			}
 		}
 	}
 
@@ -2074,6 +2087,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_free_speech_focus"
 			custom_effect_tooltip = GAK_free_speech_focus_tt
+			add_political_power = 50
+			add_ideas = GAK_free_speech_ideas
 		}
 	}
 
@@ -2098,6 +2113,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_equal_injung_focus"
 			custom_effect_tooltip = GAK_equal_injung_focus_tt
+			add_stability = -0.05
 		}
 	}
 
@@ -2122,6 +2138,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_ready_for_future_focus"
 			custom_effect_tooltip = GAK_ready_for_future_focus_tt
+			add_political_power = -150
 		}
 	}
 
@@ -2149,6 +2166,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_civil_rights_act_focus"
 			custom_effect_tooltip = GAK_civil_rights_act_focus_tt
+			add_ideas = GAK_civil_rights_act_1ideas
 		}
 	}
 
@@ -2170,6 +2188,11 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_keep_it_calm_focus"
 			custom_effect_tooltip = GAK_keep_it_calm_focus_tt
+			country_event = {
+				id = gakdom.28
+			}
+			add_stability = -0.05
+			add_political_power = -50
 		}
 	}
 
@@ -2191,6 +2214,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_begin_integration_focus"
 			custom_effect_tooltip = GAK_begin_integration_focus_tt
+			swap_ideas = {
+				remove_idea = GAK_civil_rights_act_1ideas
+    			add_idea = GAK_civil_rights_act_2ideas
+			}
 		}
 	}
 
@@ -2212,6 +2239,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_talk_with_some_russian_bois_focus"
 			custom_effect_tooltip = GAK_talk_with_some_russian_bois_focus_tt
+			add_ideas = GAK_talk_with_russian_bois_ideas
 		}
 	}
 
@@ -2239,6 +2267,24 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_the_civil_rights_success_focus"
 			custom_effect_tooltip = GAK_the_civil_rights_success_focus_tt
+			hidden_effect = {
+				country_event = {
+					id = gakdom.29
+				}
+				set_politics = {
+					ruling_party = authoritarian_democrat
+					elections_allowed = no
+				}
+				set_party_name = {
+					ideology = authoritarian_democrat
+					long_name = GAK_new_authoritarian_democrat_long
+					name = GAK_new_authoritarian_democrat
+				}
+				add_popularity = {
+					ideology = authoritarian_democrat
+					popularity = 0.5
+				}
+			}
 		}
 	}
 
@@ -2253,6 +2299,22 @@ focus_tree = {
             focus = GAK_the_civil_rights_success_focus 
         }
 
+		select_effect = {
+			log = "[GetDateText]: [Root.GetName]: Select Focus GAK_the_united_nation_focus"
+			country_event = { 
+				id = gakdom.30 
+				days = 4 
+			}
+			country_event = { 
+				id = gakdom.31 
+				days = 8 
+			}
+			country_event = { 
+				id = gakdom.32 
+				days = 12
+			}
+		}
+
 		ai_will_do = {
 			factor = 100
 		}
@@ -2260,6 +2322,11 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_the_united_nation_focus"
 			custom_effect_tooltip = GAK_the_united_nation_focus_tt
+			add_stability = 0.25
+			country_event = { 
+				id = gakdom.33
+			}
+			set_country_flag = groza_demo_flag
 		}
 	}
 
@@ -2288,6 +2355,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_groza_paternal_autocracy_focus"
 			custom_effect_tooltip = GAK_groza_paternal_autocracy_focus_tt
+			add_political_power = -50
 		}
 	}
 
@@ -2309,6 +2377,11 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_purge_extremist_problem_focus"
 			custom_effect_tooltip = GAK_purge_extremist_problem_focus_tt
+			add_manpower = -1000
+			add_popularity = {
+				ideology = national_populist
+				popularity = -0.3
+			}
 		}
 	}
 
@@ -2327,9 +2400,24 @@ focus_tree = {
 			factor = 100
 		}
 
+		select_effect = {
+			log = "[GetDateText]: [Root.GetName]: Select Focus GAK_turning_the_army_problem_focus"
+			country_event = { 
+				id = gakdom.34
+				days = 7
+			}
+			country_event = { 
+				id = gakdom.35
+				days = 12
+			}
+		}
+
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_turning_the_army_problem_focus"
 			custom_effect_tooltip = GAK_turning_the_army_problem_focus_tt
+			country_event = { 
+				id = gakdom.36
+			}
 		}
 	}
 
@@ -2351,6 +2439,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_shut_up_student_focus"
 			custom_effect_tooltip = GAK_turning_the_army_problem_focus_tt
+			country_event = {
+				id = gakdom.37
+			}
 		}
 	}
 
@@ -2371,6 +2462,22 @@ focus_tree = {
             focus = GAK_purge_extremist_problem_focus 
         }
 
+		select_effect = {
+			log = "[GetDateText]: [Root.GetName]: Select Focus GAK_turning_the_army_problem_focus"
+			country_event = { 
+				id = gakdom.38
+				days = 8
+			}
+			country_event = { 
+				id = gakdom.39
+				days = 14
+			}
+			country_event = { 
+				id = gakdom.40
+				days = 21
+			}
+		}
+
 		ai_will_do = {
 			factor = 100
 		}
@@ -2378,6 +2485,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_first_national_assembly_focus"
 			custom_effect_tooltip = GAK_first_national_assembly_focus_tt
+			add_political_power = 150
+			country_event = { 
+				id = gakdom.41
+			}
 		}
 	}
 
@@ -2387,6 +2498,10 @@ focus_tree = {
 		x = 56
 		y = 6
 		cost = 0.2
+
+		available = {
+			has_country_flag = GAK_groza_select_clean
+		}
 
         prerequisite = { 
             focus = GAK_first_national_assembly_focus 
@@ -2399,6 +2514,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_stay_in_neutrality_focus"
 			custom_effect_tooltip = GAK_stay_in_neutrality_focus_tt
+			add_stability = 0.1
 		}
 	}
 
@@ -2420,6 +2536,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_let_them_fight_focus"
 			custom_effect_tooltip = GAK_let_them_fight_focus_tt
+			country_event = {
+				id = gakdom.44
+			}
 		}
 	}
 
@@ -2441,6 +2560,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_eat_them_all_focus"
 			custom_effect_tooltip = GAK_eat_them_all_focus_tt
+			add_ideas = GAK_eat_them_all_ideas
 		}
 	}
 
@@ -2450,6 +2570,10 @@ focus_tree = {
 		x = 54
 		y = 6
 		cost = 0.2
+
+		available = {
+			has_country_flag = GAK_groza_select_dirty
+		}
 
         prerequisite = { 
             focus = GAK_first_national_assembly_focus 
@@ -2462,6 +2586,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_rifle_s_night_focus"
 			custom_effect_tooltip = GAK_rifle_s_night_focus_tt
+			country_event = {
+				id = gakdom.42
+			}
 		}
 	}
 
@@ -2483,6 +2610,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_absolute_silence_focus"
 			custom_effect_tooltip = GAK_absolute_silence_focus_tt
+			add_ideas = GAK_martial_law_on_ideas
+			country_event = {
+				id = gakdom.43
+			}
 		}
 	}
 
@@ -2504,6 +2635,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_little_lobby_focus"
 			custom_effect_tooltip = GAK_little_lobby_focus_tt
+			add_ideas = GAK_little_lobby_ideas
 		}
 	}
 
@@ -2514,12 +2646,9 @@ focus_tree = {
 		y = 10
 		cost = 0.2
 
-        prerequisite = { 
-            focus = GAK_little_lobby_focus 
-        }
-
 		prerequisite = { 
             focus = GAK_eat_them_all_focus 
+			focus = GAK_little_lobby_focus 
         }
 
 		ai_will_do = {
@@ -2529,6 +2658,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_uneasy_alliance_focus"
 			custom_effect_tooltip = GAK_uneasy_alliance_focus_tt
+			add_political_power = -150
+			set_country_flag = groza_stay_flag
 		}
 	}
 
@@ -2559,6 +2690,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_groza_national_populism_focus"
 			custom_effect_tooltip = GAK_groza_national_populism_focus_tt
+			add_political_power = -50
+			add_stability = -0.05
 		}
 	}
 
@@ -2580,6 +2713,15 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_new_history_movement_focus"
 			custom_effect_tooltip = GAK_new_history_movement_focus_tt
+			add_timed_idea = {
+				idea = GAK_new_history_movement_ideas
+				days = 120
+			}
+			hidden_effect = {
+				country_event = {
+					id = gakdom.46
+				}
+			}
 		}
 	}
 
@@ -2601,6 +2743,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_concentration_power_to_groza_focus"
 			custom_effect_tooltip = GAK_concentration_power_to_groza_focus_tt
+			add_political_power = 150
 		}
 	}
 
@@ -2622,6 +2765,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_rus_policy_of_appeasement_focus"
 			custom_effect_tooltip = GAK_rus_policy_of_appeasement_focus_tt
+			country_event = {
+				id = gakdom.47
+			}
 		}
 	}
 
@@ -2643,6 +2789,13 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_areon_s_proposal_focus"
 			custom_effect_tooltip = GAK_areon_s_proposal_focus_tt
+			hidden_effect = {
+				GER = {
+					country_event = {
+						id = gakdom.48
+					}
+				}
+			}
 		}
 	}
 
@@ -2664,6 +2817,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_facilitate_rocket_research_focus"
 			custom_effect_tooltip = GAK_facilitate_rocket_research_focus_tt
+			add_ideas = GAK_nose_eats_soup_ideas
+			country_event = {
+				id = gakdom.51
+			}
 		}
 	}
 
@@ -2697,6 +2854,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_Reich_focus"
 			custom_effect_tooltip = GAK_Reich_focus_tt
+			add_ideas = GAK_Reich_focus_ideas
 		}
 	}
 
@@ -2718,6 +2876,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_worrying_about_future_focus"
 			custom_effect_tooltip = GAK_worrying_about_future_focus_tt
+			add_offsite_building = { 
+				type = arms_factory 
+				level = 3
+			}
+			add_offsite_building = { 
+				type = industrial_complex 
+				level = 5
+			}
 		}
 	}
 
@@ -2739,6 +2905,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_shadow_country_focus"
 			custom_effect_tooltip = GAK_shadow_country_focus_tt
+			add_ideas = GAK_shadow_state_ideas
 		}
 	}
 
@@ -2760,6 +2927,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_every_doll_warrior_focus"
 			custom_effect_tooltip = GAK_every_doll_warrior_focus_tt
+			add_ideas = GAK_every_doll_warrior_ideas
 		}
 	}
 
@@ -2789,6 +2957,11 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_black_zone_of_russia_focus"
 			custom_effect_tooltip = GAK_black_zone_of_russia_focus_tt
+			swap_ideas = {
+				remove_idea = GAK_Reich_focus_ideas
+				add_idea = GAK_Reich_focus1_ideas
+			}
+			set_country_flag = groza_national_pop_flag
 		}
 	}
 }

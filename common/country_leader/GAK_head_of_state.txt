@@ -15,16 +15,13 @@ leader_traits = {
 		random = no
 		stability_factor = 0.05
 		war_support_factor = 0.05
-		targeted_modifier = {
-			tag = RUS
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
-		}
+		army_attack_factor = 0.1
+		army_attack_factor = 0.1
 	}
 
 	GAK_russia_tsar = {
 		random = no
-		compliance_gain = 0.1
+		compliance_gain = 0.15
 		resistance_growth = -0.15
 	}
 

@@ -1,14 +1,12 @@
 sub_units = {
-
 	tac_dolls = {
 		sprite = infantry
 		map_icon_category = infantry
-
 		can_be_parachuted = yes
-		marines = yes
+
 		
 		priority = 600
-		ai_priority = 150
+		ai_priority = 200
 		active = no
 
 		type = {
@@ -28,8 +26,8 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 30
-		max_organisation = 30
-		default_morale = 0.5
+		max_organisation = 90
+		default_morale = 1.2
 		maximum_speed = 1.2
 		manpower = 500
 

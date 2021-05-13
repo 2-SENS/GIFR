@@ -545,4 +545,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_goal_GAK_the_united_nation_focus.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_goal_GAK_red_soc_jipgueul"  
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_red_soc_jipgueul.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_crazy_propaganda" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_crazy_propaganda.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_progressive_stimulus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_progressive_stimulus.dds"
+	}
+
 }

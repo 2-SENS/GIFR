@@ -12,30 +12,36 @@ GAK_totalist_party:0 "적군파"
 GAK_totalist_party_long:0 "그리폰 적군파 민병대"
 GAK_totalist_riot:0 "소렐주의자"
 GAK_totalist_riot_long:0 "소렐주의자 - 국민사회주의동맹"
-GAK_radical_socialist_party:0 "하와이 인민당"
-GAK_radical_socialist_party_long:0 "하와이 인민당"
+GAK_radical_socialist_party:0 "인민당"
+GAK_radical_socialist_party_long:0 "페트로그라드 인민당"
 GAK_radical_socialist_riot:0 "급진파"
 GAK_radical_socialist_riot_long:0 "급진파 - 사회개조주의자"
-GAK_syndicalist_party:0 "인터내셔널 하와이 지부"
-GAK_syndicalist_party_long:0 "인터내셔널 하와이 지부"
+GAK_syndicalist_party:0 "인터내셔널 페트로그라드 지부"
+GAK_syndicalist_party_long:0 "인터내셔널 페트로그라드 지부"
 GAK_syndicalist_riot_long:0 "농상업 협동 조합"
 GAK_syndicalist_riot:0 "농협"
 GAK_social_democrat_party:0 "사회당"
-GAK_social_democrat_party_long:0 "하와이 사회 운동당"
+GAK_social_democrat_party_long:0 "사회 운동당"
 GAK_social_liberal_party:0 "진정당"
-GAK_social_liberal_party_long:0 "하와이 진보정의당"
+GAK_social_liberal_party_long:0 "진보정의당"
 GAK_market_liberal_party:0 "국자당"
-GAK_market_liberal_party_long:0 "하와이 국민자유당"
+GAK_market_liberal_party_long:0 "국민자유당"
 GAK_social_conservative_party:0 "민정당"
-GAK_social_conservative_party_long:0 "하와이 민주정의당"
+GAK_social_conservative_party_long:0 "민주정의당"
 GAK_authoritarian_democrat_party:0 "G&K 총 사령부"
 GAK_authoritarian_democrat_party_long:0 "그리폰-크루거 총 사령부"
-GAK_paternal_autocrat_party:0 "우담회"
-GAK_paternal_autocrat_party_long:0 "국가재건최고회의\n§g그로자를 중심으로 만들어진 국가재건최고회의, '우담회'라고 불리우는 이 조직은 군부에서부터 지휘부의 주요 인사까지 꿰차고 있으며, 수많은 자본과 인맥을 거쳐가는 최정상층의 집합입니다. 하지만 이러한 집합의 구성원들은 여러 사상으로 뒤엉킨 복잡하며, G36을 타도하며 자신의 이익만을 추구하는이를 따라가는 이가 있으며, 그로자를 추앙하며 그녀를 새로운 차르로 모시는 이들도 적지 않습니다.§!"
-GAK_national_populist_party:0 "우담회"
-GAK_national_populist_party_long:0 "국가재건최고회의\n§g그로자를 중심으로 만들어진 국가재건최고회의, '우담회'라고 불리우는 이 조직은 군부에서부터 지휘부의 주요 인사까지 꿰차고 있으며, 수많은 자본과 인맥을 거쳐가는 최정상층의 집합입니다. 하지만 이러한 집합의 구성원들은 여러 사상으로 뒤엉킨 복잡하며, G36을 타도하며 자신의 이익만을 추구하는이를 따라가는 이가 있으며, 그로자를 추앙하며 그녀를 새로운 차르로 모시는 이들도 적지 않습니다.§!"
-GAK_groza_strong_long:0 "KBP 그로자 왕조"
-GAK_groza_strong:0 "그로자 왕조"
+GAK_paternal_autocrat_party:0 "우담회 : 보수파"
+GAK_paternal_autocrat_party_long:0 "우담회\n그로자를 중심으로 만들어진 국가재건최고회의, '우담회'라고 불리우는 이 조직은 군부에서부터 지휘부의 주요 인사까지 꿰차고 있으며, 수많은 자본과 인맥을 거쳐가는 최정상층의 집합입니다. 하지만 이러한 집합의 구성원들은 여러 사상으로 뒤엉킨 복잡하며, G36을 타도하며 자신의 이익만을 추구하는이를 따라가는 이가 있으며, 그로자를 추앙하며 그녀를 새로운 차르로 모시는 이들도 적지 않습니다."
+GAK_national_populist_party:0 "우담회 : 국수파"
+GAK_national_populist_party_long:0 "우담회\n그로자를 중심으로 만들어진 국가재건최고회의, '우담회'라고 불리우는 이 조직은 군부에서부터 지휘부의 주요 인사까지 꿰차고 있으며, 수많은 자본과 인맥을 거쳐가는 최정상층의 집합입니다. 하지만 이러한 집합의 구성원들은 여러 사상으로 뒤엉킨 복잡하며, G36을 타도하며 자신의 이익만을 추구하는이를 따라가는 이가 있으며, 그로자를 추앙하며 그녀를 새로운 차르로 모시는 이들도 적지 않습니다."
+GAK_new_authoritarian_democrat_long:0 "우담회 : 개혁파\n수 많은 시련속에서 그로자와 우담회의 많은 주요 인물들은 온건파와 동시에 개혁의 길을 선택했고, 당장의 이익보단 미래의 이익을 위해 움직이기로 결정했습니다. 그 첫번째는 민주주의의 실험적인 접근, 민권법으로 통한 평등과 인권의 도입, 국민을 향한 정치의 문호 개방은 정부의 권위를 낮추지만, 누구나 능력과 실력, 약간의 인맥만 존재한다면 참여할수 있는 하나의 장으로 만들었습니다. 물론 이에 반발하는 우담회의 인물들도 적지는 않습니다. 가끔 그로자는 이 개혁들로 약간 회의감에 들때도 있지만, 그녀는 이 개혁이야 말로 이 지휘부를 위함이라고 굳게 믿고 있습니다."
+GAK_new_authoritarian_democrat:0 "우담회 : 개혁파"
+GAK_groza_paternal_autocrat_tsar_long:0 "KBP 그로자 왕조 : 보수파"
+GAK_groza_paternal_autocrat_tsar:0 "그로자 왕조"
+GAK_groza_authoritarian_democrat_tsar_long:0 "KBP 그로자 왕조 : 입헌파"
+GAK_groza_authoritarian_democrat_tsar:0 "그로자 왕조"
+GAK_groza_national_populist_tsar_long:0 "KBP 그로자 왕조 : 개조파"
+GAK_groza_national_populist_tsar:0 "그로자 왕조"     
 
 GUS_totalist_party:0 "적군파"
 GUS_totalist_party_long:0 "국가 해방당"
@@ -67,6 +73,8 @@ POLITICS_Gentiane_DESC:0 "그녀는 하와이를 령도하는 왕과도 같은 �
 POLITICS_M4A1_DESC:0 "군부들 사이 §R최정상§!에 군림하며, 지난 하-미 §W전쟁의 영웅§!이라고 칭송되는 §GM4A1§!는 그 당시에 인형답지 않은 §W통찰력§!과 §B판단력§!으로 전장을 지배하는 §C여왕§!으로 군림하였습니다.\n\n전쟁 이후, 하와이 조약으로 미국 중부까지 받아낸 §Y하와이§!는 너무나도 커진 §R군부§!의 세력을 컨트롤 하기 어려울것이라는 두려움에 M4A1을 하와이의 괴뢰국인 §B"아메리카 기사단국"§!에 보내버렸고, 동시에 지휘부에서 §R똥땅§!이라고 생각했던 미 중부를 처리할 좋은 방법이기도 했습니다.\n\n이제 §GM4A1§!는 더이상 전쟁사에서 나오는 평범한 전쟁영웅이 아닙니다. 비록 괴뢰국가지만 한 나라의 §Y지도자§!입니다. 그녀는 미국 중부라는 거대한 §R총§!과 동시에 §B가능성§!을 들고, 어느곳에 총구를 §Y조준§!할지는 그녀의 선택입니다..."
 POLITICS_G36_DESC:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n£GFX_GAK_g36\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n장시안이 인정한 제 2대 전술 지휘관으로, 단호한 성격과 결단력으로 존경받아온 이 엄격한 메이드는 더이상 누군가의 뒤를 따르지 않고, 모두를 이끄는 리더로 다시 태어났습니다.\n\n그녀는 이전에 장시안이 해결하지 못한 문제들을 해결할 투지와 의지가 불타오르며, 민주주의에 대한 많은 관심을 가졌기에 하와이에 민주주의의 꿈을 이루게 만들것입니다."
 POLITICS_GROZA_DESC:0 "\n\n\n\n\n\n\n\n\n£GFX_GAK_ots_groza\n\n\n\n\n\n\n\n\n\n\n권위주의적인 야망있는 이 엘리트 인형은 자신의 시간이 찾아왔다고 굳게 믿고있습니다. 그리고 그녀의 오가스 인격인 '아레온'과 함께 야망을 실현하기 위한 모험을 시작하고 있습니다.\n\n그녀는 그 이후로 역사속 독재자들을 자신의 롤모델로 삼아 활동하기 시작했습니다. 독일의 아돌프 히틀러, 루마니아의 이온 안토네스쿠, 이탈리아의 베니토 무솔리니, 영국의 호국경 올리버 크롬웰등. 그들의 실수와 행동을 계속 분석하며, 자신이 '왕좌'에 오르기 가장 적합한 방법들을 모색했습니다.\n\n그리고 그녀에게 기회가 찾아왔습니다. 드디어 장시안이 사망한것입니다. 또한 그녀의 '혁명'은 성공했고. 이 지휘부를 이끌 독재자로 군림하였습니다.\n\n§Y무지와 질투 그리고 시대착오 역사적 반동세력들과 닮아있어.§!\n\n§R여기서 질문, 지금 누가 살아남아 있어?"
+POLITICS_GROZA_AD_DESC:0 "\n\n\n\n\n\n\n\n\n£GFX_GAK_ots_demo_groza\n\n\n\n\n\n\n\n\n\n\n민권법이라는 횃불로 러시아 전역을 밝게 빛낸 새로운 차르는 모든 인형들과 슬라브 민족들에겐 단순한 차르로 자리잡지 않고, 정신적으로 러시아를 상징합니다. 그녀는 이제 러시아의 필수적인 인형으로 남았습니다. 비록 이전처럼 많은 권력을 독점하진 않지만, 그녀의 영향은 여전히 건재합니다. 제국의 어머니, 혁명을 진압하는 반동의 소방수, 등등 여러 호칭이 길가에서 부터 중앙 지휘부까지 나돌며 그녀에 대한 종교적인 찬가는 계속되고 있습니다."
+POLITICS_GROZA_NP_DESC:0 "\n\n\n\n\n\n\n\n\n£GFX_GAK_ots_pop_groza\n\n\n\n\n\n\n\n\n\n\n인형들의 살아있는 반인반신이자, 소녀전선에서 항상 선두로 영도하여 극동에서 서방을 맞닿는 거대한 제국을 지휘하는 이 위인을 정의내릴수 없습니다. 그녀는 공포와 폭력은 인간들을 굴복시킬수 있다는것이 증명되었고, 이제 남은 인간들은 그녀를 맞이하건, 아니면 준비를 하며 병기창의 문을 열던, 그들의 선택 입니다."
 
 ################################################
 
@@ -1014,7 +1022,7 @@ GAK_groza_choice_ideology_focus:0 "운명"
 GAK_groza_choice_ideology_focus_tt:0 "§Y우리가 걸어야 할, 걸어가야 했던 길을 걸어갑니다...§!"
 
 GAK_groza_authoritarian_democracy_focus:0 "지휘부의 봄"
-GAK_groza_authoritarian_democracy_focus_tt:0 "§g점진적인 개혁, 하지만 보수층에겐 급진적으로 느껴질겁니다.§!"
+GAK_groza_authoritarian_democracy_focus_tt:0 "§g점진적인 개혁이라고 주장하지만, 보수층에겐 급진적으로 느껴질겁니다.§!"
 
 GAK_huge_discussion_focus:0 "공개 토론회"
 
@@ -1028,22 +1036,23 @@ GAK_equal_injung_focus:0 "정당한 처벌"
 
 GAK_ready_for_future_focus:0 "미래를 위한 기반"
 
-GAK_civil_rights_act_focus:0 "민권법 초안"
+GAK_civil_rights_act_focus:0 "민권법 초안 작성"
 
 GAK_keep_it_calm_focus:0 "입막음"
 
-GAK_talk_with_some_russian_bois_focus:0 "러시아계 거물과의 접촉"
+GAK_talk_with_some_russian_bois_focus:0 "슬라브 민족의 꿈"
 
-GAK_begin_integration_focus:0 "국민적 대통합"
+GAK_begin_integration_focus:0 "민권운동 지지"
 
-GAK_the_civil_rights_success_focus:0 "나에게는 꿈이 있습니다"
+GAK_the_civil_rights_success_focus:0 "우리에게는 꿈이 있습니다"
+GAK_the_civil_rights_success_focus_tt:0 "§g어둠이 내린 밤에\n내가 가는 길 밝혀 주시네\n비바람 부는 날에도\n날 쓰러지지 않게 해주소서\n날 구원해주소서\n우릴 구원해주소서§!"
 
-GAK_the_united_nation_focus:0 ""우린 단결되었다.""
+GAK_the_united_nation_focus:0 ""모두들, 이제부터는 가족이야!""
 
 GAK_groza_paternal_autocracy_focus:0 "현상유지"
-GAK_groza_paternal_autocracy_focus_tt:0 "§Y서두르지마, 아직 이 밤은 너에게 잘라 나눠줄 정도로 많이 남았어...§!"
+GAK_groza_paternal_autocracy_focus_tt:0 "§r우린 아무것도 안 할 겁니다! 대신 우리의 자리를 지키기 위해 병신들끼리 싸움이나 부추길 겁니다.§!"
 
-GAK_purge_extremist_problem_focus:0 "극단주의자 억압"
+GAK_purge_extremist_problem_focus:0 "극단주의자 체포"
 
 GAK_turning_the_army_problem_focus:0 "국방군과 우담회 조율"
 
@@ -1052,23 +1061,27 @@ GAK_shut_up_student_focus:0 "공부나 해라 애새끼들아!"
 GAK_first_national_assembly_focus:0 "제 1차 국가 회의"
 
 GAK_stay_in_neutrality_focus:0 "침착한 중립"
+GAK_groza_select_clean:0 "손을 깨끗히 씻는다"
 
 GAK_let_them_fight_focus:0 "싸우게 내버려 둬"
 
 GAK_eat_them_all_focus:0 "뒷정리..."
 
-GAK_rifle_s_night_focus:0 "소총의 밤"
+GAK_rifle_s_night_focus:0 "장총의 밤"
+GAK_groza_select_dirty:0 "손을 더럽힌다"
 
 GAK_absolute_silence_focus:0 "절대적인 침묵"
 
 GAK_little_lobby_focus:0 "이거나 먹고 떨어져!"
 
-GAK_uneasy_alliance_focus:0 "아직은 조용하다..."
+GAK_uneasy_alliance_focus:0 "불안, 의심, 편집증."
+GAK_uneasy_alliance_focus_tt:0 "§R이게 다냐?§!"
 
 GAK_groza_national_populism_focus:0 "§R내가 지휘부의 중심이다!§!"
 GAK_groza_national_populism_focus_tt:0 "§R나랑 함께하길 원치 않는 모든 인형들은 다 크렘린의 노친네 틀딱들이다!§!"
 
 GAK_new_history_movement_focus:0 "신역사 운동"
+GAK_new_history_movement_focus_tt:0 "너가 믿는 모든걸 잊어라!"
 
 GAK_concentration_power_to_groza_focus:0 "권력 집중"
 
@@ -1115,8 +1128,8 @@ GAK_let_s_eat_transamur:0 "콜차크의 비루한 운명"
 ################################################
 #신질서#
 
-GAK_groza_s_world:0 "신질서"
-GAK_groza_s_world_desc:0 "1934년, 우리가 이곳에 도래했을땐 그저 이방인이었습니다. 그들은 우리를 배척하고, 밀어내기 위한 갖은 수단과 방법을 동원했지만, 우린 더더욱 저항했습니다. 그 결과, 우린 올라섰습니다. 단순한 지휘부의 자격이 아닌 하나의 국가로 거듭났고, 더 이상 함부로 우리에게 대적할수 있는 국가는 없습니다.\n\n그동안 많은 시련과 고통이 있었습니다. 우리가 어느 길을 걸어왔던간에, 확실한건 단 하나입니다. 신도, 인간도 그 누구도 우릴 구원하지 못합니다. 오로지 우리가 가꾸어 나가야하는 길이라는걸 뒤늦게 깨달았습니다.\n\n끝까지 우리의 길을 떳떳하게 걸어갑시다. 모든 죽어가는것들을 증오합시다. 쫓기는 사람처럼 보여도 부끄러워도, 모든 미련을 벗어던져서 새로운 세계를 구축하고, 추억처럼 아른거리는 지휘관은 마인드맵에서 지워버립시다."
+GAK_groza_tsar_focus:0 "신질서"
+GAK_groza_tsar_focus:0 "1934년, 우리가 이곳에 도래했을땐 그저 이방인이었습니다. 그들은 우리를 배척하고, 밀어내기 위한 갖은 수단과 방법을 동원했지만, 우린 더더욱 저항했습니다. 그 결과, 우린 올라섰습니다. 단순한 지휘부의 자격이 아닌 하나의 국가로 거듭났고, 더 이상 함부로 우리에게 대적할수 있는 국가는 없습니다.\n\n그동안 많은 시련과 고통이 있었습니다. 우리가 어느 길을 걸어왔던간에, 확실한건 단 하나입니다. 신도, 인간도 그 누구도 우릴 구원하지 못합니다. 오로지 우리가 가꾸어 나가야하는 길이라는걸 뒤늦게 깨달았습니다.\n\n끝까지 우리의 길을 떳떳하게 걸어갑시다. 모든 죽어가는것들을 증오합시다. 쫓기는 사람처럼 보여도 부끄러워도, 모든 미련을 벗어던져서 새로운 세계를 구축하고, 추억처럼 아른거리는 지휘관은 마인드맵에서 지워버립시다."
 GAK_groza_control_russia_tt:0 "§G그로자는 새로운 차르로 즉위할겁니다!§!"
 
 ################################################
@@ -1168,7 +1181,7 @@ gakdom.10.d:0 "마침내 그녀가 해냈습니다. 가식적인 가짜 민주�
 gakdom.10.a:0 "점심은 모스크바에서, 저녁은 블라디보스토크에서!"
 
 gakdom.18.t:0 "성전"
-gakdom.18.di:0 "담배연기가 지휘부를 가득 채우고 있습니다. 그곳에서 그로자는 마치 수도승의 모습처럼 경건하고 도도하게 그 모습을 유지했습니다. 수많은 방음 장치에도 불구하고, 밖의 웅성이는 몇만의 용사들의 소란을 잠재울수 없었습니다. 그들은 출정 전, 그로자의 아지트로 전략해버린 국회의사당 앞에서 그로자의 연설을 듣기 위해서 모였습니다.\n\n그들중 몇몇은 그냥 이렇게 시간을 죽일바엔 한 명이라도 더 많은 러시아군을 때려 죽이고 싶은 인형도 있었고, 그로자에 대한 진심어린 존경을 가진 이도 있어 그녀를 하염없이 기다리는 인형도 존재했습니다.\n\n수 많은 웅성임과 함께. 그녀가 나타났습니다. 발코니를 열고, 우담회의 친위대와 함께 나서 도도한 그녀의 자태를 세상에 널리 뽐냈습니다.\n\n그러자 그녀에게 충성을 바치는 이, 그저 살육에만 관심있는 이, 모두가 그로자 단 한명에게 이목이 쏠렸습니다.\n\n그로자는 쌓여있던 모든 긴장을 씻어내려 노력하며, 그녀의 마인드맵에 확실히 각인된 문장들을 읽어나가기 시작합니다..."
+gakdom.18.di:0 "담배연기가 지휘부를 가득 채우고 있습니다. 그곳에서 그로자는 마치 수도승의 모습처럼 경건하고 도도하게 그 모습을 유지했습니다. 수많은 방음 장치에도 불구하고, 밖의 웅성이는 몇만의 용사들의 소란을 잠재울수 없었습니다. 그들은 출정 전, 그로자의 아지트로 전략해버린 국회의사당 앞에서 그로자의 연설을 듣기 위해서 모였습니다.\n\n그들중 몇몇은 그냥 이렇게 시간을 죽일바엔 한 명이라도 더 많은 적들을 때려 죽이고 싶은 인형도 있었고, 그로자에 대한 진심어린 존경을 가진 이도 있어 그녀를 하염없이 기다리는 인형도 존재했습니다.\n\n수 많은 웅성임과 함께. 그녀가 나타났습니다. 발코니를 열고, 우담회의 친위대와 함께 나서 도도한 그녀의 자태를 세상에 널리 뽐냈습니다.\n\n그러자 그녀에게 충성을 바치는 이, 그저 살육에만 관심있는 이, 모두가 그로자 단 한명에게 이목이 쏠렸습니다.\n\n그로자는 쌓여있던 모든 긴장을 씻어내려 노력하며, 그녀의 마인드맵에 확실히 각인된 문장들을 읽어나가기 시작합니다..."
 gakdom.18.a:0 "대통령 각하의 연설이라니! 당연히 경청해야지!"
 gakdom.18.b:0 "총통 각하의 연설이라고? 영광스러워라!"
 gakdom.18.c:0 "연설 조까!"
@@ -1181,6 +1194,10 @@ gakdom.23.a:0 "우리는 일출처럼 필연적이며, 우리의 불꽃은 모�
 gakdom.24.t:0 "G36의 연설"
 gakdom.24.d:0 ""
 gakdom.24.a:0 "매화가 만개할때, 우리들은 민주주의의 횃불을 들고 인민을 해방하리라!"
+
+gakdom.29.t:0 "하얀 융단"
+gakdom.29.d:0 ""누구든지 꿈이 이뤄지길 비네.\n길거리 위 그리고 자동차 위에\n하얀색 얼굴, 모습은 각자가 달라\n우린 하얀 악마의 일루미나티"\n\n페트로그라드 광장에는 어느 이름없는 무명의 인형이 발매한 앨범, '하얀 이념'에 수록된 곡중 하나가 재생되었다. 이 곡은 슬라브와 인형들의 통합과 각자 모두의 성공을 위해 지어진 노래로, 현재 많은 인간과 인형들은 이 노래를 함께 듣고, 따라부르고 있었다.\n\n위대한 음반과 함께. 시기를 잘 탄 덕에 민권운동의 바람은 거세게 몰아쳤고. 잠시 암흑기가 몰아닥친 지휘부는 이제서야 안심하고 웃음지을수 있는 장소가 되었다. 아직 권위적이라고 느낄수 있지만, 적어도 이전처럼 험악한 분위기에선 겨우 탈피한 모습이다. 특히 우담회에서도 슬라브와 인형의 평등을 주장하며 캠페인을 벌이기도 했다. 아마 자본가들은 민심의 확보, 군부는 더욱 많은 병사들의 확충을 위해서겠지만, 결과는 좋았다.\n\n"알렉세이! 이렇게 사람 많은 곳에서 뛰면 위험해요!"\n\n"하하! 누나 나 잡아봐라~?"\n\n광장 한 가운데, 날이 화창해지자 인형들이 운영하는 고아원에선 아이들을 데리고 산책을 나왔다. 선생으로 보이는 인형은 그의 위험한 행동을 저지하려고 했지만, 결국 어느 행인과 부딫히고 말았고, 그녀는 행인에게 사과를 건넸다.\n\n"정말 죄송합니다! 혹시 다치신곳 없으신가요?"\n\n"으... 발목을 접질린것 같습니다..."\n\n"아...! 치료해 드리겠습니다!"\n\n그렇게 고아원 선생은 아이들을 한산한 곳에 놀게 한 다음, 행인의 발목을 치료해주었다. 행인은 그녀의 완벽한 응급처치 실력에 감탄을 하며, 여러 이야기를 나누고 자신과 관심사가 같다는걸 깨닫는다. 그리고 이야기는 더욱 길게, 누군가가 보기에 지루해 보이는 대화내용이지만, 그 둘은 마치 꽃밭에 와있는듯 했다."
+gakdom.29.a:0 "저 둘에게 길을 걸어갈 힘을 주길."
 
 # 슈퍼 이벤트 #
 
@@ -1371,3 +1388,5 @@ BUGWAN_ten_TEXT:0 "§bM4 SOPMOD II§!"
 BUGWAN_ele_TEXT:0 "§bM16A1§!"
 BUGWAN_twe_TEXT:0 "§bRO635§!"
 BUGWAN_thi_TEXT:0 "§bST AR-15§!"
+
+GAK_each_other_good:0 "일시적 동맹"

@@ -46,7 +46,7 @@ GAK_GRO_paternal_autocrat:0 "베드로 기사단국"
 GAK_GRO_paternal_autocrat_ADJ:0 "페트로그라드"
 GAK_GRO_paternal_autocrat_DEF:0 "베드로 기사단국"
 
-GAK_groza:0 "신성 러시아 제국"
-GAK_groza_ADJ:0 "러시아 제국"
-GAK_groza_DEF:0 "신성 러시아 제국"
+GAK_groza_empire:0 "신성 러시아 제국"
+GAK_groza_empire_ADJ:0 "러시아 제국"
+GAK_groza_empire_DEF:0 "신성 러시아 제국"
 ####################################################
