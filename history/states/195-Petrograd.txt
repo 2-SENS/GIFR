@@ -29,7 +29,6 @@ state = {
 		add_claim_by = RUS
 		add_claim_by = TRM
 	}
-	local_building_slots_factor = 1
 	provinces = {
 		79 149 3151 6174 9097 11068
 	}

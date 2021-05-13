@@ -1,5 +1,5 @@
 shared_focus = {
-    id = GAK_selected_the_war_plan
+    id = GAK_selected_the_war_plan_focus
 	icon = GFX_goal
 	cost = 1
     x = 45
@@ -9,7 +9,7 @@ shared_focus = {
     }
     completion_reward = {
 	    log = "[GetDateText]: [Root.GetName]: Focus GAK_groza_s_world"
-        custom_effect_tooltip = GAK_selected_the_war_plan_tt
+        custom_effect_tooltip = GAK_selected_the_war_plan_focus_tt
         add_war_support = 0.05
     }
 }
@@ -24,7 +24,7 @@ shared_focus = {
         has_country_flag = GAK_let_s_fuck_the_world
     }
 	prerequisite = { 
-        focus = GAK_selected_the_war_plan 
+        focus = GAK_selected_the_war_plan_focus 
     }
     completion_reward = {
 	    log = "[GetDateText]: [Root.GetName]: Focus GAK_war_plan_big_brother_raid"

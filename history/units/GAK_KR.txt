@@ -41,7 +41,7 @@ division_template = {
 }
 
 units = {
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 15
@@ -52,7 +52,7 @@ units = {
 			start_equipment_factor = 1.0
 		}
 		
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 16
@@ -63,7 +63,7 @@ units = {
 			start_equipment_factor = 1.0
 		}
 		
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 17
@@ -74,7 +74,7 @@ units = {
 			start_equipment_factor = 1.0
 		}
 		
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 18
@@ -85,7 +85,7 @@ units = {
 			start_equipment_factor = 1.0
 		}
 		
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 19
@@ -96,7 +96,7 @@ units = {
 			start_equipment_factor = 1.0
 		}
 
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 19

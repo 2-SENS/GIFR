@@ -6,7 +6,7 @@ focus_tree = {
 	}
 
     default = no
-	shared_focus = GAK_selected_the_war_plan
+	shared_focus = GAK_selected_the_war_plan_focus
 	shared_focus = GAK_groza_s_world
 
     focus = {
@@ -459,7 +459,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_2nd_citizen_focus"
 			add_political_power = 100
-			stability_factor = 0.1
+			add_stability = 0.1
 			remove_ideas = GAK_american_problem_ideas
 			set_country_flag = GAK_friend_with_russian_bois
 			custom_effect_tooltip = GAK_2nd_citizen_focus_tt

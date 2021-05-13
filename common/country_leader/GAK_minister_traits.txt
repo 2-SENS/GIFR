@@ -24,12 +24,7 @@ leader_traits = {
 		political_power_factor = 0.25	
 		economy_cost_factor = -0.1
 		trade_laws_cost_factor = -0.1
-		mobilization_laws_cost_factor = -0.1	
-		high_command_cost_factor = -0.1
-		air_chief_cost_factor = -0.1
-		army_chief_cost_factor = -0.1
-		navy_chief_cost_factor = -0.1			
-		
+		mobilization_laws_cost_factor = -0.1			
 		random = no
 	}
 	
@@ -105,7 +100,6 @@ leader_traits = {
 	}
 	
 	for_light_of_liberal = { #자유의 등대 - GAK
-		liberal_democrat_drift = 0.05
 		stability_factor = 0.08
 		random = no
 	}
@@ -132,10 +126,7 @@ leader_traits = {
 	}
 	
 	for_real_genius = { #ㄹㅇ 쌉천재 - GAK
-		add_tech_bonus = {
-			bonus = 0.08
-				category = electronics
-			}
+		research_speed_factor = 0.08
 		stability_factor = -0.02
 		MONTHLY_POPULATION = -0.01
 		random = no
@@ -221,7 +212,6 @@ leader_traits = {
 	sec_former_NKVD_chief_s_skill = { # 전 NKVD 실장의 실력 - GAK
 		stability_factor = -0.08
 		army_org_factor = 0.12
-		enemy_partisan_effect = -0.25
 		random = no
 	}
 	
@@ -236,7 +226,6 @@ leader_traits = {
 	sec_sly_security_chief = { # 능글맞은 보안부장 - GAK
 		stability_factor = 0.06
 		consumer_goods_factor = 0.02
-		enemy_partisan_effect = -0.12
 		drift_defence_factor = 0.15
 		random = no
 	}
@@ -302,13 +291,11 @@ leader_traits = {
 	}
 	
 	GAK_destroyer_spam_cos = { #구축함 스팸	- GAK
-		naval_torpedo_range_factor = 0.25
 		navy_screen_attack_factor = 0.1
 		navy_screen_defence_factor = 0.1
 		navy_anti_air_attack_factor = 0.2
 		equipment_bonus = {
 			screen_ship = {
-				stability_factor = -0.1
 				naval_speed = 0.25
 				instant = yes
 			}
@@ -326,7 +313,6 @@ leader_traits = {
 	}
 	
 	GAK_destory_everything_coa = { #전장의 눈깔 수집가 - GAK
-		enemy_partisan_effect = 0.15
 		compliance_gain = -0.02
 		army_attack_factor = 0.35
 		army_core_attack_factor = 0.15
@@ -441,7 +427,6 @@ leader_traits = {
 	GAK_Fallschirmjaeger_experience = { #며느리도 모르는 강하엽병의 비결
 		air_paradrop_attack_factor = 0.15
 		air_paradrop_defence_factor = 0.15
-		air_paradrop_speed_factor = 0.2
 		equipment_bonus = {
 			air_transport = {
 				maximum_speed = 0.1

@@ -22,7 +22,6 @@ state = {
 			9098 1
 		}
 	}
-	local_building_slots_factor = 1
 	provinces = {
 		104 126 181 3120 6139 6197 9098 11032 11080 11139 11186
 	}

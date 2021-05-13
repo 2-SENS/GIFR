@@ -485,10 +485,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_goal_GAK_groza_choice_ideology_focus.dds"
 	}
 
-	SpriteType = { 
-		name = "GFX_goal_GAK_huge_discussion_focus" 
-		texturefile = "gfx/interface/goals/GFX_goal_GAK_huge_discussion_focus.dds"
-	}
+	
 
 	SpriteType = { 
 		name = "GFX_goal_GAK_what_we_lack_focus" 
@@ -500,50 +497,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_goal_GAK_reflection_ourselves_focus.dds"
 	}
 
-	SpriteType = { 
-		name = "GFX_goal_GAK_free_speech_focus" 
-		texturefile = "gfx/interface/goals/GFX_goal_GAK_free_speech_focus.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_goal_GAK_equal_injung_focus" 
-		texturefile = "gfx/interface/goals/GFX_goal_GAK_equal_injung_focus.dds"
-	}
+	
 
 	SpriteType = { 
 		name = "GFX_goal_GAK_ready_for_future_focus" 
 		texturefile = "gfx/interface/goals/GFX_goal_GAK_ready_for_future_focus.dds"
 	}
 
-	SpriteType = { 
-		name = "GFX_goal_GAK_civil_rights_act_focus" 
-		texturefile = "gfx/interface/goals/GFX_goal_GAK_civil_rights_act_focus.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_goal_GAK_keep_it_calm_focus" 
-		texturefile = "gfx/interface/goals/GFX_goal_GAK_keep_it_calm_focus.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_goal_GAK_begin_integration_focus" 
-		texturefile = "gfx/interface/goals/GFX_goal_GAK_begin_integration_focus.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_goal_GAK_talk_with_some_russian_bois_focus" 
-		texturefile = "gfx/interface/goals/GFX_goal_GAK_talk_with_some_russian_bois_focus.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_goal_GAK_the_civil_rights_success_focus" 
-		texturefile = "gfx/interface/goals/GFX_goal_GAK_the_civil_rights_success_focus.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_goal_GAK_the_united_nation_focus" 
-		texturefile = "gfx/interface/goals/GFX_goal_GAK_the_united_nation_focus.dds"
-	}
+	
 
 	SpriteType = { 
 		name = "GFX_goal_GAK_red_soc_jipgueul"  
