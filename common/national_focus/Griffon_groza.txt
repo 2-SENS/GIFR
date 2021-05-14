@@ -1,13 +1,11 @@
 focus_tree = {
-	id = GAK_Groza_focus_tree
-
+	id = GAK_Groza_coup_focus_tree
 	country = {
 		factor = 0
 	}
-
     default = no
 	shared_focus = GAK_selected_the_war_plan_focus
-	shared_focus = GAK_groza_s_world
+	shared_focus = GAK_groza_tsar_focus
 
     focus = {
 		id = GAK_legacy_of_revolution_focus

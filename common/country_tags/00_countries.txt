@@ -211,12 +211,6 @@ SPO = "countries/WestEur.txt"
 URG = "countries/WestEur.txt"
 VEN = "countries/WestEur.txt"
 GAK = "countries/WestEur.txt" #지휘부
-#GAG = "countries/WestEur.txt" #따까리들
-#GAF = "countries/WestEur.txt" #따까리들
-#GAU = "countries/WestEur.txt" #따까리들
-#GBE = "countries/WestEur.txt" #따까리들
-#GAE = "countries/WestEur.txt" #따까리들
-#GAA = "countries/WestEur.txt" #따까리들
 
 GYA = "countries/African.txt"
 HAI = "countries/African.txt"

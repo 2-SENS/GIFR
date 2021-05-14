@@ -3,36 +3,6 @@ GAK = {
 	color = rgb { 204 254 253 }
 	color_ui = rgb { 204 254 253 }
 }
-#그리폰령 독일
-GAG = {
-	color = rgb { 94 94 61 }
-	color_ui = rgb { 139 156 117 }
-}
-#그리폰령 프랑스
-GAF = {
-	color = rgb { 1 19 128 }
-	color_ui = rgb { 1 19 128 }
-}
-#그리폰령 오-헝
-GAU = {
-	color = rgb { 221 221 221 }
-	color_ui = rgb { 221 221 221 }
-}
-#그리폰령 대영제국
-GBE = {
-	color = rgb { 151 1 25 }
-	color_ui = rgb { 151 1 25 }
-}
-#그리폰령 동아시아
-GAE = {
-	color = rgb { 2 45 124 }
-	color_ui = rgb { 2 45 124 }
-}
-#그리폰령 아프리카
-GAA = {
-	color = rgb { 136 170 108 }
-	color_ui = rgb { 136 170 108 }
-}
 ADA = {
 	color = rgb { 146 78 48 }
 	color_ui = rgb { 146 78 48 }

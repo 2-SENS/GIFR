@@ -11,7 +11,7 @@ shared_focus = {
         has_country_flag = GAK_groza_s_world_flag 
     }
 	completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus GAK_groza_s_world"
+	log = "[GetDateText]: [Root.GetName]: Focus GAK_groza_tsar_focus"
 		custom_effect_tooltip = GAK_groza_control_russia_tt
 		if = {
 			limit = {
