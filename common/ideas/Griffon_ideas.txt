@@ -1764,6 +1764,17 @@ ideas = {
 			}
 		}
 		
+		GAK_future_tech_in_progress_ideas = { #미래 기술 연구
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_future_tech_in_progress_ideas"}
+			picture = GAK
+			available = {
+				has_country_flag = GAK_research_tech_in_progress
+			}
+			modifier = {
+				research_speed_factor = -0.5
+			}
+		}
+		
 	}
 
 	hidden_ideas = {

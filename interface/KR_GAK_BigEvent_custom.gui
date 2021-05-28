@@ -487,7 +487,7 @@ guiTypes = {
 		Orientation = center
 		Origo = center
 		clipping = no
-		show_sound = GAK_groza_united_effect
+		show_sound = GAK_groza_united_russia_effect
 
 		background = {
 			name = "Background"

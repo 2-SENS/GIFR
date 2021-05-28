@@ -305,6 +305,12 @@ country_event = {
 					GAK_Lord_Protector
 				}
 			}
+			hidden_effect = {
+				country_event = {
+					id = gakdom.53
+					days = 30
+				}
+			}
 		}
 	}
 }
@@ -435,6 +441,12 @@ country_event = {
 				defense_skill = 4
 				planning_skill = 4
 				logistics_skill = 3
+			}
+			hidden_effect = {
+				country_event = {
+					id = gakdom.53
+					days = 30
+				}
 			}
 		}
 	}
@@ -1096,8 +1108,8 @@ country_event = {
 		name = gakdom.47.a
 		add_political_power = -100
 		add_ideas = GAK_rus_policy_of_appeasement_a_ideas
-		modifier = {
-			factor = 50
+		ai_chance = {
+			base = 50
 		}
 	}
 
@@ -1105,8 +1117,8 @@ country_event = {
 		name = gakdom.47.b
 		add_political_power = -100
 		add_ideas = GAK_rus_policy_of_appeasement_b_ideas
-		modifier = {
-			factor = 50
+		ai_chance = {
+			base = 50
 		}
 	}
 }
@@ -1122,8 +1134,8 @@ country_event = {
 
 	option = {
 		name = gakdom.48.a #당근 빳다죠 씻팔
-		modifier = {
-			factor = 100
+		ai_chance = {
+			base = 100
 		}
 		add_opinion_modifier = {
 			target = GER
@@ -1142,8 +1154,8 @@ country_event = {
 
 	option = {
 		name = gakdom.48.b #응 안해~ 이거 찍을일 없어~
-		modifier = {
-			factor = 0
+		ai_chance = {
+			base = 0
 		}
 		GAK = {
 			country_event = {
@@ -1209,3 +1221,133 @@ country_event = {
 		name = gakdom.52.a
 	}
 }
+
+country_event = {
+	id = gakdom.53 #연구소 설립
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.53" }
+	title = gakdom.53.t
+	desc = gakdom.53.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.53.a
+		set_country_flag = GAK_allow_research_future_tech
+	}
+}
+
+country_event = {
+	id = gakdom.54 #사할린이냐 전쟁이냐
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.54" }
+	title = gakdom.54.t
+	desc = gakdom.54.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.54.a
+		ai_chance = {
+			base = 95
+		}
+		GAK = {
+			transfer_state = 537
+			transfer_state = 555
+			country_event = gakdom.55
+		}
+		
+	}
+
+	option = {
+		name = gakdom.54.b
+		add_political_power = -100
+		ai_chance = {
+			base = 5
+		}
+		GAK = {
+			country_event = gakdom.56
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.55 #반환된 사할린
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.55" }
+	title = gakdom.55.t
+	desc = gakdom.55.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.55.a
+		add_political_power = 100
+	}
+
+	option = {
+		name = gakdom.55.b
+		add_political_power = -100
+		declare_war_on = {
+			target = JAP
+			type = annex_everything
+		}
+		custom_effect_tooltip = jap_has_strong_navy
+	}
+}
+
+country_event = {
+	id = gakdom.56 #사할린 안주겠다는데요
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.56" }
+	title = gakdom.56.t
+	desc = gakdom.56.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = { #에휴, 됐다.
+		name = gakdom.56.a
+		add_political_power = -100
+	}
+
+	option = { #맛좀 보여야지
+		name = gakdom.56.b
+		add_political_power = 100
+		declare_war_on = {
+			target = JAP
+			type = annex_everything
+		}
+		custom_effect_tooltip = jap_has_strong_navy
+	}
+}
+
+country_event = {
+	id = gakdom.57 #그로자 즉위식
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.57" }
+	title = gakdom.57.t
+	desc = gakdom.57.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = { #만세!
+		name = gakdom.57.a
+		set_country_flag = GAK_accession_groza
+		news_event = { GAKworldnews.2 }
+	}
+}
+
+country_event = {
+	id = gakdom.58 #알레스카도 가져갈게
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.58" }
+	title = gakdom.58.t
+	desc = gakdom.58.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = { #나중에 되찾아 올수 있을거야
+		name = gakdom.58.a
+	}
+}
+

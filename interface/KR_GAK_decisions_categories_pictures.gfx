@@ -23,6 +23,11 @@ spriteTypes = {
 		name = "GFX_new_tech_decision"
 		texturefile = "gfx/interface/decisions/decisions_categories_pictures/GAK_decision_tech.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_rebuild_russia_decision"
+		texturefile = "gfx/interface/decisions/decisions_categories_pictures/GAK_rebuild_great_russia.dds"
+	}
 
 	spriteType = {
 		name = "GFX_decision_battle_vs_america"

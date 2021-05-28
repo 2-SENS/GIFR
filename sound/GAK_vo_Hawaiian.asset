@@ -43,6 +43,12 @@ category = {
 		GAK_failed_usa_effect
 	}
 	soundeffects = {
+		GAK_groza_united_russia_effect
+	}
+	soundeffects = {
+		GAK_groza_accession_to_thron_effect
+	}
+	soundeffects = {
 		GAK_bugwan_voice_effect
 	}
 	soundeffects = {
@@ -182,6 +188,20 @@ soundeffect = {
 	volume = 1.2
 	sounds = {
 		sound = _FROM_TNO_se_british_reunification_stirling_SORRY_BUT_IT_S_GOOD
+	}
+}
+soundeffect = {
+	name = "GAK_groza_united_russia_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_russian_united
+	}
+}
+soundeffect = {
+	name = "GAK_groza_accession_to_thron_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_groza_accession_to_thron_effect
 	}
 }
 soundeffect = {
@@ -470,6 +490,16 @@ sound = {
 sound = {
 	name = "_FROM_TNO_se_british_reunification_stirling_SORRY_BUT_IT_S_GOOD"
 	file = "GAK/FROM_TNO_se_british_reunification_stirling_SORRY_BUT_IT_S_GOOD.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_russian_united"
+	file = "GAK/GAK_russian_united.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_groza_accession_to_thron_effect"
+	file = "GAK/GAK_groza_accession_to_thron_effect.wav"
 	always_load = yes
 }
 sound = {

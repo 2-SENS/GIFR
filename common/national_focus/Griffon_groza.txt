@@ -6,6 +6,7 @@ focus_tree = {
     default = no
 	shared_focus = GAK_selected_the_war_plan_focus
 	shared_focus = GAK_groza_tsar_focus
+	shared_focus = GAK_griffon_future_tech_lab
 
     focus = {
 		id = GAK_legacy_of_revolution_focus

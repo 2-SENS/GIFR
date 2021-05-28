@@ -389,3 +389,303 @@ GAK_rebuild_great_russia = {
 		}
 	}
 }
+
+GAK_griffon_new_future_tech = {
+	GAK_griffon_new_tech_rifle = {
+		icon = generic_research
+
+		available = {
+			NOT = { has_country_flag = GAK_research_tech_in_progress }
+		}
+		
+		cost = 300
+		days_remove = 100
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_political_power < 300
+				factor = 0
+			}
+			modifier = {
+				has_political_power > 300
+				add = 40
+			}
+			modifier = {
+				has_political_power > 600
+				add = 90
+			}
+		}
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_griffon_new_tech_rifle"
+			set_country_flag = GAK_research_tech_in_progress
+			add_ideas = GAK_future_tech_in_progress_ideas
+		}
+		
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_griffon_new_tech_rifle"
+			set_country_flag = GAK_complete_rifle_research
+			clr_country_flag = GAK_research_tech_in_progress
+			set_technology = {
+				modern_infantry_weapons = 1
+				modern_infantry_weapons2 = 1
+				advanced_infantry_weapons3 = 1
+				modern_infantry_weapons3 = 1
+				advanced_infantry_weapons4 = 1
+				modern_infantry_weapons4 = 1
+				advanced_infantry_weapons5 = 1
+				modern_infantry_weapons5 = 1
+				advanced_infantry_weapons6 = 1
+				modern_infantry_weapons6 = 1
+				advanced_infantry_weapons7 = 1
+				modern_infantry_weapons7 = 1
+				advanced_infantry_weapons8 = 1
+			}
+		}
+	}
+	
+	GAK_griffon_new_tech_jet_engine = {
+		icon = generic_research
+
+		available = {
+			NOT = { has_country_flag = GAK_research_tech_in_progress }
+		}
+		
+		visible = {
+			NOT = { has_tech = jet_engines }
+		}
+		
+		cost = 100
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_political_power < 100
+				factor = 0
+			}
+			modifier = {
+				has_political_power > 100
+				add = 40
+			}
+			modifier = {
+				has_political_power > 300
+				add = 90
+			}
+		}
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_griffon_new_tech_jet_engine"
+			set_country_flag = GAK_research_tech_in_progress
+			add_ideas = GAK_future_tech_in_progress_ideas
+		}
+		
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_griffon_new_tech_jet_engine"
+			clr_country_flag = GAK_research_tech_in_progress
+			set_technology = {
+				jet_engines = 1
+			}
+		}
+	}
+	
+	GAK_griffon_new_tech_stealth = {
+		icon = generic_research
+
+		available = {
+			NOT = { has_country_flag = GAK_research_tech_in_progress }
+		}
+		
+		visible = {
+			NOT = { has_tech = Stealth_Technology }
+		}
+		
+		cost = 1000
+		days_remove = 120
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_political_power < 1000
+				factor = 0
+			}
+			modifier = {
+				has_political_power > 1000
+				add = 40
+			}
+			modifier = {
+				has_political_power > 1500
+				add = 90
+			}
+		}
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_griffon_new_tech_stealth"
+			set_country_flag = GAK_research_tech_in_progress
+			add_ideas = GAK_future_tech_in_progress_ideas
+		}
+		
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_griffon_new_tech_stealth"
+			clr_country_flag = GAK_research_tech_in_progress
+			set_country_flag = GAK_complete_stealth_research
+			set_technology = {
+				Stealth_Technology = 1
+			}
+		}
+	}
+	
+	GAK_griffon_new_tech_fighter_one = {
+		icon = generic_research
+
+		available = {
+			NOT = { has_country_flag = GAK_research_tech_in_progress }
+		}
+		
+		visible = {
+			has_tech = jet_engines
+		}
+		
+		cost = 150
+		days_remove = 90
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_political_power < 150
+				factor = 0
+			}
+			modifier = {
+				has_political_power > 150
+				add = 40
+			}
+			modifier = {
+				has_political_power > 450
+				add = 90
+			}
+		}
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_griffon_new_tech_fighter_one"
+			set_country_flag = GAK_research_tech_in_progress
+			add_ideas = GAK_future_tech_in_progress_ideas
+		}
+		
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_griffon_new_tech_fighter_one"
+			clr_country_flag = GAK_research_tech_in_progress
+			set_country_flag = GAK_complete_fighter_one_research
+			set_technology = {
+				jet_fighter1 = 1
+				jet_fighter2 = 1
+				jet_fighter_equipment_3 = 1
+				cv_jet_fighter3 = 1
+				jet_fighter_equipment_4 = 1
+				cv_jet_fighter4 = 1
+				jet_fighter_equipment_5 = 1
+				cv_jet_fighter5 = 1
+			}
+		}
+	}
+	
+	GAK_griffon_new_tech_fighter_two = {
+		icon = generic_research
+
+		available = {
+			NOT = { has_country_flag = GAK_research_tech_in_progress }
+			has_country_flag = GAK_complete_fighter_one_research
+		}
+		
+		visible = {
+			has_tech = jet_engines
+			has_tech = Stealth_Technology
+		}
+		
+		cost = 500
+		days_remove = 180
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_political_power < 500
+				factor = 0
+			}
+			modifier = {
+				has_political_power > 500
+				add = 40
+			}
+			modifier = {
+				has_political_power > 1000
+				add = 90
+			}
+		}
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_griffon_new_tech_fighter_two"
+			set_country_flag = GAK_research_tech_in_progress
+			add_ideas = GAK_future_tech_in_progress_ideas
+		}
+		
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_griffon_new_tech_fighter_two"
+			clr_country_flag = GAK_research_tech_in_progress
+			set_country_flag = GAK_complete_fighter_two_research
+			set_technology = {
+				jet_fighter_equipment_6 = 1
+				cv_jet_fighter6 = 1
+				jet_fighter_equipment_7 = 1
+				cv_jet_fighter7 = 1
+				jet_fighter_equipment_8 = 1
+				cv_jet_fighter8 = 1
+				jet_fighter_equipment_9 = 1
+				cv_jet_fighter9 = 1
+			}
+		}
+	}
+}
+
+GAK_plan_for_jap_sun_set = {
+	GAK_get_intel_in_jap_navy = {
+		available = {
+			NOT = { has_country_flag = GAK_the_enemy_search_in_progress }
+		}
+
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_political_power < 30
+				factor = 0
+			}
+			modifier = {
+				has_political_power > 30
+				add = 40
+			}
+			modifier = {
+				has_political_power > 180
+				add = 90
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_finding_enemy_navy"
+			set_country_flag = GAK_the_enemy_search_in_progress
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_finding_enemy_navy"
+			clr_country_flag = GAK_the_enemy_search_in_progress
+			add_intel = {
+				target = JAP
+				navy_intel = 60
+			}
+		}
+	}
+}

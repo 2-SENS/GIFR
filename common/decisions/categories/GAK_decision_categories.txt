@@ -1,6 +1,6 @@
 GAK_rebuild_great_russia = {
 	icon = GFX_decision_generic_research
-	picture = GFX_new_tech_decision
+	picture = GFX_rebuild_russia_decision
 	allowed = {
 		tag = GAK
 	}
@@ -8,6 +8,34 @@ GAK_rebuild_great_russia = {
 		has_completed_focus = GAK_rebuild_great_russia_focus
 		NOT = { 
 			has_country_flag = GAK_rebuild_great_russia_finish 
+		}
+	}
+}
+
+GAK_griffon_new_future_tech = {
+	icon = GFX_decision_generic_research
+	picture = GFX_new_tech_decision
+	allowed = {
+		tag = GAK
+	}
+	visible = {
+		has_country_flag = GAK_griffon_future_tech_lab_open
+		NOT = { 
+			has_country_flag = GAK_griffon_future_tech_lab_end 
+		}
+	}
+}
+
+GAK_plan_for_jap_sun_set = {
+	icon = GFX_decision_generic_research
+	picture = GFX_new_tech_decision
+	allowed = {
+		tag = GAK
+	}
+	visible = {
+		has_completed_focus = GAK_plan_for_jap_sun_set
+		NOT = { 
+			country_exists = JAP
 		}
 	}
 }

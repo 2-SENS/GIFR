@@ -1,7 +1,7 @@
 shared_focus = {
     id = GAK_selected_the_war_plan_focus
 	icon = GFX_goal
-	cost = 1
+	cost = 3
     x = 45
 	y = 12
 	allow_branch = { 
@@ -17,7 +17,7 @@ shared_focus = {
 shared_focus = {
     id = GAK_war_plan_big_brother_raid
 	icon = GFX_goal
-	cost = 1
+	cost = 2
     x = 45
 	y = 13
     allow_branch = { 
@@ -41,7 +41,7 @@ shared_focus = {
 shared_focus = {
     id = GAK_look_other_sides_focus
 	icon = GFX_goal
-	cost = 5
+	cost = 2
     x = 45
 	y = 14
     allow_branch = { 
@@ -64,7 +64,7 @@ shared_focus = {
 shared_focus = {
     id = GAK_rebuild_great_russia_focus
 	icon = GFX_goal
-	cost = 5
+	cost = 2
     x = 45
 	y = 15
     allow_branch = { 
@@ -82,7 +82,7 @@ shared_focus = {
 shared_focus = {
     id = GAK_middle_asia_eat_focus
 	icon = GFX_goal
-	cost = 1.1
+	cost = 2
     x = 43
 	y = 15
     allow_branch = { 
@@ -127,7 +127,7 @@ shared_focus = {
 shared_focus = {
     id = GAK_middle_asia_eat_core_focus
 	icon = GFX_goal
-	cost = 1.1
+	cost = 2
     x = 43
 	y = 17
     allow_branch = { 
@@ -166,7 +166,7 @@ shared_focus = {
 shared_focus = {
     id = GAK_east_asia_conquest_focus
 	icon = GFX_goal
-	cost = 1.2
+	cost = 2
     x = 47
 	y = 15
     allow_branch = { 
@@ -191,7 +191,7 @@ shared_focus = {
 shared_focus = {
     id = GAK_japan_maneuver_focus
 	icon = GFX_goal
-	cost = 1.2
+	cost = 2
     x = 47
 	y = 16
     allow_branch = { 
@@ -236,7 +236,7 @@ shared_focus = {
 shared_focus = {
     id = GAK_let_s_eat_transamur
 	icon = GFX_goal
-	cost = 1.3
+	cost = 2
     x = 47
 	y = 17
     allow_branch = { 
@@ -249,5 +249,245 @@ shared_focus = {
 	    log = "[GetDateText]: [Root.GetName]: Focus GAK_let_s_eat_transamur"
         custom_effect_tooltip = GAK_let_s_eat_transamur_tt
         country_event = gakdom.22
+    }
+}
+
+shared_focus = {
+    id = GAK_new_world_order_focus
+	icon = GFX_goal
+	cost = 5
+    x = 45
+	y = 18
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_middle_asia_eat_core_focus 
+    }
+    prerequisite = { 
+        focus = GAK_let_s_eat_transamur 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_new_world_order_focus"
+        custom_effect_tooltip = GAK_new_world_order_focus_tt
+        add_war_support = 0.05
+    }
+}
+
+shared_focus = {
+    id = GAK_go_right_side_focus
+	icon = GFX_goal
+	cost = 5
+    x = 50
+	y = 19
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_new_world_order_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_go_right_side_focus"
+        custom_effect_tooltip = GAK_go_right_side_focus_tt
+    }
+}
+
+shared_focus = {
+    id = GAK_give_me_back_sakhalin_focus
+	icon = GFX_goal
+	cost = 5
+    x = 47
+	y = 20
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_go_right_side_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_give_me_back_sakhalin_focus"
+        custom_effect_tooltip = GAK_give_me_back_sakhalin_focus_tt
+        add_state_claim = 537
+        add_state_claim = 555
+        JAP = {
+            country_event = gakdom.54
+        }
+        hidden_effect = {
+            add_state_core = 537
+            add_state_core = 555
+        }
+    }
+}
+
+shared_focus = {
+    id = GAK_sunset_plan_focus
+	icon = GFX_goal
+	cost = 5
+    x = 49
+	y = 21
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_give_me_back_sakhalin_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_sunset_plan_focus"
+        custom_effect_tooltip = GAK_sunset_plan_focus_tt
+        
+    }
+}
+
+shared_focus = {
+    id = GAK_eat_dragon_plan_focus
+	icon = GFX_goal
+	cost = 5
+    x = 45
+	y = 21
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_give_me_back_sakhalin_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_eat_dragon_plan_focus"
+        custom_effect_tooltip = GAK_eat_dragon_plan_focus_tt
+        
+    }
+}
+
+
+
+shared_focus = {
+    id = GAK_steal_aleska_focus
+	icon = GFX_goal
+	cost = 5
+    x = 53
+	y = 20
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_go_right_side_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_steal_aleska_focus"
+        custom_effect_tooltip = GAK_steal_aleska_focus_tt
+        add_state_claim = 463
+        add_state_core = 463
+        transfer_state = 463
+        hidden_effect = {
+            463 = {
+                if = {
+                    limit = { is_core_of = USA }
+                    remove_core_of = USA
+                    add_claim_by = USA
+                    USA = {
+                        country_event = gakdom.58
+                    }
+                }
+                if = {
+                    limit = { is_core_of = PSA }
+                    remove_core_of = PSA
+                    add_claim_by = PSA
+                    PSA = {
+                        country_event = gakdom.58
+                    }
+                }
+                if = {
+                    limit = { is_core_of = CAN }
+                    remove_core_of = CAN
+                    add_claim_by = CAN
+                    CAN = {
+                        country_event = gakdom.58
+                    }
+                }
+		    }
+        }
+    }
+}
+
+shared_focus = {
+    id = GAK_end_of_united_kingdom_plan_focus
+	icon = GFX_goal
+	cost = 5
+    x = 51
+	y = 21
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_steal_aleska_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_end_of_kingdom_plan_focus"
+        custom_effect_tooltip = GAK_end_of_kingdom_plan_focus_tt
+        
+    }
+}
+
+shared_focus = {
+    id = GAK_downfall_america_plan_focus
+	icon = GFX_goal
+	cost = 5
+    x = 55
+	y = 21
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_steal_aleska_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_downfall_america_plan_focus"
+        custom_effect_tooltip = GAK_downfall_america_plan_focus_tt
+        
+    }
+}
+
+shared_focus = {
+    id = GAK_king_in_pacific_focus
+	icon = GFX_goal
+	cost = 5
+    x = 50
+	y = 23
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_downfall_america_plan_focus 
+    }
+    prerequisite = { 
+        focus = GAK_end_of_kingdom_plan_focus 
+    }
+    prerequisite = { 
+        focus = GAK_eat_dragon_plan_focus 
+    }
+    prerequisite = { 
+        focus = GAK_sunset_plan_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_king_in_pacific_focus"
+        custom_effect_tooltip = GAK_king_in_pacific_focus_tt
+        
+    }
+}
+
+shared_focus = {
+    id = GAK_go_left_side_focus
+	icon = GFX_goal
+	cost = 5
+    x = 40
+	y = 19
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_new_world_order_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_go_left_side_focus"
+        custom_effect_tooltip = GAK_go_left_side_focus_tt
     }
 }

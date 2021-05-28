@@ -6,7 +6,7 @@ set_naval_oob = "GAK_KR_NAVAL"
 set_stability = 0.6
 set_war_support = 0.8
 set_research_slots = 4
-set_country_flag = GAK_DL_G36
+set_country_flag = GAK_tag_flag
 
 set_technology = {
 	doll_unit_tech = 1
@@ -464,6 +464,18 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
+	name = "Mosin-Nagant"
+	picture = "Portrait_Girls_Frontline_M1891_2.tga"
+	desc = "GAK_Mosin_Nagant_ARMY_DESC"
+	traits = { winter_specialist infantry_officer infantry_leader infantry_expert organizer }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
 	name = "AS Val"
 	picture = "Portrait_Girls_Frontline_Asval.tga"
 	desc = "GAK_ASVAL_ARMY_DESC"
@@ -668,7 +680,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Lewis gun"
+	name = "Lewis"
 	picture = "Portrait_Girls_Frontline_Lewis.tga"
 	desc = "GAK_LEWIS_ARMY_DESC"	
 	traits = { 
