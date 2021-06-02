@@ -1,0 +1,13 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_Leader_Groza"
+		texturefile = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_1_moving.dds"
+		noOfFrames = 40
+		effectFile = "INGAME"
+		allwaystransparent = no
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+}

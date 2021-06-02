@@ -105,5 +105,29 @@ units = {
 			division_template = "Tactical Doll Division"
 			start_experience_factor = 1.0
 			start_equipment_factor = 1.0
-		}
 	}
+}
+
+air_wings = {
+	195 = { 
+		#195th Tactical Fighter Squadron '403 Forbidden'	
+		fighter_equipment_1 =  {
+			owner = "GAK" 
+			amount = 96
+		}
+		name = "195th Tactical Fighter Squadron '403 Forbidden'"
+		ace	= {
+			modifier = "fighter_genius"
+			name = "M6"
+			surname = "ASW"
+			callsign = "Alucard"
+			picture = "GFX_GAK_ace_M6_ASW"
+		}
+		#208th Attacker Combat Squadron '410 Gone'			
+		CAS_equipment_1 = {
+			owner = "GAK" 
+			amount = 32
+		}
+		name = "208th Attacker Combat Squadron '410 Gone'"
+	}
+}

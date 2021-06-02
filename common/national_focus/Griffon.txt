@@ -348,6 +348,218 @@ focus_tree = {
 		}
 	}
 
+	focus = { 
+		id = GAK_the_shock_fake_focus
+		icon = "GFX_goal"
+		x = 25
+		y = 1
+		cost = 0.2
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_the_shock_fake_focus"
+			custom_effect_tooltip = GAK_the_shock_fake_focus_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_russian_seek_to_find_fake_focus
+		icon = "GFX_goal"
+		x = 16
+		y = 2
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_the_shock_fake_focus
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_russian_seek_to_find_fake_focus"
+			custom_effect_tooltip = GAK_russian_seek_to_find_fake_focus_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_make_new_friend_fake_focus
+		icon = "GFX_goal"
+		x = 14
+		y = 3
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_russian_seek_to_find_fake_focus
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_make_new_friend_fake_focus"
+			custom_effect_tooltip = GAK_make_new_friend_fake_focus_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_make_new_friend_1_fake_focus
+		icon = "GFX_goal"
+		x = 14
+		y = 4
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_make_new_friend_fake_focus
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_make_new_friend_1_fake_focus"
+			custom_effect_tooltip = GAK_make_new_friend_1_fake_focus_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_make_new_friend_2_fake_focus
+		icon = "GFX_goal"
+		x = 14
+		y = 5
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_make_new_friend_1_fake_focus
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_make_new_friend_2_fake_focus"
+			custom_effect_tooltip = GAK_make_new_friend_2_fake_focus_tt
+		}
+	}
+
+
+
+	focus = { 
+		id = GAK_make_new_enemy_fake_focus
+		icon = "GFX_goal"
+		x = 18
+		y = 3
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_make_new_enemy_1_fake_focus
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_make_new_enemy_fake_focus"
+			custom_effect_tooltip = GAK_make_new_enemy_fake_focus_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_make_new_enemy_1_fake_focus
+		icon = "GFX_goal"
+		x = 18
+		y = 4
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_make_new_enemy_1_fake_focus
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_make_new_enemy_1_fake_focus"
+			custom_effect_tooltip = GAK_make_new_enemy_1_fake_focus_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_make_new_enemy_2_fake_focus
+		icon = "GFX_goal"
+		x = 18
+		y = 5
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_russian_seek_to_find_fake_focus
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_make_new_enemy_2_fake_focus"
+			custom_effect_tooltip = GAK_make_new_enemy_2_fake_focus_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_milita_plan_fake_focus
+		icon = "GFX_goal"
+		x = 22
+		y = 2
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_the_shock_fake_focus
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_milita_plan_fake_focus"
+			custom_effect_tooltip = GAK_milita_plan_fake_focus_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_in_my_probelm_fake_focus
+		icon = "GFX_goal"
+		x = 28
+		y = 2
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_the_shock_fake_focus
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_in_my_probelm_fake_focus"
+			custom_effect_tooltip = GAK_in_my_probelm_fake_focus_tt
+		}
+	}
+
+	focus = { 
+		id = GAK_to_look_outside_fake_focus
+		icon = "GFX_goal"
+		x = 34
+		y = 2
+		cost = 0.2
+		prerequisite = {
+			focus = GAK_the_shock_fake_focus
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_to_look_outside_fake_focus"
+			custom_effect_tooltip = GAK_to_look_outside_fake_focus_tt
+		}
+	}
+
 
 
 }

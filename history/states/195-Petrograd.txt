@@ -4,8 +4,8 @@ state = {
 	manpower = 4050158
 	state_category = ten
 	resources = {
-		steel = 12
-		tungsten = 2
+		steel = 16
+		tungsten = 5
 	}
 	history = {
 		owner = GAK

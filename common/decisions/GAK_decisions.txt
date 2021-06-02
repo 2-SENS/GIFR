@@ -651,6 +651,44 @@ GAK_griffon_new_future_tech = {
 }
 
 GAK_plan_for_jap_sun_set = {
+	GAK_get_intel_in_jap_army = {
+		available = {
+			NOT = { has_country_flag = GAK_the_enemy_search_in_progress }
+		}
+
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_political_power < 30
+				factor = 0
+			}
+			modifier = {
+				has_political_power > 30
+				add = 40
+			}
+			modifier = {
+				has_political_power > 180
+				add = 90
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_get_intel_in_jap_army"
+			set_country_flag = GAK_the_enemy_search_in_progress
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_get_intel_in_jap_army"
+			clr_country_flag = GAK_the_enemy_search_in_progress
+			add_intel = {
+				target = JAP
+				army_intel = 60
+			}
+		}
+	}
+
 	GAK_get_intel_in_jap_navy = {
 		available = {
 			NOT = { has_country_flag = GAK_the_enemy_search_in_progress }
@@ -675,12 +713,12 @@ GAK_plan_for_jap_sun_set = {
 		}
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_finding_enemy_navy"
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_get_intel_in_jap_navy"
 			set_country_flag = GAK_the_enemy_search_in_progress
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_finding_enemy_navy"
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_get_intel_in_jap_navy"
 			clr_country_flag = GAK_the_enemy_search_in_progress
 			add_intel = {
 				target = JAP
