@@ -754,6 +754,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "DP-12"
 	picture = "Portrait_Girls_Frontline_dp_12.tga"
+	desc = "GAK_DP_12_ARMY_DESC"
 	traits = {
 		brilliant_strategist
 		skilled_staffer
@@ -769,6 +770,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "K5"
 	picture = "Portrait_Girls_Frontline_K5.tga"
+	desc = "GAK_K5_ARMY_DESC"
 	traits = {
 		brilliant_strategist
 		trait_reckless
@@ -785,6 +787,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "M950A"
 	picture = "Portrait_Girls_Frontline_M950A.tga"
+	desc = "GAK_M950A_ARMY_DESC"
 	traits = {
 		career_officer
 		skilled_staffer
@@ -799,6 +802,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Mk23"
 	picture = "Portrait_Girls_Frontline_Mk23.tga"
+	desc = "GAK_Mk23_ARMY_DESC"
 	traits = {
 		trait_reckless
 		infantry_officer
@@ -813,6 +817,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "PPK"
 	picture = "Portrait_Girls_Frontline_ppk.tga"
+	desc = "GAK_PPK_ARMY_DESC"
 	traits = {
 		trickster
 		brilliant_strategist
@@ -826,6 +831,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Type 88"
 	picture = "Portrait_Girls_Frontline_type_88.tga"
+	desc = "GAK_TYPE_88_ARMY_DESC"
 	traits = {
 		organizer
 		brilliant_strategist
@@ -837,6 +843,41 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "K2"
+	picture = "Portrait_Girls_Frontline_K2.tga"
+	desc = "GAK_K2_ARMY_DESC"
+	traits = { organizer winter_specialist mountaineer hill_fighter urban_assault_specialist }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "KP-31 'Suomi'"
+	picture = "Portrait_Girls_Frontline_KP31.tga"
+	desc = "GAK_KP_31_ARMY_DESC"
+	traits = { winter_specialist skilled_staffer infantry_officer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Type 95"
+	picture = "Portrait_Girls_Frontline_school_Type_95.tga"
+	desc = "GAK_TYPE_95_ARMY_DESC"
+	traits = { inflexible_strategist infantry_officer infantry_leader skilled_staffer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
 
 #Team - 403 Forbidden#
 
@@ -852,7 +893,7 @@ if = {
 		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GAK }
+		nationalities = { GAK RUS }
 	}
 	
 	create_operative_leader = {
@@ -867,7 +908,7 @@ if = {
 		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GAK }
+		nationalities = { GAK RUS }
 	}
 	
 	create_operative_leader = {
@@ -883,7 +924,7 @@ if = {
 		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GAK }
+		nationalities = { GAK RUS }
 	}
 	
 	create_operative_leader = {
@@ -897,7 +938,7 @@ if = {
 		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GAK }
+		nationalities = { GAK RUS }
 	}
 	
 }

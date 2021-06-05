@@ -1,4 +1,14 @@
 on_actions = {
+	on_startup = {
+		effect = {
+			195 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_griffon_hq }
+					province = { id = 6174 }
+				}
+			}
+		}
+	}
 	on_annex = {
 		effect = {
 			if = {
