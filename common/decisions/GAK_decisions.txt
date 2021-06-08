@@ -1,3 +1,158 @@
+404_Decisions_GUI = {
+}
+
+ficus_racemosa_power_struggle_decision = {
+	GAK_groza_friendly_force = {
+		icon = GFX_decision_eng_trade_unions_support
+
+		available = {
+			NOT = {
+				has_country_flag = GAK_already_helping_faction
+			}
+		}
+
+		cost = 75
+		days_re_enable = 32
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				national_populist > 0.14
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 150
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision FNG_favor_recovery_league"
+			set_country_flag = GAK_already_helping_faction
+			set_temp_variable = { GTP = 5 }
+			GAK_GTP = yes
+			hidden_effect = {
+				country_event = {
+					id = gaksystemload.1
+					days = 32
+				}
+			}
+		}
+	}
+	GAK_zaibatsu_force = {
+		icon = GFX_decision_eng_trade_unions_support
+
+		available = {
+			NOT = {
+				has_country_flag = GAK_already_helping_faction
+			}
+		}
+
+		cost = 75
+		days_re_enable = 32
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				market_liberal > 0.14
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 150
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_zaibatsu_force"
+			set_country_flag = GAK_already_helping_faction
+			set_temp_variable = { CBA = 5 }
+			GAK_CBA = yes
+			hidden_effect = {
+				country_event = {
+					id = gaksystemload.1
+					days = 32
+				}
+			}
+		}
+	}
+	GAK_revolutional_bitchs_move = {
+		icon = GFX_decision_eng_trade_unions_support
+
+		available = {
+			NOT = {
+				has_country_flag = GAK_already_helping_faction
+			}
+		}
+
+		cost = 75
+		days_re_enable = 32
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				social_liberal > 0.14
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 150
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_revolutional_bitchs_move"
+			set_country_flag = GAK_already_helping_faction
+			set_temp_variable = { GFR = 5 }
+			GAK_GFR = yes
+			hidden_effect = {
+				country_event = {
+					id = gaksystemload.1
+					days = 32
+				}
+			}
+		}
+	}
+	GAK_new_order_social_move = {
+		icon = GFX_decision_eng_trade_unions_support
+
+		available = {
+			NOT = {
+				has_country_flag = GAK_already_helping_faction
+			}
+		}
+
+		cost = 75
+		days_re_enable = 32
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				paternal_autocrat > 0.14
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 150
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_order_social_move"
+			set_country_flag = GAK_already_helping_faction
+			set_temp_variable = { GKC = 5 }
+			GAK_GKC = yes
+			hidden_effect = {
+				country_event = {
+					id = gaksystemload.1
+					days = 32
+				}
+			}
+		}
+	}
+}
+
+
 GAK_rebuild_great_russia = {
 	GAK_rebuild_gorky_tank_factory = {
 		icon = GFX_decision_generic_industry
@@ -650,80 +805,3 @@ GAK_griffon_new_future_tech = {
 	}
 }
 
-GAK_plan_for_jap_sun_set = {
-	GAK_get_intel_in_jap_army = {
-		available = {
-			NOT = { has_country_flag = GAK_the_enemy_search_in_progress }
-		}
-
-		cost = 30
-
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				has_political_power < 30
-				factor = 0
-			}
-			modifier = {
-				has_political_power > 30
-				add = 40
-			}
-			modifier = {
-				has_political_power > 180
-				add = 90
-			}
-		}
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_get_intel_in_jap_army"
-			set_country_flag = GAK_the_enemy_search_in_progress
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_get_intel_in_jap_army"
-			clr_country_flag = GAK_the_enemy_search_in_progress
-			add_intel = {
-				target = JAP
-				army_intel = 60
-			}
-		}
-	}
-
-	GAK_get_intel_in_jap_navy = {
-		available = {
-			NOT = { has_country_flag = GAK_the_enemy_search_in_progress }
-		}
-
-		cost = 30
-
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				has_political_power < 30
-				factor = 0
-			}
-			modifier = {
-				has_political_power > 30
-				add = 40
-			}
-			modifier = {
-				has_political_power > 180
-				add = 90
-			}
-		}
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_get_intel_in_jap_navy"
-			set_country_flag = GAK_the_enemy_search_in_progress
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_get_intel_in_jap_navy"
-			clr_country_flag = GAK_the_enemy_search_in_progress
-			add_intel = {
-				target = JAP
-				navy_intel = 60
-			}
-		}
-	}
-}

@@ -1,5 +1,21 @@
 add_namespace = gakdom
 add_namespace = gakgendie
+add_namespace = gaksystemload
+
+country_event = { 
+	id = gaksystemload.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.1 FROM = [From.GetName]" }
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = GAK_already_helping_faction
+	}
+
+	option = {
+		clr_country_flag = GAK_already_helping_faction
+	}
+}
 
 country_event = {
 	id = gakgendie.0
@@ -330,9 +346,17 @@ country_event = {
 		load_focus_tree = GAK_Groza_coup_focus_tree
 		set_country_flag = GAK_groza_control_russia
 		add_stability = 0.1
-		add_popularity = {
-			ideology = national_populist
-			popularity = 0.3
+		set_popularities = {
+			totalist = 0
+			syndicalist = 0
+			radical_socialist = 0
+			social_democrat = 0
+			social_liberal = 15
+			market_liberal = 26
+			social_conservative = 0
+			authoritarian_democrat = 0
+			paternal_autocrat = 8
+			national_populist = 51
 		}
 		set_politics = {
 			ruling_party = national_populist
@@ -341,6 +365,26 @@ country_event = {
 			elections_allowed = no
 		}
 		hidden_effect = {
+			set_party_name = { 
+				ideology = national_populist
+				long_name = GAK_groza_national_populist_royal_long
+				name = GAK_groza_national_populist_royal
+        	}
+			set_party_name = { 
+				ideology = market_liberal
+				long_name = GAK_groza_paternal_autocrat_zaibatsu_long
+				name = GAK_groza_paternal_autocrat_zaibatsu
+        	}
+			set_party_name = { 
+				ideology = social_liberal 
+				long_name = GAK_groza_paternal_autocrat_revolution_long
+				name = GAK_groza_paternal_autocrat_revolution
+        	}
+			set_party_name = { 
+				ideology = paternal_autocrat
+				long_name = GAK_groza_paternal_autocrat_norder_long
+				name = GAK_groza_paternal_autocrat_norder
+        	}
 			create_country_leader = {
 				name = "OTs-14 'Groza'" 
 				desc = "POLITICS_GROZA_DESC"
@@ -442,11 +486,9 @@ country_event = {
 				planning_skill = 4
 				logistics_skill = 3
 			}
-			hidden_effect = {
-				country_event = {
-					id = gakdom.53
-					days = 30
-				}
+			country_event = {
+				id = gakdom.53
+				days = 30
 			}
 		}
 	}

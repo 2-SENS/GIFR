@@ -1,3 +1,43 @@
+GAK_404_NOT_FOUND_decisions = {
+	icon = decision_category_generic_political_actions
+
+	picture = GFX_decision_GAK_404_NOT_FOUND
+
+	allowed = {
+		original_tag = GAK
+	}
+	visible = {
+		original_tag = GAK
+	}
+}
+
+404_Decisions_GUI = {
+	icon = GFX_decision_category_generic_political_actions
+	allowed = {
+		original_tag = GAK
+	}
+	visible = {
+		always = yes
+	}
+	visible_when_empty = yes
+	scripted_gui = GAK_404_Decisions_GUI
+	priority = 10000
+}
+
+ficus_racemosa_power_struggle_decision = {
+	icon = GFX_decision_category_generic_political_actions
+	picture = GFX_ficus_racemosa_power_struggle_decision_pic
+	allowed = {
+		original_tag = GAK
+	}
+	visible = {
+		has_country_leader = {
+			name = "OTs-14 'Groza'"
+			ruling_only = yes
+		}
+	}
+}
+
 GAK_rebuild_great_russia = {
 	icon = GFX_decision_generic_research
 	picture = GFX_rebuild_russia_decision
@@ -22,20 +62,6 @@ GAK_griffon_new_future_tech = {
 		has_country_flag = GAK_griffon_future_tech_lab_open
 		NOT = { 
 			has_country_flag = GAK_griffon_future_tech_lab_end 
-		}
-	}
-}
-
-GAK_plan_for_jap_sun_set = {
-	icon = GFX_decision_generic_research
-	picture = GFX_new_tech_decision
-	allowed = {
-		tag = GAK
-	}
-	visible = {
-		has_completed_focus = GAK_plan_for_jap_sun_set
-		NOT = { 
-			country_exists = JAP
 		}
 	}
 }

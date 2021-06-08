@@ -1,5 +1,56 @@
-calculate_Favorability = {
-    set_variable = { Favorability = num_of_civilian_factories }
-    set_temp_variable = { temp = num_of_military_factories }
-    divide_temp_variable = { temp = 2 }
+#그로자 충성파
+GAK_GTP = {
+	if = {
+		limit = { has_country_flag = GAK_groza_control_russia }
+		divide_temp_variable = { GTP = 100 }
+		hidden_effect = {
+			add_popularity = {
+				ideology = national_populist_subtype
+				popularity = GTP
+			}
+		}
+		custom_effect_tooltip = GP_GTP
+	}
+}
+#재벌파
+GAK_CBA = {
+	if = {
+		limit = { has_country_flag = GAK_groza_control_russia }
+		divide_temp_variable = { CBA = 100 }
+		hidden_effect = {
+			add_popularity = {
+				ideology = market_liberal_subtype
+				popularity = CBA
+			}
+		}
+		custom_effect_tooltip = GP_CBA
+	}
+}
+#개혁주의자
+GAK_GFR = {
+	if = {
+		limit = { has_country_flag = GAK_groza_control_russia }
+		divide_temp_variable = { GFR = 100 }
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_liberal_subtype
+				popularity = GFR
+			}
+		}
+		custom_effect_tooltip = GP_GFR
+	}
+}
+#신질서운동
+GAK_GKC = {
+	if = {
+		limit = { has_country_flag = GAK_groza_control_russia }
+		divide_temp_variable = { GKC = 100 }
+		hidden_effect = {
+			add_popularity = {
+				ideology = paternal_autocrat_subtype
+				popularity = GKC
+			}
+		}
+		custom_effect_tooltip = GP_GKC
+	}
 }

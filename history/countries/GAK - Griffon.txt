@@ -709,6 +709,7 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 5
 }
+
 create_corps_commander = {
 	name = "NTW-2000"
 	picture = "Portrait_Girls_Frontline_NTW_2000.tga"
@@ -877,6 +878,30 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "MG4"
+	picture = "Portrait_Girls_Frontline_MG4.tga"
+	desc = "GAK_MG4_ARMY_DESC"
+	traits = {  }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kolibri"
+	picture = "Portrait_Girls_Frontline_Kolibri.tga"
+	desc = "GAK_KOLIBRI_ARMY_DESC"
+	traits = { trickster reckless }
+	skill = 5
+	attack_skill = 6
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 #Team - 403 Forbidden#

@@ -33,4 +33,9 @@ spriteTypes = {
 		name = "GFX_decision_battle_vs_america"
 		texturefile = "gfx/interface/decisions/decisions_categories_pictures/GFX_decision_battle_vs_america.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ficus_racemosa_power_struggle_decision_pic"
+		texturefile = "gfx/interface/decisions/decisions_categories_pictures/GAK_espionage_and_concealment.tga"
+	}
 }

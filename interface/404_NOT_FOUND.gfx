@@ -1,0 +1,256 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_decision_GAK_404_NOT_FOUND"
+        texturefile = "gfx/interface/404_gui_interface/GAK_404_Logo.dds"
+    }
+
+    spriteType = {
+        name = "GFX_HK416_portrait_border"
+        texturefile = "gfx/interface/404_gui_interface/GFX_HK416_portrait_border.tga"
+    }
+
+    spriteType = {
+        name = "GFX_G11_portrait_border"
+        texturefile = "gfx/interface/404_gui_interface/GFX_G11_portrait_border.tga"
+    }
+
+    spriteType = {
+        name = "GFX_UMP45_portrait_border"
+        texturefile = "gfx/interface/404_gui_interface/GFX_UMP45_portrait_border.tga"
+    }
+
+    spriteType = {
+        name = "GFX_UMP9_portrait_border"
+        texturefile = "gfx/interface/404_gui_interface/GFX_UMP9_portrait_border.tga"
+    }
+
+    spriteType = {
+        name = "GFX_USA_CIA_Decisions_GUI_World_Map"
+        texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map.dds"
+    }
+    spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_AF"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_AF.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_AU"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_AU.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_CA"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_CA.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_EA"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_EA.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_EU"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_EU.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_ME"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_ME.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_NA"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_NA.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_RU"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_RU.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_SA"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_SA.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_SEA"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_SEA.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_AF_outline"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_AF_outline.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_AU_outline"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_AU_outline.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_CA_outline"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_CA_outline.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_EA_outline"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_EA_outline.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_EU_outline"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_EU_outline.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_ME_outline"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_ME_outline.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_NA_outline"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_NA_outline.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_RU_outline"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_RU_outline.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_SA_outline"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_SA_outline.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_Decisions_GUI_World_Map_SEA_outline"
+		texturefile = "gfx/interface/404_gui_interface/USA_CIA_Decisions_GUI_World_Map_SEA_outline.dds"
+		transparencecheck = yes
+	}
+    spriteType = {
+		name = "GFX_USA_CIA_GUI_research_bg"
+		texturefile = "gfx/interface/404_gui_interface/CIA_GUI_research_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_CIA_GUI_recruit_bg"
+		texturefile = "gfx/interface/404_gui_interface/CIA_GUI_recruit_bg.dds"
+	}
+    spriteType = {
+		name = "GFX_CIA_tech_button"
+		texturefile = "gfx/interface/404_gui_interface/tech_button_available.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_BELLYBUSTER"
+		texturefile = "gfx/interface/404_gui_interface/CIA_BELLYBUSTER.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_CIGARETTECAMERA"
+		texturefile = "gfx/interface/404_gui_interface/CIA_CIGARETTECAMERA.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_ENGRAVED_MIRRORS"
+		texturefile = "gfx/interface/404_gui_interface/CIA_ENGRAVED_MIRRORS.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_FILMSPIKE"
+		texturefile = "gfx/interface/404_gui_interface/CIA_FILMSPIKE.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_HollowCoin"
+		texturefile = "gfx/interface/404_gui_interface/CIA_HollowCoin.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_MINIATURECOMPASS"
+		texturefile = "gfx/interface/404_gui_interface/CIA_MINIATURECOMPASS.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_MOTIONDETECTION"
+		texturefile = "gfx/interface/404_gui_interface/CIA_MOTIONDETECTION.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_PICTOGRAM"
+		texturefile = "gfx/interface/404_gui_interface/CIA_PICTOGRAM.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_PIGEONCAMERA"
+		texturefile = "gfx/interface/404_gui_interface/CIA_PIGEONCAMERA.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_PIPERADIO"
+		texturefile = "gfx/interface/404_gui_interface/CIA_PIPERADIO.dds"
+	}
+    spriteType = {
+		name = "GFX_SGR_RND_GUI_decrease_budget_button"
+		texturefile = "gfx/interface/404_gui_interface/RND_GUI_decrease_budget_button.dds"
+	}
+    spriteType = {
+		name = "GFX_SGR_RND_GUI_increase_budget_button"
+		texturefile = "gfx/interface/404_gui_interface/RND_GUI_increase_budget_button.dds"
+	}
+    spriteType = {
+		name = "GFX_BRG_DomesticGUI_Plus"
+		texturefile = "gfx/interface/404_gui_interface/BRG_DomesticGUI_Plus.dds"
+	}
+    spriteType = {
+		name = "GFX_BRG_DomesticGUI_Minus"
+		texturefile = "gfx/interface/404_gui_interface/BRG_DomesticGUI_Minus.dds"
+	}
+    spriteType = {
+		name = "GFX_SGR_RND_GUI_RandD_button"
+		texturefile = "gfx/interface/404_gui_interface/RND_GUI_RandD_button.dds"
+	}
+    progressbartype = {
+		name = "GFX_SGR_RND_GUI_research_progress_bar"
+		textureFile1 = "gfx/interface/404_gui_interface/RND_GUI_research_bar.dds"
+		textureFile2 = "gfx/interface/404_gui_interface/RND_GUI_research_bg.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 400
+			y = 18
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Agent_UMP9"
+		texturefile = "gfx/interface/404_gui_interface/GFX_UMP9_portrait_border_ani.dds"
+		noOfFrames = 40
+		alwaystransparent = yes
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Agent_UMP45"
+		texturefile = "gfx/interface/404_gui_interface/GFX_UMP45_portrait_border_ani.dds"
+		noOfFrames = 50
+		alwaystransparent = yes
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Agent_HK416"
+		texturefile = "gfx/interface/404_gui_interface/GFX_HK416_portrait_border_ani.dds"
+		noOfFrames = 45
+		alwaystransparent = yes
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Agent_G11"
+		texturefile = "gfx/interface/404_gui_interface/GFX_G11_portrait_border_ani.dds"
+		noOfFrames = 50
+		alwaystransparent = yes
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+}
