@@ -339,5 +339,186 @@ spriteTypes = {
 		name = "GFX_goal_GAK_are_we_ready_ha"
 		texturefile = "gfx/interface/goals/GFX_goal_GAK_are_we_ready_ha.tga"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_four_wolves"
+		texturefile = "gfx/interface/goals/GAK_four_wolves.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_groza_focus_icon"
+		texturefile = "gfx/interface/goals/GAK_groza_focus_icon.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_answer_to_hero"
+		texturefile = "gfx/interface/goals/GAK_answer_to_hero.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_dark_side_on_G36"
+		texturefile = "gfx/interface/goals/GAK_dark_side_on_G36.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_phone_call"
+		texturefile = "gfx/interface/goals/GAK_phone_call.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_ERE_problem_of_indigenous_peoples"
+		texturefile = "gfx/interface/goals/GFX_goal_ERE_problem_of_indigenous_peoples.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_strategic_punch"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_strategic_punch.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GFX_focus_SWH_reborn_hawaii"
+		texturefile = "gfx/interface/goals/GFX_focus_SWH_reborn_hawaii.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_Leave_It_To_The_Peers"
+		texturefile = "gfx/interface/goals/GAK_Leave_It_To_The_Peers.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_decadent_cleaning_focus"
+		texturefile = "gfx/interface/goals/GAK_decadent_cleaning_focus.tga"
+	}
 	
+	SpriteType = { 
+		name = "GFX_goal_GFX_goal_GAK_determine_cause_of_mistake"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_determine_cause_of_mistake.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_ERE_pieces_were_put_together"
+		texturefile = "gfx/interface/goals/GFX_goal_ERE_pieces_were_put_together.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_steel_and_tear"
+		texturefile = "gfx/interface/goals/GAK_steel_and_tear.tga"
+	}
+
+	SpriteType = { 
+		name = "GAK_petersburg_stock_exchange_focus"
+		texturefile = "gfx/interface/goals/GAK_petersburg_stock_exchange_focus.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_rice_for_all_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_rice_for_all_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_groza_authoritarian_democracy_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_groza_authoritarian_democracy_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_groza_paternal_autocracy_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_groza_paternal_autocracy_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_groza_national_populism_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_groza_national_populism_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_new_history_movement_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_new_history_movement_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_concentration_power_to_groza_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_concentration_power_to_groza_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_rus_policy_of_appeasement_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_rus_policy_of_appeasement_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_areon_s_proposal_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_areon_s_proposal_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_facilitate_rocket_research_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_facilitate_rocket_research_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_Reich_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_Reich_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_worrying_about_future_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_worrying_about_future_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_shadow_country_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_shadow_country_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_every_doll_warrior_focus"
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_every_doll_warrior_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_black_zone_of_russia_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_black_zone_of_russia_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_groza_choice_ideology_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_groza_choice_ideology_focus.dds"
+	}
+
+	
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_what_we_lack_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_what_we_lack_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_reflection_ourselves_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_reflection_ourselves_focus.dds"
+	}
+
+	
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_ready_for_future_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_ready_for_future_focus.dds"
+	}
+
+	
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_red_soc_jipgueul"  
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_red_soc_jipgueul.tga"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_crazy_propaganda" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_crazy_propaganda.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_progressive_stimulus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_progressive_stimulus.dds"
+	}
+
 }

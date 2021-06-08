@@ -1,0 +1,1395 @@
+add_namespace = gakdom
+add_namespace = gakgendie
+add_namespace = gaksystemload
+
+country_event = { 
+	id = gaksystemload.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.1 FROM = [From.GetName]" }
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = GAK_already_helping_faction
+	}
+
+	option = {
+		clr_country_flag = GAK_already_helping_faction
+	}
+}
+
+country_event = {
+	id = gakgendie.0
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakgendie.0" }
+	title = gakgendie.0.t
+	desc = gakgendie.0.d
+	picture = GFX_report_event_GER_cons
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = gakgendie.0.a
+		add_stability = -0.3
+		custom_effect_tooltip = GAK_gentiane_die_tt
+		hidden_effect = {
+			set_country_flag = GAK_gentiane_die_event
+			country_event = {
+				id = gakdom.6
+				days = 4
+			}
+			create_country_leader = {
+				name = "Vacancy"
+				picture = "Portrait_martial_law_government.tga"
+				expire = "1965.1.1"
+				ideology = authoritarian_democrat_subtype
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.0
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.0" }
+	title = gakdom.0.t
+	desc = gakdom.0.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = gakdom.0.a
+	}
+}
+
+country_event = {
+	id = gakdom.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.1" }
+	title = gakdom.1.t
+	desc = gakdom.1.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.1.a
+	}
+}
+
+country_event = {
+	id = gakdom.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.2" }
+	title = gakdom.2.t
+	desc = gakdom.2.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.2.a
+	}
+}
+
+country_event = {
+	id = gakdom.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.3" }
+	title = gakdom.3.t
+	desc = gakdom.3.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.3.a
+	}
+}
+
+country_event = {
+	id = gakdom.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.4" }
+	title = gakdom.4.t
+	desc = gakdom.4.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.4.a
+	}
+}
+
+country_event = {
+	id = gakdom.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.5" }
+	title = gakdom.5.t
+	desc = gakdom.5.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.5.a
+	}
+}
+
+country_event = {
+	id = gakdom.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.6" }
+	title = gakdom.6.t
+	desc = gakdom.6.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+	
+	option = {
+		name = gakdom.6.a
+		hidden_effect = {
+			country_event = {
+				id = gakdom.7
+				days = 3
+			}
+		}
+	}
+
+	option = {
+		name = gakdom.6.b
+		hidden_effect = {
+			country_event = {
+				id = gakdom.8
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.7" }
+	title = gakdom.7.t
+	desc = gakdom.7.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.7.a
+		hidden_effect = {
+			country_event = {
+				id = gakdom.9
+				days = 3
+			}
+		}
+	}
+
+	option = {
+		name = gakdom.7.b
+		hidden_effect = {
+			country_event = {
+				id = gakdom.10
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.8" }
+	title = gakdom.11.t
+	desc = gakdom.11.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.8.a
+		hidden_effect = {
+			country_event = {
+				id = gakdom.10
+				days = 3
+			}
+		}
+	}
+
+	option = {
+		name = gakdom.8.b
+		hidden_effect = {
+			country_event = {
+				id = gakdom.9
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.9" }
+	title = gakdom.9.t
+	desc = gakdom.9.d
+	picture = GFX_report_event_GER_cons
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.9.a
+		add_stability = 0.1
+		hidden_effect = {
+			set_country_flag = G361
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = GFX_Leader_G36
+				expire = "1975.1.1"
+				ideology = social_democrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = GFX_Leader_G36
+				expire = "1975.1.1"
+				ideology = social_liberal_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = GFX_Leader_G36
+				expire = "1975.1.1"
+				ideology = market_liberal_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = GFX_Leader_G36
+				expire = "1975.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = GFX_Leader_G36
+				expire = "1975.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = GFX_Leader_G36
+				expire = "1975.1.1"
+				ideology = paternal_autocrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+
+			create_country_leader = {
+				name = "G36" 
+				desc = "POLITICS_G36_DESC"
+				picture = GFX_Leader_G36
+				expire = "1975.1.1"
+				ideology = national_populist_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_Lord_Protector
+				}
+			}
+			hidden_effect = {
+				country_event = {
+					id = gakdom.53
+					days = 30
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.10" }
+	title = gakdom.10.t
+	desc = gakdom.10.d
+	picture = GFX_report_event_GER_cons
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.10.a
+		load_focus_tree = GAK_Groza_coup_focus_tree
+		set_country_flag = GAK_groza_control_russia
+		add_stability = 0.1
+		set_popularities = {
+			totalist = 0
+			syndicalist = 0
+			radical_socialist = 0
+			social_democrat = 0
+			social_liberal = 15
+			market_liberal = 26
+			social_conservative = 0
+			authoritarian_democrat = 0
+			paternal_autocrat = 8
+			national_populist = 51
+		}
+		set_politics = {
+			ruling_party = national_populist
+			last_election = "1933.1.1"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		hidden_effect = {
+			set_party_name = { 
+				ideology = national_populist
+				long_name = GAK_groza_national_populist_royal_long
+				name = GAK_groza_national_populist_royal
+        	}
+			set_party_name = { 
+				ideology = market_liberal
+				long_name = GAK_groza_paternal_autocrat_zaibatsu_long
+				name = GAK_groza_paternal_autocrat_zaibatsu
+        	}
+			set_party_name = { 
+				ideology = social_liberal 
+				long_name = GAK_groza_paternal_autocrat_revolution_long
+				name = GAK_groza_paternal_autocrat_revolution
+        	}
+			set_party_name = { 
+				ideology = paternal_autocrat
+				long_name = GAK_groza_paternal_autocrat_norder_long
+				name = GAK_groza_paternal_autocrat_norder
+        	}
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
+				expire = "1975.1.1"
+				ideology = social_democrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
+				expire = "1975.1.1"
+				ideology = social_liberal_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
+				expire = "1975.1.1"
+				ideology = market_liberal_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
+				expire = "1975.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = GFX_Leader_Groza
+				expire = "1975.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = GFX_Leader_Groza
+				expire = "1975.1.1"
+				ideology = paternal_autocrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_country_leader = {
+				name = "OTs-14 'Groza'" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = GFX_Leader_Groza
+				expire = "1975.1.1"
+				ideology = national_populist_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+				}
+			}
+
+			create_field_marshal = {
+				name = "OTs-14 'Groza'"
+				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
+				traits = { 
+					brilliant_strategist 
+					inflexible_strategist 
+					defensive_doctrine 
+					organizer 
+					thorough_planner
+				}
+				skill = 4
+				attack_skill = 2
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 3
+			}
+			country_event = {
+				id = gakdom.53
+				days = 30
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.11" }
+	title = gakdom.11.t
+	desc = gakdom.11.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.11.a
+	}
+}
+
+country_event = {
+	id = gakdom.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.12" }
+	title = gakdom.12.t
+	desc = gakdom.12.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.12.a
+		add_timed_idea = {
+			idea = GAK_buy_some_land
+			days = 60
+		}
+	}
+
+	option = {
+		name = gakdom.12.b
+		add_stability = -0.2
+		add_popularity = {
+			ideology = paternal_autocrat
+			popularity = -0.08
+		}
+		add_popularity = {
+			ideology = national_populist
+			popularity = -0.08
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.13" }
+	title = gakdom.13.t
+	desc = gakdom.13.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.13.a
+	}
+}
+
+country_event = {
+	id = gakdom.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.14" }
+	title = gakdom.14.t
+	desc = gakdom.14.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.14.a
+	}
+}
+
+country_event = {
+	id = gakdom.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.15" }
+	title = gakdom.15.t
+	desc = gakdom.15.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.15.a
+	}
+}
+
+country_event = {
+	id = gakdom.16 #퍼스널 컴퓨터 보급
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.16" }
+	title = gakdom.16.t
+	desc = gakdom.16.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.16.a
+	}
+}
+
+country_event = {
+	id = gakdom.17 #컬러tv 보급
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.17" }
+	title = gakdom.17.t
+	desc = gakdom.17.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.17.a
+	}
+}
+
+country_event = {
+	id = gakdom.18 #러시아를 향한 전쟁
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.18" }
+	title = gakdom.18.t
+	desc = {
+		text = gakdom.18.d #상렬
+		trigger = {
+			has_country_flag = G361
+		}
+	}
+	desc = {
+		text = gakdom.18.di #그로자
+		trigger = {
+			has_country_flag = GAK_groza_control_russia
+		}
+	}
+	picture = GFX_report_event_GER_cons
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #G36 연설 ㅇㅇ
+		name = gakdom.18.a
+		trigger = { 
+			has_country_flag = G361
+		}
+		country_event = {
+			id = gakdom.24
+		}
+	}
+
+	option = {#G36 연설 ㄴㄴ
+		name = gakdom.18.d
+		add_manpower = 25000
+		trigger = { 
+			has_country_flag = G361
+		}
+		declare_war_on = {
+			target = RUS
+			type = annex_everything
+		}
+	}
+
+	option = {#그로자 연설 ㅇㅇ
+		name = gakdom.18.b
+		trigger = { 
+			has_country_flag = GAK_groza_control_russia
+		}
+		country_event = {
+			id = gakdom.23
+		}
+	}
+
+	option = {#그로자 연설 ㄴㄴ
+		name = gakdom.18.c
+		add_manpower = 25000
+		trigger = { 
+			has_country_flag = GAK_groza_control_russia
+		}
+		declare_war_on = {
+			target = RUS
+			type = annex_everything
+		}
+	}
+}
+
+
+country_event = {
+	id = gakdom.19 #모스크바 점령!
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.19" }
+	title = gakdom.19.t
+	desc = gakdom.19.d
+	picture = GFX_report_event_GER_cons
+
+	fire_only_once = yes
+
+	trigger = {
+		controls_state = 219	
+	}
+
+	option = {
+		name = gakdom.19.a
+		RUS = {
+			country_event = {
+				id = gakdom.20
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.20 #러시아를 먹어치우자
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.20" }
+	title = gakdom.20.t
+	desc = gakdom.20.d
+	picture = GFX_report_event_GER_cons
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.20.a
+		hidden_effect = {
+			RUS = {
+				FROM = { 
+					white_peace_with_ROOT = yes 
+				}
+				every_owned_state = {
+					GAK = {
+						add_state_core = PREV
+						transfer_state = PREV
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.21 #일본의 통보
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.21" }
+	title = gakdom.21.t
+	desc = gakdom.21.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.21.a
+	}
+}
+
+country_event = {
+	id = gakdom.22 #해군을 거두다
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.22" }
+	title = gakdom.22.t
+	desc = gakdom.22.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.22.a
+		transfer_state = 408
+		transfer_state = 409
+		transfer_navy = {
+			target = TRM
+		}
+		hidden_effect = {
+			add_state_core = 408
+			add_state_core = 409
+			TRM = {
+				remove_state_claim  = 408
+				remove_state_claim  = 409
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.23 #그로자 연설
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.23" }
+	title = gakdom.23.t
+	desc = gakdom.23.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.23.a
+		add_manpower = 25000
+		declare_war_on = {
+			target = RUS
+			type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.24 #g36 연설
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.24" }
+	title = gakdom.24.t
+	desc = gakdom.24.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.24.a
+		add_manpower = 25000
+		declare_war_on = {
+			target = RUS
+			type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.25 #공개 토론회
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.25" }
+	title = gakdom.25.t
+	desc = gakdom.25.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.25.a
+		custom_effect_tooltip = GAK_discussion_tooltip
+	}
+}
+
+country_event = {
+	id = gakdom.26 #우리가 놓치고 있었던것
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.26" }
+	title = gakdom.26.t
+	desc = gakdom.26.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.26.a
+	
+	}
+}
+
+country_event = {
+	id = gakdom.27 #백스텝
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.27" }
+	title = gakdom.27.t
+	desc = gakdom.27.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.27.a
+	
+	}
+}
+
+country_event = {
+	id = gakdom.28 #과격주의자 체포
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.28" }
+	title = gakdom.28.t
+	desc = gakdom.28.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.28.a
+	}
+}
+
+country_event = {
+	id = gakdom.29 #하얀 융단
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.29" }
+	title = gakdom.29.t
+	desc = gakdom.29.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.29.a
+		swap_ideas = {
+			remove_idea = GAK_civil_rights_act_2ideas
+    		add_idea = GAK_civil_rights_act_3ideas
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.30 #일상1 
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.30" }
+	title = gakdom.30.t
+	desc = gakdom.30.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.30.a
+	}
+}
+
+country_event = {
+	id = gakdom.31 #일상2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.31" }
+	title = gakdom.31.t
+	desc = gakdom.31.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.31.a
+	}
+}
+
+country_event = {
+	id = gakdom.32 #일상3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.32" }
+	title = gakdom.32.t
+	desc = gakdom.32.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.32.a
+	}
+}
+
+country_event = {
+	id = gakdom.33 #일상4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.33" }
+	title = gakdom.33.t
+	desc = gakdom.33.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.33.a
+	}
+}
+
+country_event = {
+	id = gakdom.34 #국방군, 우담회 조율1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.34" }
+	title = gakdom.34.t
+	desc = gakdom.34.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.34.a
+	}
+}
+
+country_event = {
+	id = gakdom.35 #국방군, 우담회 조율2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.35" }
+	title = gakdom.35.t
+	desc = gakdom.35.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.35.a
+	}
+}
+
+country_event = {
+	id = gakdom.36 #국방군, 우담회 조율 끝
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.36" }
+	title = gakdom.36.t
+	desc = gakdom.36.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.36.a
+		add_ideas = GAK_turning_the_army_problem_ideas
+	}
+}
+
+country_event = {
+	id = gakdom.37 #공부나 해라 애새끼들아!
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.37" }
+	title = gakdom.37.t
+	desc = gakdom.37.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.37.a
+		add_stability = -0.1
+	}
+}
+
+country_event = {
+	id = gakdom.38 #국가회의 긴급 소집
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.38" }
+	title = gakdom.38.t
+	desc = gakdom.38.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.38.a
+	}
+}
+
+country_event = {
+	id = gakdom.39 #국가회의 긴급 소집
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.39" }
+	title = gakdom.39.t
+	desc = gakdom.39.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.39.a
+	}
+}
+
+country_event = {
+	id = gakdom.40 #국가회의 긴급 소집
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.40" }
+	title = gakdom.40.t
+	desc = gakdom.40.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.40.a
+	}
+}
+
+country_event = {
+	id = gakdom.41 #작전 수립
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.41" }
+	title = gakdom.41.t
+	desc = gakdom.41.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.41.a
+		set_country_flag = GAK_groza_select_dirty
+	}
+
+	option = {
+		name = gakdom.41.b
+		set_country_flag = GAK_groza_select_clean
+	}
+}
+
+country_event = {
+	id = gakdom.42 #소총의 밤
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.42" }
+	title = gakdom.42.t
+	desc = gakdom.42.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.42.a
+		add_manpower = -48
+		add_stability = -0.1
+	}
+}
+
+country_event = {
+	id = gakdom.43 #계엄령 발동
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.43" }
+	title = gakdom.43.t
+	desc = gakdom.43.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.43.a
+	}
+}
+
+country_event = {
+	id = gakdom.44 #도시에서의 극단주의자들의 충돌!
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.44" }
+	title = gakdom.44.t
+	desc = gakdom.44.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.44.a
+		add_manpower = -51
+		add_stability = -0.08
+	}
+}
+
+country_event = {
+	id = gakdom.45 #진압된 폭동
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.45" }
+	title = gakdom.45.t
+	desc = gakdom.45.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.45.a
+		add_ideas = GAK_eat_them_all_ideas
+	}
+}
+
+country_event = {
+	id = gakdom.46 #신역사 운동
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.46" }
+	title = gakdom.46.t
+	desc = gakdom.46.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.46.a
+		add_manpower = -11
+	}
+}
+
+country_event = {
+	id = gakdom.47 #노예제 토론
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.47" }
+	title = gakdom.47.t
+	desc = gakdom.47.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.47.a
+		add_political_power = -100
+		add_ideas = GAK_rus_policy_of_appeasement_a_ideas
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = gakdom.47.b
+		add_political_power = -100
+		add_ideas = GAK_rus_policy_of_appeasement_b_ideas
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.48 #독일의 답장
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.48" }
+	title = gakdom.48.t
+	desc = gakdom.48.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.48.a #당근 빳다죠 씻팔
+		ai_chance = {
+			base = 100
+		}
+		add_opinion_modifier = {
+			target = GER
+			modifier = GAK_each_other_good
+		}
+		add_opinion_modifier = {
+			target = GAK
+			modifier = GAK_each_other_good
+		} 
+		GAK = {
+			country_event = {
+				id = gakdom.49
+			}
+		}
+	}
+
+	option = {
+		name = gakdom.48.b #응 안해~ 이거 찍을일 없어~
+		ai_chance = {
+			base = 0
+		}
+		GAK = {
+			country_event = {
+				id = gakdom.50
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.49 #독일의 친서
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.49" }
+	title = gakdom.49.t
+	desc = gakdom.49.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.49.a
+		add_ideas = GAK_areon_s_proposal_ideas
+	}
+}
+
+country_event = {
+	id = gakdom.50 #이거 나올 일 죽어도 없음
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.50" }
+	title = gakdom.50.t
+	desc = gakdom.50.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.50.a
+	}
+}
+
+country_event = {
+	id = gakdom.51 #코르시 #코로 먹는 보르시라는 뜻 ㅎ
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.51" }
+	title = gakdom.51.t
+	desc = gakdom.51.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.51.a
+	}
+}
+
+country_event = {
+	id = gakdom.52 #EDAW 프로젝트
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.52" }
+	title = gakdom.52.t
+	desc = gakdom.52.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.52.a
+	}
+}
+
+country_event = {
+	id = gakdom.53 #연구소 설립
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.53" }
+	title = gakdom.53.t
+	desc = gakdom.53.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.53.a
+		set_country_flag = GAK_allow_research_future_tech
+	}
+}
+
+country_event = {
+	id = gakdom.54 #사할린이냐 전쟁이냐
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.54" }
+	title = gakdom.54.t
+	desc = gakdom.54.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.54.a
+		ai_chance = {
+			base = 95
+		}
+		GAK = {
+			transfer_state = 537
+			transfer_state = 555
+			country_event = gakdom.55
+		}
+		
+	}
+
+	option = {
+		name = gakdom.54.b
+		add_political_power = -100
+		ai_chance = {
+			base = 5
+		}
+		GAK = {
+			country_event = gakdom.56
+		}
+	}
+}
+
+country_event = {
+	id = gakdom.55 #반환된 사할린
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.55" }
+	title = gakdom.55.t
+	desc = gakdom.55.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakdom.55.a
+		add_political_power = 100
+	}
+
+	option = {
+		name = gakdom.55.b
+		add_political_power = -100
+		declare_war_on = {
+			target = JAP
+			type = annex_everything
+		}
+		custom_effect_tooltip = jap_has_strong_navy
+	}
+}
+
+country_event = {
+	id = gakdom.56 #사할린 안주겠다는데요
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.56" }
+	title = gakdom.56.t
+	desc = gakdom.56.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = { #에휴, 됐다.
+		name = gakdom.56.a
+		add_political_power = -100
+	}
+
+	option = { #맛좀 보여야지
+		name = gakdom.56.b
+		add_political_power = 100
+		declare_war_on = {
+			target = JAP
+			type = annex_everything
+		}
+		custom_effect_tooltip = jap_has_strong_navy
+	}
+}
+
+country_event = {
+	id = gakdom.57 #그로자 즉위식
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.57" }
+	title = gakdom.57.t
+	desc = gakdom.57.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = { #만세!
+		name = gakdom.57.a
+		set_country_flag = GAK_accession_groza
+		news_event = { GAKworldnews.2 }
+	}
+}
+
+country_event = {
+	id = gakdom.58 #알레스카도 가져갈게
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.58" }
+	title = gakdom.58.t
+	desc = gakdom.58.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = { #나중에 되찾아 올수 있을거야
+		name = gakdom.58.a
+	}
+}
+

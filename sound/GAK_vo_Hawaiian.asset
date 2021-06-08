@@ -43,7 +43,28 @@ category = {
 		GAK_failed_usa_effect
 	}
 	soundeffects = {
+		GAK_groza_united_russia_effect
+	}
+	soundeffects = {
+		GAK_groza_accession_to_thron_effect
+	}
+	soundeffects = {
 		GAK_bugwan_voice_effect
+	}
+	soundeffects = {
+		GAK_bugwan_ump45_voice_effect
+		GAK_bugwan_g11_voice_effect
+		GAK_bugwan_ump9_voice_effect
+		GAK_bugwan_ak12_voice_effect
+		GAK_bugwan_ak15_voice_effect
+		GAK_bugwan_an94_voice_effect
+		GAK_bugwan_rpk16_voice_effect
+		GAK_bugwan_m4a1_voice_effect
+		GAK_bugwan_ro635_voice_effect
+		GAK_bugwan_m16_voice_effect
+		GAK_bugwan_m4_sopmon_voice_effect
+		GAK_bugwan_st_ar_15_voice_effect
+		GAK_bugwan_ephnel_voice_effect
 	}
  
 	compressor = {
@@ -170,6 +191,20 @@ soundeffect = {
 	}
 }
 soundeffect = {
+	name = "GAK_groza_united_russia_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_russian_united
+	}
+}
+soundeffect = {
+	name = "GAK_groza_accession_to_thron_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_groza_accession_to_thron_effect
+	}
+}
+soundeffect = {
 	name = "GAK_bugwan_voice_effect"
 	volume = 1.2
 	sounds = {
@@ -177,6 +212,149 @@ soundeffect = {
 		sound = GAK_bugwan_voice_02
 		sound = GAK_bugwan_voice_03
 		sound = GAK_bugwan_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_ump45_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_ump45_voice_01
+		sound = GAK_bugwan_ump45_voice_02
+		sound = GAK_bugwan_ump45_voice_03
+		sound = GAK_bugwan_ump45_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_g11_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_g11_voice_01
+		sound = GAK_bugwan_g11_voice_02
+		sound = GAK_bugwan_g11_voice_03
+		sound = GAK_bugwan_g11_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_ump9_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_ump9_voice_01
+		sound = GAK_bugwan_ump9_voice_02
+		sound = GAK_bugwan_ump9_voice_03
+		sound = GAK_bugwan_ump9_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_ak12_voice_effect"
+
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_ak12_voice_01
+		sound = GAK_bugwan_ak12_voice_02
+		sound = GAK_bugwan_ak12_voice_03
+		sound = GAK_bugwan_ak12_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_ak15_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_ak15_voice_01
+		sound = GAK_bugwan_ak15_voice_02
+		sound = GAK_bugwan_ak15_voice_03
+		sound = GAK_bugwan_ak15_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_an94_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_an94_voice_01
+		sound = GAK_bugwan_an94_voice_02
+		sound = GAK_bugwan_an94_voice_03
+		sound = GAK_bugwan_an94_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_rpk16_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_rpk16_voice_01
+		sound = GAK_bugwan_rpk16_voice_02
+		sound = GAK_bugwan_rpk16_voice_03
+		sound = GAK_bugwan_rpk16_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_m4a1_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_m4a1_voice_01
+		sound = GAK_bugwan_m4a1_voice_02
+		sound = GAK_bugwan_m4a1_voice_03
+		sound = GAK_bugwan_m4a1_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_ro635_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_ro635_voice_01
+		sound = GAK_bugwan_ro635_voice_02
+		sound = GAK_bugwan_ro635_voice_03
+		sound = GAK_bugwan_ro635_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_m16_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_m16_voice_01
+		sound = GAK_bugwan_m16_voice_02
+		sound = GAK_bugwan_m16_voice_03
+		sound = GAK_bugwan_m16_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_m4_sopmon_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_m4_sopmon_voice_01
+		sound = GAK_bugwan_m4_sopmon_voice_02
+		sound = GAK_bugwan_m4_sopmon_voice_03
+		sound = GAK_bugwan_m4_sopmon_voice_04
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_st_ar_15_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_st_ar_15_voice_01
+		sound = GAK_bugwan_st_ar_15_voice_02
+		sound = GAK_bugwan_st_ar_15_voice_03
+	}
+}
+
+soundeffect = {
+	name = "GAK_bugwan_ephnel_voice_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_bugwan_ephnel_voice_01
+		sound = GAK_bugwan_ephnel_voice_02
+		sound = GAK_bugwan_ephnel_voice_03
+		sound = GAK_bugwan_ephnel_voice_04
 	}
 }
 
@@ -315,6 +493,16 @@ sound = {
 	always_load = yes
 }
 sound = {
+	name = "GAK_russian_united"
+	file = "GAK/GAK_russian_united.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_groza_accession_to_thron_effect"
+	file = "GAK/GAK_groza_accession_to_thron_effect.wav"
+	always_load = yes
+}
+sound = {
 	name = "GAK_an94_nice_work_01"
 	file = "GAK/GAK_an94_nice_work_01.wav"
 	always_load = yes
@@ -337,5 +525,265 @@ sound = {
 sound = {
 	name = "GAK_bugwan_voice_04"
 	file = "GAK/GAK_HK416_4.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_voice_04"
+	file = "GAK/GAK_HK416_4.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ump45_voice_01"
+	file = "GAK/UMP45Mod_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ump45_voice_02"
+	file = "GAK/UMP45Mod_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ump45_voice_03"
+	file = "GAK/UMP45Mod_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ump45_voice_04"
+	file = "GAK/UMP45Mod_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_g11_voice_01"
+	file = "GAK/G11_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_g11_voice_02"
+	file = "GAK/G11_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_g11_voice_03"
+	file = "GAK/G11_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_g11_voice_04"
+	file = "GAK/G11_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ump9_voice_01"
+	file = "GAK/UMP9Mod_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ump9_voice_02"
+	file = "GAK/UMP9Mod_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ump9_voice_03"
+	file = "GAK/UMP9Mod_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ump9_voice_04"
+	file = "GAK/UMP9Mod_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ak12_voice_01"
+	file = "GAK/AK12_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ak12_voice_02"
+	file = "GAK/AK12_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ak12_voice_03"
+	file = "GAK/AK12_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ak12_voice_04"
+	file = "GAK/AK12_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ak15_voice_01"
+	file = "GAK/AK15_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ak15_voice_02"
+	file = "GAK/AK15_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ak15_voice_03"
+	file = "GAK/AK15_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ak15_voice_04"
+	file = "GAK/AK15_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_an94_voice_01"
+	file = "GAK/AN94_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_an94_voice_02"
+	file = "GAK/AN94_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_an94_voice_03"
+	file = "GAK/AN94_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_an94_voice_04"
+	file = "GAK/AN94_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_rpk16_voice_01"
+	file = "GAK/RPK16_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_rpk16_voice_02"
+	file = "GAK/RPK16_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_rpk16_voice_03"
+	file = "GAK/RPK16_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_rpk16_voice_04"
+	file = "GAK/RPK16_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m4a1_voice_01"
+	file = "GAK/M4A1Mod_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m4a1_voice_02"
+	file = "GAK/M4A1Mod_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m4a1_voice_03"
+	file = "GAK/M4A1Mod_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m4a1_voice_04"
+	file = "GAK/M4A1Mod_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ro635_voice_01"
+	file = "GAK/RO635_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ro635_voice_02"
+	file = "GAK/RO635_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ro635_voice_03"
+	file = "GAK/RO635_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ro635_voice_04"
+	file = "GAK/RO635_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m16_voice_01"
+	file = "GAK/M16A1_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m16_voice_02"
+	file = "GAK/M16A1_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m16_voice_03"
+	file = "GAK/M16A1_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m16_voice_04"
+	file = "GAK/M16A1_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m4_sopmon_voice_01"
+	file = "GAK/M4_SOPMOD_IIMod_GAIN_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m4_sopmon_voice_02"
+	file = "GAK/M4_SOPMOD_IIMod_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m4_sopmon_voice_03"
+	file = "GAK/M4_SOPMOD_IIMod_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_m4_sopmon_voice_04"
+	file = "GAK/M4_SOPMOD_IIMod_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_st_ar_15_voice_01"
+	file = "GAK/AR15Mod_DIALOGUE1_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_st_ar_15_voice_02"
+	file = "GAK/AR15Mod_DIALOGUE2_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_st_ar_15_voice_03"
+	file = "GAK/AR15Mod_DIALOGUE3_JP.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ephnel_voice_01"
+	file = "GAK/just_hello.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ephnel_voice_02"
+	file = "GAK/Jjiwonyochung.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ephnel_voice_03"
+	file = "GAK/If_u_luv_me_take_your_money.wav"
+	always_load = yes
+}
+sound = {
+	name = "GAK_bugwan_ephnel_voice_04"
+	file = "GAK/you_cant_escape.wav"
 	always_load = yes
 }

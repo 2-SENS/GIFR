@@ -14,7 +14,7 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 
@@ -117,7 +117,7 @@ spriteTypes = {
 	corneredTileSpriteType = {
 		name = "GFX_focus_tooltip"
 		size= {x=190 y=310 }
-		textureFile ="gfx//interface//tiles//tiles_dialog.tga"
+		textureFile ="gfx/interface/tiles/tiles_dialog.tga"
 		borderSize = { x=32 y=32 }
 	}
 
@@ -152,13 +152,13 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_tutorial_national_focus_icon_glow"
-		texturefile = "gfx//interface//tutorial//national_focus_icon_glow.dds"
+		texturefile = "gfx/interface/tutorial/national_focus_icon_glow.dds"
 		noOfFrames = 2
 		animation_rate_fps = 1.5
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 

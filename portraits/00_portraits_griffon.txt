@@ -1,0 +1,21 @@
+# 장성이라면 충분히 만들어놓았는데 굳이 제네릭 장군들을 쓸 이유가 있어? #
+
+# 차라리 이걸 쓸바엔 건의라도 해 예를들어 '장성수가 너무 적다' 이렇게 # 
+
+GAK = {
+	army = {
+		male = {
+			"gfx/leaders/GAK/Portrait_GAK_Generic_land_1.tga"
+			"gfx/leaders/GAK/Portrait_GAK_Generic_land_2.tga"
+			"gfx/leaders/GAK/Portrait_GAK_Generic_land_3.tga"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GAK/Portrait_GAK_Generic_navy_1.tga"
+			"gfx/leaders/GAK/Portrait_GAK_Generic_navy_2.tga"
+			"gfx/leaders/GAK/Portrait_GAK_Generic_navy_3.tga"
+		}
+	}
+}

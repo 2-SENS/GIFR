@@ -1,0 +1,73 @@
+technologies = {
+
+	doll_unit_tech = {
+	
+		enable_subunits = {
+            tac_dolls
+        }
+	
+		research_cost = 1
+		start_year = 1955
+
+		allow = {
+			always = no
+		}
+	
+	}
+
+	m14_infantry_equipment = {
+
+		enable_equipments = { 
+			tac_dolls_m14_equipments
+		}
+
+		research_cost = 1
+		start_year = 1955
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m16a1_infantry_equipment = {
+
+		enable_equipments = { 
+			tac_dolls_m16a1_equipments
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m4a1_infantry_equipment = {
+
+		enable_equipments = { 
+			tac_dolls_m4a1_equipments
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		allow = {
+			always = no
+		}
+	}
+	
+	ump45_infantry_equipment = {
+
+		enable_equipments = { 
+			tac_dolls_ump45_equipments
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		allow = {
+			always = no
+		}
+	}
+}

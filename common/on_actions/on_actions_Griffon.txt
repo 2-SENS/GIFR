@@ -1,0 +1,26 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			195 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_griffon_hq }
+					province = { id = 6174 }
+				}
+			}
+		}
+	}
+	on_annex = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { tag = TRM }
+				}
+				every_state = {
+					limit = { is_claim_or_core_of_FROM = yes }
+					remove_claim_by = FROM
+					remove_core_of = FROM
+				}
+			}
+		}
+	}
+}

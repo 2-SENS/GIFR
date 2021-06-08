@@ -1,3 +1,8 @@
+#그리폰 앤 크루거
+GAK = {
+	color = rgb { 204 254 253 }
+	color_ui = rgb { 204 254 253 }
+}
 ADA = {
 	color = rgb { 146 78 48 }
 	color_ui = rgb { 146 78 48 }
@@ -131,8 +136,8 @@ BRI = {
 	color_ui = rgb { 118 99 151 }
 }
 BRT = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 0 0 }
+	color = rgb { 254 72 25 }
+	color_ui = rgb { 254 72 25 }
 }
 BRM = {
 	color = rgb { 71 100 10 }
@@ -195,8 +200,8 @@ IVO = {
 	color_ui = rgb { 247 127 10 }
 }
 CMR = {
-	color = rgb { 153 33 233 }
-	color_ui = rgb { 153 33 233 }
+	color = rgb { 75 94 170 }
+	color_ui = rgb { 75 94 170 }
 }
 SWF = {
 	color = rgb { 255 39 35 }
@@ -330,42 +335,6 @@ GAL = {
 	color = rgb { 205 38 38 }
 	color_ui = rgb { 205 38 38 }
 }
-GAK = {
-	color = rgb { 204 255 255 }
-	color_ui = rgb { 204 255 255 }
-}
-GUS = {
-	color = rgb { 192 192 192 }
-	color_ui = rgb { 192 192 192 }
-}
-GUG = {
-	color = rgb { 051 051 051 }
-	color_ui = rgb { 051 051 051 }
-}
-GUR = {
-	color = rgb { 201 201 201 }
-	color_ui = rgb { 201 201 201 }
-}
-GUO = {
-	color = rgb { 201 201 201 }
-	color_ui = rgb { 201 201 201 }
-}
-GUN = {
-	color = rgb { 201 201 201 }
-	color_ui = rgb { 201 201 201 }
-}
-GUE = {
-	color = rgb { 201 201 201 }
-	color_ui = rgb { 201 201 201 }
-}
-GUJ = {
-	color = rgb { 255 102 000 }
-	color_ui = rgb { 255 102 000 }
-}
-GUK = {
-	color = rgb { 000 000 255 }
-	color_ui = rgb { 000 000 255 }
-}
 GBP = {
 	color = rgb { 150 0 24 }
 	color_ui = rgb { 150 0 24 }
@@ -383,11 +352,11 @@ GEO = {
 	color_ui = rgb { 247 133 39 }
 }
 GER = {
-	color = rgb { 77 93 83 }
+	color = rgb { 93 93 61 }
 	color_ui = rgb { 138 155 116 }
 }
 GEX = {
-	color = rgb { 77 93 83 }
+	color = rgb { 93 93 61 }
 	color_ui = rgb { 138 155 116 }
 }
 GHA = {
@@ -419,8 +388,8 @@ GRR = {
 	color_ui = rgb { 174 82 78 }
 }
 GRU = {
-	color = rgb { 159 157 108 }
-	color_ui = rgb { 159 157 108 }
+	color = rgb { 108 123 139 }
+	color_ui = rgb { 108 123 139 }
 }
 GUA = {
 	color = rgb { 43 82 188 }
@@ -550,9 +519,9 @@ KUR = {
 	color = rgb { 80 120 230 }
 	color_ui = rgb { 80 120 230 }
 }
-KYR = {
-	color = rgb { 255 255 0 }
-	color_ui = rgb { 255 255 0 }
+TRK = {
+	color = rgb { 240 240 0 }
+	color_ui = rgb { 240 240 0 }
 }
 LAO = {
 	color = rgb { 255 0 0 }
@@ -623,8 +592,8 @@ MLT = {
 	color_ui = rgb { 125 44 44 }
 }
 MLW = {
-	color = rgb { 169 34 34 }
-	color_ui = rgb { 169 34 34 }
+	color = rgb { 255 204 0 }
+	color_ui = rgb { 255 204 0 }
 }
 MAL = {
 	color = rgb { 255 40 95 }
@@ -659,8 +628,8 @@ MZB = {
 	color_ui = rgb { 55 108 158 }
 }
 NMB = {
-	color = rgb { 199 50 50}
-	color_ui = rgb { 199 50 50}
+	color = rgb { 0 149 67 }
+	color_ui = rgb { 0 149 67 }
 }
 NEE = {
 	color = rgb { 0 107 51 }
@@ -675,8 +644,8 @@ NFA = {
 	color_ui = rgb { 0 18 127 }
 }
 NGA = {
-	color = rgb { 0 204 0 }
-	color_ui = rgb { 0 204 0 }
+	color = rgb { 83 218 63 }
+	color_ui = rgb { 83 218 63 }
 }
 NGF = {
 	color = rgb { 125 0 6 }
@@ -934,11 +903,7 @@ SZC = {
 	color = rgb { 154 115 56 }
 	color_ui = rgb { 149 123 56 }
 }
-TAJ = {
-	color = rgb { 233 211 14 }
-	color_ui = rgb { 233 211 14 }
-}
-TAN = {
+KUM = {
 	color = rgb { 160 82 45 }
 	color_ui = rgb { 160 82 45 }
 }
@@ -958,9 +923,9 @@ TOG = {
 	color = rgb { 130 130 161 }
 	color_ui = rgb { 130 130 161 }
 }
-TRK = {
-	color = rgb { 84 210 0 }
-	color_ui = rgb { 84 210 0 }
+KHI = {
+	color = rgb { 235 213 159 }
+	color_ui = rgb { 235 213 159 }
 }
 TRI = {
 	color = rgb { 218 26 15 }
@@ -999,8 +964,8 @@ TUS = {
 	color_ui = rgb { 255 50 0 }
 }
 UGA = {
-	color = rgb { 21 21 227 }
-	color_ui = rgb { 21 21 227 }
+	color = rgb { 0 28 168 }
+	color_ui = rgb { 0 28 168 }
 }
 UKR = {
 	color = rgb { 153 61 0 }
@@ -1018,9 +983,9 @@ USA = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }
 }
-UZB = {
-	color = rgb { 49 222 43 }
-	color_ui = rgb { 49 222 43 }
+BUK = {
+	color = rgb { 146 106 160 }
+	color_ui = rgb { 146 106 160 }
 }
 VEN = {
 	color = rgb { 249 146 98 }
@@ -1046,7 +1011,7 @@ WLS = {
 	color = rgb { 0 171 57 }
 	color_ui = rgb { 0 171 57 }
 }
-WGR = {
+RHI = {
 	color = rgb { 0 146 51 }
 	color_ui = rgb { 0 146 51 }
 }
@@ -1151,3 +1116,4 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
+

@@ -10,6 +10,9 @@
 		tac_dolls = { x = 1 y = 0 }
 		tac_dolls = { x = 1 y = 1 }
 		tac_dolls = { x = 1 y = 2 }
+		tac_dolls = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
 	}
 	support = {
     	engineer = { x = 0 y = 0 }
@@ -28,79 +31,103 @@ division_template = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
 		light_armor = { x = 0 y = 2 }
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-		light_armor = { x = 1 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
 	}
 	support = {
         engineer = { x = 0 y = 0 }
         recon = { x = 0 y = 1 }
 	}
 }
+
 units = {
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 15
 			}
-			location = 4180
+			location = 6174
 			division_template = "Tactical Doll Division"
 			start_experience_factor = 1.0
 			start_equipment_factor = 1.0
 		}
 		
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 16
 			}
-			location = 4180
+			location = 6197
 			division_template = "Tactical Doll Division"
 			start_experience_factor = 1.0
 			start_equipment_factor = 1.0
 		}
 		
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 17
 			}
-			location = 7112
+			location = 11068
 			division_template = "Tactical Doll Division"
 			start_experience_factor = 1.0
 			start_equipment_factor = 1.0
 		}
 		
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 18
 			}
-			location = 7195
+			location = 3120
 			division_template = "Tactical Doll Division"
 			start_experience_factor = 1.0
 			start_equipment_factor = 1.0
 		}
 		
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 19
 			}
-			location = 10048
+			location = 9098
 			division_template = "Tactical Doll Division"
 			start_experience_factor = 1.0
 			start_equipment_factor = 1.0
 		}
 
-	division = { 
+		division = { 
 			division_name = {
 				is_name_ordered = yes
 				name_order = 19
 			}
-			location = 12021
+			location = 9097
 			division_template = "Tactical Doll Division"
 			start_experience_factor = 1.0
 			start_equipment_factor = 1.0
-		}
 	}
+}
+
+air_wings = {
+	195 = { 
+		#195th Tactical Fighter Squadron '403 Forbidden'	
+		fighter_equipment_1 =  {
+			owner = "GAK" 
+			amount = 96
+		}
+		name = "195th Tactical Fighter Squadron '403 Forbidden'"
+		ace	= {
+			modifier = "fighter_genius"
+			name = "M6"
+			surname = "ASW"
+			callsign = "Alucard"
+			picture = "GFX_GAK_ace_M6_ASW"
+		}
+		#208th Attacker Combat Squadron '410 Gone'			
+		CAS_equipment_1 = {
+			owner = "GAK" 
+			amount = 32
+		}
+		name = "208th Attacker Combat Squadron '410 Gone'"
+	}
+}

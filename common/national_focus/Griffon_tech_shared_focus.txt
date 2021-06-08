@@ -1,0 +1,16 @@
+shared_focus = {
+    id = GAK_griffon_future_tech_lab
+	icon = GFX_goal
+	cost = 1
+    x = 65
+	y = 2
+	allow_branch = { 
+        has_country_flag = GAK_allow_research_future_tech
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_griffon_future_tech_lab"
+        add_political_power = -150
+        set_country_flag = GAK_griffon_future_tech_lab_open
+        custom_effect_tooltip = GAK_griffon_future_tech_lab_tt
+    }
+}

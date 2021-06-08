@@ -1,0 +1,35 @@
+state = {
+	id = 195
+	name = "STATE_195"
+	manpower = 4050158
+	state_category = ten
+	resources = {
+		steel = 16
+		tungsten = 5
+	}
+	history = {
+		owner = GAK
+		victory_points = {
+			6174 40
+		}
+		victory_points = {
+			9097 1
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 4
+			air_base = 9
+			6174 = {
+				naval_base = 7
+			}
+		}
+		add_core_of = GAK
+		add_claim_by = RUS
+		add_claim_by = TRM
+	}
+	provinces = {
+		79 149 3151 6174 9097 11068
+	}
+}

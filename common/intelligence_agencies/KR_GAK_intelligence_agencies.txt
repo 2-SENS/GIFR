@@ -9,8 +9,6 @@
 ##-------------------------------
 
 intelligence_agency = {
-
-	
 	names = { "404 Not Found" }
 	picture = GFX_intelligence_agency_logo_kr_gak
 	default = { tag = GAK }

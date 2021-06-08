@@ -1,4 +1,4 @@
-﻿capital = 629
+﻿capital = 195
 
 oob = "GAK_KR"
 set_naval_oob = "GAK_KR_NAVAL"
@@ -6,8 +6,10 @@ set_naval_oob = "GAK_KR_NAVAL"
 set_stability = 0.6
 set_war_support = 0.8
 set_research_slots = 4
+set_country_flag = GAK_tag_flag
 
 set_technology = {
+	doll_unit_tech = 1
 	electronic_mechanical_engineering = 1
 	fuel_silos = 1
 	gwtank = 1
@@ -144,17 +146,15 @@ set_convoys = 50
 add_ideas = {
 	closed_economy
     #국가 정신#
-	GAK_socialist_underground_ideas
     GAK_Tactical_dolls_ideas
 	GAK_Legency_of_IOP_ideas
 	GAK_american_problem_ideas
-	GAK_american_scientist_ideas
 	
 	
 	GAK_g36_hog_ade
-	GAK_paul_joseph_goebbels_for_tot
-	GAK_ak15_eco_ade
 	GAK_rpk16_sec_ade
+	GAK_ak15_eco_ade
+	GAK_an94_sec_npo
 	
 }
 
@@ -165,8 +165,8 @@ if = {
 	}
 }
 
-country_event = { id = griffon.0 days = 1 }
-add_opinion_modifier = { target = USA modifier = GAK_hate_each_other }
+country_event = { id = gakgendie.0 days = 13 }
+country_event = { id = gakdom.0 days = 1 }
 add_to_variable = {
 	var = Favorability
 	value = 25
@@ -464,6 +464,18 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
+	name = "Mosin-Nagant"
+	picture = "Portrait_Girls_Frontline_M1891_2.tga"
+	desc = "GAK_Mosin_Nagant_ARMY_DESC"
+	traits = { winter_specialist infantry_officer infantry_leader infantry_expert organizer }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
 	name = "AS Val"
 	picture = "Portrait_Girls_Frontline_Asval.tga"
 	desc = "GAK_ASVAL_ARMY_DESC"
@@ -668,7 +680,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Lewis gun"
+	name = "Lewis"
 	picture = "Portrait_Girls_Frontline_Lewis.tga"
 	desc = "GAK_LEWIS_ARMY_DESC"	
 	traits = { 
@@ -697,6 +709,7 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 5
 }
+
 create_corps_commander = {
 	name = "NTW-2000"
 	picture = "Portrait_Girls_Frontline_NTW_2000.tga"
@@ -742,6 +755,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "DP-12"
 	picture = "Portrait_Girls_Frontline_dp_12.tga"
+	desc = "GAK_DP_12_ARMY_DESC"
 	traits = {
 		brilliant_strategist
 		skilled_staffer
@@ -757,6 +771,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "K5"
 	picture = "Portrait_Girls_Frontline_K5.tga"
+	desc = "GAK_K5_ARMY_DESC"
 	traits = {
 		brilliant_strategist
 		trait_reckless
@@ -773,6 +788,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "M950A"
 	picture = "Portrait_Girls_Frontline_M950A.tga"
+	desc = "GAK_M950A_ARMY_DESC"
 	traits = {
 		career_officer
 		skilled_staffer
@@ -787,6 +803,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Mk23"
 	picture = "Portrait_Girls_Frontline_Mk23.tga"
+	desc = "GAK_Mk23_ARMY_DESC"
 	traits = {
 		trait_reckless
 		infantry_officer
@@ -801,6 +818,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "PPK"
 	picture = "Portrait_Girls_Frontline_ppk.tga"
+	desc = "GAK_PPK_ARMY_DESC"
 	traits = {
 		trickster
 		brilliant_strategist
@@ -814,6 +832,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Type 88"
 	picture = "Portrait_Girls_Frontline_type_88.tga"
+	desc = "GAK_TYPE_88_ARMY_DESC"
 	traits = {
 		organizer
 		brilliant_strategist
@@ -825,6 +844,65 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "K2"
+	picture = "Portrait_Girls_Frontline_K2.tga"
+	desc = "GAK_K2_ARMY_DESC"
+	traits = { organizer winter_specialist mountaineer hill_fighter urban_assault_specialist }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "KP-31 'Suomi'"
+	picture = "Portrait_Girls_Frontline_KP31.tga"
+	desc = "GAK_KP_31_ARMY_DESC"
+	traits = { winter_specialist skilled_staffer infantry_officer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Type 95"
+	picture = "Portrait_Girls_Frontline_school_Type_95.tga"
+	desc = "GAK_TYPE_95_ARMY_DESC"
+	traits = { inflexible_strategist infantry_officer infantry_leader skilled_staffer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "MG4"
+	picture = "Portrait_Girls_Frontline_MG4.tga"
+	desc = "GAK_MG4_ARMY_DESC"
+	traits = {  }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kolibri"
+	picture = "Portrait_Girls_Frontline_Kolibri.tga"
+	desc = "GAK_KOLIBRI_ARMY_DESC"
+	traits = { trickster reckless }
+	skill = 5
+	attack_skill = 6
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
 
 #Team - 403 Forbidden#
 
@@ -840,7 +918,7 @@ if = {
 		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GAK }
+		nationalities = { GAK RUS }
 	}
 	
 	create_operative_leader = {
@@ -855,7 +933,7 @@ if = {
 		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GAK }
+		nationalities = { GAK RUS }
 	}
 	
 	create_operative_leader = {
@@ -871,7 +949,7 @@ if = {
 		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GAK }
+		nationalities = { GAK RUS }
 	}
 	
 	create_operative_leader = {
@@ -885,7 +963,7 @@ if = {
 		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GAK }
+		nationalities = { GAK RUS }
 	}
 	
 }

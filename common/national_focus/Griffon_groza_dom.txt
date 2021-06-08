@@ -1,0 +1,89 @@
+shared_focus = {
+	id = GAK_groza_tsar_focus
+	icon = GFX_goal
+	cost = 4.00
+	x = 30
+	y = 12
+	available = {
+		has_country_flag = GAK_groza_control_russia
+	}
+	allow_branch = { 
+        has_country_flag = GAK_groza_s_world_flag 
+    }
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus GAK_groza_tsar_focus"
+		custom_effect_tooltip = GAK_groza_control_russia_tt
+		if = {
+			limit = {
+				has_country_flag = groza_demo_flag
+			}
+			set_party_name = { 
+				ideology = authoritarian_democrat 
+				long_name = GAK_groza_authoritarian_democrat_tsar_long
+				name = GAK_groza_authoritarian_democrat_tsar
+        	}
+			set_country_flag = groza_authoritarian_democrat_king
+		}
+		if = {
+			limit = {
+				has_country_flag = groza_stay_flag
+			}
+			set_party_name = { 
+				ideology = paternal_autocrat 
+				long_name = GAK_groza_paternal_autocrat_tsar_long
+				name = GAK_groza_paternal_autocrat_tsar
+        	}
+			set_country_flag = groza_paternal_autocrat_king
+		}
+		if = {
+			limit = {
+				has_country_flag = groza_national_pop_flag
+			}
+			set_party_name = { 
+				ideology = national_populist 
+				long_name = GAK_groza_national_populist_tsar_long
+				name = GAK_groza_national_populist_tsar
+        	}
+			set_country_flag = groza_national_pop_king
+		}
+        set_cosmetic_tag = GAK_groza_empire
+        hidden_effect = {
+			create_country_leader = {
+				name = "Groza I" 
+				desc = "POLITICS_GROZA_AD_DESC"
+				picture = GFX_Leader_Groza
+				expire = "1975.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					GAK_russia_tsar
+				}
+			}
+			create_country_leader = {
+				name = "Groza I" 
+				desc = "POLITICS_GROZA_DESC"
+				picture = GFX_Leader_Groza
+				expire = "1975.1.1"
+				ideology = paternal_autocrat_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					GAK_russia_tsar
+				}
+			}
+			create_country_leader = {
+				name = "Groza I" 
+				desc = "POLITICS_GROZA_NP_DESC"
+				picture = GFX_Leader_Groza
+				expire = "1975.1.1"
+				ideology = national_populist_subtype
+				traits = {
+					GAK_save_our_doll
+					GAK_beautiful_dictator
+					GAK_russia_tsar
+				}
+			} 
+        }
+	}
+}

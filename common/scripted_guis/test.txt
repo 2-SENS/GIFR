@@ -45,8 +45,41 @@ scripted_gui = {
 			choice_her_hk416_click = {
 				set_country_flag = hk416_window_open
 			}
-			choice_her_ump45_click = {
+			choice_her_ump45_click = {	
 				set_country_flag = ump45_window_open
+			}
+			choice_her_g11_click = {	
+				set_country_flag = g11_window_open
+			}
+			choice_her_ump9_click = {	
+				set_country_flag = ump9_window_open
+			}
+			choice_her_ak12_click = {	
+				set_country_flag = ak12_window_open
+			}
+			choice_her_an94_click = {	
+				set_country_flag = an94_window_open
+			}
+			choice_her_ak15_click = {	
+				set_country_flag = ak15_window_open
+			}
+			choice_her_rpk16_click = {	
+				set_country_flag = rpk16_window_open
+			}
+			choice_her_m4a1_click = {	
+				set_country_flag = m4a1_window_open
+			}
+			choice_her_m4sopmod_click = {	
+				set_country_flag = m4sopmod_window_open
+			}
+			choice_her_m16a1_click = {	
+				set_country_flag = m16a1_window_open
+			}
+			choice_her_ro635_click = {	
+				set_country_flag = ro635_window_open
+			}
+			choice_her_st_ar_15_click = {	
+				set_country_flag = st_ar_15_window_open
 			}
 		}
 	}
@@ -85,6 +118,215 @@ scripted_gui = {
 		effects = {
 			button_close_click = {
 				clr_country_flag = ump45_window_open
+			}
+		}
+	}
+
+	choice_ump9 = {
+		context_type = player_context
+		window_name = "choice_ump9_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = ump9_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = ump9_window_open
+			}
+		}
+	}
+
+	choice_g11 = {
+		context_type = player_context
+		window_name = "choice_g11_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = g11_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = g11_window_open
+			}
+		}
+	}
+
+	choice_ak12 = {
+		context_type = player_context
+		window_name = "choice_ak12_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = ak12_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = ak12_window_open
+			}
+		}
+	}
+
+	choice_ak15 = {
+		context_type = player_context
+		window_name = "choice_ak15_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = ak15_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = ak15_window_open
+			}
+		}
+	}
+
+	choice_rpk16 = {
+		context_type = player_context
+		window_name = "choice_rpk16_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = rpk16_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = rpk16_window_open
+			}
+		}
+	}
+
+	choice_an94 = {
+		context_type = player_context
+		window_name = "choice_an94_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = an94_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = an94_window_open
+			}
+		}
+	}
+
+	choice_m4a1 = {
+		context_type = player_context
+		window_name = "choice_m4a1_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = m4a1_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = m4a1_window_open
+			}
+		}
+	}
+
+	choice_m4_sopmod = {
+		context_type = player_context
+		window_name = "choice_m4_sopmod_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = m4sopmod_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = m4sopmod_window_open
+			}
+		}
+	}
+
+	choice_st_ar_15 = {
+		context_type = player_context
+		window_name = "choice_st_ar_15_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = st_ar_15_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = st_ar_15_window_open
+			}
+		}
+	}
+
+	choice_m16a1 = {
+		context_type = player_context
+		window_name = "choice_m16a1_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = m16a1_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = m16a1_window_open
+			}
+		}
+	}
+
+	choice_ro635 = {
+		context_type = player_context
+		window_name = "choice_ro635_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = ro635_window_open
+		}
+
+		effects = {
+			button_close_click = {
+				clr_country_flag = ro635_window_open
 			}
 		}
 	}

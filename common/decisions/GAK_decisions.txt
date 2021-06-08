@@ -1,1474 +1,806 @@
-GAK_new_fighter_develop = {
-	GAK_new_fighter_develop_1 = {
-		icon = GFX_decision_generic_industry
+404_Decisions_GUI = {
+}
+
+ficus_racemosa_power_struggle_decision = {
+	GAK_groza_friendly_force = {
+		icon = GFX_decision_eng_trade_unions_support
 
 		available = {
-			NOT = { has_country_flag = GAK_new_fighter_develop_in_progress }
+			NOT = {
+				has_country_flag = GAK_already_helping_faction
+			}
 		}
 
-		cost = 10
-		days_remove = 50
-		fire_only_once = yes
+		cost = 75
+		days_re_enable = 32
 
-		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				national_populist > 0.14
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 150
+			}
+		}
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_fighter_develop_1"
-			set_country_flag = GAK_new_fighter_develop_in_progress
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_new_fighter_develop_1"
-			set_country_flag = GAK_part_one_fighter_develop
-			clr_country_flag = GAK_new_fighter_develop_in_progress
-			add_to_variable = {
-				var = GAK_fighter_develop_variable
-				value = 1
-			}
-			custom_effect_tooltip = GAK_fighter_develop_progress
-		}
-	}
-
-	GAK_new_fighter_develop_2 = {
-		icon = GFX_decision_generic_industry
-
-		available = {
-			has_country_flag = GAK_part_one_fighter_develop
-			NOT = { has_country_flag = GAK_new_fighter_develop_in_progress }
-		}
-
-		cost = 20
-		days_remove = 75
-		fire_only_once = yes
-
-		
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_fighter_develop_2"
-			set_country_flag = GAK_new_fighter_develop_in_progress
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_new_fighter_develop_2"
-			set_country_flag = GAK_part_two_fighter_develop
-			clr_country_flag = GAK_new_fighter_develop_in_progress
-			add_to_variable = {
-				var = GAK_fighter_develop_variable
-				value = 1
-			}
-			custom_effect_tooltip = GAK_fighter_develop_progress
-		}
-	}
-
-	GAK_new_fighter_develop_3 = {
-		icon = GFX_decision_generic_industry
-
-		available = {
-			has_country_flag = GAK_part_two_fighter_develop
-			NOT = { has_country_flag = GAK_new_fighter_develop_in_progress }
-		}
-
-		cost = 30
-		days_remove = 100
-		fire_only_once = yes
-
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_fighter_develop_3"
-			set_country_flag = GAK_new_fighter_develop_in_progress
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_new_fighter_develop_3"
-			clr_country_flag = GAK_new_fighter_develop_in_progress
-			add_to_variable = {
-				var = GAK_fighter_develop_variable
-				value = 2
-			}
-			custom_effect_tooltip = GAK_fighter_develop_progress_large
-			add_equipment_to_stockpile = {
-				type = tac_dolls_fighter_tech_equipment
-				amount = 1
-				producer = GAK
+			log = "[GetDateText]: [Root.GetName]: Decision FNG_favor_recovery_league"
+			set_country_flag = GAK_already_helping_faction
+			set_temp_variable = { GTP = 5 }
+			GAK_GTP = yes
+			hidden_effect = {
+				country_event = {
+					id = gaksystemload.1
+					days = 32
+				}
 			}
 		}
 	}
-
-	GAK_stealth_install = {
-		icon = GFX_decision_generic_construction
+	GAK_zaibatsu_force = {
+		icon = GFX_decision_eng_trade_unions_support
 
 		available = {
-			NOT = { has_country_flag = GAK_new_fighter_develop_in_progress }
+			NOT = {
+				has_country_flag = GAK_already_helping_faction
+			}
 		}
 
-		days_remove = 150
-		fire_only_once = yes
+		cost = 75
+		days_re_enable = 32
 
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				market_liberal > 0.14
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 150
+			}
+		}
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_stealth_install"
-			set_country_flag = GAK_new_fighter_develop_in_progress
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_stealth_install"
-			clr_country_flag = GAK_new_fighter_develop_in_progress
-			add_to_variable = {
-				var = GAK_fighter_develop_variable
-				value = 1
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_zaibatsu_force"
+			set_country_flag = GAK_already_helping_faction
+			set_temp_variable = { CBA = 5 }
+			GAK_CBA = yes
+			hidden_effect = {
+				country_event = {
+					id = gaksystemload.1
+					days = 32
+				}
 			}
 		}
 	}
-
-	GAK_fighter_develop_finish = {
-		icon = GFX_decision_generic_operation
+	GAK_revolutional_bitchs_move = {
+		icon = GFX_decision_eng_trade_unions_support
 
 		available = {
-			check_variable = {
-					GAK_fighter_develop_variable > 2
-				}
-			NOT = { has_country_flag = GAK_new_fighter_develop_in_progress }
+			NOT = {
+				has_country_flag = GAK_already_helping_faction
+			}
 		}
 
-		cost = 0
-		fire_only_once = yes
+		cost = 75
+		days_re_enable = 32
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				social_liberal > 0.14
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 150
+			}
+		}
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_fighter_develop_finish"
-			set_country_flag = GAK_new_fighter_develop_finish
-			country_event = griffon.31
-			custom_effect_tooltip = GAK_fighter_develop_ideas
-			if = {
-				limit = {
-					check_variable = { GAK_fighter_develop_variable < 1 }
-				}
-				hidden_effect = {
-					custom_effect_tooltip = GAK_fighter_develop_ideas_fail
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_revolutional_bitchs_move"
+			set_country_flag = GAK_already_helping_faction
+			set_temp_variable = { GFR = 5 }
+			GAK_GFR = yes
+			hidden_effect = {
+				country_event = {
+					id = gaksystemload.1
+					days = 32
 				}
 			}
-			else = {
-				limit = {
-					check_variable = { GAK_fighter_develop_variable > 2 }
-				}
-				hidden_effect = {
-					set_technology = {
-						tac_dolls_fighter_tech = 1
-					}
+		}
+	}
+	GAK_new_order_social_move = {
+		icon = GFX_decision_eng_trade_unions_support
+
+		available = {
+			NOT = {
+				has_country_flag = GAK_already_helping_faction
+			}
+		}
+
+		cost = 75
+		days_re_enable = 32
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				paternal_autocrat > 0.14
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 150
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_order_social_move"
+			set_country_flag = GAK_already_helping_faction
+			set_temp_variable = { GKC = 5 }
+			GAK_GKC = yes
+			hidden_effect = {
+				country_event = {
+					id = gaksystemload.1
+					days = 32
 				}
 			}
 		}
 	}
 }
 
-GAK_new_cas_develop = {
-	GAK_new_cas_develop_1 = {
+
+GAK_rebuild_great_russia = {
+	GAK_rebuild_gorky_tank_factory = {
 		icon = GFX_decision_generic_industry
 
 		available = {
-			NOT = { has_country_flag = GAK_new_cas_develop_progress }
+			num_of_civilian_factories_available_for_projects > 8
+			195 = { is_owned_and_controlled_by = ROOT }
+			has_tech = construction2
 		}
 
-		cost = 10
-		days_remove = 50
+		cost = 100
+		days_remove = 110
 		fire_only_once = yes
 
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power > 100
+				add = 4
+			}
+			modifier = {
+				has_political_power > 150
+				add = 9 
+			}
+			modifier = {
+				has_political_power < 100
+				factor = 0
+			}
+		}
 
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_cas_develop_1"
-			set_country_flag = GAK_new_cas_develop_progress
+		modifier = {
+			civilian_factory_use = 8
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_new_cas_develop_1"
-			set_country_flag = GAK_part_one_cas_develop
-			clr_country_flag = GAK_new_cas_develop_progress
-			add_to_variable = {
-				var = GAK_new_cas_develop_variable
-				value = 1
-			}
-			custom_effect_tooltip = GAK_cas_develop_progress
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_rebuild_gorky_tank_factory target: [From.GetName]"
+			add_ideas = GAK_gorky_tank_factory
 		}
 	}
 
-	GAK_new_cas_develop_2 = {
+	GAK_rebuild_the_izhevsk_arsenal = {
 		icon = GFX_decision_generic_industry
 
 		available = {
-			has_country_flag = GAK_part_one_cas_develop
-			NOT = { has_country_flag = GAK_new_cas_develop_progress }
+			num_of_civilian_factories_available_for_projects > 5
+			399 = { is_owned_and_controlled_by = ROOT }
+			has_tech = construction1
 		}
 
-		cost = 20
-		days_remove = 75
+		cost = 100
+		days_remove = 80
 		fire_only_once = yes
 
-		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power > 100
+				add = 4
+			}
+			modifier = {
+				has_political_power > 150
+				add = 9
+			}
+			modifier = {
+				has_political_power < 100
+				factor = 0
+			}
+		}
 
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_cas_develop_2"
-			set_country_flag = GAK_new_cas_develop_progress
+		modifier = {
+			civilian_factory_use = 5
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_new_cas_develop_2"
-			set_country_flag = GAK_part_two_cas_develop
-			clr_country_flag = GAK_new_cas_develop_progress
-			add_to_variable = {
-				var = GAK_new_cas_develop_variable
-				value = 1
-			}
-			custom_effect_tooltip = GAK_cas_develop_progress
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_rebuild_the_izhevsk_arsenal target: [From.GetName]"
+			add_ideas = GAK_the_izhevsk_arsenal
 		}
 	}
 
-	GAK_new_cas_develop_3 = {
+	GAK_rebuild_ural_automotive_plant = {
 		icon = GFX_decision_generic_industry
 
 		available = {
-			has_country_flag = GAK_part_two_cas_develop
-			NOT = { has_country_flag = GAK_new_cas_develop_progress }
+			num_of_civilian_factories_available_for_projects > 4
+			581 = { is_owned_and_controlled_by = ROOT }
+			has_tech = construction2
 		}
 
-		cost = 30
+		cost = 100
 		days_remove = 100
 		fire_only_once = yes
 
-		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power > 100
+				add = 4
+			}
+			modifier = {
+				has_political_power > 150
+				add = 9
+			}
+			modifier = {
+				has_political_power < 100
+				factor = 0
+			}
+		}
 
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_cas_develop_3"
-			set_country_flag = GAK_new_cas_develop_progress
+		modifier = {
+			civilian_factory_use = 4
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_new_cas_develop_3"
-			clr_country_flag = GAK_new_cas_develop_progress
-			add_to_variable = {
-				var = GAK_new_cas_develop_variable
-				value = 2
-			}
-			custom_effect_tooltip = GAK_cas_develop_progress_large
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_rebuild_ural_automotive_plant target: [From.GetName]"
+			add_ideas = GAK_ural_automotive_plant
 		}
 	}
 
-	GAK_cas_stealth_install = {
-		icon = GFX_decision_generic_construction
-
-		available = {
-			NOT = { has_country_flag = GAK_new_cas_develop_progress }
-		}
-
-		days_remove = 150
-		fire_only_once = yes
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_cas_stealth_install"
-			set_country_flag = GAK_new_cas_develop_progress
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_cas_stealth_install"
-			clr_country_flag = GAK_new_cas_develop_progress
-			add_to_variable = {
-				var = GAK_new_cas_develop_variable
-				value = 1
-			}
-		}
-	}
-
-	GAK_cas_develop_finish = {
-		icon = GFX_decision_generic_operation
-
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = GAK_cas_develop_over_2
-				check_variable = {
-					GAK_new_cas_develop_variable > 2
-				}
-			}
-			NOT = { has_country_flag = GAK_new_cas_develop_progress }
-		}
-
-		cost = 0
-		fire_only_once = yes
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_fighter_develop_finish"
-			set_country_flag = GAK_new_cas_develop_finish
-			country_event = griffon.32
-			custom_effect_tooltip = GAK_cas_develop_ideas
-			if = {
-				limit = {
-					check_variable = { GAK_new_cas_develop_variable < 1 }
-				}
-				hidden_effect = {
-					custom_effect_tooltip = GAK_cas_develop_ideas_fail
-				}
-			}
-			else = {
-				limit = {
-					check_variable = { GAK_new_cas_develop_variable > 2 }
-				}
-				hidden_effect = {
-					set_technology = {
-						tac_dolls_cas_tech = 1
-					}
-				}
-			}
-		}
-	}
-}
-
-GAK_new_bomber_develop = {
-	GAK_new_bomber_develop_1 = {
+	GAK_rebuild_zlatoust_arms_plant = {
 		icon = GFX_decision_generic_industry
 
 		available = {
-			NOT = { has_country_flag = GAK_new_bomber_develop_in_progress }
+			num_of_civilian_factories_available_for_projects > 6
+			573 = { is_owned_and_controlled_by = ROOT }
+			has_tech = construction2
 		}
 
-		cost = 10
-		days_remove = 50
-		fire_only_once = yes
-
-		
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_bomber_develop_1"
-			set_country_flag = GAK_new_bomber_develop_in_progress
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_new_bomber_develop_1"
-			set_country_flag = GAK_part_one_bomber_develop
-			clr_country_flag = GAK_new_bomber_develop_in_progress
-			add_to_variable = {
-				var = GAK_bomber_develop_variable
-				value = 1
-			}
-			custom_effect_tooltip = GAK_new_bomber_develop_progress
-		}
-	}
-
-	GAK_new_bomber_develop_2 = {
-		icon = GFX_decision_generic_industry
-
-		available = {
-			has_country_flag = GAK_part_one_bomber_develop
-			NOT = { has_country_flag = GAK_new_bomber_develop_in_progress }
-		}
-
-		cost = 20
-		days_remove = 75
-		fire_only_once = yes
-
-		
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_bomber_develop_2"
-			set_country_flag = GAK_new_bomber_develop_in_progress
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_new_bomber_develop_2"
-			set_country_flag = GAK_part_two_bomber_develop
-			clr_country_flag = GAK_new_bomber_develop_in_progress
-			add_to_variable = {
-				var = GAK_bomber_develop_variable
-				value = 1
-			}
-			custom_effect_tooltip = GAK_new_bomber_develop_progress
-		}
-	}
-
-	GAK_new_bomber_develop_3 = {
-		icon = GFX_decision_generic_industry
-
-		available = {
-			has_country_flag = GAK_part_two_fighter_develop
-			NOT = { has_country_flag = GAK_new_bomber_develop_in_progress }
-		}
-
-		cost = 30
+		cost = 100
 		days_remove = 100
 		fire_only_once = yes
 
-		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power > 100
+				add = 4
+			}
+			modifier = {
+				has_political_power > 150
+				add = 9
+			}
+			modifier = {
+				has_political_power < 100
+				factor = 0
+			}
+		}
 
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_new_bomber_develop_3"
-			set_country_flag = GAK_new_bomber_develop_in_progress
+		modifier = {
+			civilian_factory_use = 6
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_new_bomber_develop_3"
-			clr_country_flag = GAK_new_bomber_develop_in_progress
-			add_to_variable = {
-				var = GAK_bomber_develop_variable
-				value = 2
-			}
-			custom_effect_tooltip = GAK_new_bomber_develop_progress_large
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_rebuild_zlatoust_arms_plant target: [From.GetName]"
+			add_ideas = GAK_zlatoust_arms_plant
 		}
 	}
 
-	GAK_bomber_stealth_install = {
-		icon = GFX_decision_generic_construction
+	GAK_rebuild_krasnoyarsk_railway_junction = {
+		icon = GFX_decision_generic_industry
 
 		available = {
-			NOT = { has_country_flag = GAK_new_bomber_develop_in_progress }
+			num_of_civilian_factories_available_for_projects > 4
+			568 = { is_owned_and_controlled_by = ROOT }
+			has_tech = construction1
 		}
 
-		days_remove = 150
+		cost = 100
+		days_remove = 90
 		fire_only_once = yes
 
-		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power > 100
+				add = 4
+			}
+			modifier = {
+				has_political_power > 150
+				add = 9
+			}
+			modifier = {
+				has_political_power < 100
+				factor = 0
+			}
+		}
 
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_bomber_stealth_install"
-			set_country_flag = GAK_new_bomber_develop_in_progress
+		modifier = {
+			civilian_factory_use = 4
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_bomber_stealth_install"
-			clr_country_flag = GAK_new_bomber_develop_in_progress
-			add_to_variable = {
-				var = GAK_bomber_develop_variable
-				value = 1
-			}
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_rebuild_krasnoyarsk_railway_junction target: [From.GetName]"
+			add_ideas = GAK_krasnoyarsk_railway_junction
 		}
 	}
 
-	GAK_bomber_develop_finish = {
-		icon = GFX_decision_generic_operation
+	GAK_rebuild_kuznetsk_basin = {
+		icon = GFX_decision_generic_industry
 
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = GAK_bomber_develop_over_2
-				check_variable = {
-					GAK_bomber_develop_variable > 2
-				}
-			}
-			NOT = { has_country_flag = GAK_new_bomber_develop_in_progress }
+			num_of_civilian_factories_available_for_projects > 2
+			250 = { is_owned_and_controlled_by = ROOT }
+			has_tech = construction1
 		}
 
-		cost = 0
+		cost = 100
+		days_remove = 60
 		fire_only_once = yes
 
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_bomber_develop_finish"
-			set_country_flag = GAK_new_bomber_develop_finish
-			country_event = griffon.33
-			custom_effect_tooltip = GAK_bomber_develop_finish_ideas
-			if = {
-				limit = {
-					check_variable = { GAK_bomber_develop_variable < 1 }
-				}
-				hidden_effect = {
-					custom_effect_tooltip = GAK_bomber_develop_ideas_fail
-				}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power > 100
+				add = 4
 			}
-			else = {
-				limit = {
-					check_variable = { GAK_bomber_develop_variable > 2 }
-				}
-				hidden_effect = {
-					set_technology = {
-						tac_dolls_bomb_tech = 1
-					}
-				}
+			modifier = {
+				has_political_power > 150
+				add = 9
+			}
+			modifier = {
+				has_political_power < 100
+				factor = 0
 			}
 		}
-	}
-}
 
-GAK_bugwan_favorability = {
-	GAK_bugwan_favorability_1 = {
-		icon = GFX
-		
+		modifier = {
+			civilian_factory_use = 2
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_rebuild_kuznetsk_basin target: [From.GetName]"
+			add_ideas = GAK_kuznetsk_basin
+		}
+	}
+
+	GAK_rebuild_novosibirsk_aircraft_plant = {
+		icon = GFX_decision_generic_industry
+
 		available = {
-			check_variable = {
-				Favorability > 20
-			}
+			num_of_civilian_factories_available_for_projects > 11
+			570 = { is_owned_and_controlled_by = ROOT }
+			has_tech = construction3
 		}
 
 		cost = 100
 		days_remove = 120
-		
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_bugwan_favorability_1"
-		}
-		
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_bugwan_favorability_1"
-			add_offsite_building = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
-			}
-			add_to_variable = {
-				var = Favorability
-				value = 5
-			}
-		}
-	}
-	
-	GAK_bugwan_favorability_2 = {
-		icon = GFX
-		
-		available = {
-			check_variable = {
-				Favorability > 60
-			}
-		}
-
-		cost = 100
-		days_remove = 40
-		
 		fire_only_once = yes
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_bugwan_favorability_2"
-		}
-		
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_bugwan_favorability_2"
-			random_list = {
-				25 = {
-					add_resource = {
-						type = aluminium
-						amount = 3
-						state = 629
-					}
-				}
-				25 = {
-					add_resource = {
-						type = tungsten
-						amount = 3
-						state = 629
-					}
-				}
-				25 = {
-					add_resource = {
-						type = chromium
-						amount = 3
-						state = 629
-					}
-				}
-				25 = {
-					add_resource = {
-						type = oil
-						amount = 3
-						state = 629
-					}
-				}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power > 100
+				add = 4
 			}
-			add_to_variable = {
-					var = Favorability
-					value = 10
-				}
-		}
-	}
-	
-	GAK_bugwan_favorability_3 = {
-		icon = GFX
-		
-		available = {
-			check_variable = {
-				Favorability > 120
+			modifier = {
+				has_political_power > 150
+				add = 9
+			}
+			modifier = {
+				has_political_power < 100
+				factor = 0
 			}
 		}
 
+		modifier = {
+			civilian_factory_use = 11
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_rebuild_novosibirsk_aircraft_plant target: [From.GetName]"
+			add_ideas = GAK_novosibirsk_aircraft_plant
+		}
+	}
+
+	GAK_rebuild_port_of_magadan = {
+		icon = GFX_decision_generic_industry
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			562 = { is_owned_and_controlled_by = ROOT }
+			has_tech = construction2
+		}
+
 		cost = 100
-		days_remove = 60
-		
+		days_remove = 90
 		fire_only_once = yes
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_bugwan_favorability_3"
-		}
-		
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_bugwan_favorability_3"
-			add_research_slot = 1
-			add_to_variable = {
-					var = Favorability
-					value = 15
-				}
-		}
-	}
-	
-	GAK_bugwan_favorability_4 = {
-		icon = GFX
-		
-		available = {
-			check_variable = {
-				Favorability > 200
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power > 100
+				add = 4
+			}
+			modifier = {
+				has_political_power > 150
+				add = 9
+			}
+			modifier = {
+				has_political_power < 100
+				factor = 0
 			}
 		}
 
+		modifier = {
+			civilian_factory_use = 4
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_rebuild_port_of_magadan target: [From.GetName]"
+			add_ideas = GAK_port_of_magadan
+		}
+	}
+
+	GAK_rebuild_irkutsk_hydro_station = {
+		icon = GFX_decision_generic_industry
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 6
+			566 = { is_owned_and_controlled_by = ROOT }
+			has_tech = construction2
+		}
+
 		cost = 100
-		days_remove = 200
-		
+		days_remove = 85
 		fire_only_once = yes
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_bugwan_favorability_4"
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power > 100
+				add = 4
+			}
+			modifier = {
+				has_political_power > 150
+				add = 9
+			}
+			modifier = {
+				has_political_power < 100
+				factor = 0
+			}
 		}
-		
+
+		modifier = {
+			civilian_factory_use = 6
+		}
+
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_bugwan_favorability_4"
-			add_equipment_to_stockpile = {
-				type = tac_dolls_ump45_equipments
-				amount = 10000
-				producer = GAK
-			}
-			add_to_variable = {
-				var = Favorability
-				value = 20
-			}
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_rebuild_port_of_magadan target: [From.GetName]"
+			add_ideas = GAK_irkutsk_hydro_station
 		}
 	}
-	
-	GAK_bugwan_favorability_5 = {
-		icon = GFX
-		
+
+	GAK_rebuild_cheryomushki = {
+		icon = GFX_decision_generic_industry
+
 		available = {
-			check_variable = {
-				Favorability > 300
-			}
+			num_of_civilian_factories_available_for_projects > 8
+			219 = { is_owned_and_controlled_by = ROOT }
+			has_tech = construction2
 		}
 
 		cost = 100
-		days_remove = 360
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_bugwan_favorability_5"
-		}
-		
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_bugwan_favorability_5"
-			every_owned_state = {
-				add_manpower = 100000
+		days_remove = 100
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power > 100
+				add = 4
 			}
-			add_to_variable = {
-				var = Favorability
-				value = 25
+			modifier = {
+				has_political_power > 150
+				add = 9
 			}
-		}
-	}
-	
-	GAK_bugwan_favorability_date = {
-		icon = GFX
-		
-		available = {
-			check_variable = {
-				Favorability < 300
+			modifier = {
+				has_political_power < 100
+				factor = 0
 			}
 		}
 
-		cost = 150
-		days_remove = 10
-		
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_bugwan_favorability_date"
+		modifier = {
+			civilian_factory_use = 8
 		}
-		
+
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_bugwan_favorability_date"
-			random_list = {
-				70 = {
-					country_event = griffon.34 #무난한 데이트
-					add_to_variable = {
-						var = Favorability
-						value = 10
-					}
-				}
-				9 = {
-					country_event = griffon.35 #별로였던 데이트
-					add_to_variable = {
-						var = Favorability
-						value = -5
-					}
-				}
-				21 = {
-					country_event = griffon.36 #최고였던 데이트
-					add_to_variable = {
-						var = Favorability
-						value = 30
-					}
-				}
-				0 = {
-					country_event = griffon.37 #싸다구 맞고 돌아옴
-					add_to_variable = {
-						var = Favorability
-						value = -100
-					}
-				}
-			}
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_rebuild_port_of_magadan target: [From.GetName]"
+			add_ideas = GAK_cheryomushki
 		}
 	}
 }
 
-GAK_war_everything = {
-	GAK_war_everything_JAP = {
-		icon = icon
-		available = {
-			NOT = { 
-				has_war = yes
-			}
-		}
-		
-		fire_only_once = yes
-		
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		cost = 150
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_war_everything_JAP"
-			declare_war_on = {
-				target = JAP
-				type = annex_everything
-			}
-			set_country_flag = GAK_attack_japan
-		}
-	}
-	
-	GAK_war_everything_CAN = {
-		icon = icon
-		available = {
-				NOT = { 
-					has_war = yes
-				}
-			}
-		visible = {
-			NOT = { 
-				is_in_faction_with = CAN
-			}
-		}
-		
-		fire_only_once = yes
-		
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		cost = 150
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_war_everything_CAN"
-			declare_war_on = {
-				target = CAN
-				type = annex_everything
-			}
-			set_country_flag = GAK_attack_japan
-		}
-	}
-	
-	GAK_war_everything_LEC = {
-		icon = icon
-		available = {
-				NOT = { 
-					has_war = yes
-				}
-			}
-		visible = {
-			has_country_flag = GAK_attack_japan
-			NOT = { 
-				is_in_faction_with = LEC
-			}
-		}
-		
-		fire_only_once = yes
-		
-		cost = 150
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_war_everything_LEC"
-			declare_war_on = {
-				target = LEC
-				type = annex_everything
-			}
-			set_country_flag = GAK_attack_shanghai
-		}
-	}
-	
-	GAK_war_everything_GEA = {
-		icon = icon
-		available = {
-				NOT = { 
-					has_war = yes
-				}
-			}
-		visible = {
-			has_country_flag = GAK_attack_japan
-			NOT = { 
-				is_in_faction_with = GEA
-				is_in_faction_with = GER
-			}
-		}
-		
-		fire_only_once = yes
-		
-		cost = 150
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_war_everything_GEA"
-			declare_war_on = {
-				target = GEA
-				type = annex_everything
-			}
-			set_country_flag = GAK_attack_german_east_asia
-		}
-	}
-	
-	GAK_war_everything_AST = {
-		icon = icon
-		available = {
-				NOT = { 
-					has_war = yes
-				}
-			}
-		visible = {
-			has_country_flag = GAK_attack_japan
-			NOT = { 
-				is_in_faction_with = AST
-			}
-		}
-		
-		fire_only_once = yes
-		days_remove = 20
-		cost = 150
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_war_everything_AST"
-			declare_war_on = {
-				target = AST
-				type = annex_everything
-			}
-			set_country_flag = GAK_attack_australia
-		}
-	}
-	
-	GAK_war_everything_RUS = {
-		icon = icon
-		available = {
-				NOT = { 
-					has_war = yes
-				}
-			}
-		visible = {
-			NOT = { 
-				is_in_faction_with = RUS
-			}
-		}
-		
-		fire_only_once = yes
-		
-		cost = 150
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_war_everything_RUS"
-			declare_war_on = {
-				target = RUS
-				type = annex_everything
-			}
-			set_country_flag = GAK_attack_russia
-		}
-	}
-	
-	GAK_war_everything_GER = {
-		icon = icon
-		available = {
-				NOT = { 
-					has_war = yes
-				}
-			}
-		visible = {
-			has_country_flag = GAK_attack_russia
-			NOT = { 
-				is_in_faction_with = GER
-			}
-		}
-		
-		fire_only_once = yes
-		
-		cost = 150
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_war_everything_GER"
-			declare_war_on = {
-				target = GER
-				type = annex_everything
-			}
-		}
-	}
-	
-	GAK_war_everything_FRA = {
-		icon = icon
-		available = {
-				NOT = { 
-					has_war = yes
-				}
-			}
-		visible = {
-			NOT = { 
-				is_in_faction_with = FRA
-			}
-		}
-		
-		fire_only_once = yes
-		
-		cost = 150
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_war_everything_FRA"
-			declare_war_on = {
-				target = FRA
-				type = annex_everything
-			}
-		}
-	}
-}
+GAK_griffon_new_future_tech = {
+	GAK_griffon_new_tech_rifle = {
+		icon = generic_research
 
-GAK_alyeshka_resource_develop = {
-	GAK_develop_alaska_steel_mines = {
-			icon = steel
+		available = {
+			NOT = { has_country_flag = GAK_research_tech_in_progress }
+		}
+		
+		cost = 300
+		days_remove = 100
+		fire_only_once = yes
 
-			highlight_state_targets = {
-				state = 463
-			}
-
-			available = {
-				num_of_civilian_factories_available_for_projects > 4
-				has_tech = excavation3
-				tag = GAK
-			}
-
-			visible = {
-				controls_state = 463
-				tag = GAK
-			}
-
-			fire_only_once = yes
-
-			cost = 100
-			days_remove = 60
-
+		ai_will_do = {
+			factor = 10
 			modifier = {
-				civilian_factory_use = 5
+				has_political_power < 300
+				factor = 0
 			}
-
-			complete_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision GAK_develop_alaska_development"
+			modifier = {
+				has_political_power > 300
+				add = 40
 			}
-			remove_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision remove GAK_develop_alaska_development"
-				463 = {
-					set_state_flag = GAK_steel_mines_developed
-					add_resource = {
-						type = steel
-						amount = 32
-					}
-				}
-			}
-
-			ai_will_do = {
-				factor = 1
+			modifier = {
+				has_political_power > 600
+				add = 90
 			}
 		}
 		
-	GAK_develop_alaska_steel_mines_2 = {
-			icon = steel
-
-			highlight_state_targets = {
-				state = 463
-			}
-
-			available = {
-				num_of_civilian_factories_available_for_projects > 10
-				has_tech = excavation4
-				tag = GAK
-			}
-
-			visible = {
-				has_state_flag = GAK_steel_mines_developed
-				controls_state = 463
-				tag = GAK
-			}
-
-			fire_only_once = yes
-
-			cost = 200
-			days_remove = 100
-
-			modifier = {
-				civilian_factory_use = 12
-			}
-
-			complete_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision GAK_develop_alaska_steel_mines_2"
-			}
-			remove_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision remove GAK_develop_alaska_steel_mines_2"
-				463 = {
-					clr_state_flag = GAK_steel_mines_developed
-					set_state_flag = GAK_steel_mines_developed_2
-					add_resource = {
-						type = steel
-						amount = 68
-					}
-				}
-			}
-
-			ai_will_do = {
-				factor = 1
-			}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_griffon_new_tech_rifle"
+			set_country_flag = GAK_research_tech_in_progress
+			add_ideas = GAK_future_tech_in_progress_ideas
 		}
 		
-	GAK_develop_alaska_oil_mines = {
-			icon = oil
-
-			highlight_state_targets = {
-				state = 463
-			}
-
-			available = {
-				num_of_civilian_factories_available_for_projects > 4
-				has_tech = excavation3
-				tag = GAK
-			}
-
-			visible = {
-				controls_state = 463
-				tag = GAK
-			}
-
-			fire_only_once = yes
-
-			cost = 150
-			days_remove = 80
-
-			modifier = {
-				civilian_factory_use = 5
-			}
-
-			complete_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision GAK_develop_alaska_oil_mines"
-			}
-			remove_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision remove GAK_develop_alaska_oil_mines"
-				463 = {
-					set_state_flag = GAK_oil_mines_developed
-					add_resource = {
-						type = oil
-						amount = 21
-					}
-				}
-			}
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-	GAK_develop_alaska_oil_mines_2 = {
-			icon = oil
-
-			highlight_state_targets = {
-				state = 463
-			}
-
-			available = {
-				num_of_civilian_factories_available_for_projects > 13
-				has_tech = excavation3
-				tag = GAK
-			}
-
-			visible = {
-				controls_state = 463
-				tag = GAK
-				has_state_flag = GAK_oil_mines_developed
-			}
-
-			fire_only_once = yes
-
-			cost = 300
-			days_remove = 120
-
-			modifier = {
-				civilian_factory_use = 14
-			}
-
-			complete_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision GAK_develop_alaska_oil_mines_2"
-			}
-			remove_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision remove GAK_develop_alaska_oil_mines_2"
-				clr_country_flag = GAK_oil_mines_developed
-				463 = {
-					add_resource = {
-						type = oil
-						amount = 68
-					}
-				}
-			}
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		GAK_develop_alaska_gold_mines = {
-			icon = oil
-
-			highlight_state_targets = {
-				state = 463
-			}
-
-			available = {
-				num_of_civilian_factories_available_for_projects > 19
-				has_tech = excavation4
-				tag = GAK
-			}
-
-			visible = {
-				controls_state = 463
-				tag = GAK
-			}
-
-			fire_only_once = yes
-
-			cost = 300
-			days_remove = 120
-
-			modifier = {
-				civilian_factory_use = 20
-			}
-
-			complete_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision GAK_develop_alaska_gold_mines"
-			}
-			remove_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision remove GAK_develop_alaska_gold_mines"
-				add_ideas = GAK_alaska_gold_rush_ideas
-			}
-
-			ai_will_do = {
-				factor = 1
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_griffon_new_tech_rifle"
+			set_country_flag = GAK_complete_rifle_research
+			clr_country_flag = GAK_research_tech_in_progress
+			set_technology = {
+				modern_infantry_weapons = 1
+				modern_infantry_weapons2 = 1
+				advanced_infantry_weapons3 = 1
+				modern_infantry_weapons3 = 1
+				advanced_infantry_weapons4 = 1
+				modern_infantry_weapons4 = 1
+				advanced_infantry_weapons5 = 1
+				modern_infantry_weapons5 = 1
+				advanced_infantry_weapons6 = 1
+				modern_infantry_weapons6 = 1
+				advanced_infantry_weapons7 = 1
+				modern_infantry_weapons7 = 1
+				advanced_infantry_weapons8 = 1
 			}
 		}
 	}
+	
+	GAK_griffon_new_tech_jet_engine = {
+		icon = generic_research
 
-GAK_battle_vs_america = {
-
-	GAK_support_CSA_friend_weapon = {
 		available = {
-			country_exists = CSA
-			NOT = { 
-				has_country_flag = GAK_active_help
-			}
+			NOT = { has_country_flag = GAK_research_tech_in_progress }
 		}
-
-		days_remove = 60
+		
+		visible = {
+			NOT = { has_tech = jet_engines }
+		}
+		
 		cost = 100
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_support_CSA_friend_weapon"
-			set_country_flag = GAK_active_help
-			custom_effect_tooltip = GAK_give_modern_weapon_CSA_tt
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_support_CSA_friend_weapon"
-			clr_country_flag = GAK_active_help
-			army_experience = 100
-			CSA = {
-				add_equipment_to_stockpile = {
-					type = tac_dolls_ump45_equipments
-					amount = 3000
-					producer = GAK
-				}
-				add_equipment_to_stockpile = {
-					type = tac_dolls_m4a1_equipments
-					amount = 12000
-					producer = GAK
-				}
-				country_event = griffon.51 
-			}
-			add_to_variable = { 
-				var = war_support_soc 
-				value = -1 
-			}
-		}
-	}
-
-	GAK_propaganda_USA_bitchs = {
-		available = {
-			country_exists = CSA
-			NOT = { 
-				has_country_flag = GAK_active_help
-			}
-		}
-
-		days_remove = 10
-		cost = 100
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_support_CSA_friend_weapon"
-			set_country_flag = GAK_active_help
-		}
-
-		remove_effect = {
-			add_stability = -0.05
-			war_support_factor = 0.05
-			clr_country_flag = GAK_active_help
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_propaganda_USA_bitchs"
-			add_to_variable = { 
-				var = war_support_soc 
-				value = 2
-			}
-		}
-	}
-
-	GAK_doll_doctrine_officer_send = {
-		available = {
-			country_exists = CSA
-			NOT = { 
-				has_country_flag = GAK_active_help
-			}
-		}
-
-		days_remove = 60
-		cost = 50
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_doll_doctrine_officer_send"
-			set_country_flag = GAK_active_help
-		}
-
+		days_remove = 30
 		fire_only_once = yes
 
-		remove_effect = {
-			add_stability = -0.05
-			clr_country_flag = GAK_active_help
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_doll_doctrine_officer_send"
-			add_to_variable = { 
-				var = war_support_soc 
-				value = -1
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_political_power < 100
+				factor = 0
 			}
-			CSA = {
-				add_ideas = GAK_doll_doctrine_officer_send_ideas 
+			modifier = {
+				has_political_power > 100
+				add = 40
+			}
+			modifier = {
+				has_political_power > 300
+				add = 90
+			}
+		}
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_griffon_new_tech_jet_engine"
+			set_country_flag = GAK_research_tech_in_progress
+			add_ideas = GAK_future_tech_in_progress_ideas
+		}
+		
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_griffon_new_tech_jet_engine"
+			clr_country_flag = GAK_research_tech_in_progress
+			set_technology = {
+				jet_engines = 1
 			}
 		}
 	}
+	
+	GAK_griffon_new_tech_stealth = {
+		icon = generic_research
 
-	GAK_volunteer_soldier_expansion = {
 		available = {
-			country_exists = CSA
-			has_global_flag = USA_civil_war_begun_flag
-			NOT = { 
-				has_country_flag = GAK_active_help
-			}
+			NOT = { has_country_flag = GAK_research_tech_in_progress }
 		}
-
+		
+		visible = {
+			NOT = { has_tech = Stealth_Technology }
+		}
+		
+		cost = 1000
+		days_remove = 120
 		fire_only_once = yes
 
-		days_remove = 20
-		cost = 100
-
 		ai_will_do = {
-			factor = 1
-		}
-
-
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_volunteer_soldier_expansion"
-			set_country_flag = GAK_active_help
-			custom_effect_tooltip = GAK_volunteer_soldier_tt
-		}
-
-		remove_effect = {
-			add_stability = -0.05
-			clr_country_flag = GAK_active_help
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_volunteer_soldier_expansion"
-			add_ideas = GAK_war_act_soc_ideas
-			add_to_variable = { 
-				var = war_support_soc 
-				value = -1 
+			factor = 10
+			modifier = {
+				has_political_power < 1000
+				factor = 0
 			}
-			add_opinion_modifier = { 
-				target = CSA 
-				modifier = GAK_help_by_soldier
+			modifier = {
+				has_political_power > 1000
+				add = 40
 			}
-		}
-	}
-
-	GAK_add_pop_decision = {
-		available = {
-			country_exists = CSA
-			has_global_flag = USA_civil_war_begun_flag
-			NOT = { 
-				has_country_flag = GAK_active_help
-			}
-		}
-
-		days_remove = 60
-		cost = 100
-
-		ai_will_do = {
-			factor = 1
-		}
-
-
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_add_pop_decision"
-			set_country_flag = GAK_active_help
-		}
-
-		remove_effect = {
-			add_stability = -0.05
-			clr_country_flag = GAK_active_help
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_add_pop_decision"
-			add_manpower = 3000
-			add_to_variable = { 
-				var = war_support_soc 
-				value = -1 
-			}
-		}
-	}
-
-	GAK_war_with_USA = {
-		icon = USA
-		available = {
-			check_variable = { war_support_soc > 4 }
-			NOT = { 
-				has_war = yes
-				country_exists = CSA
-				has_country_flag = GAK_active_help
+			modifier = {
+				has_political_power > 1500
+				add = 90
 			}
 		}
 		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_griffon_new_tech_stealth"
+			set_country_flag = GAK_research_tech_in_progress
+			add_ideas = GAK_future_tech_in_progress_ideas
+		}
+		
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_griffon_new_tech_stealth"
+			clr_country_flag = GAK_research_tech_in_progress
+			set_country_flag = GAK_complete_stealth_research
+			set_technology = {
+				Stealth_Technology = 1
+			}
+		}
+	}
+	
+	GAK_griffon_new_tech_fighter_one = {
+		icon = generic_research
+
+		available = {
+			NOT = { has_country_flag = GAK_research_tech_in_progress }
+		}
+		
+		visible = {
+			has_tech = jet_engines
+		}
+		
+		cost = 150
+		days_remove = 90
 		fire_only_once = yes
-		
-		days_remove = 10
-		
-		ai_will_do = {
-			factor = 1
-		}
 
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_support_CSA_friend_weapon"
-			set_country_flag = GAK_active_help
-			custom_effect_tooltip = GAK_go_lenin_s_worrior_tt
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_political_power < 150
+				factor = 0
+			}
+			modifier = {
+				has_political_power > 150
+				add = 40
+			}
+			modifier = {
+				has_political_power > 450
+				add = 90
+			}
 		}
 		
-		cost = 10
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_griffon_new_tech_fighter_one"
+			set_country_flag = GAK_research_tech_in_progress
+			add_ideas = GAK_future_tech_in_progress_ideas
+		}
 		
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_war_with_USA"
-			clr_country_flag = GAK_active_help
-			declare_war_on = {
-				target = USA
-				type = annex_everything
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_griffon_new_tech_fighter_one"
+			clr_country_flag = GAK_research_tech_in_progress
+			set_country_flag = GAK_complete_fighter_one_research
+			set_technology = {
+				jet_fighter1 = 1
+				jet_fighter2 = 1
+				jet_fighter_equipment_3 = 1
+				cv_jet_fighter3 = 1
+				jet_fighter_equipment_4 = 1
+				cv_jet_fighter4 = 1
+				jet_fighter_equipment_5 = 1
+				cv_jet_fighter5 = 1
 			}
-			hidden_effect = {
-				GAK = {
-					transfer_state = 797
-					transfer_state = 798
-				}
-				random_owned_controlled_state = {
-					prioritize = { 797 }
-					create_unit = {
-						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.8 start_equipment_factor = 1.0"
-						owner = GAK
-					}
-					create_unit = {
-						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.2 start_equipment_factor = 1.0"
-						owner = GAK
-					}
-					create_unit = {
-						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.6 start_equipment_factor = 1.0"
-						owner = GAK
-					}
-					create_unit = {
-						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.6 start_equipment_factor = 1.0"
-						owner = GAK
-					}
-					create_unit = {
-						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.6 start_equipment_factor = 1.0"
-						owner = GAK
-					}
-				}
-				random_owned_controlled_state = {
-					prioritize = { 798 }
-					create_unit = {
-						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.2 start_equipment_factor = 1.0"
-						owner = GAK
-					}
-					create_unit = {
-						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.6 start_equipment_factor = 1.0"
-						owner = GAK
-					}
-					create_unit = {
-						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.8 start_equipment_factor = 1.0"
-						owner = GAK
-					}
-					create_unit = {
-						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.8 start_equipment_factor = 1.0"
-						owner = GAK
-					}
-					create_unit = {
-						division = "name = \"Secret Tactical Doll Division\" division_template = \"Tactical Doll Division\" start_experience_factor = 1.8 start_equipment_factor = 1.0"
-						owner = GAK
-					}
-				}
+		}
+	}
+	
+	GAK_griffon_new_tech_fighter_two = {
+		icon = generic_research
+
+		available = {
+			NOT = { has_country_flag = GAK_research_tech_in_progress }
+			has_country_flag = GAK_complete_fighter_one_research
+		}
+		
+		visible = {
+			has_tech = jet_engines
+			has_tech = Stealth_Technology
+		}
+		
+		cost = 500
+		days_remove = 180
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_political_power < 500
+				factor = 0
 			}
-			set_country_flag = GAK_end_america_rape
+			modifier = {
+				has_political_power > 500
+				add = 40
+			}
+			modifier = {
+				has_political_power > 1000
+				add = 90
+			}
+		}
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_griffon_new_tech_fighter_two"
+			set_country_flag = GAK_research_tech_in_progress
+			add_ideas = GAK_future_tech_in_progress_ideas
+		}
+		
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_griffon_new_tech_fighter_two"
+			clr_country_flag = GAK_research_tech_in_progress
+			set_country_flag = GAK_complete_fighter_two_research
+			set_technology = {
+				jet_fighter_equipment_6 = 1
+				cv_jet_fighter6 = 1
+				jet_fighter_equipment_7 = 1
+				cv_jet_fighter7 = 1
+				jet_fighter_equipment_8 = 1
+				cv_jet_fighter8 = 1
+				jet_fighter_equipment_9 = 1
+				cv_jet_fighter9 = 1
+			}
 		}
 	}
 }

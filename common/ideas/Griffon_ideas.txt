@@ -12,10 +12,152 @@ ideas = {
 				army_defence_factor = 0.1
 				army_speed_factor = 0.05
 				army_morale_factor = 0.1
-				army_org_factor = 0.2
+				army_org_factor = 0.3
 				experience_gain_army = 0.05
 				experience_loss_factor = -0.1
 				conscription_factor = 0.1
+				recruitable_population_factor = -0.25
+			}
+		}
+
+		GAK_tactical_dolls_1_ideas = { #전술인형
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_tactical_dolls_1_ideas"}
+			picture = GAK
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_speed_factor = 0.05
+				army_morale_factor = 0.1
+				army_org_factor = 0.3
+				experience_gain_army = 0.05
+				experience_loss_factor = -0.1
+				conscription_factor = 0.1
+				recruitable_population_factor = -0.15
+			}
+		}
+
+		GAK_tactical_dolls_2_ideas = { #전술인형
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_tactical_dolls_2_ideas"}
+			picture = GAK
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_speed_factor = 0.05
+				army_morale_factor = 0.1
+				army_org_factor = 0.3
+				experience_gain_army = 0.05
+				experience_loss_factor = -0.1
+				conscription_factor = 0.1
+				recruitable_population_factor = -0.1
+			}
+		}
+
+		GAK_tactical_dolls_3_ideas = { #전술인형
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_tactical_dolls_3_ideas"}
+			picture = GAK
+			modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_speed_factor = 0.05
+				army_morale_factor = 0.15
+				army_org_factor = 0.3
+				experience_gain_army = 0.05
+				experience_loss_factor = -0.1
+				conscription_factor = 0.1
+			}
+		}
+
+		GAK_power_grab_ideas = { #권력장악
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_power_grab_ideas"}
+			picture = GAK
+			modifier = {
+				political_power_factor = 0.25
+			}
+		}
+
+		GAK_power_grab2_ideas = { #권력장악
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_power_grab_2ideas"}
+			picture = GAK
+			modifier = {
+				political_power_factor = 0.3
+				command_power_gain = 0.1
+			}
+		}
+
+		GAK_power_grab3_ideas = { #권력장악
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_power_grab_3ideas"}
+			picture = GAK
+			modifier = {
+				political_power_factor = 0.5
+				command_power_gain = 0.5
+			}
+		}
+
+		GAK_staffed_engineer_ideas = { #숙련된 공병
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_staffed_engineer_ideas"}
+			picture = GAK
+			modifier = {
+				dig_in_speed_factor = 0.2
+				cas_damage_reduction = 0.3
+				army_defence_factor = 0.1
+			}
+		}
+
+		GAK_trench_raider_ideas = { #트렌치 레이더
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_trench_raider_ideas"}
+			picture = GAK
+			modifier = {
+				army_infantry_attack_factor = 0.1
+				breakthrough_factor = 0.1
+			}
+		}
+
+		GAK_factory_of_misfortune_ideas = { #불행의 공장
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_factory_of_misfortune_ideas"}
+			picture = GAK
+			modifier = {
+				industrial_capacity_factory = 0.5
+				consumer_goods_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.05
+				political_power_factor = -0.05
+				stability_factor = -0.1
+			}
+		}
+
+		GAK_buy_some_land = { #토지구매
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_buy_some_land"}
+			picture = GAK
+			modifier = {
+				consumer_goods_factor = 0.3
+			}
+		}
+
+		GAK_unified_hq = { #통합된 지휘부
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_unified_hq"}
+			picture = GAK
+			modifier = {
+				max_planning_factor = 0.15
+				planning_speed = 0.2
+				training_time_factor = -0.1
+			}
+		}
+
+		GAK_women_s_volunteer_group_focus_ideas = { #자유 인민 봉사단
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_women_s_volunteer_group_focus_ideas"}
+			picture = GAK
+			modifier = {
+				recon_factor = 0.15
+				org_loss_when_moving = -0.2
+				experience_loss_factor = -0.1
+			}
+		}
+
+		GAK_military_factory_ideas = { #인형의 기적
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_military_factory_ideas"}
+			picture = GAK
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_arms_factory_factor = 0.3
 			}
 		}
 
@@ -120,7 +262,7 @@ ideas = {
 			}
 		}
 		
-		GAK_american_problem_ideas = { #미국인 문제
+		GAK_american_problem_ideas = { #러시아인 문제
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_american_problem_ideas"}
 			picture = GAK
 			modifier = {
@@ -145,14 +287,6 @@ ideas = {
 				stability_factor = 0.05
 				MONTHLY_POPULATION = 0.1
 				army_morale_factor = 0.1
-			}
-		}
-		
-		GAK_american_scientist_ideas = { #미국인 과학자
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_american_scientist_ideas"}
-			picture = GAK
-			modifier = {
-				research_speed_factor = 0.1
 			}
 		}
 		
@@ -202,7 +336,6 @@ ideas = {
 			modifier = {
 				MONTHLY_POPULATION = 0.3
 				local_resources_factor = 0.15
-				
 			}
 		}
 		
@@ -306,10 +439,6 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.1
 				drift_defence_factor = 0.25	
-				high_command_cost_factor = -0.25
-				army_chief_cost_factor = -0.25	
-				navy_chief_cost_factor = -0.25	
-				air_chief_cost_factor = -0.25
 			}
 		}
 		
@@ -987,28 +1116,33 @@ ideas = {
 			}
 		}
 
-		GAK_navy_research_help_ideas = { #해군 연구 도움
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_navy_research_help_ideas"}
+		GAK_navy_research_help_school_ideas = { #해군 연구 도움
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_navy_research_help_school_ideas"}
 			picture = GAK
 			research_bonus = {
 				naval_equipment = 0.15
 			}
 			modifier = {
-				experience_gain_navy = 0.10
+				naval_morale_factor = 0.3
+				naval_hit_chance = 0.15
+				experience_gain_navy = 0.1
 				naval_coordination = 0.05
 				spotting_chance = 0.05
 			}
 		}
 
-		GAK_doctrine_anal_ideas = { #공군 연구 도움
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_doctrine_anal_ideas"}
+		GAK_doctrine_anal_school_ideas = { #공군 연구 도움
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_doctrine_anal_school_ideas"}
 			picture = GAK
 			research_bonus = {
 				air_equipment = 0.15
 			}
 			modifier = {
+				air_accidents_factor = -0.15
 				air_mission_xp_gain_factor = 0.10
+				experience_gain_air = 0.1
 				air_ace_generation_chance_factor = 0.25
+				air_intercept_efficiency = 0.05
 				air_range_factor = 0.05
 			}
 		}
@@ -1169,6 +1303,487 @@ ideas = {
 				industry = 0.3
 			}
 		}
+
+		GAK_russian_diligence_ideas = { #러시아인들의 근면함
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_provide_industrial_blueprints_with_CSA_ideas"}
+			picture = GAK
+			modifier = {
+				industrial_capacity_factory = 0.05
+				line_change_production_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		GAK_conciliatory_and_incitement_ideas = { #회유와 선동
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_conciliatory_and_incitement_ideas"}
+			picture = GAK
+			modifier = {
+				conscription = 0.02
+			}
+		}
+
+		GAK_end_of_the_march_ideas = { #행군의 끝
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_end_of_the_march_ideas"}
+			picture = GAK
+			modifier = {
+				army_armor_attack_factor = 0.3
+				mechanized_attack_factor = 0.2
+				motorized_attack_factor = 0.2
+				breakthrough_factor = 0.1
+			}
+			equipment_bonus = {
+				motorized = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+				mechanized = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = -0.3
+					instant = yes
+				}
+			}
+		}
+
+		GAK_farm_1_ideas = { #농업 개선1
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_farm_1_ideas"}
+			picture = GAK
+			modifier = {
+				political_power_factor = -0.15
+				monthly_population = 0.4
+				consumer_goods_factor = -0.03
+			}
+		}
+
+		GAK_farm_2_ideas = { #농업 개선2
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_farm_2_ideas"}
+			picture = GAK
+			modifier = {
+				political_power_factor = -0.3
+				monthly_population = 0.8
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		GAK_develop_industry_ideas = { #공업 자동화
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_develop_industry_ideas"}
+			picture = GAK
+			modifier = {
+				production_factory_max_efficiency_factor = 0.3
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_start_efficiency_factor = 0.1
+			}
+		}
+
+		GAK_resorce_many_ideas = { #자원
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_resorce_many_ideas"}
+			picture = GAK
+			modifier = {
+				local_resources_factor = 0.2
+			}
+		}
+
+		GAK_fast_building_ideas = { #건설 패스터
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_fast_building_ideas"}
+			picture = GAK
+			modifier = {
+				production_speed_buildings_factor = 0.5
+			}
+		}
+
+
+		GAK_gorky_tank_factory = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_gorky_tank_factory"}
+			picture = RUS_gorki_tank_factory
+			
+			modifier = {
+				army_armor_attack_factor = 0.1
+				army_armor_speed_factor = 0.05
+			}
+			
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.1
+					reliability = 0.1					
+					instant = yes
+				}
+				mechanized = {
+					build_cost_ic = -0.15 
+					reliability = 0.1
+					instant = yes
+				}
+			}
+		}
+
+		GAK_the_izhevsk_arsenal = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_the_izhevsk_arsenal"}
+			picture = KIR_The_Izhevsk_Arsenal
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.05
+					reliability = 0.05
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.05
+					reliability = 0.2
+					instant = yes
+				}
+			}
+		}
+
+		GAK_ural_automotive_plant = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_ural_automotive_plant"}
+			picture = RUS_ural_automotive_plant
+			
+			modifier = {
+				motorized_attack_factor = 0.1
+				industrial_capacity_factory = 0.05
+			}
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.15
+					reliability = 0.05
+					instant = yes
+				}
+				mechanized = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+
+		GAK_zlatoust_arms_plant = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_zlatoust_arms_plant"}
+			picture = RUS_zlatoust_arms_plant
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.2
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+
+		GAK_krasnoyarsk_railway_junction = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_krasnoyarsk_railway_junction"}
+			picture = RUS_krasnoyarsk_railway_junction
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				army_speed_factor = 0.1
+				supply_consumption_factor = -0.1
+			}
+		}
+
+		GAK_kuznetsk_basin = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_kuznetsk_basin"}
+			picture = RUS_kuznetsk_basin
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.15
+			}
+		}
+
+		GAK_novosibirsk_aircraft_plant = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_novosibirsk_aircraft_plant"}
+			picture = RUS_novosibirsk_aircraft_plant
+			
+			modifier = {
+				air_close_air_support_agility_factor = 0.1
+				air_close_air_support_attack_factor = 0.075
+			}
+			equipment_bonus = {
+				fighter = {
+					build_cost_ic = -0.15
+					reliability = 0.05
+					instant = yes
+				}
+				strategic_bomber = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+
+		GAK_port_of_magadan = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_port_of_magadan"}
+			picture = RUS_port_of_magadan
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+				production_speed_dockyard_factor = 0.1
+			}
+			equipment_bonus = {
+				convoy = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+		}
+
+		GAK_irkutsk_hydro_station = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_irkutsk_hydro_station"}
+			picture = RUS_irkutsk_hydroelectric_station
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_infrastructure_factor = 0.1
+				production_speed_buildings_factor = 0.15
+			}
+		}
+
+		GAK_cheryomushki = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GAK_cheryomushki"}
+			picture = RUS_chita_airport
+			
+			modifier = {
+				air_accidents_factor = -0.15
+				army_bonus_air_superiority_factor = 0.1
+			}
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+				interceptor_equipment = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+
+		GAK_free_speech_ideas = { #언론 자유화 도입
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_free_speech_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.1
+				opinion_gain_monthly_same_ideology_factor = 0.1
+			}
+		}
+
+		GAK_civil_rights_act_1ideas = { #민권법 작성중
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_civil_rights_act_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.15
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+
+		GAK_civil_rights_act_2ideas = { #민권법 공개 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_civil_rights_act_2ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.1
+			}
+		}
+
+		GAK_civil_rights_act_3ideas = { #민권법의 성공
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_civil_rights_act_3ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.05
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+
+		GAK_talk_with_russian_bois_ideas = { #러시아계 통합
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_talk_with_russian_bois_ideas"}
+			picture = GAK
+			modifier = {
+				political_power_gain = 0.01
+				conscription_factor = 0.02
+			}
+		}
+
+		GAK_turning_the_army_problem_ideas = { #우담회 국방군 조율 성공
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_talk_with_russian_bois_ideas"}
+			picture = GAK
+			modifier = {
+				max_planning_factor = 0.1
+				planning_speed = 0.05
+				training_time_factor = -0.1
+				supply_consumption_factor = -0.05
+			}
+		}
+
+		GAK_martial_law_on_ideas = { #계엄령 ON
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_martial_law_on_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = 0.1
+				political_power_factor = -0.25
+			}
+		}
+
+		GAK_little_lobby_ideas = { #작은 로비
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_little_lobby_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+
+		GAK_eat_them_all_ideas = { #사회적 안정
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_eat_them_all_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = 0.25
+				industrial_capacity_factory = 0.1
+			}
+		}
+
+		GAK_new_history_movement_ideas = { #신역사 운동
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_new_history_movement_ideas"}
+			picture = GAK
+			modifier = {
+				research_speed_factor = -0.5
+				stability_factor = -0.15
+				weekly_manpower = -100
+			}
+		}
+
+		GAK_rus_policy_of_appeasement_a_ideas = { #효율적인 노예제 #집중 투자
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_rus_policy_of_appeasement_ideas"}
+			picture = GAK
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 1
+				production_speed_buildings_factor = 1
+			}
+		}
+
+		GAK_rus_policy_of_appeasement_b_ideas = { #효율적인 노예제 #분산 투자
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_rus_policy_of_appeasement_ideas"}
+			picture = GAK
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.45
+				line_change_production_efficiency_factor = 0.05
+				industry_air_damage_factor = -0.1
+				industry_free_repair_factor = 0.15
+				production_factory_max_efficiency_factor  = 0.3
+				production_factory_efficiency_gain_factor = 0.15
+				production_speed_buildings_factor = 0.45
+			}
+		}
+
+		GAK_areon_s_proposal_ideas = { #프로이센식 교육
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_areon_s_proposal_ideas"}
+			picture = GAK
+			modifier = {
+				army_attack_factor = 0.05
+				breakthrough_factor = 0.1
+				army_org_factor = 0.1
+			}
+		}
+
+		GAK_nose_eats_soup_ideas = { #사라지는 학생들
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_nose_eats_soup_ideas"}
+			picture = GAK
+			modifier = {
+				weekly_manpower = -50
+				political_power_factor = -0.25
+			}
+		}
+
+		GAK_Reich_focus_ideas = { #제국의 자격
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_Reich_focus_ideas"}
+			picture = GAK
+			modifier = {
+				surrender_limit = 0.1
+				justify_war_goal_time = -0.25
+			}
+		}
+
+		GAK_Reich_focus1_ideas = { #제국의 자격
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_Reich_focus1_ideas"}
+			picture = GAK
+			modifier = {
+				surrender_limit = 0.1
+				justify_war_goal_time = -0.5
+				war_support_factor = 0.15
+				special_forces_min = 48
+			}
+		}
+
+		GAK_shadow_state_ideas = { #그림자 국가
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_shadow_state_ideas"}
+			picture = GAK
+			modifier = {
+				resistance_target = -0.1
+				encryption_factor = 0.1
+				decryption_factor = 0.1
+				enemy_operative_detection_chance_factor = 0.25
+			}
+		}
+
+		GAK_every_doll_warrior_ideas = { #스파르타 프로젝트
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_every_doll_warrior_ideas"}
+			picture = GAK
+			modifier = {
+				conscription = 0.05
+				training_time_factor = -0.1
+				war_support_factor = 0.1
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_org_Factor = 0.1
+				no_supply_grace = 72
+				industrial_capacity_factory = 0.15
+			}
+		}
+		
+		GAK_future_tech_in_progress_ideas = { #미래 기술 연구
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_future_tech_in_progress_ideas"}
+			picture = GAK
+			available = {
+				has_country_flag = GAK_research_tech_in_progress
+			}
+			modifier = {
+				research_speed_factor = -0.5
+			}
+		}
+		
+	}
+
+	hidden_ideas = {
+		GAK_hidden_ideas_one = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_hidden_ideas_one"}
+			modifier = {
+				min_export = -0.6
+			}
+		}
 	}
 		
 		
@@ -1194,7 +1809,44 @@ ideas = {
 					electronics = 0.05
 				}
 			}
+
+		GAK_oktava = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_oktava"}
+			visible = { 
+				tag = GAK 
+			}
+			allowed = {
+				has_completed_focus = GAK_contract_with_company_focus
+			}
+			traits = { electronics_manufacturer }
+			modifier = {
+				production_speed_radar_station_factor = 0.15
+			}
+			research_bonus = {
+				electronics = 0.3
+				industry = 0.1
+			}
 		}
+
+		GAK_putilov = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_putilov"}
+			visible = { 
+				tag = GAK 
+			}
+			allowed = {
+				has_completed_focus = GAK_contract_with_company_focus
+			}
+			traits = { industrial_manufacturer }
+			modifier = {
+				production_speed_arms_factory_factor = 0.2
+				production_speed_industrial_complex_factor = 0.2
+			}
+			research_bonus = {
+				industry = 0.15
+				synth_resources = 0.05
+			}
+		}
+	}
 
 		#개인화기, 중화기 등
 		weapons_manufacturer = {

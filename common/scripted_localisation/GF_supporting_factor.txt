@@ -1,0 +1,60 @@
+defined_text = {
+	name = GAK_friendly_force_influence
+	text = {
+		trigger = {
+			has_country_flag = GAK_groza_control_russia
+		}
+		localization_key = GAK_friendly_force_influence_text
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = GAK_groza_control_russia }
+		}
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = GAK_zaibatsu_force_influence
+	text = {
+		trigger = {
+			has_country_flag = GAK_groza_control_russia
+		}
+		localization_key = GAK_zaibatsu_force_influence_text
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = GAK_groza_control_russia }
+		}
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = GAK_revolutional_bitchs_move_influence
+	text = {
+		trigger = {
+			has_country_flag = GAK_groza_control_russia
+		}
+		localization_key = GAK_revolutional_bitchs_move_influence_text
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = GAK_groza_control_russia }
+		}
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = GAK_new_order_social_move_influence
+	text = {
+		trigger = {
+			has_country_flag = GAK_groza_control_russia
+		}
+		localization_key = GAK_new_order_social_move_influence_text
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = GAK_groza_control_russia }
+		}
+		localization_key = ""
+	}
+}

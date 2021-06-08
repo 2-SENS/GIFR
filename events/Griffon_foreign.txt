@@ -1,0 +1,16 @@
+add_namespace = gakfor
+
+country_event = {
+	id = gakfor.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.1" }
+	title = gakfor.1.t
+	desc = gakfor.1.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.1.a
+        add_stability = -0.05
+	}
+}

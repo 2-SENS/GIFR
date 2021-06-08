@@ -1,0 +1,49 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_Leader_Groza"
+		texturefile = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza_1_moving.dds"
+		noOfFrames = 40
+		effectFile = "INGAME"
+		alwaystransparent = yes
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_Leader_G36"
+		texturefile = "gfx/leaders/GAK/Portrait_Girls_Frontline_G36_animated.dds"
+		noOfFrames = 40
+		effectFile = "INGAME"
+		alwaystransparent = yes
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_Leader_Ephnel"
+		texturefile = "gfx/leaders/GAK/Portrait_soulworker_Ephnel_DH_animated.dds"
+		noOfFrames = 40
+		effectFile = "INGAME"
+		alwaystransparent = yes
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_Leader_Stella_Unibell"
+		texturefile = "gfx/leaders/GAK/Portrait_soulworker_Stella_Unibell_animated.dds"
+		noOfFrames = 40
+		effectFile = "INGAME"
+		alwaystransparent = yes
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+}

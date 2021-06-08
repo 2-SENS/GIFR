@@ -119,4 +119,52 @@ scripted_gui = {
 			}
 		}
 	}
+
+	GAK_SG_groza_accession_to_throne = {
+		context_type = player_context
+		window_name = "GAK_SG_groza_accession_to_throne"
+
+		visible = {
+			has_country_flag = GAK_accession_groza
+		}
+	}
+
+	GAK_SG_groza_accession_to_throne_frame = {
+		context_type = player_context
+		window_name = "GAK_SG_groza_accession_to_throne_frame"
+
+		visible = {
+			has_country_flag = GAK_accession_groza
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = GAK_accession_groza
+			}
+		}
+	}
+
+	GAK_SG_groza_united_russia = {
+		context_type = player_context
+		window_name = "GAK_SG_groza_united_russia"
+
+		visible = {
+			has_country_flag = GAK_groza_united_russia
+		}
+	}
+
+	GAK_SG_groza_united_russia_frame = {
+		context_type = player_context
+		window_name = "GAK_SG_groza_united_russia_frame"
+
+		visible = {
+			has_country_flag = GAK_groza_united_russia
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = GAK_groza_united_russia
+			}
+		}
+	}
 }

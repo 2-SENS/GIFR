@@ -1,4 +1,6 @@
 guiTypes = {
+
+
 	containerWindowType =  {
 		name = "open_bugwan_container"
 		position = { x = 82 y = 425 }
@@ -12,654 +14,666 @@ guiTypes = {
 			buttonText = "부관"
 		}
 	}
-
 	containerWindowType = {
 		name = "bugwan_choosing_window"
 		position = { x = -250 y = -250 }
-		size = { width = 565 height = 600 }
+		size = { width = 600 height = 675 }
+		
+		orientation = center
 		fade_time = 300
 		fade_type = linear
 		moveable = yes
 		show_sound = menu_open_window
-		verticalScrollbar = "right_vertical_slider_intel"
 		click_to_front = yes
+		background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_plain_bg"
+			}
+	
+	
+	instantTextboxType = {
+		name = "title" 					
+		position = { x = 75 y = 9 }
+		font = "hoi_36header"
+		borderSize = {x = 0 y = 0}
+		text = "부관 목록" 
+		maxWidth = 500
+		maxHeight = 20
+		format = left	
+	}
 
-		orientation = center
- 
+	buttonType = {
+		name = "button_close"
+		position = {x = -44 y = 12 }
+		spriteType = "GFX_NV_btn_close"					
+		clicksound = click_close
+		pdx_tooltip = "close"
+		shortcut = "ESCAPE"
+		orientation = UPPER_RIGHT
+	}
+	
+
+	containerWindowType = {
+		name = "bugwan_choosing_container"
+		position = { x = 15 y = 50 }
+		size = { width = 565 height = 600 }
+		margin = { top = 10 bottom = 10 }
+		verticalScrollbar = "right_vertical_slider_intel" 
+	
 		background = {
 			name = "Background"
-			quadTextureSprite = "GFX_tiled_plain_bg"
+			quadTextureSprite = "GFX_tiled_window_1b_thin_border"
 		}
 
-		instantTextboxType = {
-			name = "title" 
-			position = { x = 75 y = 9 }
-			font = "hoi_36header"
-			borderSize = {x = 0 y = 0}
-			text = "부관 목록" 
-			maxWidth = 500
-			maxHeight = 20
-			format = left	
-		}
-
-		buttonType = {
-			name = "button_close"
-			position = {x = -44 y = 12 }
-			spriteType = "GFX_NV_btn_close"
-			clicksound = click_close
-			pdx_tooltip = "close"
-			shortcut = "ESCAPE"
-			orientation = UPPER_RIGHT
-		}
-
-		containerWindowType = {
-			name = "choose_one"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 55 }
-			fade_time = 500
-			fade_type = linear
+				containerWindowType = {
+					name = "choose_one"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 55 }
+					fade_time = 500
+					fade_type = linear
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_hk416"
-			}
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_hk416"
+					}
 
-			buttonType = {
-				name = "choice_her_hk416"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
+					buttonType = {
+						name = "choice_her_hk416"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
 
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_ONE_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_two"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 145 }
-			fade_time = 500
-			fade_type = linear
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_UMP45"
-			}
-
-			buttonType = {
-				name = "choice_her_ump45"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
-
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_TWO_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_thr"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 235 }
-			fade_time = 500
-			fade_type = linear
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_G11"
-			}
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_ONE_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
 
-			buttonType = {
-				name = "choice_her_G11"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
-
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_THR_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_fou"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 325 }
-			fade_time = 500
-			fade_type = linear
-			
+				containerWindowType = {
+					name = "choose_two"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 145 }
+					fade_time = 500
+					fade_type = linear
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_UMP9"
-			}
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_UMP45"
+					}
 
-			buttonType = {
-				name = "choice_her_ump9"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
+					buttonType = {
+						name = "choice_her_ump45"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
 
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_fou_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_fiv"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 415 }
-			fade_time = 500
-			fade_type = linear
-			
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_AK12"
-			}
-
-			buttonType = {
-				name = "choice_her_AK12"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
-
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_fiv_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_six"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 505 }
-			fade_time = 500
-			fade_type = linear
-			
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_AN94"
-			}
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_TWO_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
 
-			buttonType = {
-				name = "choice_her_AN94"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
-
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_six_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_sev"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 595 }
-			fade_time = 500
-			fade_type = linear
-			
+				containerWindowType = {
+					name = "choose_thr"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 235 }
+					fade_time = 500
+					fade_type = linear
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_AK15"
-			}
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_G11"
+					}
 
-			buttonType = {
-				name = "choice_her_AN15"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
+					buttonType = {
+						name = "choice_her_g11"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
 
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_sev_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_eig"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 685 }
-			fade_time = 500
-			fade_type = linear
-			
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_RPK16"
-			}
-
-			buttonType = {
-				name = "choice_her_RPK16"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
-
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_eig_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_nin"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 775 }
-			fade_time = 500
-			fade_type = linear
-			
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_M4A1"
-			}
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_THR_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
 
-			buttonType = {
-				name = "choice_her_M4A1"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
-
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_nin_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_ten"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 865 }
-			fade_time = 500
-			fade_type = linear
-			
+				containerWindowType = {
+					name = "choose_fou"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 325 }
+					fade_time = 500
+					fade_type = linear
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_M4_sopmod"
-			}
-
-			buttonType = {
-				name = "choice_her_M4_sopmod"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
-
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_ten_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_ele"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 955 }
-			fade_time = 500
-			fade_type = linear
-			
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_M16A1"
-			}
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_UMP9"
+					}
 
-			buttonType = {
-				name = "choice_her_M16a1"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
+					buttonType = {
+						name = "choice_her_ump9"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
 
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_ele_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_twe"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 1045 }
-			fade_time = 500
-			fade_type = linear
-			
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_RO635"
-			}
-
-			buttonType = {
-				name = "choice_her_RO635"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
-
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
-			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_twe_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-
-		containerWindowType = {
-			name = "choose_thi"
-			size = { width=510 height=98 }
-			clipping = no
-			position = { x = 20 y = 1135 }
-			fade_time = 500
-			fade_type = linear
-			
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
 					
-			background = {
-				name = "Background"		
-				spriteType ="GFX_leader_selection_entry_bg"
-			}
-			
-			buttonType = {
-				name = "leader_button"
-				position = {x=56 y=5}	
-				quadTextureSprite ="GFX_leader_AR_15"
-			}
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_fou_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
 
-			buttonType = {
-				name = "choice_her_st_ar_15"
-				position = {x=430 y=10}	
-				quadTextureSprite ="GFX_77x31_button"
-				font = "vic_18s"
-				buttonText = 결정
-			}
+				containerWindowType = {
+					name = "choose_fiv"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 415 }
+					fade_time = 500
+					fade_type = linear
+					
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
+					
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_AK12"
+					}
 
-			
-			iconType = {
-				name = "clip_icon"
-				position = {x=55 y=0}	
-				quadTextureSprite ="GFX_clip"
-				alwaystransparent = yes			
+					buttonType = {
+						name = "choice_her_ak12"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
+
+					
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
+					
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_fiv_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
+
+				containerWindowType = {
+					name = "choose_six"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 505 }
+					fade_time = 500
+					fade_type = linear
+					
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
+					
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_AN94"
+					}
+
+					buttonType = {
+						name = "choice_her_an94"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
+
+					
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
+					
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_six_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
+
+				containerWindowType = {
+					name = "choose_sev"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 595 }
+					fade_time = 500
+					fade_type = linear
+					
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
+					
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_AK15"
+					}
+
+					buttonType = {
+						name = "choice_her_ak15"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
+
+					
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
+					
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_sev_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
+
+				containerWindowType = {
+					name = "choose_eig"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 685 }
+					fade_time = 500
+					fade_type = linear
+					
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
+					
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_RPK16"
+					}
+
+					buttonType = {
+						name = "choice_her_rpk16"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
+
+					
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
+					
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_eig_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
+
+				containerWindowType = {
+					name = "choose_nin"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 775 }
+					fade_time = 500
+					fade_type = linear
+					
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
+					
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_M4A1"
+					}
+
+					buttonType = {
+						name = "choice_her_m4a1"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
+
+					
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
+					
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_nin_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
+
+				containerWindowType = {
+					name = "choose_ten"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 865 }
+					fade_time = 500
+					fade_type = linear
+					
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
+					
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_M4_sopmod"
+					}
+
+					buttonType = {
+						name = "choice_her_m4sopmod"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
+
+					
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
+					
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_ten_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
+
+				containerWindowType = {
+					name = "choose_ele"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 955 }
+					fade_time = 500
+					fade_type = linear
+					
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
+					
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_M16A1"
+					}
+
+					buttonType = {
+						name = "choice_her_m16a1"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
+
+					
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
+					
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_ele_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
+
+				containerWindowType = {
+					name = "choose_twe"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 1045 }
+					fade_time = 500
+					fade_type = linear
+					
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
+					
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_RO635"
+					}
+
+					buttonType = {
+						name = "choice_her_ro635"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
+
+					
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
+					
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_twe_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
+
+				containerWindowType = {
+					name = "choose_thi"
+					size = { width=510 height=98 }
+					clipping = no
+					position = { x = 20 y = 1135 }
+					fade_time = 500
+					fade_type = linear
+					
+							
+					background = {
+						name = "Background"		
+						spriteType ="GFX_leader_selection_entry_bg"
+					}
+					
+					buttonType = {
+						name = "leader_button"
+						position = {x=56 y=5}	
+						quadTextureSprite ="GFX_leader_AR_15"
+					}
+
+					buttonType = {
+						name = "choice_her_st_ar_15"
+						position = {x=430 y=10}	
+						quadTextureSprite ="GFX_77x31_button"
+						font = "vic_18s"
+						buttonText = 결정
+					}
+
+					
+					iconType = {
+						name = "clip_icon"
+						position = {x=55 y=0}	
+						quadTextureSprite ="GFX_clip"
+						alwaystransparent = yes			
+					}
+					
+					instantTextboxType = {
+						name = "name"
+						position = { x = 128 y = 20 }
+						font = "vic_18s"
+						text = "BUGWAN_thi_TEXT"
+						alwaystransparent = yes
+						maxWidth = 225
+						maxHeight = 18
+					}
+				}
 			}
-			
-			instantTextboxType = {
-				name = "name"
-				position = { x = 128 y = 20 }
-				font = "vic_18s"
-				text = "BUGWAN_thi_TEXT"
-				alwaystransparent = yes
-				maxWidth = 225
-				maxHeight = 18
-			}
-		}
-	}
+		}		
 
 	containerWindowType = {
 		name = "choice_hk416_window"
@@ -722,10 +736,418 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "hk416_stand"
+			name = "ump45_stand"
 			position = {x=0 y=0}	
 			quadTextureSprite ="GFX_bugwan_ump45"
-			clicksound = GAK_bugwan_voice_effect
+			clicksound = GAK_bugwan_ump45_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_g11_window"
+		size = { width=840 height=485 }
+		clipping = no
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "g11_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_g11"
+			clicksound = GAK_bugwan_g11_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_ump9_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "ump9_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_ump9"
+			clicksound = GAK_bugwan_ump9_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_ak12_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "ak12_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_ak_12"
+			clicksound = GAK_bugwan_ak12_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_an94_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "an94_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_an_94"
+			clicksound = GAK_bugwan_an94_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_ak15_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "ak15_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_ak_15"
+			clicksound = GAK_bugwan_ak15_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_rpk16_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "rpk16_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_rpk_16"
+			clicksound = GAK_bugwan_rpk16_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_m4a1_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "m4a1_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_m4a1"
+			clicksound = GAK_bugwan_m4a1_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_m16a1_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "m16a1_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_m16a1"
+			clicksound = GAK_bugwan_m16_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_m4_sopmod_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "m4sopmod_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_m4_sopmod"
+			clicksound = GAK_bugwan_m4_sopmon_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_st_ar_15_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "ar15_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_st_ar_15"
+			clicksound = GAK_bugwan_st_ar_15_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_ro635_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "ro635_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_ro635"
+			clicksound = GAK_bugwan_ro635_voice_effect
+		}
+	}
+
+	containerWindowType = {
+		name = "choice_ephnel_window"
+		size = { width=840 height=485 }
+		clipping = no	
+		position = { x = 0 y = 0 }
+		fade_time = 500
+		fade_type = linear
+		moveable = yes
+
+		orientation = center
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_base_background"
+		}
+
+		buttonType = {
+			name = "button_close"
+			position = {x = -227 y = 0 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			pdx_tooltip = "close"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "Ephnel_stand"
+			position = {x=0 y=0}	
+			quadTextureSprite ="GFX_bugwan_ephnel"
+			clicksound = GAK_bugwan_ephnel_voice_effect
 		}
 	}
 

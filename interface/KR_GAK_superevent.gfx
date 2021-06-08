@@ -47,5 +47,18 @@ spriteTypes = {
 		name = "GFX_404_Not_Found_intelligence_agency_logo_brg"
 		textureFile = "gfx/interface/operatives/agencies/404_not_found.tga"
 	}
+
+	spriteType = {
+		name = "GFX_GAK_united_russia"
+		textureFile = "gfx/superevent_pictures/GFX_GAK_united_russia.tga"
+	}
+
+	spriteType = {
+		name = "GFX_GAK_accession_to_throne"
+		textureFile = "gfx/superevent_pictures/GFX_GAK_accession_to_throne.tga"
+	}
+
+	
+	
 		
 }

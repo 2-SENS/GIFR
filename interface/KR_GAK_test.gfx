@@ -156,6 +156,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_bugwan_ephnel"
+		textureFile = "gfx//interface//bugwan_interface//bugwan//Ephnel.tga"
+	}
+
+	spriteType = {
 		name = "GFX_bugwan_button_off"
 		textureFile = "gfx//interface//bugwan_interface//smt_mark_button_frame_1.dds"
 	}
