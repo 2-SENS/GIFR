@@ -635,39 +635,12 @@ guiTypes = {
 			maxHeight = 30
 			format = center
 		}
-		
-		containerWindowType = {
-			name ="frontend_background_tile_01"	
-			size = { width=1225 height=717 preserve_aspect_ratio = yes }
-			Orientation = center
-			Origo = center
-			clipping = no 
-			
-			background = {
-				name = "Background"		
-				quadTextureSprite ="GFX_country_selection_bg"
-				alwaystransparent = yes
-			}
-		}	 
-		containerWindowType = {
-			name ="frontend_background_tile_02"	
-			size = { width=1225 height=717 preserve_aspect_ratio = yes }
-			Orientation = center
-			Origo = center
-			clipping = no 
-			
-			background = {
-				name = "Background"		
-				quadTextureSprite ="GFX_country_selection_bg_01"
-				alwaystransparent = yes
-			}
-		}
 
-		#background = {
-		#	name = "single_player_country_bg"
-		#	quadTextureSprite ="GFX_country_selection_bg"
-		#	
-		#}
+		background = {
+			name = "single_player_country_bg"
+			quadTextureSprite ="GFX_country_selection_bg"
+			
+		}
 
 		iconType = {
 			name = "back_button_select_underlay"

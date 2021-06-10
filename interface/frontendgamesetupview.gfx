@@ -251,25 +251,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_country_selection_bg"
-		texturefile = "gfx/interface/country_selection_bg_5.dds"
-		noOfFrames = 10
-		animation_rate_fps = 6
-		alwaystransparent = yes
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-	}
-	frameAnimatedSpriteType = {
-		name = "GFX_country_selection_bg_01"
-		texturefile = "gfx/interface/country_selection_bg_6.dds"
-		noOfFrames = 10
-		animation_rate_fps = 6
-		alwaystransparent = yes
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx/interface/country_selection_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"				
 	}
 
 	spriteType = {
