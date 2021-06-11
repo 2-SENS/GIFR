@@ -904,6 +904,42 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "M200"
+	picture = "Portrait_Girls_Frontline_M200.tga"
+	desc = "GAK_M200_ARMY_DESC"
+	traits = { organizer cautious }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Welrod Mk.II"
+	picture = "Portrait_Girls_Frontline_Welrod.tga"
+	desc = "GAK_WELROD_ARMY_DESC"
+	traits = { harsh_leader commando ranger }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Kolibri"
+	picture = "Portrait_Girls_Frontline_Kolibri.tga"
+	desc = "GAK_KOLIBRI_ARMY_DESC"
+	traits = { trickster reckless }
+	skill = 5
+	attack_skill = 6
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 #Team - 403 Forbidden#
 
 if = {
