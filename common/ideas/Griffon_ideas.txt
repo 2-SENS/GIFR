@@ -1774,6 +1774,16 @@ ideas = {
 				research_speed_factor = -0.5
 			}
 		}
+
+		GAK_holy_war_ideas = { #성전
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_holy_war_ideas"}
+			picture = GAK
+			modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = 0.05
+				army_speed_factor = 0.1
+			}
+		}
 		
 	}
 

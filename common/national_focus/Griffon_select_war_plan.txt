@@ -511,7 +511,7 @@ shared_focus = {
     id = GAK_go_left_side_focus
 	icon = GFX_goal
 	cost = 5
-    x = 40
+    x = 39
 	y = 19
     allow_branch = { 
         has_country_flag = GAK_let_s_fuck_the_world
@@ -529,7 +529,7 @@ shared_focus = {
     id = GAK_eastward_attack_focus
 	icon = GFX_goal
 	cost = 5
-    x = 40
+    x = 39
 	y = 20
     allow_branch = { 
         has_country_flag = GAK_let_s_fuck_the_world
@@ -547,7 +547,7 @@ shared_focus = {
     id = GAK_kill_old_friends_focus
 	icon = GFX_goal
 	cost = 5
-    x = 38
+    x = 40
 	y = 21
     allow_branch = { 
         has_country_flag = GAK_let_s_fuck_the_world
@@ -558,6 +558,22 @@ shared_focus = {
     completion_reward = {
 	    log = "[GetDateText]: [Root.GetName]: Focus GAK_kill_old_friends_focus"
         custom_effect_tooltip = GAK_eastward_attack_focus_tt
+        if = {
+            limit = {
+                UKR = {
+                    is_in_faction_with = GER
+                }
+            }
+            GAK = {
+                add_war_support = 0.1
+            } 
+        }
+        else = {
+            create_wargoal = {
+				type = annex_everything
+				target = UKR
+			}
+        }
         hidden_effect = {
             add_state_core = 137
             add_state_core = 192
@@ -627,7 +643,7 @@ shared_focus = {
     id = GAK_is_this_russia_focus
 	icon = GFX_goal
 	cost = 5
-    x = 42
+    x = 38
 	y = 21
     allow_branch = { 
         has_country_flag = GAK_let_s_fuck_the_world
@@ -678,10 +694,89 @@ shared_focus = {
 }
 
 shared_focus = {
+    id = GAK_end_of_baltic_focus
+	icon = GFX_goal
+	cost = 5
+    x = 42
+	y = 21
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_eastward_attack_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_end_of_baltic_focus"
+        custom_effect_tooltip = GAK_end_of_baltic_focus_tt
+        if = {
+            limit = {
+                OR = {
+                    BAT = {
+                        is_in_faction_with = GER
+                    }
+                    LIT = {
+                        is_in_faction_with = GER
+                    }
+                }
+            }
+            GAK = {
+                add_war_support = 0.1
+            } 
+        }
+        else = {
+            create_wargoal = {
+				type = annex_everything
+				target = BAT
+			}
+            create_wargoal = {
+                type = annex_everything
+                target = LIT
+            }
+            if = {
+                OR = {
+                    limit = {
+                        country_exists = EST
+                        country_exists = LAT
+                    }
+                    create_wargoal = {
+                        type = annex_everything
+                        target = EST
+                    }
+                    create_wargoal = {
+                        type = annex_everything
+                        target = LAT
+                    }
+                }
+            }
+        }
+        hidden_effect = {
+            add_state_core = 1091
+            add_state_core = 12
+            add_state_core = 13
+            add_state_core = 190
+            add_state_core = 191
+            add_state_core = 11
+            add_state_core = 189
+            add_state_core = 655
+            add_state_core = 96
+            add_state_claim = 1091
+            add_state_claim = 12
+            add_state_claim = 13
+            add_state_claim = 190
+            add_state_claim = 191
+            add_state_claim = 11
+            add_state_claim = 189
+            add_state_claim = 655
+            add_state_claim = 96
+        }
+    }
+}
+
+shared_focus = {
     id = GAK_once_upon_a_time_there_was_poland_focus
 	icon = GFX_goal
 	cost = 5
-    x = 40
+    x = 36
 	y = 21
     allow_branch = { 
         has_country_flag = GAK_let_s_fuck_the_world
@@ -692,6 +787,22 @@ shared_focus = {
     completion_reward = {
 	    log = "[GetDateText]: [Root.GetName]: Focus GAK_once_upon_a_time_there_was_poland_focus"
         custom_effect_tooltip = GAK_once_upon_a_time_there_was_poland_focus_tt
+        if = {
+            limit = {
+                POL = {
+                    is_in_faction_with = GER
+                }
+            }
+            GAK = {
+                add_war_support = 0.1
+            } 
+        }
+        else = {
+            create_wargoal = {
+				type = annex_everything
+				target = POL
+			}
+        }
         hidden_effect = {
             add_state_core = 10
             add_state_core = 1088
@@ -708,5 +819,27 @@ shared_focus = {
             add_state_claim = 97
             add_state_claim = 98
         }
+    }
+}
+
+shared_focus = {
+    id = GAK_besieged_empire_focus
+	icon = GFX_goal
+	cost = 5
+    x = 36
+	y = 21
+    allow_branch = { 
+        has_country_flag = GAK_let_s_fuck_the_world
+    }
+	prerequisite = { 
+        focus = GAK_once_upon_a_time_there_was_poland_focus 
+        focus = GAK_end_of_baltic_focus 
+        focus = GAK_is_this_russia_focus 
+        focus = GAK_kill_old_friends_focus 
+    }
+    completion_reward = {
+	    log = "[GetDateText]: [Root.GetName]: Focus GAK_besieged_empire_focus"
+        custom_effect_tooltip = GAK_besieged_empire_focus_tt
+        country_event = gakdom.59
     }
 }

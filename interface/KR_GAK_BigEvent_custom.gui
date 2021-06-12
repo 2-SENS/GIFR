@@ -12,13 +12,12 @@ guiTypes = {
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_1b_no_border"
-			position = { x = 180 y = -10 }
 		}
 
 		instantTextBoxType = {
 			name = "Title"
-			font = "aldrich_18_outline"
-			position = { x=-15 y=10 }
+			font = "aldrich_24_outline"
+			position = { x = 0 y = 18 }
 			borderSize = {x = 0 y = 0}
 			text = "GAK_SG_girls_frontline_intro_T"
 			maxWidth = 580
@@ -92,13 +91,12 @@ guiTypes = {
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_1b_no_border"
-			position = { x = 180 y = -10 }
 		}
 
 		instantTextBoxType = {
 			name = "Title"
-			font = "aldrich_18_outline"
-			position = { x=-15 y=10 }
+			font = "aldrich_24_outline"
+			position = { x = 0 y = 18 }
 			borderSize = {x = 0 y = 0}
 			text = "GAK_Gentiane_dead_T"
 			maxWidth = 580
@@ -172,13 +170,12 @@ guiTypes = {
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_1b_no_border"
-			position = { x = 180 y = -10 }
 		}
 
 		instantTextBoxType = {
 			name = "Title"
-			font = "aldrich_18_outline"
-			position = { x=-15 y=10 }
+			font = "aldrich_24_outline"
+			position = { x = 0 y = 18 }
 			borderSize = {x = 0 y = 0}
 			text = "GAK_SG_hami_war_T"
 			maxWidth = 580
@@ -252,13 +249,12 @@ guiTypes = {
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_1b_no_border"
-			position = { x = 180 y = -10 }
 		}
 
 		instantTextBoxType = {
 			name = "Title"
-			font = "aldrich_18_outline"
-			position = { x=-15 y=10 }
+			font = "aldrich_24_outline"
+			position = { x = 0 y = 18 }
 			borderSize = {x = 0 y = 0}
 			text = "GAK_SG_iron_curtain_T"
 			maxWidth = 580
@@ -332,13 +328,12 @@ guiTypes = {
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_1b_no_border"
-			position = { x = 180 y = -10 }
 		}
 
 		instantTextBoxType = {
 			name = "Title"
-			font = "aldrich_18_outline"
-			position = { x=-15 y=10 }
+			font = "aldrich_24_outline"
+			position = { x = 0 y = 18 }
 			borderSize = {x = 0 y = 0}
 			text = "GAK_SG_failed_usa_T"
 			maxWidth = 580
@@ -412,13 +407,12 @@ guiTypes = {
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_1b_no_border"
-			position = { x = 180 y = -10 }
 		}
 
 		instantTextBoxType = {
 			name = "Title"
-			font = "aldrich_18_outline"
-			position = { x=-15 y=10 }
+			font = "aldrich_24_outline"
+			position = { x = 0 y = 18 }
 			borderSize = {x = 0 y = 0}
 			text = "GAK_SG_groza_accession_to_throne_T"
 			maxWidth = 580
@@ -492,13 +486,12 @@ guiTypes = {
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_1b_no_border"
-			position = { x = 180 y = -10 }
 		}
 
 		instantTextBoxType = {
 			name = "Title"
-			font = "aldrich_18_outline"
-			position = { x=-15 y=10 }
+			font = "aldrich_24_outline"
+			position = { x = 0 y = 18 }
 			borderSize = {x = 0 y = 0}
 			text = "GAK_SG_groza_united_russia_T"
 			maxWidth = 580
