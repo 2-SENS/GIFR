@@ -211,7 +211,7 @@ guiTypes = {
 		buttonType = {
 			name = "promote_btn"
 			position = {x=408 y=56}
-			quadTextureSprite ="GFX_sort_button_83x29"
+			quadTextureSprite ="GFX_sort_89"
 			buttonText = UNIT_LEADER_PROMOTE
 			buttonFont = "aldrich_20_outline"
 			clicksound = click_default

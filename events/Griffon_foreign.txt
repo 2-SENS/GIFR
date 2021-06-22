@@ -1,4 +1,4 @@
-add_namespace = gakfor
+﻿add_namespace = gakfor
 
 country_event = {
 	id = gakfor.1

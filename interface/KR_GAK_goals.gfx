@@ -521,4 +521,54 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_goal_GAK_progressive_stimulus.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_goal_GAK_night_of_glory_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_night_of_glory_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_final_solution_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_final_solution_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_promise_of_the_day_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_promise_of_the_day_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_pass_national_security_law_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_pass_national_security_law_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_support_civil_right_move_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_support_civil_right_move_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_active_public_relations_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_active_public_relations_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_talk_with_russian_leaders_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_talk_with_russian_leaders_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_unite_people_and_doll_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_unite_people_and_doll_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_police_ddeployment_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_police_ddeployment_focus.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_GAK_incitement_behind_the_scenes_focus" 
+		texturefile = "gfx/interface/goals/GFX_goal_GAK_incitement_behind_the_scenes_focus.dds"
+	}
+
 }

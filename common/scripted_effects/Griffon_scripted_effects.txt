@@ -1,3 +1,16 @@
+USA_CIA_clear_region_flags = {
+	clr_country_flag = USA_CIA_Viewing_East_Asia
+	clr_country_flag = USA_CIA_Viewing_Africa
+	clr_country_flag = USA_CIA_Viewing_Central_America
+	clr_country_flag = USA_CIA_Viewing_Europe
+	clr_country_flag = USA_CIA_Viewing_Middle_East
+	clr_country_flag = USA_CIA_Viewing_North_America
+	clr_country_flag = USA_CIA_Viewing_Russia
+	clr_country_flag = USA_CIA_Viewing_South_America
+	clr_country_flag = USA_CIA_Viewing_South_East_Asia
+	clr_country_flag = USA_CIA_Viewing_Australia
+}
+
 #그로자 충성파
 GAK_GTP = {
 	if = {
@@ -19,7 +32,7 @@ GAK_CBA = {
 		divide_temp_variable = { CBA = 100 }
 		hidden_effect = {
 			add_popularity = {
-				ideology = market_liberal_subtype
+				ideology = national_populist_subtype
 				popularity = CBA
 			}
 		}
@@ -52,5 +65,66 @@ GAK_GKC = {
 			}
 		}
 		custom_effect_tooltip = GP_GKC
+	}
+}
+#충성파
+GAK_recalculate_royal_force_effects = {
+	if = {
+		limit = {
+			GAK_JAP_hostile = no
+		}
+		#Max influence effects at 50% popularity
+		set_variable = { GAK_royal_influence_var = GAK.party_popularity@national_populist }
+		clamp_variable = {
+			var = GAK_royal_influence_var
+			max = 1
+		}
+
+		set_temp_variable = { GAK_royal_positive_factor = GAK_royal_influence_var }
+		multiply_temp_variable = { GAK_royal_positive_factor = 2 }
+
+		###Fengtian
+		set_variable = { GAK.GAK_royal_max_efficiency = 0.5 }
+		set_variable = { GAK.GAK_royal_construction_speed = 0.5 }
+		multiply_variable = { GAK.GAK_royal_max_efficiency = GAK_royal_positive_factor }
+		multiply_variable = { GAK.GAK_royal_construction_speed = GAK_royal_positive_factor }
+
+		# Factories
+		set_variable = { GAK.GAK_royal_factories = 0.25 }
+		multiply_variable = { GAK.GAK_royal_factories = GAK.num_of_civilian_factories }
+		multiply_variable = { GAK.GAK_royal_factories = GAK_royal_positive_factor }
+		round_variable = GAK.GAK_royal_factories
+
+		if = {
+			limit = {
+				check_variable = { party_popularity@national_populist > 0.2 }
+			}
+			set_variable = { GAK.GAK_royal_political_power = 0.5 }
+			set_variable = { GAK.GAK_royal_stability = 0.15 }
+			set_variable = { GAK.GAK_royal_war_support = 0.15 }
+
+			set_temp_variable = { GAK_royal_negative_factor = 0.2 }
+			subtract_from_temp_variable = { GAK_royal_negative_factor = GAK_royal_influence_var }
+			divide_temp_variable = { GAK_royal_negative_factor = -0.3 }
+
+			multiply_variable = { GAK.GAK_royal_political_power = GAK_royal_negative_factor }
+			multiply_variable = { GAK.GAK_royal_stability = GAK_royal_negative_factor }
+			multiply_variable = { GAK.GAK_royal_war_support = GAK_royal_negative_factor }
+
+			if = {
+				limit = { has_government = national_populist }
+				divide_variable = { GAK.GAK_royal_political_power = 3 }
+				divide_variable = { GAK.GAK_royal_stability = 3 }
+				divide_variable = { GAK.GAK_royal_war_support = 3 }
+			}
+		}
+		else = {
+			clear_variable = GAK_royal_political_power
+			clear_variable = GAK_royal_stability
+			clear_variable = GAK_royal_war_support
+		}
+
+		clear_variable = GAK_royal_influence_var
+		force_update_dynamic_modifier = yes
 	}
 }

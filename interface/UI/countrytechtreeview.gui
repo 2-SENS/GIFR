@@ -3869,6 +3869,7 @@ containerWindowType = {
 			maxWidth = 500
 			maxHeight = 70
 			format = left
+			scrollbartype = "standardlistbox_slider"
 		}
 
 		buttonType = {

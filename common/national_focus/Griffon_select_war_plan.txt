@@ -307,8 +307,11 @@ shared_focus = {
     completion_reward = {
 	    log = "[GetDateText]: [Root.GetName]: Focus GAK_give_me_back_sakhalin_focus"
         custom_effect_tooltip = GAK_give_me_back_sakhalin_focus_tt
-        add_state_claim = 537
-        add_state_claim = 555
+        TRM = {
+			every_owned_state = {
+				add_claim_by = ROOT
+			}
+		}
         JAP = {
             country_event = gakdom.54
         }
@@ -558,6 +561,12 @@ shared_focus = {
     completion_reward = {
 	    log = "[GetDateText]: [Root.GetName]: Focus GAK_kill_old_friends_focus"
         custom_effect_tooltip = GAK_eastward_attack_focus_tt
+        UKR = {
+			every_owned_state = {
+				add_claim_by = ROOT
+                add_state_core = ROOT
+			}
+		}
         if = {
             limit = {
                 UKR = {
@@ -573,68 +582,6 @@ shared_focus = {
 				type = annex_everything
 				target = UKR
 			}
-        }
-        hidden_effect = {
-            add_state_core = 137
-            add_state_core = 192
-            add_state_core = 193
-            add_state_core = 196
-            add_state_core = 197
-            add_state_core = 198
-            add_state_core = 199
-            add_state_core = 200
-            add_state_core = 201
-            add_state_core = 202
-            add_state_core = 203
-            add_state_core = 221
-            add_state_core = 225
-            add_state_core = 226
-            add_state_core = 227
-            add_state_core = 228
-            add_state_core = 241
-            add_state_core = 259
-            add_state_core = 791
-            add_state_core = 792
-            add_state_core = 821
-            add_state_core = 93
-            add_state_core = 997
-            add_state_core = 1087
-            add_state_core = 194
-            add_state_core = 204
-            add_state_core = 207
-            add_state_core = 206
-            add_state_core = 94
-            add_state_core = 95
-            add_state_claim = 137
-            add_state_claim = 192
-            add_state_claim = 193
-            add_state_claim = 196
-            add_state_claim = 197
-            add_state_claim = 198
-            add_state_claim = 199
-            add_state_claim = 200
-            add_state_claim = 201
-            add_state_claim = 202
-            add_state_claim = 203
-            add_state_claim = 221
-            add_state_claim = 225
-            add_state_claim = 226
-            add_state_claim = 227
-            add_state_claim = 228
-            add_state_claim = 241
-            add_state_claim = 259
-            add_state_claim = 791
-            add_state_claim = 792
-            add_state_claim = 821
-            add_state_claim = 93
-            add_state_claim = 997
-            add_state_claim = 1087
-            add_state_claim = 194
-            add_state_claim = 204
-            add_state_claim = 207
-            add_state_claim = 206
-            add_state_claim = 94
-            add_state_claim = 95
         }
     }
 }
@@ -654,6 +601,12 @@ shared_focus = {
     completion_reward = {
 	    log = "[GetDateText]: [Root.GetName]: Focus GAK_is_this_russia_focus"
         custom_effect_tooltip = GAK_is_this_russia_focus_tt
+        FIN = {
+			every_owned_state = {
+				add_claim_by = ROOT
+                add_state_core = ROOT
+			}
+		}
         if = {
             limit = {
                 FIN = {
@@ -721,7 +674,19 @@ shared_focus = {
             }
             GAK = {
                 add_war_support = 0.1
-            } 
+            }
+            BAT = {
+                every_owned_state = {
+                    add_claim_by = ROOT
+                    add_state_core = ROOT
+                }
+		    }
+            LIT = {
+                every_owned_state = {
+                    add_claim_by = ROOT
+                    add_state_core = ROOT
+                }
+		    } 
         }
         else = {
             create_wargoal = {
@@ -737,6 +702,18 @@ shared_focus = {
                     limit = {
                         country_exists = EST
                         country_exists = LAT
+                    }
+                    EST = {
+                        every_owned_state = {
+                            add_claim_by = ROOT
+                            add_state_core = ROOT
+                        }
+                    }
+                    LAT = {
+                        every_owned_state = {
+                            add_claim_by = ROOT
+                            add_state_core = ROOT
+                        }
                     }
                     create_wargoal = {
                         type = annex_everything
@@ -795,6 +772,12 @@ shared_focus = {
             }
             GAK = {
                 add_war_support = 0.1
+            }
+            POL = {
+                every_owned_state = {
+                    add_claim_by = ROOT
+                    add_state_core = ROOT
+                }
             } 
         }
         else = {
@@ -802,6 +785,12 @@ shared_focus = {
 				type = annex_everything
 				target = POL
 			}
+            POL = {
+                every_owned_state = {
+                    add_claim_by = ROOT
+                    add_state_core = ROOT
+                }
+            }
         }
         hidden_effect = {
             add_state_core = 10

@@ -4250,8 +4250,10 @@ containerWindowType = {
 			maxWidth = 495
 			maxHeight = 70
 			format = left
-			#vertical_alignment = center				
+			#vertical_alignment = center
+				
 		}
+		
 		buttonType = {
 			name = "research"
 			quadTextureSprite = "GFX_button_123x34"

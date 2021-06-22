@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "GAK_404_Decisions_GUI"
-		size = { width = 525 height = 1800 }
+		size = { width = 525 height = 1050 }
 		position = { x = 0 y = 0 }
 
 		instantTextboxType = {
@@ -30,14 +30,35 @@ guiTypes = {
 			format = center
 		}
 
-		instantTextboxType = {
-			name = "GAK_AGENT_LIST"
-			position = { x = -15 y = 450 }
-			font = "aldrich_30_outline"
+		buttonType = {
+			name = "GAK_agent_tile_button"
+			position = { x = 120 y = 450 }
+			spriteType = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_30_outline"
 			text = GAK_AGENT_LIST
-			maxWidth = 525
-			maxHeight = 20
-			format = center
+		}
+
+	}
+	containerWindowType = {
+		name = "GAK_404_agent_list_window"
+		position = { x = 542 y = 79 }
+		size = { width = 730 height = 815 }
+		
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_techtree_bg"
+		}
+
+		buttonType = {
+			name = "agent_list_close_button"
+			position = { x = -40 y = 8 }
+			quadTextureSprite ="GFX_tno_close_button"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
 		}
 
 		iconType = {
@@ -95,200 +116,6 @@ guiTypes = {
 			maxWidth = 250
 			format = left
 		}
-
-		containerWindowType = {
-			name = "TNO_US_CIA_Decisions_GUI_Map"
-			size = { width = 0 height = 0 }
-			position = { x = 15 y = 1075 }
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map"
-				position = { x = 0 y = 0 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map"
-			}
-
-			buttonType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_EA"
-				position = { x = 17 y = 44 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_EA"
-				pdx_tooltip = USA_CIA_ea_status
-			}
-
-			buttonType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_AF"
-				position = { x = 208 y = 73 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_AF"
-				pdx_tooltip = USA_CIA_af_status
-			}
-
-			buttonType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_CA"
-				position = { x = 73 y = 78 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_CA"
-				pdx_tooltip = USA_CIA_ca_status
-			}
-
-			buttonType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_EU"
-				position = { x = 218 y = 5 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_EU"
-				pdx_tooltip = USA_CIA_eu_status
-			}
-
-			buttonType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_ME"
-				position = { x = 266 y = 64 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_ME"
-				pdx_tooltip = USA_CIA_me_status
-			}
-
-			buttonType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_NA"
-				position = { x = 1 y = 1 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_NA"
-				pdx_tooltip = USA_CIA_na_status
-			}
-
-			buttonType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_RU"
-				position = { x = 280 y = 4 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_RU"
-				pdx_tooltip = USA_CIA_ru_status
-			}
-
-			buttonType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_SA"
-				position = { x = 106 y = 110 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_SA"
-				pdx_tooltip = USA_CIA_sa_status
-			}
-
-			buttonType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_SEA"
-				position = { x = 355 y = 84 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_SEA"
-				pdx_tooltip = USA_CIA_sea_status
-			}
-
-			buttonType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_AU"
-				position = { x = 385 y = 145 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_AU"
-				pdx_tooltip = USA_CIA_au_status
-			}
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_EA_outline"
-				position = { x = 14 y = 41 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_EA_outline"
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_AF_outline"
-				position = { x = 205 y = 70 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_AF_outline"
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_CA_outline"
-				position = { x = 70 y = 75 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_CA_outline"
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_EU_outline"
-				position = { x = 215 y = 2 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_EU_outline"
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_ME_outline"
-				position = { x = 263 y = 61 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_ME_outline"
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_NA_outline"
-				position = { x = -2 y = -2 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_NA_outline"
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_RU_outline"
-				position = { x = 277 y = 1 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_RU_outline"
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_SA_outline"
-				position = { x = 103 y = 107 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_SA_outline"
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_SEA_outline"
-				position = { x = 352 y = 81 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_SEA_outline"
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name = "USA_CIA_Decisions_GUI_World_Map_AU_outline"
-				position = { x = 382 y = 142 }
-				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_AU_outline"
-				alwaystransparent = yes
-			}
-
-			instantTextboxType = {
-				name = "USA_CIA_Decisions_GUI_Selected_Region"
-				position = { x = -15 y = 230 }
-				font = "aldrich_30_outline"
-				text = "강조된 지역: [GetUSACIARegionScriptedLoc]"
-				maxWidth = 525
-				maxHeight = 20
-				format = center
-			}
-
-			instantTextboxType = {
-				name = "USA_CIA_Decisions_GUI_Decryption_Info"
-				position = { x = -15 y = 300 }
-				font = "aldrich_30_outline"
-				text = "현재 분석 능력: [?USA_CIA_Decryption]"
-				maxWidth = 525
-				maxHeight = 20
-				format = center
-				pdx_tooltip = USA_CIA_decryption_info
-			}
-
-			instantTextboxType = {
-				name = "USA_CIA_Decisions_GUI_Expertise_Info"
-				position = { x = -15 y = 370 }
-				font = "aldrich_30_outline"
-				text = "현재 숙련도: [?USA_CIA_expertise]"
-				maxWidth = 525
-				maxHeight = 20
-				format = center
-				pdx_tooltip = USA_CIA_expertise_info
-			}
-
-			instantTextboxType = {
-				name = "USA_CIA_Decisions_GUI_Agent_Info"
-				position = { x = -15 y = 440 }
-				font = "aldrich_30_outline"
-				text = "활동중인 요원: [?USA_CIA_operatives]"
-				maxWidth = 525
-				maxHeight = 20
-				format = center
-				pdx_tooltip = USA_CIA_agent_info
-			}
-		}
 	}
+
 }

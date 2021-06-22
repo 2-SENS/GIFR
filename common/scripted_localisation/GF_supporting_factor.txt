@@ -58,3 +58,147 @@ defined_text = {
 		localization_key = ""
 	}
 }
+defined_text = {
+	name = MantetsuPP
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_political_power < 0 }
+			AND = {
+				check_variable = { GAK.GAK_royal_stability = 0 }
+				check_variable = { GAK.GAK_royal_war_support = 0 }
+				check_variable = { GAK.GAK_royal_construction_speed = 0 }
+				check_variable = { GAK.GAK_royal_max_efficiency = 0 }
+				check_variable = { GAK.GAK_royal_factory_output = 0 }
+				check_variable = { GAK.GAK_royal_factories = 0 }
+			}
+		}
+		localization_key = GAK_royal_political_power_text_last
+	}
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_political_power < 0 }
+		}
+		localization_key = GAK_royal_political_power_text
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = MantetsuStability
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_stability < 0 }
+			AND = {
+				check_variable = { GAK.GAK_royal_war_support = 0 }
+				check_variable = { GAK.GAK_royal_construction_speed = 0 }
+				check_variable = { GAK.GAK_royal_max_efficiency = 0 }
+				check_variable = { GAK.GAK_royal_factory_output = 0 }
+				check_variable = { GAK.GAK_royal_factories = 0 }
+			}
+		}
+		localization_key = GAK_royal_stability_text_last
+	}
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_stability < 0 }
+		}
+		localization_key = GAK_royal_stability_text
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = MantetsuWarSupport
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_war_support < 0 }
+			AND = {
+				check_variable = { GAK.GAK_royal_construction_speed = 0 }
+				check_variable = { GAK.GAK_royal_max_efficiency = 0 }
+				check_variable = { GAK.GAK_royal_factory_output = 0 }
+				check_variable = { GAK.GAK_royal_factories = 0 }
+			}
+		}
+		localization_key = GAK_royal_war_support_last
+	}
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_war_support < 0 }
+		}
+		localization_key = GAK_royal_war_support
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = MantetsuConstructionSpeed
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_construction_speed > 0 }
+			AND = {
+				check_variable = { GAK.GAK_royal_max_efficiency = 0 }
+				check_variable = { GAK.GAK_royal_factory_output = 0 }
+				check_variable = { GAK.GAK_royal_factories = 0 }
+			}
+		}
+		localization_key = GAK_royal_construction_speed_text_last
+	}
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_construction_speed > 0 }
+		}
+		localization_key = GAK_royal_construction_speed_text
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = MantetsuMaxEfficiency
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_max_efficiency > 0 }
+			AND = {
+				check_variable = { GAK.GAK_royal_factory_output = 0 }
+				check_variable = { GAK.GAK_royal_factories = 0 }
+			}
+		}
+		localization_key = GAK_royal_max_efficiency_text_last
+	}
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_max_efficiency > 0 }
+		}
+		localization_key = GAK_royal_max_efficiency_text
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = MantetsuFactoryOutput
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_factory_output > 0 }
+			check_variable = { GAK.GAK_royal_factories = 0 }
+		}
+		localization_key = GAK_royal_factory_output_text_last
+	}
+	text = {
+		trigger = {
+			check_variable = { GAK.GAK_royal_factory_output > 0 }
+		}
+		localization_key = GAK_royal_factory_output_text
+	}
+	text = {
+		localization_key = ""
+	}
+}

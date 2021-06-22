@@ -1,4 +1,4 @@
-add_namespace = gakdom
+﻿add_namespace = gakdom
 add_namespace = gakgendie
 add_namespace = gaksystemload
 
@@ -237,6 +237,7 @@ country_event = {
 		name = gakdom.9.a
 		add_stability = 0.1
 		hidden_effect = {
+			load_focus_tree = GAK_G36_legitimacy_focus_tree
 			set_country_flag = G361
 			create_country_leader = {
 				name = "G36" 
@@ -365,6 +366,9 @@ country_event = {
 			elections_allowed = no
 		}
 		hidden_effect = {
+			add_dynamic_modifier = {
+				modifier = GAK_royal_force_influence_modifier
+			}
 			set_party_name = { 
 				ideology = national_populist
 				long_name = GAK_groza_national_populist_royal_long

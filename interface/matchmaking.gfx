@@ -49,6 +49,12 @@ spriteTypes = {
 		name = "GFX_sort_89"
 		texturefile = "gfx/interface/sort_89.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_tumyeong_button"
+		texturefile = "gfx/interface/tumyeong_button.dds"
+	}
+	
 
 	spriteType = {
 		name = "GFX_edittextbox_bg2"

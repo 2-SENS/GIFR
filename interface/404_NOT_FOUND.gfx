@@ -196,6 +196,10 @@ spriteTypes = {
 		name = "GFX_BRG_DomesticGUI_Minus"
 		texturefile = "gfx/interface/404_gui_interface/BRG_DomesticGUI_Minus.dds"
 	}
+	spriteType = {
+		name = "GFX_BRG_DomesticGUI_Button"
+		texturefile = "gfx/interface/404_gui_interface/BRG_DomesticGUI_Button.dds"
+	}
     spriteType = {
 		name = "GFX_SGR_RND_GUI_RandD_button"
 		texturefile = "gfx/interface/404_gui_interface/RND_GUI_RandD_button.dds"
@@ -216,41 +220,45 @@ spriteTypes = {
 	frameAnimatedSpriteType = {
 		name = "GFX_Agent_UMP9"
 		texturefile = "gfx/interface/404_gui_interface/GFX_UMP9_portrait_border_ani.dds"
-		noOfFrames = 40
-		alwaystransparent = yes
-		animation_rate_fps = 10
+		noOfFrames = 60
+		loadType = "INGAME"
+		animation_rate_fps = 12
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
+		transparencecheck = yes
 	}
 	frameAnimatedSpriteType = {
 		name = "GFX_Agent_UMP45"
 		texturefile = "gfx/interface/404_gui_interface/GFX_UMP45_portrait_border_ani.dds"
-		noOfFrames = 50
-		alwaystransparent = yes
-		animation_rate_fps = 10
+		noOfFrames = 60
+		loadType = "INGAME"
+		animation_rate_fps = 12
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
+		transparencecheck = yes
 	}
 	frameAnimatedSpriteType = {
 		name = "GFX_Agent_HK416"
 		texturefile = "gfx/interface/404_gui_interface/GFX_HK416_portrait_border_ani.dds"
-		noOfFrames = 45
-		alwaystransparent = yes
-		animation_rate_fps = 10
+		noOfFrames = 60
+		loadType = "INGAME"
+		animation_rate_fps = 12
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
+		transparencecheck = yes
 	}
 	frameAnimatedSpriteType = {
 		name = "GFX_Agent_G11"
 		texturefile = "gfx/interface/404_gui_interface/GFX_G11_portrait_border_ani.dds"
 		noOfFrames = 50
-		alwaystransparent = yes
-		animation_rate_fps = 10
+		loadType = "INGAME"
+		animation_rate_fps = 12
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
+		transparencecheck = yes
 	}
 }

@@ -1,0 +1,374 @@
+focus_tree = {
+	id = GAK_G36_legitimacy_focus_tree
+	country = {
+		factor = 0
+	}
+    default = no
+	shared_focus = GAK_selected_the_war_plan_focus
+    shared_focus = GAK_griffon_future_tech_lab
+
+    focus = {
+		id = GAK_night_of_glory_focus
+		icon = GFX_goal_GAK_night_of_glory_focus
+		x = 30
+		y = 1
+		cost = 0.2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_night_of_glory_focus"
+			custom_effect_tooltip = GAK_night_of_glory_focus_tt
+			add_political_power = 100
+			
+		}
+	}
+
+	focus = {
+		id = GAK_final_solution_focus
+		icon = GFX_goal_GAK_final_solution_focus
+		x = 28
+		y = 2
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_night_of_glory_focus 
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_final_solution_focus"
+			custom_effect_tooltip = GAK_final_solution_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_promise_of_the_day_focus
+		icon = GFX_goal_GAK_promise_of_the_day_focus
+		x = 30
+		y = 2
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_night_of_glory_focus 
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_promise_of_the_day_focus"
+			custom_effect_tooltip = GAK_promise_of_the_day_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_pass_national_security_law_focus
+		icon = GFX_goal_GAK_pass_national_security_law_focus
+		x = 32
+		y = 2
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_night_of_glory_focus 
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_pass_national_security_law_focus"
+			custom_effect_tooltip = GAK_pass_national_security_law_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_adoption_of_separation_laws_focus
+		icon = GFX_goal_generic_imprison_people
+		x = 31
+		y = 4
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_night_of_glory_focus
+			focus = GAK_final_solution_focus
+			focus = GAK_promise_of_the_day_focus
+			focus = GAK_pass_national_security_law_focus 
+        }
+
+		mutually_exclusive = {
+			focus = GAK_benevolence_and_understanding_focus
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_adoption_of_separation_laws_focus"
+			custom_effect_tooltip = GAK_adoption_of_separation_laws_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_benevolence_and_understanding_focus
+		icon = GFX_goal_generic_government_deals
+		x = 29
+		y = 4
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_night_of_glory_focus
+			focus = GAK_final_solution_focus
+			focus = GAK_promise_of_the_day_focus
+			focus = GAK_pass_national_security_law_focus 
+        }
+
+		mutually_exclusive = {
+			focus = GAK_adoption_of_separation_laws_focus
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_benevolence_and_understanding_focus"
+			custom_effect_tooltip = GAK_benevolence_and_understanding_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_support_civil_right_move_focus
+		icon = GFX_goal_GAK_support_civil_right_move_focus
+		x = 29
+		y = 5
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_benevolence_and_understanding_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_support_civil_right_move_focus"
+			custom_effect_tooltip = GAK_support_civil_right_move_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_active_public_relations_focus
+		icon = GFX_goal_GAK_active_public_relations_focus
+		x = 27
+		y = 5
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_benevolence_and_understanding_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_active_public_relations_focus"
+			custom_effect_tooltip = GAK_active_public_relations_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_talk_with_russian_leaders_focus
+		icon = GFX_goal_GAK_talk_with_russian_leaders_focus
+		x = 25
+		y = 5
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_benevolence_and_understanding_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_talk_with_russian_leaders_focus"
+			custom_effect_tooltip = GAK_talk_with_russian_leaders_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_unite_people_and_doll_focus
+		icon = GFX_goal_GAK_unite_people_and_doll_focus
+		x = 27
+		y = 6
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_talk_with_russian_leaders_focus
+        }
+		prerequisite = { 
+            focus = GAK_active_public_relations_focus
+        }
+		prerequisite = { 
+            focus = GAK_support_civil_right_move_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_unite_people_and_doll_focus"
+			custom_effect_tooltip = GAK_unite_people_and_doll_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_raise_fear_focus
+		icon = GFX_goal_death_tracks
+		x = 31
+		y = 5
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_adoption_of_separation_laws_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_raise_fear_focus"
+			custom_effect_tooltip = GAK_raise_fear_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_police_ddeployment_focus
+		icon = GFX_goal_GAK_police_ddeployment_focus
+		x = 33
+		y = 5
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_adoption_of_separation_laws_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_police_ddeployment_focus"
+			custom_effect_tooltip = GAK_police_ddeployment_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_incitement_behind_the_scenes_focus
+		icon = GFX_goal_GAK_incitement_behind_the_scenes_focus
+		x = 35
+		y = 5
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_adoption_of_separation_laws_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_incitement_behind_the_scenes_focus"
+			custom_effect_tooltip = GAK_incitement_behind_the_scenes_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_SUTF_focus
+		icon = GFX_goal_GAK_are_we_ready_ha
+		x = 33
+		y = 6
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_incitement_behind_the_scenes_focus
+        }
+		prerequisite = { 
+            focus = GAK_police_ddeployment_focus
+        }
+		prerequisite = { 
+            focus = GAK_raise_fear_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_SUTF_focus"
+			custom_effect_tooltip = GAK_SUTF_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_double_sided_wires_focus
+		icon = GFX_goal
+		x = 30
+		y = 7
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_unite_people_and_doll_focus
+			focus = GAK_SUTF_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_double_sided_wires_focus"
+			custom_effect_tooltip = GAK_double_sided_wires_focus_tt
+			add_political_power = 100
+		}
+	}
+}

@@ -167,10 +167,8 @@ if = {
 
 country_event = { id = gakgendie.0 days = 13 }
 country_event = { id = gakdom.0 days = 1 }
-add_to_variable = {
-	var = Favorability
-	value = 25
-}
+
+set_country_flag = TNO_US_CIA_Decisions_GUI_Action_Window_visible
 
 
 #국가 지도자#
@@ -938,6 +936,18 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "P22"
+	picture = "Portrait_Girls_Frontline_p22.tga"
+	desc = "GAK_P22_ARMY_DESC"
+	traits = { trickster reckless }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
 }
 
 #Team - 403 Forbidden#

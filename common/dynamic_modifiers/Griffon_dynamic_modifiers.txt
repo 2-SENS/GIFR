@@ -1,0 +1,10 @@
+GAK_royal_force_influence_modifier = {
+	political_power_factor = GAK_royal_political_power
+	stability_factor = GAK_royal_stability
+	war_support_factor = GAK_royal_war_support
+	production_factory_max_efficiency_factor = GAK_royal_max_efficiency
+	production_speed_buildings_factor = GAK_royal_construction_speed
+	industrial_capacity_factory = GAK_royal_factory_output
+	civilian_factory_use = GAK_royal_factories
+
+}

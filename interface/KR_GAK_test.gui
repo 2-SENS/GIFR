@@ -69,7 +69,7 @@ guiTypes = {
 					name = "choose_one"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 55 }
+					position = { x = 20 y = 5 }
 					fade_time = 500
 					fade_type = linear
 							
@@ -86,14 +86,14 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_hk416"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
 					
-					iconType = {
+					iconType = { 
 						name = "clip_icon"
 						position = {x=55 y=0}	
 						quadTextureSprite ="GFX_clip"
@@ -102,8 +102,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_ONE_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -115,7 +115,7 @@ guiTypes = {
 					name = "choose_two"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 145 }
+					position = { x = 20 y = 100 }
 					fade_time = 500
 					fade_type = linear
 							
@@ -132,9 +132,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_ump45"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -148,8 +148,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_TWO_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -161,7 +161,7 @@ guiTypes = {
 					name = "choose_thr"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 235 }
+					position = { x = 20 y = 195 }
 					fade_time = 500
 					fade_type = linear
 							
@@ -178,9 +178,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_g11"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -194,8 +194,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_THR_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -207,7 +207,7 @@ guiTypes = {
 					name = "choose_fou"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 325 }
+					position = { x = 20 y = 290 }
 					fade_time = 500
 					fade_type = linear
 					
@@ -225,9 +225,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_ump9"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -241,8 +241,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_fou_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -254,7 +254,7 @@ guiTypes = {
 					name = "choose_fiv"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 415 }
+					position = { x = 20 y = 385 }
 					fade_time = 500
 					fade_type = linear
 					
@@ -272,9 +272,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_ak12"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -288,8 +288,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_fiv_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -301,7 +301,7 @@ guiTypes = {
 					name = "choose_six"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 505 }
+					position = { x = 20 y = 480 }
 					fade_time = 500
 					fade_type = linear
 					
@@ -319,9 +319,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_an94"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -335,8 +335,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_six_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -348,7 +348,7 @@ guiTypes = {
 					name = "choose_sev"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 595 }
+					position = { x = 20 y = 575 }
 					fade_time = 500
 					fade_type = linear
 					
@@ -366,9 +366,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_ak15"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -382,8 +382,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_sev_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -395,7 +395,7 @@ guiTypes = {
 					name = "choose_eig"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 685 }
+					position = { x = 20 y = 670 }
 					fade_time = 500
 					fade_type = linear
 					
@@ -413,9 +413,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_rpk16"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -429,8 +429,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_eig_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -442,7 +442,7 @@ guiTypes = {
 					name = "choose_nin"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 775 }
+					position = { x = 20 y = 765 }
 					fade_time = 500
 					fade_type = linear
 					
@@ -460,9 +460,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_m4a1"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -476,8 +476,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_nin_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -489,7 +489,7 @@ guiTypes = {
 					name = "choose_ten"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 865 }
+					position = { x = 20 y = 860 }
 					fade_time = 500
 					fade_type = linear
 					
@@ -507,9 +507,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_m4sopmod"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -523,8 +523,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_ten_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -554,9 +554,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_m16a1"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -570,8 +570,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_ele_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -583,7 +583,7 @@ guiTypes = {
 					name = "choose_twe"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 1045 }
+					position = { x = 20 y = 1050 }
 					fade_time = 500
 					fade_type = linear
 					
@@ -601,9 +601,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_ro635"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -617,8 +617,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_twe_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
@@ -630,7 +630,7 @@ guiTypes = {
 					name = "choose_thi"
 					size = { width=510 height=98 }
 					clipping = no
-					position = { x = 20 y = 1135 }
+					position = { x = 20 y = 1145 }
 					fade_time = 500
 					fade_type = linear
 					
@@ -648,9 +648,9 @@ guiTypes = {
 
 					buttonType = {
 						name = "choice_her_st_ar_15"
-						position = {x=430 y=10}	
-						quadTextureSprite ="GFX_77x31_button"
-						font = "vic_18s"
+						position = {x=413 y=15}	
+						quadTextureSprite ="GFX_tumyeong_button"
+						font = "aldrich_18_outline"
 						buttonText = 결정
 					}
 
@@ -664,8 +664,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "name"
-						position = { x = 128 y = 20 }
-						font = "vic_18s"
+						position = { x = 130 y = 13 }
+						font = "aldrich_18_outline"
 						text = "BUGWAN_thi_TEXT"
 						alwaystransparent = yes
 						maxWidth = 225
