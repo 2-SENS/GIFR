@@ -1381,7 +1381,7 @@ country_event = {
 	option = { #만세!
 		name = gakdom.57.a
 		set_country_flag = GAK_accession_groza
-		news_event = { GAKworldnews.2 }
+		news_event = { id = GAKworldnews.2 }
 	}
 }
 
