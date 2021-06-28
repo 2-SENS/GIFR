@@ -58,6 +58,25 @@ scripted_gui = {
 			operation_list_close_button_click = {
 				clr_country_flag = GAK_operation_list_flag
 			}
+			GAK_operate_to_RUS_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
+			}
+		}
+	}
+
+	GAK_operation_to_RUS_window = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "GAK_operation_to_RUS_window"
+
+		visible = {
+			has_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
+		}
+
+		effects = {
+			operation_rus_close_button_click = {
+				clr_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
+			}
 		}
 	}
 }

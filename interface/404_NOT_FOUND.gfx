@@ -261,4 +261,16 @@ spriteTypes = {
 		pause_on_loop = 0.0
 		transparencecheck = yes
 	}
-}
+	spriteType = {
+		name = "GFX_GF_Side_Panel_Divider"
+		textureFile = "gfx/interface/side_panel_divider.dds"
+	}
+	spriteType = {
+		name = "GFX_GF_Vertical_Divider"
+		textureFile = "gfx/interface/vertical_divider.dds"
+	}
+	spriteType = {
+		name = "GFX_GF_OPER_NAME_BOX"
+		textureFile = "gfx/interface/OPER_NAME_BOX.dds"
+	}
+} 
