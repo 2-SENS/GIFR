@@ -196,8 +196,8 @@ country_event = {
 country_event = {
 	id = gakdom.8
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.8" }
-	title = gakdom.11.t
-	desc = gakdom.11.d
+	title = gakdom.8.t
+	desc = gakdom.8.d
 	picture = GFX_report_event_GER_cons
 
 	is_triggered_only = yes
@@ -239,6 +239,13 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = GAK_G36_legitimacy_focus_tree
 			set_country_flag = G361
+			remove_all_ministers = yes
+			add_ideas = {
+				GAK_g36_hog_ade
+				GAK_rpk16_sec_ade
+				GAK_ak15_eco_ade
+				GAK_an94_sec_npo
+			}
 			create_country_leader = {
 				name = "G36" 
 				desc = "POLITICS_G36_DESC"
@@ -366,6 +373,13 @@ country_event = {
 			elections_allowed = no
 		}
 		hidden_effect = {
+			remove_all_ministers = yes
+			add_ideas = {
+				GAK_ak_12_hog_npo
+				GAK_px4_eco_mli
+				GAK_an94_sec_npo
+				GAK_hk416_eco_npo
+			}
 			add_dynamic_modifier = {
 				modifier = GAK_royal_force_influence_modifier
 			}
