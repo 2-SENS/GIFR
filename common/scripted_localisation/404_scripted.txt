@@ -7,6 +7,69 @@ defined_text = { #작전명
 		}
 		localization_key = "GAK_OPER_RUS"
 	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_GER_FLAG
+		}
+		localization_key = "GAK_OPER_GER"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_FRA_FLAG
+		}
+		localization_key = "GAK_OPER_FRA"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_ENG_FLAG
+		}
+		localization_key = "GAK_OPER_ENG"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_AUS_FLAG
+		}
+		localization_key = "GAK_OPER_AUS"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_OTT_FLAG
+		}
+		localization_key = "GAK_OPER_OTT"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_JAP_FLAG
+		}
+		localization_key = "GAK_OPER_JAP"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_USA_FLAG
+		}
+		localization_key = "GAK_OPER_USA"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_CAN_FLAG
+		}
+		localization_key = "GAK_OPER_CAN"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_NFA_FLAG
+		}
+		localization_key = "GAK_OPER_NFA"
+	}
 }
 
 defined_text = { #작전 설명
@@ -17,6 +80,69 @@ defined_text = { #작전 설명
 			has_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
 		}
 		localization_key = "GAK_OPER_RUS_DESC"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_GER_FLAG
+		}
+		localization_key = "GAK_OPER_GER_DESC"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_FRA_FLAG
+		}
+		localization_key = "GAK_OPER_FRA_DESC"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_ENG_FLAG
+		}
+		localization_key = "GAK_OPER_ENG_DESC"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_AUS_FLAG
+		}
+		localization_key = "GAK_OPER_AUS_DESC"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_OTT_FLAG
+		}
+		localization_key = "GAK_OPER_OTT_DESC"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_JAP_FLAG
+		}
+		localization_key = "GAK_OPER_JAP_DESC"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_USA_FLAG
+		}
+		localization_key = "GAK_OPER_USA_DESC"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_CAN_FLAG
+		}
+		localization_key = "GAK_OPER_CAN_DESC"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_NFA_FLAG
+		}
+		localization_key = "GAK_OPER_NFA_DESC"
 	}
 }
 
@@ -29,6 +155,69 @@ defined_text = { #요원의 작전 설명
 		}
 		localization_key = "GAK_OPER_RUS_DESC_AGENT"
 	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_GER_FLAG
+		}
+		localization_key = "GAK_OPER_GER_DESC_AGENT"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_FRA_FLAG
+		}
+		localization_key = "GAK_OPER_FRA_DESC_AGENT"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_ENG_FLAG
+		}
+		localization_key = "GAK_OPER_ENG_DESC_AGENT"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_AUS_FLAG
+		}
+		localization_key = "GAK_OPER_AUS_DESC_AGENT"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_OTT_FLAG
+		}
+		localization_key = "GAK_OPER_OTT_DESC_AGENT"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_JAP_FLAG
+		}
+		localization_key = "GAK_OPER_JAP_DESC_AGENT"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_USA_FLAG
+		}
+		localization_key = "GAK_OPER_USA_DESC_AGENT"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_CAN_FLAG
+		}
+		localization_key = "GAK_OPER_CAN_DESC_AGENT"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_NFA_FLAG
+		}
+		localization_key = "GAK_OPER_NFA_DESC_AGENT"
+	}
 }
 
 defined_text = { #작전 사진
@@ -40,6 +229,60 @@ defined_text = { #작전 사진
 		}
 		localization_key = "russia_mos"
 	}
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_GER_FLAG
+		}
+		localization_key = "germany_ber"
+	}
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_FRA_FLAG
+		}
+		localization_key = "france_par"
+	}
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_ENG_FLAG
+		}
+		localization_key = "england_lon"
+	}
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_AUS_FLAG
+		}
+		localization_key = "austria_bin"
+	}
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_OTT_FLAG
+		}
+		localization_key = "turkey_kebab"
+	}
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_JAP_FLAG
+		}
+		localization_key = "japan_tokyo"
+	}
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_USA_FLAG
+		}
+		localization_key = "usa_dc"
+	}
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_CAN_FLAG
+		}
+		localization_key = "canada_otawa"
+	}
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_NFA_FLAG
+		}
+		localization_key = "africa_north"
+	}
 }
 
 defined_text = { #요원 사진
@@ -47,8 +290,29 @@ defined_text = { #요원 사진
 	
 	text = {
 		trigger = { 
-			has_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
+			has_country_flag = GAK_OPERATION_WINDOW_416_FLAG
 		}
 		localization_key = "Agent_HK416"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_11_FLAG
+		}
+		localization_key = "Agent_G11"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_45_FLAG
+		}
+		localization_key = "Agent_UMP45"
+	}
+	
+	text = {
+		trigger = { 
+			has_country_flag = GAK_OPERATION_WINDOW_9_FLAG
+		}
+		localization_key = "Agent_UMP9"
 	}
 }

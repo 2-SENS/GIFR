@@ -61,6 +61,43 @@ scripted_gui = {
 			GAK_operate_to_RUS_button_click = {
 				set_country_flag = GAK_OPERATION_WINDOW_FLAG
 				set_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
+				set_country_flag = GAK_OPERATION_WINDOW_416_FLAG
+			}
+			GAK_operate_to_GER_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_FLAG
+				set_country_flag = GAK_OPERATION_WINDOW_GER_FLAG
+			}
+			GAK_operate_to_FRA_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_FLAG
+				set_country_flag = GAK_OPERATION_WINDOW_FRA_FLAG
+			}
+			GAK_operate_to_ENG_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_FLAG
+				set_country_flag = GAK_OPERATION_WINDOW_ENG_FLAG
+			}
+			GAK_operate_to_AUS_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_FLAG
+				set_country_flag = GAK_OPERATION_WINDOW_AUS_FLAG
+			}
+			GAK_operate_to_OTT_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_FLAG
+				set_country_flag = GAK_OPERATION_WINDOW_OTT_FLAG
+			}
+			GAK_operate_to_JAP_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_FLAG
+				set_country_flag = GAK_OPERATION_WINDOW_JAP_FLAG
+			}
+			GAK_operate_to_USA_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_FLAG
+				set_country_flag = GAK_OPERATION_WINDOW_USA_FLAG
+			}
+			GAK_operate_to_CAN_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_FLAG
+				set_country_flag = GAK_OPERATION_WINDOW_CAN_FLAG
+			}
+			GAK_operate_to_NFA_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_FLAG
+				set_country_flag = GAK_OPERATION_WINDOW_NFA_FLAG
 			}
 		}
 	}
@@ -75,9 +112,22 @@ scripted_gui = {
 		}
 
 		effects = {
-			operation_rus_close_button_click = {
+			operation_close_button_click = {
 				clr_country_flag = GAK_OPERATION_WINDOW_FLAG
 				clr_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_GER_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_FRA_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_ENG_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_AUS_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_OTT_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_JAP_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_USA_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_CAN_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_NFA_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_416_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_11_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_45_FLAG
+				clr_country_flag = GAK_OPERATION_WINDOW_9_FLAG
 			}
 		}
 

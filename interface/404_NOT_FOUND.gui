@@ -182,7 +182,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "operation_rus_close_button"
+			name = "operation_close_button"
 			position = { x = -40 y = 13 }
 			quadTextureSprite ="GFX_tno_close_button"
 			buttonFont = "Main_14_black"
