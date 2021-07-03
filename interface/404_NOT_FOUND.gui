@@ -171,7 +171,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = GAK_operation_to_RUS_window
+		name = GAK_operation_window
 		position = { x = 545 y = 79 }
 		size = { width = 1300 height = 848 }
 		moveable = yes
@@ -194,20 +194,95 @@ guiTypes = {
 
 		iconType = {
 			name = "vertical_divider"
-			spriteType = "GFX_Vertical_Divider"
+			spriteType = "GFX_GF_Vertical_Divider"
 			position = { x = 300 y = 13 }
 		}
 
 		iconType = { 
 			name = "vertical_divider1"
-			spriteType = "GFX_Vertical_Divider"
+			spriteType = "GFX_GF_Vertical_Divider"
 			position = { x = 1000 y = 13 }
 		}
 
 		iconType = {
 			name = "main_panel_title"
 			spriteType = "GFX_GF_OPER_NAME_BOX"
-			position = { x = 500 y = 566 }
+			position = { x = 300 y = 13 }
+		}
+
+		instantTextboxType = {
+			name = "OPERA_DESC"
+			position = { x = -100 y = 0 }
+			font = "aldrich_48_outline"
+			text = "작전 개요"
+			maxWidth = 500
+			maxHeight = 152
+			format = center
+			vertical_alignment = center
+		}
+
+		instantTextboxType = {
+			name = "OPERA_AG_DESC"
+			position = { x = 900 y = 0 }
+			font = "aldrich_48_outline"
+			text = "요원 브리핑"
+			maxWidth = 500
+			maxHeight = 152
+			format = center
+			vertical_alignment = center
+		}
+
+		instantTextboxType = {
+			name = "404_ddesCc"
+			position = { x = 10 y = 150 }
+			font = "aldrich_24_outline"
+			text = 404NotFoundOPNAMEdesc
+			maxWidth = 290
+			maxHeight = 500
+		}
+
+		instantTextboxType = {
+			name = "404_adesc"
+			position = { x = 1005 y = 350 }
+			font = "aldrich_24_outline"
+			text = 404NotFoundOPNAMEagentdesc
+			maxWidth = 290
+			maxHeight = 500
+			
+		}
+
+		instantTextboxType = {
+			name = "OPER_name"
+			position = { x = 301 y = 10 }
+			font = "aldrich_48_outline"
+			text = 404NotFoundOPNAME
+			maxWidth = 700
+			maxHeight = 152
+			format = center
+			vertical_alignment = center
+		}
+
+		#pic have to be 697x675 and position x = 302 y = 165
+		
+		iconType = { 
+			name = "OPER_pic"
+			spriteType = "404NotFoundOPPIC"
+			position = { x = 302 y = 165 }
+		}
+
+		iconType = { 
+			name = "OPER_face"
+			spriteType = "404NotFoundAGPIC"
+			position = { x = 1075 y = 110 }
+		}
+
+		buttonType = {
+			name = "start_mission_button"
+			position = { x = 1017 y = 780 }
+			spriteType = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_24_outline"
+			pdx_tooltip = "GAK_OPERATION_START_TT"
+			text = GAK_OPER_START
 		}
 	}
 
@@ -235,7 +310,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Agent_1"
-			spriteType = "GFX_Agent_HK416"
+			spriteType = "GFX_portrait_Agent_HK416"
 			position = { x = 40 y = 25 }
 		}
 		instantTextboxType = {
@@ -249,7 +324,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Agent_2"
-			spriteType = "GFX_Agent_G11"
+			spriteType = "GFX_portrait_Agent_G11"
 			position = { x = 40 y = 300 }
 		}
 		instantTextboxType = {
@@ -263,7 +338,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Agent_3"
-			spriteType = "GFX_Agent_UMP45"
+			spriteType = "GFX_portrait_Agent_UMP45"
 			position = { x = 260 y = 25 }
 		}
 		instantTextboxType = {
@@ -277,7 +352,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Agent_4"
-			spriteType = "GFX_Agent_UMP9"
+			spriteType = "GFX_portrait_Agent_UMP9"
 			position = { x = 260 y = 300 }
 		}
 		instantTextboxType = {

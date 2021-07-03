@@ -1,3 +1,4 @@
+
 shared_focus = {
 	id = GAK_groza_tsar_focus
 	icon = GFX_goal

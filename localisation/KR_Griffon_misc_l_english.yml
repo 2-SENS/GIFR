@@ -1,0 +1,8 @@
+﻿l_english:
+ #404
+ 
+ 404NotFoundOPNAME:0 "[THIS.Get404name]"
+ 404NotFoundOPPIC:0 "[THIS.Get404pic]"
+ 404NotFoundAGPIC:0 "[THIS.Get404Apic]"
+ 404NotFoundOPNAMEdesc:0 "[THIS.Get404desc]"
+ 404NotFoundOPNAMEagentdesc:0 "[THIS.Get404Adesc]"

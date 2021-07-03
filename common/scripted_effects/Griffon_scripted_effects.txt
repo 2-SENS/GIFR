@@ -1,15 +1,4 @@
-USA_CIA_clear_region_flags = {
-	clr_country_flag = USA_CIA_Viewing_East_Asia
-	clr_country_flag = USA_CIA_Viewing_Africa
-	clr_country_flag = USA_CIA_Viewing_Central_America
-	clr_country_flag = USA_CIA_Viewing_Europe
-	clr_country_flag = USA_CIA_Viewing_Middle_East
-	clr_country_flag = USA_CIA_Viewing_North_America
-	clr_country_flag = USA_CIA_Viewing_Russia
-	clr_country_flag = USA_CIA_Viewing_South_America
-	clr_country_flag = USA_CIA_Viewing_South_East_Asia
-	clr_country_flag = USA_CIA_Viewing_Australia
-}
+
 
 #그로자 충성파
 GAK_GTP = {

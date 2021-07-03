@@ -1,3 +1,4 @@
+
 shared_focus = {
     id = GAK_selected_the_war_plan_focus
 	icon = GFX_goal
@@ -340,9 +341,11 @@ shared_focus = {
             limit = {
                 has_war = yes
             }
-            GAK_not_good_size_up_frontline_tt
+            custom_effect_tooltip = GAK_not_good_size_up_frontline_tt
         }
-        custom_effect_tooltip = GAK_sunset_plan_focus_tt
+        else = {
+			custom_effect_tooltip = GAK_sunset_plan_focus_tt
+		}
         declare_war_on = {
             target = var:523.owner
             type = annex_everything
@@ -368,9 +371,11 @@ shared_focus = {
             limit = {
                 has_war = yes
             }
-            GAK_not_good_size_up_frontline_tt
+            custom_effect_tooltip = GAK_not_good_size_up_frontline_tt
         }
-        custom_effect_tooltip = GAK_eat_dragon_plan_focus_tt
+        else = {
+			custom_effect_tooltip = GAK_eat_dragon_plan_focus_tt
+		}
         declare_war_on = {
             target = var:608.owner
             type = annex_everything
@@ -445,9 +450,11 @@ shared_focus = {
             limit = {
                 has_war = yes
             }
-            GAK_not_good_size_up_frontline_tt
+            custom_effect_tooltip = GAK_not_good_size_up_frontline_tt
         }
-        custom_effect_tooltip = GAK_end_of_kingdom_plan_focus_tt
+        else = {
+			custom_effect_tooltip = GAK_end_of_kingdom_plan_focus_tt
+		}
         declare_war_on = {
             target = var:739.owner
             type = annex_everything
@@ -478,9 +485,11 @@ shared_focus = {
             limit = {
                 has_war = yes
             }
-            GAK_not_good_size_up_frontline_tt
+            custom_effect_tooltip = GAK_not_good_size_up_frontline_tt
         }
-        custom_effect_tooltip = GAK_downfall_america_plan_focus_tt
+        else = {
+			custom_effect_tooltip = GAK_downfall_america_plan_focus_tt
+		}
         declare_war_on = {
             target = var:386.owner
             type = annex_everything
@@ -500,7 +509,7 @@ shared_focus = {
 	prerequisite = {
         focus = GAK_eat_dragon_plan_focus
         focus = GAK_sunset_plan_focus 
-        focus = GAK_end_of_kingdom_plan_focus  
+        focus = GAK_end_of_united_kingdom_plan_focus  
         focus = GAK_downfall_america_plan_focus 
     }
     completion_reward = {
@@ -563,8 +572,8 @@ shared_focus = {
         custom_effect_tooltip = GAK_eastward_attack_focus_tt
         UKR = {
 			every_owned_state = {
-				add_claim_by = ROOT
-                add_state_core = ROOT
+				add_claim_by = GAK
+                add_core_of = GAK
 			}
 		}
         if = {
@@ -603,8 +612,8 @@ shared_focus = {
         custom_effect_tooltip = GAK_is_this_russia_focus_tt
         FIN = {
 			every_owned_state = {
-				add_claim_by = ROOT
-                add_state_core = ROOT
+				add_claim_by = GAK
+                add_core_of = GAK
 			}
 		}
         if = {
@@ -677,14 +686,14 @@ shared_focus = {
             }
             BAT = {
                 every_owned_state = {
-                    add_claim_by = ROOT
-                    add_state_core = ROOT
+                    add_claim_by = GAK
+                    add_core_of = GAK
                 }
 		    }
             LIT = {
                 every_owned_state = {
-                    add_claim_by = ROOT
-                    add_state_core = ROOT
+                    add_claim_by = GAK
+                    add_core_of = GAK
                 }
 		    } 
         }
@@ -698,31 +707,29 @@ shared_focus = {
                 target = LIT
             }
             if = {
-                OR = {
-                    limit = {
-                        country_exists = EST
-                        country_exists = LAT
+                limit = {
+                    country_exists = EST
+                    country_exists = LAT
+                }
+                EST = {
+                    every_owned_state = {
+                        add_claim_by = GAK
+                        add_core_of = GAK
                     }
-                    EST = {
-                        every_owned_state = {
-                            add_claim_by = ROOT
-                            add_state_core = ROOT
-                        }
+                }
+                LAT = {
+                    every_owned_state = {
+                        add_claim_by = GAK
+                        add_core_of = GAK
                     }
-                    LAT = {
-                        every_owned_state = {
-                            add_claim_by = ROOT
-                            add_state_core = ROOT
-                        }
-                    }
-                    create_wargoal = {
-                        type = annex_everything
-                        target = EST
-                    }
-                    create_wargoal = {
-                        type = annex_everything
-                        target = LAT
-                    }
+                }
+                create_wargoal = {
+                    type = annex_everything
+                    target = EST
+                }
+                create_wargoal = {
+                    type = annex_everything
+                    target = LAT
                 }
             }
         }
@@ -775,8 +782,8 @@ shared_focus = {
             }
             POL = {
                 every_owned_state = {
-                    add_claim_by = ROOT
-                    add_state_core = ROOT
+                    add_claim_by = GAK
+                    add_core_of = GAK
                 }
             } 
         }
@@ -787,8 +794,8 @@ shared_focus = {
 			}
             POL = {
                 every_owned_state = {
-                    add_claim_by = ROOT
-                    add_state_core = ROOT
+                    add_claim_by = GAK
+                    add_core_of = GAK
                 }
             }
         }
@@ -815,8 +822,8 @@ shared_focus = {
     id = GAK_besieged_empire_focus
 	icon = GFX_goal
 	cost = 5
-    x = 36
-	y = 21
+    x = 39
+	y = 23
     allow_branch = { 
         has_country_flag = GAK_let_s_fuck_the_world
     }

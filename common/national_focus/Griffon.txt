@@ -450,7 +450,7 @@ focus_tree = {
 		y = 3
 		cost = 0.2
 		prerequisite = {
-			focus = GAK_make_new_enemy_1_fake_focus
+			focus = GAK_russian_seek_to_find_fake_focus
 		}
 		
 		ai_will_do = {
@@ -470,7 +470,7 @@ focus_tree = {
 		y = 4
 		cost = 0.2
 		prerequisite = {
-			focus = GAK_make_new_enemy_1_fake_focus
+			focus = GAK_make_new_enemy_fake_focus
 		}
 		
 		ai_will_do = {
@@ -490,7 +490,7 @@ focus_tree = {
 		y = 5
 		cost = 0.2
 		prerequisite = {
-			focus = GAK_russian_seek_to_find_fake_focus
+			focus = GAK_make_new_enemy_1_fake_focus
 		}
 		
 		ai_will_do = {

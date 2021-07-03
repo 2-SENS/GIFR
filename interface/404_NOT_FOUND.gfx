@@ -218,7 +218,7 @@ spriteTypes = {
 		horizontal = yes
 	}
 	frameAnimatedSpriteType = {
-		name = "GFX_Agent_UMP9"
+		name = "GFX_portrait_Agent_UMP9"
 		texturefile = "gfx/interface/404_gui_interface/GFX_UMP9_portrait_border_ani.dds"
 		noOfFrames = 60
 		loadType = "INGAME"
@@ -229,7 +229,7 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	frameAnimatedSpriteType = {
-		name = "GFX_Agent_UMP45"
+		name = "GFX_portrait_Agent_UMP45"
 		texturefile = "gfx/interface/404_gui_interface/GFX_UMP45_portrait_border_ani.dds"
 		noOfFrames = 60
 		loadType = "INGAME"
@@ -240,7 +240,7 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	frameAnimatedSpriteType = {
-		name = "GFX_Agent_HK416"
+		name = "GFX_portrait_Agent_HK416"
 		texturefile = "gfx/interface/404_gui_interface/GFX_HK416_portrait_border_ani.dds"
 		noOfFrames = 60
 		loadType = "INGAME"
@@ -251,7 +251,7 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	frameAnimatedSpriteType = {
-		name = "GFX_Agent_G11"
+		name = "GFX_portrait_Agent_G11"
 		texturefile = "gfx/interface/404_gui_interface/GFX_G11_portrait_border_ani.dds"
 		noOfFrames = 50
 		loadType = "INGAME"
@@ -273,4 +273,10 @@ spriteTypes = {
 		name = "GFX_GF_OPER_NAME_BOX"
 		textureFile = "gfx/interface/OPER_NAME_BOX.dds"
 	}
+	spriteType = {
+		name = "GFX_russia_mos"
+		textureFile = "gfx/interface/404_gui_interface/GAK_russia_oper.dds"
+	}
+
+	
 } 

@@ -7,6 +7,7 @@ focus_tree = {
 	shared_focus = GAK_selected_the_war_plan_focus
 	shared_focus = GAK_groza_tsar_focus
 	shared_focus = GAK_griffon_future_tech_lab
+	continuous_focus_position = { x = 2150 y = 2100 }
 
     focus = {
 		id = GAK_legacy_of_revolution_focus
@@ -930,11 +931,9 @@ focus_tree = {
             focus = GAK_add_munition_factory_focus 
         }
 		prerequisite = { 
-            focus = GAK_deeper_than_friend_focus 
-        }
-		prerequisite = { 
             focus = GAK_trench_raider_focus
-			focus = GAK_end_of_the_march_focus 
+			focus = GAK_end_of_the_march_focus
+			focus = GAK_deeper_than_friend_focus 
         }
 
 		ai_will_do = {

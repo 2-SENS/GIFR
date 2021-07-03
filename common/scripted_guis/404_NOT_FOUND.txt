@@ -59,24 +59,37 @@ scripted_gui = {
 				clr_country_flag = GAK_operation_list_flag
 			}
 			GAK_operate_to_RUS_button_click = {
+				set_country_flag = GAK_OPERATION_WINDOW_FLAG
 				set_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
 			}
 		}
 	}
 
-	GAK_operation_to_RUS_window = {
+	GAK_operation_window = {
 		context_type = player_context
 		parent_window_token = top_bar
-		window_name = "GAK_operation_to_RUS_window"
+		window_name = "GAK_operation_window"
 
 		visible = {
-			has_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
+			has_country_flag = GAK_OPERATION_WINDOW_FLAG
 		}
 
 		effects = {
 			operation_rus_close_button_click = {
+				clr_country_flag = GAK_OPERATION_WINDOW_FLAG
 				clr_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
 			}
+		}
+
+		properties = {
+    		OPER_pic = {
+        		image = "GFX_[THIS.Get404pic]"
+    		}
+		}
+		properties = {
+			OPER_face = {
+        		image = "GFX_portrait_[THIS.Get404Apic]"
+    		}
 		}
 	}
 }

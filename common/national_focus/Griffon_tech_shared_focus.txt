@@ -1,3 +1,4 @@
+
 shared_focus = {
     id = GAK_griffon_future_tech_lab
 	icon = GFX_goal
