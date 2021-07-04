@@ -1250,10 +1250,62 @@ GAK_incitement_behind_the_scenes_focus:0 "쁘락치 심기"
 GAK_incitement_behind_the_scenes_focus_DESC:0 "자네, 식물 키우는건 좋아하나? 식물은 적당한 비료와 적당한 타이밍에 물을 주면 놀라운 과실을 우리에게 안겨주지.\N\N쁘락치도 비슷해. 적당한 값이 고용해서, 적당한 타이밍에 뛰어들게 하면, 이제 반응을 볼 차례야.\N\N어? 저 헌병 친구 화염병이 깨지면서 소체에 불이 붙었구만, 우리 쁘락치의 작품이야. 시위대는 당황하지만, 계속 지랄하는구만. 뜻대로 움직여줘서 고마울따름인걸."
 
 GAK_SUTF_focus:0 "아가리 싸물어!"
-GAK_SUTF_focus_desc:0 "집에서 팬티에 손 넣고 북북 긁는 병신같은 민권충들아, 이건 그렇게 나쁘지 않은거라고! 너의 파이는 사라지지 않을거야, 그리고 정부는 뺏어갈 이유도 없고! 오히려 너와 너의 친구들을 편하게 해줄수 있는데 왜 개지랄이야?\n\n"이거 그렇게 하는거 아닌데."\N\n"아뉘이~ 민권법 통과해야지~ 인간 인형 통합해야지~"\n\n난 이렇게 말하는 너희들의 지랄에 지쳤어, 머저리들아. 아마 너희들은 너희가 뭘 말하는지도 잘 모를거야. 정치가 쉬운줄 아냐? 좋아, 너희들이 웅앵웅거리면서 애새끼처럼 행동하면, 나도 응애 애새끼가 될거고, 너희를 애새끼의 심정으로 없애버릴거야!"
+GAK_SUTF_focus_desc:0 "집에서 팬티에 손 넣고 북북 긁는 병신같은 인권충들아, 이건 그렇게 나쁘지 않은거라고! 너의 파이는 사라지지 않을거야, 그리고 정부는 뺏어갈 이유도 없고! 오히려 너와 너의 친구들을 편하게 해줄수 있는데 왜 개지랄이야?\n\n난 이렇게 말하는 너희들의 지랄에 지쳤어, 머저리들아. 아마 너희들은 너희가 뭘 말하는지도 잘 모를거야. 정치가 쉬운줄 아냐? 좋아, 너희들이 웅앵웅거리면서 애새끼처럼 행동하면, 나도 응애 애새끼가 될거고, 너희를 애새끼의 심정으로 없애버릴거야!"
 
 GAK_double_sided_wires_focus:0 "폐허속의 잡초"
-GAK_double_sided_wires_focus_desc:0 "다행히 수확은 있었습니다. 그것이 어떤 결과던, 그래도 이 지휘부엔 "
+GAK_double_sided_wires_focus_desc:0 "다행히 수확은 있었습니다. 그것이 어떤 결과던, 그래도 이 지휘부엔 파릇파릇한 풀잎으로 양지를 향해 자라날것입니다."
+
+# G36의 정치 포커스 #
+
+GAK_salute_to_the_commander_focus:0 "지휘관을 향한 경례!"
+
+GAK_looking_for_a_scream_focus:0 "민족을 찾아서"
+
+GAK_her_whereabouts_focus:0 "그녀의 행방"
+
+GAK_do_you_have_a_cigarette_focus:0 "담배 한대 정도는 괜찮잖아?"
+
+GAK_G36_social_democrat_focus:0 "부드럽게"
+
+GAK_G36_worker_policy_focus:0 "노동자의 처우 개선"
+
+GAK_G36_health_insurance_focus:0 "국민건강보험"
+
+GAK_G36_protect_everyone_focus:0 "지휘관은 약자의 영웅"
+
+GAK_G36_social_liberal_focus:0 "자애롭게"
+
+GAK_G36_compromise_with_workers_focus:0 "노동자와의 타협"
+
+GAK_G36_motivation_to_work_focus:0 "대중문화 권장"
+
+GAK_G36_break_our_chain_focus:0 "지휘관은 우리들의 이웃"
+
+GAK_G36_market_liberal_focus:0 "친근하게"
+
+GAK_free_sijang_focus:0 "돈이 돈을 번다"
+
+GAK_wealth_investment_education_focus:0 "낙수효과 : 교육"
+
+GAK_wealth_investment_better_industry_equip_focus:0 "낙수효과 : 산업장비 개선"
+
+GAK_every_man_a_rich_focus:0 "지휘관은 국민의 선물"
+
+GAK_G36_social_conservative_focus:0 "단호하게"
+
+GAK_G36_strict_law_focus:0 "저울 위에선 평등하다"
+
+GAK_G36_police_placement_focus:0 "경제적인 안정"
+
+GAK_G36_like_judge_focus:0 "지휘관은 모두의 판사봉"
+
+GAK_G36_authoritarian_democrat_focus:0 "무심한척"
+
+GAK_G36_secret_police_focus:0 "국민 헌병대"
+
+GAK_G36_national_labor_party_focus:0 "국가노동자조합연맹"
+
+GAK_G36_is_father_focus:0 "확고히 자리잡은 절대적인 국부"
 
 ################################################
 # 전쟁계획 #

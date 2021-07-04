@@ -371,4 +371,586 @@ focus_tree = {
 			add_political_power = 100
 		}
 	}
+
+	focus = {
+		id = GAK_salute_to_the_commander_focus
+		icon = GFX_goal
+		x = 30
+		y = 8
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_double_sided_wires_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_salute_to_the_commander_focus"
+			custom_effect_tooltip = GAK_salute_to_the_commander_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_looking_for_a_scream_focus
+		icon = GFX_goal
+		x = 29
+		y = 9
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_salute_to_the_commander_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_looking_for_a_scream_focus"
+			custom_effect_tooltip = GAK_looking_for_a_scream_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_her_whereabouts_focus
+		icon = GFX_goal
+		x = 31
+		y = 9
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_salute_to_the_commander_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_her_whereabouts_focus"
+			custom_effect_tooltip = GAK_her_whereabouts_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_do_you_have_a_cigarette_focus
+		icon = GFX_goal
+		x = 30
+		y = 10
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_her_whereabouts_focus
+			
+        }
+		prerequisite = {
+			focus = GAK_looking_for_a_scream_focus
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_do_you_have_a_cigarette_focus"
+			custom_effect_tooltip = GAK_do_you_have_a_cigarette_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_social_democrat_focus
+		icon = GFX_goal
+		x = 24
+		y = 11
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_do_you_have_a_cigarette_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_social_democrat_focus"
+			custom_effect_tooltip = GAK_G36_social_democrat_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_worker_policy_focus
+		icon = GFX_goal
+		x = 24
+		y = 12
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_social_democrat_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_worker_policy_focus"
+			custom_effect_tooltip = GAK_G36_worker_policy_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_health_insurance_focus
+		icon = GFX_goal
+		x = 24
+		y = 13
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_worker_policy_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_health_insurance_focus"
+			custom_effect_tooltip = GAK_G36_health_insurance_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_protect_everyone_focus
+		icon = GFX_goal
+		x = 24
+		y = 14
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_health_insurance_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_protect_everyone_focus"
+			custom_effect_tooltip = GAK_G36_protect_everyone_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_social_liberal_focus
+		icon = GFX_goal
+		x = 27
+		y = 11
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_do_you_have_a_cigarette_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_social_liberal_focus"
+			custom_effect_tooltip = GAK_G36_social_liberal_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_compromise_with_workers_focus
+		icon = GFX_goal
+		x = 27
+		y = 12
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_social_liberal_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_compromise_with_workers_focus"
+			custom_effect_tooltip = GAK_G36_compromise_with_workers_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_motivation_to_work_focus
+		icon = GFX_goal
+		x = 27
+		y = 13
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_compromise_with_workers_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_motivation_to_work_focus"
+			custom_effect_tooltip = GAK_G36_motivation_to_work_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_break_our_chain_focus
+		icon = GFX_goal
+		x = 27
+		y = 14
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_motivation_to_work_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_break_our_chain_focus"
+			custom_effect_tooltip = GAK_G36_break_our_chain_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_market_liberal_focus
+		icon = GFX_goal
+		x = 30
+		y = 11
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_do_you_have_a_cigarette_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_market_liberal_focus"
+			custom_effect_tooltip = GAK_G36_market_liberal_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_free_sijang_focus
+		icon = GFX_goal
+		x = 30
+		y = 12
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_market_liberal_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_free_sijang_focus"
+			custom_effect_tooltip = GAK_free_sijang_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_wealth_investment_education_focus
+		icon = GFX_goal
+		x = 29
+		y = 13
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_free_sijang_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_wealth_investment_education_focus"
+			custom_effect_tooltip = GAK_wealth_investment_education_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_wealth_investment_better_industry_equip_focus
+		icon = GFX_goal
+		x = 31
+		y = 13
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_free_sijang_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_wealth_investment_better_industry_equip_focus"
+			custom_effect_tooltip = GAK_wealth_investment_better_industry_equip_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_every_man_a_rich_focus
+		icon = GFX_goal
+		x = 30
+		y = 14
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_wealth_investment_education_focus
+        }
+		prerequisite = { 
+            focus = GAK_wealth_investment_better_industry_equip_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_every_man_a_rich_focus"
+			custom_effect_tooltip = GAK_every_man_a_rich_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_social_conservative_focus
+		icon = GFX_goal
+		x = 33
+		y = 11
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_do_you_have_a_cigarette_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_social_conservative_focus"
+			custom_effect_tooltip = GAK_G36_social_conservative_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_strict_law_focus
+		icon = GFX_goal
+		x = 33
+		y = 12
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_social_conservative_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_strict_law_focus"
+			custom_effect_tooltip = GAK_G36_strict_law_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_police_placement_focus
+		icon = GFX_goal
+		x = 33
+		y = 13
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_strict_law_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_police_placement_focus"
+			custom_effect_tooltip = GAK_G36_police_placement_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_like_judge_focus
+		icon = GFX_goal
+		x = 33
+		y = 14
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_police_placement_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_like_judge_focus"
+			custom_effect_tooltip = GAK_G36_like_judge_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_authoritarian_democrat_focus
+		icon = GFX_goal
+		x = 36
+		y = 11
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_do_you_have_a_cigarette_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_authoritarian_democrat_focus"
+			custom_effect_tooltip = GAK_G36_authoritarian_democrat_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_secret_police_focus
+		icon = GFX_goal
+		x = 36
+		y = 12
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_authoritarian_democrat_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_secret_police_focus"
+			custom_effect_tooltip = GAK_G36_secret_police_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_national_labor_party_focus
+		icon = GFX_goal
+		x = 36
+		y = 13
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_secret_police_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_national_labor_party_focus"
+			custom_effect_tooltip = GAK_G36_national_labor_party_focus_tt
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GAK_G36_is_father_focus
+		icon = GFX_goal
+		x = 36
+		y = 14
+
+		cost = 0.2
+
+		prerequisite = { 
+            focus = GAK_G36_national_labor_party_focus
+        }
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_G36_is_father_focus"
+			custom_effect_tooltip = GAK_G36_is_father_focus_tt
+			add_political_power = 100
+		}
+	}
 }

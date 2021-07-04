@@ -45,7 +45,8 @@ guiTypes = {
             spriteType = "GFX_frontend_game_logo_gf"
             position = { x= 20 y = 120 }
             clicksound = click_default
-            pdx_tooltip = "LOGO_MAIN_MENU_LINK_GF"
+            pdx_tooltip = "LOGO_MAIN_MENU_LINK_GF_discord"
+			web_link = "https://discord.gg/6BkR5vrmYJ"
         }
 		
 	}
@@ -216,6 +217,31 @@ guiTypes = {
 			spriteType = "GFX_fronticons"
 			position = { x = 83 y = -4 }
 		}
+		
+		instantTextBoxType = {
+			name ="version_label"
+			position = { x = 650 y = -28 }
+			textureFile = ""
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "V1.0.3"
+			format = right
+			maxWidth = 350
+			maxHeight = 20
+		}
+
+		instantTextBoxType = {
+			name ="tno_version_label"
+			position = { x = 100 y = -28 }
+			textureFile = ""
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = GF_current_version
+			format = left
+			maxWidth = 600
+			maxHeight = 20
+			pdx_tooltip = GF_current_version_date
+		}
 
 
 
@@ -257,6 +283,43 @@ guiTypes = {
 			name = "single_player_button_warn"
 			position = { x = @warn_icon_x y = 8 }
 			spriteType = "GFX_missing_dlc_warning_sign"
+		}
+		
+		############################################## buttons on the side
+
+		ButtonType = {
+			name = "settings_button"
+			position = { x = 43 y = 14 }
+			quadTextureSprite ="GFX_settings_icon"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+
+		ButtonType = {
+			name = "credits_button"
+			position = {  x = 43 y = 54 }
+			quadTextureSprite ="GFX_credits_icon"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+
+		ButtonType = {
+			name = "nudge_button"
+			position = { x = 43 y = 94 }
+			quadTextureSprite = "GFX_nudge_icon"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		#################################
+	
+		ButtonType = {
+			name = "privacy_policy_button"
+			#position = { x = 219 y = 309 }
+			position = { x = -5000 y = 309 }
+			quadTextureSprite ="privacy"
+			#clicksound = click_default
+			pdx_tooltip = "MENU_PRIVACY_POLICY"
 		}
 		
 

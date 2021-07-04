@@ -277,6 +277,42 @@ spriteTypes = {
 		name = "GFX_russia_mos"
 		textureFile = "gfx/interface/404_gui_interface/GAK_russia_oper.dds"
 	}
+	spriteType = {
+		name = "GFX_germany_ber"
+		textureFile = "gfx/interface/404_gui_interface/GFX_germany_ber.dds"
+	}
+	spriteType = {
+		name = "GFX_france_par"
+		textureFile = "gfx/interface/404_gui_interface/GFX_france_par.dds"
+	}
+	spriteType = {
+		name = "GFX_england_lon"
+		textureFile = "gfx/interface/404_gui_interface/GFX_england_lon.dds"
+	}
+	spriteType = {
+		name = "GFX_austria_bin"
+		textureFile = "gfx/interface/404_gui_interface/GFX_austria_bin.dds"
+	}
+	spriteType = {
+		name = "GFX_turkey_kebab"
+		textureFile = "gfx/interface/404_gui_interface/GFX_turkey_kebab.dds"
+	}
+	spriteType = {
+		name = "GFX_japan_tokyo"
+		textureFile = "gfx/interface/404_gui_interface/GFX_japan_tokyo.dds"
+	}
+	spriteType = {
+		name = "GFX_usa_dc"
+		textureFile = "gfx/interface/404_gui_interface/GFX_usa_dc.dds"
+	}
+	spriteType = {
+		name = "GFX_canada_otawa"
+		textureFile = "gfx/interface/404_gui_interface/GFX_canada_otawa.dds"
+	}
+	spriteType = {
+		name = "GFX_africa_north"
+		textureFile = "gfx/interface/404_gui_interface/GFX_africa_north.dds"
+	}
 
 	
 } 
