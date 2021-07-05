@@ -17,6 +17,190 @@ country_event = {
 	}
 }
 
+country_event = { #충성파 우세
+	id = gaksystemload.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.2 }
+	title = gaksystemload.2.t
+	desc = gaksystemload.2.d
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_idea = GAK_loyalist_dominance_ideas
+		}
+		national_populist > 0.5
+		has_country_leader = {
+			name = "OTs-14 'Groza'"
+			ruling_only = yes
+		}
+	}
+
+	option = {
+		if = {
+			limit = { has_idea = GAK_dominance_of_chaebol_ideas }
+			swap_ideas = {
+				remove_idea = GAK_dominance_of_chaebol_ideas
+				add_idea = GAK_loyalist_dominance_ideas
+			} 
+		}
+		else_if = {
+			limit = { has_idea = GAK_reformist_dominance_ideas }
+			swap_ideas = {
+				remove_idea = GAK_reformist_dominance_ideas
+				add_idea = GAK_loyalist_dominance_ideas
+			}
+		}
+		else_if = {
+			limit = { has_idea = GAK_new_order_domination_ideas }
+			swap_ideas = {
+				remove_idea = GAK_new_order_domination_ideas
+				add_idea = GAK_loyalist_dominance_ideas
+			}
+		}
+		else = {
+			add_ideas = GAK_loyalist_dominance_ideas
+		}
+	}
+}
+
+country_event = { #재벌파 우세
+	id = gaksystemload.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.3 }
+	title = gaksystemload.3.t
+	desc = gaksystemload.3.d
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_idea = GAK_dominance_of_chaebol_ideas
+		}
+		market_liberal > 0.5
+		has_country_leader = {
+			name = "OTs-14 'Groza'"
+			ruling_only = yes
+		}
+	}
+
+	option = {
+		if = {
+			limit = { has_idea = GAK_loyalist_dominance_ideas }
+			swap_ideas = {
+				remove_idea = GAK_loyalist_dominance_ideas
+				add_idea = GAK_dominance_of_chaebol_ideas
+			} 
+		}
+		else_if = {
+			limit = { has_idea = GAK_reformist_dominance_ideas }
+			swap_ideas = {
+				remove_idea = GAK_reformist_dominance_ideas
+				add_idea = GAK_dominance_of_chaebol_ideas
+			}
+		}
+		else_if = {
+			limit = { has_idea = GAK_new_order_domination_ideas }
+			swap_ideas = {
+				remove_idea = GAK_new_order_domination_ideas
+				add_idea = GAK_dominance_of_chaebol_ideas
+			}
+		}
+		else = {
+			add_ideas = GAK_dominance_of_chaebol_ideas
+		}
+	}
+}
+
+country_event = { #개혁파 우세
+	id = gaksystemload.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.4 }
+	title = gaksystemload.4.t
+	desc = gaksystemload.4.d
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_idea = GAK_reformist_dominance_ideas
+		}
+		social_liberal > 0.5
+		has_country_leader = {
+			name = "OTs-14 'Groza'"
+			ruling_only = yes
+		}
+	}
+
+	option = {
+		if = {
+			limit = { has_idea = GAK_dominance_of_chaebol_ideas }
+			swap_ideas = {
+				remove_idea = GAK_dominance_of_chaebol_ideas
+				add_idea = GAK_reformist_dominance_ideas
+			} 
+		}
+		else_if = {
+			limit = { has_idea = GAK_loyalist_dominance_ideas }
+			swap_ideas = {
+				remove_idea = GAK_loyalist_dominance_ideas
+				add_idea = GAK_reformist_dominance_ideas
+			}
+		}
+		else_if = {
+			limit = { has_idea = GAK_new_order_domination_ideas }
+			swap_ideas = {
+				remove_idea = GAK_new_order_domination_ideas
+				add_idea = GAK_reformist_dominance_ideas
+			}
+		}
+		else = {
+			add_ideas = GAK_reformist_dominance_ideas
+		}
+	}
+}
+
+country_event = { #신질서 운동회 우세
+	id = gaksystemload.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.5 }
+	title = gaksystemload.5.t
+	desc = gaksystemload.5.d
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_idea = GAK_new_order_domination_ideas
+		}
+		paternal_autocrat > 0.5
+		has_country_leader = {
+			name = "OTs-14 'Groza'"
+			ruling_only = yes
+		}
+	}
+
+	option = {
+		if = {
+			limit = { has_idea = GAK_dominance_of_chaebol_ideas }
+			swap_ideas = {
+				remove_idea = GAK_dominance_of_chaebol_ideas
+				add_idea = GAK_new_order_domination_ideas
+			} 
+		}
+		else_if = {
+			limit = { has_idea = GAK_reformist_dominance_ideas }
+			swap_ideas = {
+				remove_idea = GAK_reformist_dominance_ideas
+				add_idea = GAK_new_order_domination_ideas
+			}
+		}
+		else_if = {
+			limit = { has_idea = GAK_loyalist_dominance_ideas }
+			swap_ideas = {
+				remove_idea = GAK_loyalist_dominance_ideas
+				add_idea = GAK_new_order_domination_ideas
+			}
+		}
+		else = {
+			add_ideas = GAK_new_order_domination_ideas
+		}
+	}
+}
+
 country_event = {
 	id = gakgendie.0
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gakgendie.0" }

@@ -49,6 +49,9 @@ category = {
 		GAK_groza_accession_to_thron_effect
 	}
 	soundeffects = {
+		GAK_cheater_warning_effect
+	}
+	soundeffects = {
 		GAK_bugwan_voice_effect
 	}
 	soundeffects = {
@@ -202,6 +205,13 @@ soundeffect = {
 	volume = 1.2
 	sounds = {
 		sound = GAK_groza_accession_to_thron_effect
+	}
+}
+soundeffect = {
+	name = "GAK_cheater_warning_effect"
+	volume = 1.2
+	sounds = {
+		sound = GAK_cheater_warning_effect
 	}
 }
 soundeffect = {
@@ -501,6 +511,12 @@ sound = {
 	name = "GAK_groza_accession_to_thron_effect"
 	file = "GAK/GAK_groza_accession_to_thron_effect.wav"
 	always_load = yes
+}
+sound = { 
+	name = "GAK_cheater_warning_effect" 
+	file = "GAK/you_fucking_cheater.wav"
+	always_load = yes
+	volume = 1
 }
 sound = {
 	name = "GAK_an94_nice_work_01"

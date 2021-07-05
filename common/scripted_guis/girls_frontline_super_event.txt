@@ -167,4 +167,28 @@ scripted_gui = {
 			}
 		}
 	}
+
+	GAK_SG_i_find_cheater = {
+		context_type = player_context
+		window_name = "GAK_SG_i_find_cheater"
+
+		visible = {
+			has_country_flag = you_fucking_cheater_flag
+		}
+	}
+
+	GAK_SG_i_find_cheater_frame = {
+		context_type = player_context
+		window_name = "GAK_SG_i_find_cheater_frame"
+
+		visible = {
+			has_country_flag = you_fucking_cheater_flag
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = you_fucking_cheater_flag
+			}
+		}
+	}
 }

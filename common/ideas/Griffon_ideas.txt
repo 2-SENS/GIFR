@@ -1784,6 +1784,49 @@ ideas = {
 				army_speed_factor = 0.1
 			}
 		}
+
+		GAK_loyalist_dominance_ideas = { #충성파 우세
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_loyalist_dominance_ideas"}
+			picture = GAK
+			modifier = {
+				army_morale_factor = 0.1
+				army_org_factor = 0.1
+				training_time_factor = -0.2
+			}
+		}
+
+		GAK_dominance_of_chaebol_ideas = { #재벌파 우세
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_dominance_of_chaebol_ideas"}
+			picture = GAK
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.2					
+					instant = yes
+				}
+			}
+		}
+
+		GAK_reformist_dominance_ideas = { #개혁파 우세
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_reformist_dominance_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.25
+			}
+		}
+
+		GAK_new_order_domination_ideas = { #신질서 운동회 우세
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_new_order_domination_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
 		
 	}
 

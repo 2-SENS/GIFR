@@ -3,7 +3,12 @@
 #그로자 충성파
 GAK_GTP = {
 	if = {
-		limit = { has_country_flag = GAK_groza_control_russia }
+		limit = { 
+			has_country_leader = {
+				name = "OTs-14 'Groza'"
+				ruling_only = yes
+			}
+		}
 		divide_temp_variable = { GTP = 100 }
 		hidden_effect = {
 			add_popularity = {
@@ -17,11 +22,16 @@ GAK_GTP = {
 #재벌파
 GAK_CBA = {
 	if = {
-		limit = { has_country_flag = GAK_groza_control_russia }
+		limit = { 
+			has_country_leader = {
+				name = "OTs-14 'Groza'"
+				ruling_only = yes
+			}
+		}
 		divide_temp_variable = { CBA = 100 }
 		hidden_effect = {
 			add_popularity = {
-				ideology = national_populist_subtype
+				ideology = market_liberal_subtype
 				popularity = CBA
 			}
 		}
@@ -31,7 +41,12 @@ GAK_CBA = {
 #개혁주의자
 GAK_GFR = {
 	if = {
-		limit = { has_country_flag = GAK_groza_control_russia }
+		limit = { 
+			has_country_leader = {
+				name = "OTs-14 'Groza'"
+				ruling_only = yes
+			}
+		}
 		divide_temp_variable = { GFR = 100 }
 		hidden_effect = {
 			add_popularity = {
@@ -45,7 +60,12 @@ GAK_GFR = {
 #신질서운동
 GAK_GKC = {
 	if = {
-		limit = { has_country_flag = GAK_groza_control_russia }
+		limit = { 
+			has_country_leader = {
+				name = "OTs-14 'Groza'"
+				ruling_only = yes
+			}
+		}
 		divide_temp_variable = { GKC = 100 }
 		hidden_effect = {
 			add_popularity = {
@@ -54,66 +74,5 @@ GAK_GKC = {
 			}
 		}
 		custom_effect_tooltip = GP_GKC
-	}
-}
-#충성파
-GAK_recalculate_royal_force_effects = {
-	if = {
-		limit = {
-			GAK_JAP_hostile = no
-		}
-		#Max influence effects at 50% popularity
-		set_variable = { GAK_royal_influence_var = GAK.party_popularity@national_populist }
-		clamp_variable = {
-			var = GAK_royal_influence_var
-			max = 1
-		}
-
-		set_temp_variable = { GAK_royal_positive_factor = GAK_royal_influence_var }
-		multiply_temp_variable = { GAK_royal_positive_factor = 2 }
-
-		###Fengtian
-		set_variable = { GAK.GAK_royal_max_efficiency = 0.5 }
-		set_variable = { GAK.GAK_royal_construction_speed = 0.5 }
-		multiply_variable = { GAK.GAK_royal_max_efficiency = GAK_royal_positive_factor }
-		multiply_variable = { GAK.GAK_royal_construction_speed = GAK_royal_positive_factor }
-
-		# Factories
-		set_variable = { GAK.GAK_royal_factories = 0.25 }
-		multiply_variable = { GAK.GAK_royal_factories = GAK.num_of_civilian_factories }
-		multiply_variable = { GAK.GAK_royal_factories = GAK_royal_positive_factor }
-		round_variable = GAK.GAK_royal_factories
-
-		if = {
-			limit = {
-				check_variable = { party_popularity@national_populist > 0.2 }
-			}
-			set_variable = { GAK.GAK_royal_political_power = 0.5 }
-			set_variable = { GAK.GAK_royal_stability = 0.15 }
-			set_variable = { GAK.GAK_royal_war_support = 0.15 }
-
-			set_temp_variable = { GAK_royal_negative_factor = 0.2 }
-			subtract_from_temp_variable = { GAK_royal_negative_factor = GAK_royal_influence_var }
-			divide_temp_variable = { GAK_royal_negative_factor = -0.3 }
-
-			multiply_variable = { GAK.GAK_royal_political_power = GAK_royal_negative_factor }
-			multiply_variable = { GAK.GAK_royal_stability = GAK_royal_negative_factor }
-			multiply_variable = { GAK.GAK_royal_war_support = GAK_royal_negative_factor }
-
-			if = {
-				limit = { has_government = national_populist }
-				divide_variable = { GAK.GAK_royal_political_power = 3 }
-				divide_variable = { GAK.GAK_royal_stability = 3 }
-				divide_variable = { GAK.GAK_royal_war_support = 3 }
-			}
-		}
-		else = {
-			clear_variable = GAK_royal_political_power
-			clear_variable = GAK_royal_stability
-			clear_variable = GAK_royal_war_support
-		}
-
-		clear_variable = GAK_royal_influence_var
-		force_update_dynamic_modifier = yes
 	}
 }

@@ -58,7 +58,10 @@ spriteTypes = {
 		textureFile = "gfx/superevent_pictures/GFX_GAK_accession_to_throne.tga"
 	}
 
-	
+	spriteType = {
+		name = "GFX_GAK_cheat_faggot"
+		textureFile = "gfx/superevent_pictures/GFX_GAK_cheat_faggot.dds"
+	}
 	
 		
 }
