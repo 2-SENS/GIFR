@@ -1,5 +1,28 @@
 404_Decisions_GUI = {
-}
+	GAK_RUS_ATTACK_OPERATION_DECISION = {
+		icon = GFX_decision_generic_flags
+
+		visible = {
+			tag = GAK
+			has_country_flag = GAK_OPER_RUS_DECISION_FLAG
+		}
+
+		custom_cost_trigger = {
+			command_power > 24.99
+		}
+
+		available = {
+			has_war_with = RUS
+		}
+
+		cost = 200
+		days_remove = 10
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_RUS_ATTACK_OPERATION_DECISION"
+			hidden_effect = { command_power = -25 }
+		}
+	}
 
 ficus_racemosa_power_struggle_decision = {
 	GAK_groza_friendly_force = {

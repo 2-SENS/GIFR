@@ -1,3 +1,39 @@
+	
+	##################################################################################################################
+	#	  __                              _                                          __               _              #
+	#	 / _|                            | |                                        / _|             | |             #
+	#   | |_   __ _   __ _   __ _   ___  | |_    __ _  ___  ___   _ __ ___    ___  | |_  _   _   ___ | | __  __ _    #
+	#	|  _| / _` | / _` | / _` | / _ \ | __|  / _` |/ __|/ __| | '_ ` _ \  / _ \ |  _|| | | | / __|| |/ / / _` |   #
+	#	| |  | (_| || (_| || (_| || (_) || |_  | (_| |\__ \\__ \ | | | | | || (_) || |  | |_| || (__ |   < | (_| |   #
+	#	|_|   \__,_| \__, | \__, | \___/  \__|  \__,_||___/|___/ |_| |_| |_| \___/ |_|   \__,_| \___||_|\_\ \__,_|   #
+	#	              __/ |  __/ |                                                                                   #
+    #    		     |___/  |___/                                                                                    #
+	#                                                                                                                #
+	#					   _                                                                    _                    #
+	#					  | |                                                                  | |                   #
+	#	 ___  _   _   ___ | | __  _   _   ___   _   _  _ __   _ __    ___   __ _  _ __   _   _ | |_                  # 
+	#	/ __|| | | | / __|| |/ / | | | | / _ \ | | | || '__| | '_ \  / _ \ / _` || '_ \ | | | || __|                 #
+	#	\__ \| |_| || (__ |   <  | |_| || (_) || |_| || |    | |_) ||  __/| (_| || | | || |_| || |_                  #
+	#	|___/ \__,_| \___||_|\_\  \__, | \___/  \__,_||_|    | .__/  \___| \__,_||_| |_| \__,_| \__|                 #
+	#						      __ / |                     | |                                                     #
+	#							 | ___/                      |_|                                                     #
+	#	                                                                                                             #
+    #      		   _  _    _          ___              _    _         ______  _        _                             #
+    #    		  (_)| |  | |        |_  |            | |  (_)        | ___ \(_)      | |                            #
+	#	__      __ _ | |_ | |__        | | _   _  ___ | |_  _  _ __   | |_/ / _   ___ | |__    ___  _ __             #
+	#	\ \ /\ / /| || __|| '_ \       | || | | |/ __|| __|| || '_ \  | ___ \| | / _ \| '_ \  / _ \| '__|            #
+	#	 \ V  V / | || |_ | | | |  /\__/ /| |_| |\__ \| |_ | || | | | | |_/ /| ||  __/| |_) ||  __/| |               #
+	#	  \_/\_/  |_| \__||_| |_|  \____/  \__,_||___/ \__||_||_| |_| \____/ |_| \___||_.__/  \___||_|               #
+    #                                                                                                                #
+    #                                                                                                                #
+ 	#	_____  _                    _       _             _____                                                      #
+	#	/  ___|| |                  | |     | |           |_   _|                                                    #
+	#	\ `--. | |__    ___   _   _ | |_    | |_   ___      | |   _ __   ___   _ __                                  #  
+	#	 `--. \| '_ \  / _ \ | | | || __|   | __| / _ \     | |  | '__| / _ \ | '_ \                                 #
+	#	/\__/ /| | | || (_) || |_| || |_    | |_ | (_) |   _| |_ | |   | (_) || | | |                                #
+	#	\____/ |_| |_| \___/  \__,_| \__|    \__| \___/    \___/ |_|    \___/ |_| |_|                                #
+	##################################################################################################################
+
 scripted_gui = {
 	GAK_404_Decisions_GUI = {
 		context_type = decision_category
@@ -128,6 +164,68 @@ scripted_gui = {
 				clr_country_flag = GAK_OPERATION_WINDOW_11_FLAG
 				clr_country_flag = GAK_OPERATION_WINDOW_45_FLAG
 				clr_country_flag = GAK_OPERATION_WINDOW_9_FLAG
+			}
+			start_mission_button_click = {
+				if = {
+					limit = {
+						has_country_flag = GAK_OPERATION_WINDOW_RUS_FLAG
+					}
+					set_country_flag = GAK_OPER_RUS_DECISION_FLAG
+				}
+				if = {
+					limit = {
+						has_country_flag = GAK_OPERATION_WINDOW_GER_FLAG
+					}
+					set_country_flag = GAK_OPER_GER_DECISION_FLAG
+				}
+				if = {
+					limit = {
+						has_country_flag = GAK_OPERATION_WINDOW_FRA_FLAG
+					}
+					set_country_flag = GAK_OPER_FRA_DECISION_FLAG
+				}
+				if = {
+					limit = {
+						has_country_flag = GAK_OPERATION_WINDOW_ENG_FLAG
+					}
+					set_country_flag = GAK_OPER_ENG_DECISION_FLAG
+				}
+				if = {
+					limit = {
+						has_country_flag = GAK_OPERATION_WINDOW_AUS_FLAG
+					}
+					set_country_flag = GAK_OPER_AUS_DECISION_FLAG
+				}
+				if = {
+					limit = {
+						has_country_flag = GAK_OPERATION_WINDOW_OTT_FLAG
+					}
+					set_country_flag = GAK_OPER_OTT_DECISION_FLAG
+				}
+				if = {
+					limit = {
+						has_country_flag = GAK_OPERATION_WINDOW_JAP_FLAG
+					}
+					set_country_flag = GAK_OPER_JAP_DECISION_FLAG
+				}
+				if = {
+					limit = {
+						has_country_flag = GAK_OPERATION_WINDOW_USA_FLAG
+					}
+					set_country_flag = GAK_OPER_USA_DECISION_FLAG
+				}
+				if = {
+					limit = {
+						has_country_flag = GAK_OPERATION_WINDOW_CAN_FLAG
+					}
+					set_country_flag = GAK_OPER_CAN_DECISION_FLAG
+				}
+				if = {
+					limit = {
+						has_country_flag = GAK_OPERATION_WINDOW_NFA_FLAG
+					}
+					set_country_flag = GAK_OPER_NFA_DECISION_FLAG
+				}
 			}
 		}
 

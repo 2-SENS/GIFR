@@ -33,7 +33,7 @@ shared_focus = {
         hidden_effect = {
             country_event = {
 				id = gakdom.18
-				days = 14
+				days = 7
 			}
         }
     }
@@ -308,11 +308,6 @@ shared_focus = {
     completion_reward = {
 	    log = "[GetDateText]: [Root.GetName]: Focus GAK_give_me_back_sakhalin_focus"
         custom_effect_tooltip = GAK_give_me_back_sakhalin_focus_tt
-        TRM = {
-			every_owned_state = {
-				add_claim_by = ROOT
-			}
-		}
         JAP = {
             country_event = gakdom.54
         }
@@ -438,6 +433,13 @@ shared_focus = {
 	cost = 5
     x = 51
 	y = 21
+    available = {
+        NOT = {
+            GAK = {
+                is_in_faction_with = CAN
+            }
+        }
+    }
     allow_branch = { 
         has_country_flag = GAK_let_s_fuck_the_world
     }
@@ -545,6 +547,13 @@ shared_focus = {
 	y = 20
     allow_branch = { 
         has_country_flag = GAK_let_s_fuck_the_world
+    }
+    available = {
+        NOT = {
+            GAK = {
+                is_in_faction_with = GER
+            }
+        }
     }
 	prerequisite = { 
         focus = GAK_go_left_side_focus 

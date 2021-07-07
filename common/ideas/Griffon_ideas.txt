@@ -1827,6 +1827,20 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
+
+		GAK_confusion_at_top_military_ideas = { #군 수뇌부의 혼란 #러시아
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_confusion_at_top_military_ideas"}
+			picture = GAK
+			modifier = {
+				army_attack_factor = -0.5
+				army_defence_factor = -0.5
+				army_morale_factor = -0.75
+				army_org_factor = -0.75
+				max_planning_factor = -1
+				planning_speed = 1
+				training_time_factor = 1
+			}
+		}
 		
 	}
 
