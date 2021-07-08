@@ -1637,3 +1637,5 @@ country_event = {
 		set_country_flag = GAK_let_s_fuck_the_world
 	}
 }
+
+

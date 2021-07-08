@@ -1841,7 +1841,121 @@ ideas = {
 				training_time_factor = 1
 			}
 		}
+
+		GAK_confusion_at_top_military_early_68_ideas = { #군 수뇌부 암살+찌라시 유포 #독일
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_confusion_at_top_military_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.5
+				surrender_limit = -0.75
+				conscription_factor = -0.25
+				conscription = -0.0075
+				army_morale_factor = -0.75
+				army_org_factor = -0.75
+				max_planning_factor = -1
+				planning_speed = 1
+				training_time_factor = 0.5
+			}
+		}
+
+		GAK_6days_circus_ideas = { #기만작전 + 반혁명 파르티잔
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_6days_circus_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.25
+				army_morale_factor = -0.25
+				army_org_factor = -0.25
+				production_factory_efficiency_gain_factor = -0.25
+				production_factory_max_efficiency_factor = -0.25
+				industrial_capacity_factory = -0.1
+			}
+		}
+
+		GAK_this_is_emp_bitchs_ideas = { #EMP! BITCHS!
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_this_is_emp_bitchs_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.5
+				army_org_factor = -0.75
+				army_morale_factor = -0.75
+				max_planning_factor = -0.5
+				recon_factor = -0.25
+				supply_consumption_factor = 0.5
+				land_night_attack = -3
+				naval_morale_factor = -0.5
+				fighter_sortie_efficiency = -0.5
+				naval_detection  = -0.5
+				repair_speed_factor = -1
+				sortie_efficiency = -0.75
+				spotting_chance = -0.5
+				air_accidents_factor = 3
+				air_agility_factor = -0.5
+				air_attack_factor = -0.5
+				air_defence_factor = -0.5
+				air_cas_efficiency = -0.5
+				air_bombing_targetting = -0.5
+				air_escort_efficiency = -0.5
+				air_intercept_efficiency = -0.5
+				air_mission_efficiency = -1
+				air_weather_penalty = 1
+				air_strategic_bomber_bombing_factor = -0.5
+				air_strategic_bomber_night_penalty = 0.5
+			}
+		}
 		
+		GAK_dont_belive_friend_ideas = { #소수민족 폭동
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_dont_belive_friend_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.25
+				army_morale_factor = -0.25
+				army_org_factor = -0.25
+				conscription = -0.03
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.25
+			}
+		}
+
+		GAK_T_doll_of_Arabia_ideas = { #소수민족 폭동
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_T_doll_of_Arabia_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.15
+				army_morale_factor = -0.25
+				army_org_factor = -0.25
+				conscription = -0.03
+				army_attack_factor = -0.25
+				army_defence_factor = -0.25
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.25
+				compliance_gain = -0.5
+				compliance_growth = -0.25
+				resistance_target = 0.5
+				resistance_growth = 0.25
+			}
+		}
+		GAK_operation_suffocation_ideas = { #질식 작전
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_operation_suffocation_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -1
+				war_support_factor = -0.5
+				army_morale_factor = -0.5
+				army_org_factor = -0.5
+				weekly_manpower = -15000
+				production_factory_efficiency_gain_factor = -0.5
+				production_factory_max_efficiency_factor = -0.5
+				industrial_capacity_factory = -0.25
+			}
+		}
+
 	}
 
 	hidden_ideas = {

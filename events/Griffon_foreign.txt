@@ -14,3 +14,157 @@ country_event = {
         add_stability = -0.05
 	}
 }
+
+country_event = { #러시아#원인을 알수 없는 테러행위!
+	id = gakfor.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.2" }
+	title = gakfor.2.t
+	desc = gakfor.2.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.2.a
+	}
+}
+
+country_event = { #
+	id = gakfor.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.3" }
+	title = gakfor.3.t
+	desc = gakfor.3.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.3.a
+	}
+}
+
+country_event = { #
+	id = gakfor.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.4" }
+	title = gakfor.4.t
+	desc = gakfor.4.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.4.a
+	}
+}
+
+country_event = { #
+	id = gakfor.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.5" }
+	title = gakfor.5.t
+	desc = gakfor.5.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.5.a
+	}
+}
+
+country_event = { 
+	id = gakfor.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.6" }
+	title = gakfor.6.t
+	desc = gakfor.6.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.6.a
+	}
+}
+
+country_event = { 
+	id = gakfor.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.7" }
+	title = gakfor.7.t
+	desc = gakfor.7.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.7.a
+	}
+}
+
+country_event = { 
+	id = gakfor.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.8" }
+	title = gakfor.8.t
+	desc = gakfor.8.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.8.a
+	}
+}
+
+country_event = { 
+	id = gakfor.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.9" }
+	title = gakfor.9.t
+	desc = gakfor.9.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.9.a
+	}
+}
+
+country_event = { 
+	id = gakfor.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.10" }
+	title = gakfor.10.t
+	desc = gakfor.10.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.10.a
+	}
+}
+
+country_event = { 
+	id = gakfor.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.11" }
+	title = gakfor.11.t
+	desc = gakfor.11.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.11.a
+	}
+}
+
+country_event = { #작전 성공!
+	id = gakfor.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakfor.12" }
+	title = gakfor.12.t
+	desc = gakfor.12.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = gakfor.12.a
+	}
+}
