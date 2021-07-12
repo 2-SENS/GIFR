@@ -1554,12 +1554,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_iron_farming_focus"
 			add_resource = {
 				type = steel
-				amount = 12
+				amount = 21
 				state = 195 
 			}
 			add_resource = {
 				type = steel
-				amount = 17
+				amount = 48
 				state = 208 
 			}
 		}
@@ -1581,7 +1581,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GAK_iron_farming_focus"
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_large_steel_mill_focus"
 			modify_building_resources = {
 				building = industrial_complex
 				resource = steel
@@ -1721,6 +1721,27 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_abundant_resources_focus"
 			add_ideas = GAK_resorce_many_ideas
+			add_resource = {
+				type = aluminium
+				amount = 18
+				state = 208 
+			}
+			add_resource = {
+				type = chromium
+				amount = 16
+				state = 195 
+			}
+			add_resource = {
+				type = tungsten
+				amount = 15
+				state = 195
+			}
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = excavation_tech
+			}
 		}
 	}
 
@@ -1875,8 +1896,11 @@ focus_tree = {
 
         prerequisite = { 
             focus = GAK_suck_dick_bitches_focus 
-			focus = GAK_petersburg_stock_exchange_focus 
         }
+
+		prerequisite = {
+			focus = GAK_petersburg_stock_exchange_focus 
+		}
 
 		ai_will_do = {
 			factor = 100

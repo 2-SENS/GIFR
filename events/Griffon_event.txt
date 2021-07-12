@@ -1637,7 +1637,7 @@ country_event = {
 }
 
 country_event = {
-	id = gakdom.61 #신세대
+	id = gakdom.61 #부기 온 앤 온~
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.61" }
 	title = gakdom.61.t
 	desc = gakdom.61.d
