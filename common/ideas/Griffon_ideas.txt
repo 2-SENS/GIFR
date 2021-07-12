@@ -1381,7 +1381,7 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_resorce_many_ideas"}
 			picture = GAK
 			modifier = {
-				local_resources_factor = 0.2
+				local_resources_factor = 0.5
 			}
 		}
 
@@ -1955,7 +1955,120 @@ ideas = {
 				industrial_capacity_factory = -0.25
 			}
 		}
+		GAK_crazy_inflation_ideas = { #위조회폐
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_crazy_inflation_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.8
+				war_support_factor = -0.5
+				army_org_factor = -0.25
+				army_morale_factor = -0.25
+				army_defence_factor = -0.15
+				army_attack_factor = -0.15
+				political_power_gain = -1
+				production_factory_max_efficiency_factor = -0.35
+				industrial_capacity_factory = -0.75
+				industrial_capacity_dockyard = -0.75
+				production_speed_buildings_factor = -0.65
+				consumer_goods_factor = 0.9
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = 1
+					instant = yes
+				}
+				motorized = {
+					build_cost_ic = 1
+					instant = yes
+				}
+				mechanized = {
+					build_cost_ic = 1
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = 1
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = 1
+					instant = yes
+				}
+			}
+		}
+		GAK_nightmare_of_1925_ideas = { #1925년의 악몽
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_nightmare_of_1925_ideas"}
+			picture = GAK
+			modifier = {
+				radical_socialism_drift = 0.1
+				radical_socialist_drift = 0.1
+				syndicalist_drift = 0.1
+				stability_factor = -1
+				war_support_factor = -0.5
+				army_org_factor = -0.5
+				army_morale_factor = -0.5
+				army_defence_factor = -0.25
+				army_attack_factor = -0.25
+				political_power_gain = -0.5
+				production_factory_max_efficiency_factor = -0.5
+				industrial_capacity_factory = -0.75
+				industrial_capacity_dockyard = -0.75
+				production_speed_buildings_factor = -1
+				consumer_goods_factor = 1
+			}
+		}
 
+		GAK_riot_of_traveler_ideas = { #유목민들의 폭동
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_riot_of_traveler_ideas"}
+			picture = GAK
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.5
+				army_org_factor = -0.3
+				army_morale_factor = -0.3
+				army_defence_factor = -0.1
+				army_attack_factor = -0.1
+				political_power_gain = -0.05
+				production_factory_max_efficiency_factor = -0.25
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				production_speed_buildings_factor = -0.25
+				consumer_goods_factor = 0.25
+				compliance_gain = -1
+				compliance_growth = -1
+				resistance_growth = 1
+				resistance_target = 1
+			}
+		}
+
+		GAK_fault_of_opening_door_ideas = { #문호개방의 과실
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_fault_of_opening_door_ideas"}
+			picture = GAK
+			modifier = {
+				consumer_goods_factor = -0.07
+				political_power_factor = 0.1
+			}
+		}
+
+		GAK_Further_Adventures_in_Finance_and_Felony_ideas = { #사치와 향락의 심연
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_Further_Adventures_in_Finance_and_Felony_ideas"}
+			picture = GAK
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		GAK_economic_revival_ideas = { #경제 부흥
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_economic_revival_ideas"}
+			picture = GAK
+			modifier = {
+				production_factory_max_efficiency_factor = 0.5
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+				production_speed_buildings_factor = 0.15
+			}
+		}
 	}
 
 	hidden_ideas = {

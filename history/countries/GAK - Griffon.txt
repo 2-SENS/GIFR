@@ -167,6 +167,7 @@ if = {
 
 country_event = { id = gakgendie.0 days = 13 }
 country_event = { id = gakdom.0 days = 1 }
+country_event = { id = gakdom.60 days = 365 }
 
 set_country_flag = TNO_US_CIA_Decisions_GUI_Action_Window_visible
 

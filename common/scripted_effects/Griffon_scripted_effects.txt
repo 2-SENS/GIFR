@@ -5,7 +5,7 @@ GAK_GTP = {
 	if = {
 		limit = { 
 			has_country_leader = {
-				name = "OTs-14 'Groza'"
+				name = "OTs-14 Groza"
 				ruling_only = yes
 			}
 		}
@@ -24,7 +24,7 @@ GAK_CBA = {
 	if = {
 		limit = { 
 			has_country_leader = {
-				name = "OTs-14 'Groza'"
+				name = "OTs-14 Groza"
 				ruling_only = yes
 			}
 		}
@@ -43,7 +43,7 @@ GAK_GFR = {
 	if = {
 		limit = { 
 			has_country_leader = {
-				name = "OTs-14 'Groza'"
+				name = "OTs-14 Groza"
 				ruling_only = yes
 			}
 		}
@@ -62,7 +62,7 @@ GAK_GKC = {
 	if = {
 		limit = { 
 			has_country_leader = {
-				name = "OTs-14 'Groza'"
+				name = "OTs-14 Groza"
 				ruling_only = yes
 			}
 		}

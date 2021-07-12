@@ -1,4 +1,4 @@
-	guiTypes = {
+guiTypes = {
 
 	containerWindowType = {
 		name = "subunit_icon_entry"
@@ -2133,7 +2133,8 @@ containerWindowType = {
 				maxHeight = 32
 				format = left
 				Orientation = "UPPER_LEFT"
-			}			
+			}
+						
 
 			containerWindowType = {
 				name = "airtech_year_left"

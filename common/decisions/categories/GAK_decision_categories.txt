@@ -32,7 +32,7 @@ ficus_racemosa_power_struggle_decision = {
 	}
 	visible = {
 		has_country_leader = {
-			name = "OTs-14 'Groza'"
+			name = "OTs-14 Groza"
 			ruling_only = yes
 		}
 	}

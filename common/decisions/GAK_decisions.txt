@@ -396,12 +396,12 @@
 		}
 	}
 
-	GAK_RUS_ATTACK_OPERATION_DECISION = {
+	GAK_USA_ATTACK_OPERATION_DECISION = {
 		icon = GFX_decision_generic_flags
 
 		visible = {
 			tag = GAK
-			has_country_flag = GAK_OPER_RUS_DECISION_FLAG
+			has_country_flag = GAK_OPER_USA_DECISION_FLAG
 		}
 
 		custom_cost_text = we_need_25_for_oper_tt
@@ -412,7 +412,7 @@
 		fire_only_once = yes
 
 		available = {
-			has_war_with = RUS
+			has_war_with = USA
 		}
 
 		ai_will_do = {
@@ -427,18 +427,19 @@
 		days_remove = 10
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_RUS_ATTACK_OPERATION_DECISION"
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_USA_ATTACK_OPERATION_DECISION"
 			hidden_effect = { command_power = -25 }
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_RUS_ATTACK_OPERATION_DECISION"
-			RUS = {
-				add_ideas = {
-					GAK_confusion_at_top_military_ideas
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_USA_ATTACK_OPERATION_DECISION"
+			USA = {
+				add_timed_idea = {
+					add_idea = GAK_crazy_inflation_ideas
+					days = 365
 				}
 				country_event = {
-					id = gakfor.2
+					id = gakfor.9
 				}
 			}
 			GAK = {
@@ -449,12 +450,12 @@
 		}
 	}
 
-	GAK_RUS_ATTACK_OPERATION_DECISION = {
+	GAK_CAN_ATTACK_OPERATION_DECISION = {
 		icon = GFX_decision_generic_flags
 
 		visible = {
 			tag = GAK
-			has_country_flag = GAK_OPER_RUS_DECISION_FLAG
+			has_country_flag = GAK_OPER_CAN_DECISION_FLAG
 		}
 
 		custom_cost_text = we_need_25_for_oper_tt
@@ -465,7 +466,7 @@
 		fire_only_once = yes
 
 		available = {
-			has_war_with = RUS
+			has_war_with = CAN
 		}
 
 		ai_will_do = {
@@ -480,18 +481,19 @@
 		days_remove = 10
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_RUS_ATTACK_OPERATION_DECISION"
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_CAN_ATTACK_OPERATION_DECISION"
 			hidden_effect = { command_power = -25 }
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_RUS_ATTACK_OPERATION_DECISION"
-			RUS = {
-				add_ideas = {
-					GAK_confusion_at_top_military_ideas
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_CAN_ATTACK_OPERATION_DECISION"
+			CAN = {
+				add_timed_idea = {
+					add_idea = GAK_nightmare_of_1925_ideas
+					days = 365
 				}
 				country_event = {
-					id = gakfor.2
+					id = gakfor.10
 				}
 			}
 			GAK = {
@@ -502,12 +504,12 @@
 		}
 	}
 
-	GAK_RUS_ATTACK_OPERATION_DECISION = {
+	GAK_NFA_ATTACK_OPERATION_DECISION = {
 		icon = GFX_decision_generic_flags
 
 		visible = {
 			tag = GAK
-			has_country_flag = GAK_OPER_RUS_DECISION_FLAG
+			has_country_flag = GAK_OPER_NFA_DECISION_FLAG
 		}
 
 		custom_cost_text = we_need_25_for_oper_tt
@@ -518,7 +520,7 @@
 		fire_only_once = yes
 
 		available = {
-			has_war_with = RUS
+			has_war_with = NFA
 		}
 
 		ai_will_do = {
@@ -533,18 +535,19 @@
 		days_remove = 10
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GAK_RUS_ATTACK_OPERATION_DECISION"
+			log = "[GetDateText]: [Root.GetName]: Decision GAK_NFA_ATTACK_OPERATION_DECISION"
 			hidden_effect = { command_power = -25 }
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_RUS_ATTACK_OPERATION_DECISION"
-			RUS = {
-				add_ideas = {
-					GAK_confusion_at_top_military_ideas
+			log = "[GetDateText]: [Root.GetName]: Decision remove GAK_NFA_ATTACK_OPERATION_DECISION"
+			NFA = {
+				add_timed_idea = {
+					add_idea = GAK_riot_of_traveler_ideas
+					days = 365
 				}
 				country_event = {
-					id = gakfor.2
+					id = gakfor.11
 				}
 			}
 			GAK = {

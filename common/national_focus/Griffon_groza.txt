@@ -1841,7 +1841,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_inovation_country_focus"
-			
+			add_research_slot = 1
 		}
 	}
 
@@ -1862,7 +1862,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_petersburg_stock_exchange_focus"
-			
+			add_ideas = GAK_fault_of_opening_door_ideas
 		}
 	}
 
@@ -1884,7 +1884,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_pleasure_and_corruption_focus"
-			
+			add_ideas = GAK_Further_Adventures_in_Finance_and_Felony_ideas
 		}
 	}
 
@@ -1905,7 +1905,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_crazy_increase_focus"
-			
+			add_timed_idea = {
+				idea = GAK_economic_revival_ideas
+				days = 120
+			}
 		}
 	}
 
@@ -1932,7 +1935,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_wealth_will_continue_focus"
-			
+			add_political_power = 200
+			add_offsite_building = { 
+				type = industrial_complex 
+				level = 10
+			}
+			country_event = { 
+				id = gakdom.61 
+			}
 		}
 	}
 

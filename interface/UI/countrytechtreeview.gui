@@ -1957,6 +1957,18 @@ containerWindowType = {
 			}			
 
 			containerWindowType = {
+				name = "tiled_research_blue_bg_stealth"
+				position = { x = 375 y = 1600 }
+				size = { width = 1300 height = 600 }
+				clipping = no
+
+				background = {
+					name = "Background1"
+					quadTextureSprite = "GFX_tiled_research_blue_bg"
+				}
+			}
+
+			containerWindowType = {
 				name = "airtech_year_left"
 				position = { x=1750 y=0 }
 				size = { width = 200 height = 100% }

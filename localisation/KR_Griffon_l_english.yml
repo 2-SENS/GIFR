@@ -192,6 +192,17 @@ GAK_OPER_NFA:0 "아프리카의 별"
 GAK_OPERATION_NFA_TT:0 "유목민들에게 군사적인 지원으로 그저 '짜증나는' 유목민 집단을 '감당 불가능한' 정규군과 같은 레벨로 만들어 우리 손으로 인해 만들어진 이중전선을 겪게 될겁니다."
 
 we_need_25_for_oper_tt:0 "£command_power [?25|H0]"
+
+GAK_RUS_ATTACK_OPERATION_DECISION:0 "작전명 "쌍두 독수리 사냥" 수행하기"
+GAK_GER_ATTACK_OPERATION_DECISION:0 "작전명 "발키리 작전" 수행하기"
+GAK_FRA_ATTACK_OPERATION_DECISION:0 "작전명 "6일간의 서커스" 수행하기"
+GAK_ENG_ATTACK_OPERATION_DECISION:0 "작전명 "하늘사자 작전" 수행하기"
+GAK_AUS_ATTACK_OPERATION_DECISION:0 "작전명 "타협의 업보" 수행하기"
+GAK_OTT_ATTACK_OPERATION_DECISION:0 "작전명 "아라비아의 전술인형" 수행하기"
+GAK_JAP_ATTACK_OPERATION_DECISION:0 "작전명 "질식작전" 수행하기"
+GAK_USA_ATTACK_OPERATION_DECISION:0 "작전명 "연준의 몰락" 수행하기"
+GAK_CAN_ATTACK_OPERATION_DECISION:0 "작전명 "1925년의 악몽" 수행하기"
+GAK_NFA_ATTACK_OPERATION_DECISION:0 "작전명 "아프리카의 별" 수행하기"
 ################################################
 
 GP_GTP:0 "§G충성파§! 영향력 변화: [?GTP|%+]\n"
@@ -820,6 +831,40 @@ GAK_small_purge_ideas:0 "숙청"
 GAK_infantry_weapon_upgrade_ideas:0 "보병 무기 개선"
 GAK_control_the_economy_ideas:0 "농협의 시장 통제"
 GAK_Socialists_Welcoming_ideas:0 "사회주의자들의 환영"
+GAK_russian_diligence_ideas:0 "근면한 노동자"
+GAK_conciliatory_and_incitement_ideas:0 "회유와 당근"
+GAK_end_of_the_march_ideas:0 "행군의 끝"
+GAK_farm_1_ideas:0 "농업 개선"
+GAK_farm_2_ideas:0 "농업 개선"
+GAK_power_grab_ideas:0 "권력 장악"
+GAK_power_grab2_ideas:0 "권력 장악"
+GAK_power_grab3_ideas:0 "권력 장악"
+GAK_develop_industry_ideas:0 "공업 현대화"
+GAK_resorce_many_ideas:0 "자원 채굴 장비"
+GAK_fast_building_ideas:0 "빠른 건설"
+GAK_gorky_tank_factory:0 "크라스노예 소르모보 공장"
+GAK_the_izhevsk_arsenal:0 "이젭스크 기계공장"
+GAK_ural_automotive_plant:0 "우랄 자동차공장"
+GAK_zlatoust_arms_plant:0 "즐라토우스트 무기공장"
+GAK_krasnoyarsk_railway_junction:0 "크라스노야르스크 환승역"
+GAK_kuznetsk_basin:0 "쿠즈네츠크 분지"
+GAK_novosibirsk_aircraft_plant:0 "노보시비르스크 항공기공장"
+GAK_port_of_magadan:0 "마가단 항구"
+GAK_irkutsk_hydro_station:0 "이르쿠츠크 수력발전소"
+GAK_cheryomushki:0 "체료무시키 공군기지"
+GAK_free_speech_ideas:0 "언론의 자유화"
+GAK_civil_rights_act_1ideas:0 "민권법 작성"
+GAK_civil_rights_act_2ideas:0 "민권법 공개"
+GAK_civil_rights_act_3ideas:0 "민권법 성공"
+GAK_talk_with_russian_bois_ideas:0 "러시아계 통합"
+GAK_turning_the_army_problem_ideas:0 "우담회 국방군 조율 성공"
+GAK_martial_law_on_ideas:0 "계엄령"
+GAK_little_lobby_ideas:0 "약간의 로비"
+GAK_eat_them_all_ideas:0 "안...정?"
+GAK_new_history_movement_ideas:0 "신역사 운동"
+GAK_rus_policy_of_appeasement_a_ideas:0 "중앙제어"
+GAK_rus_policy_of_appeasement_b_ideas:0 "분산제어"
+GAK_areon_s_proposal_ideas:0 "프로이센식 전술"
 GAK_power_grab_ideas:0 "권력장악"
 GAK_power_grab_2ideas:0 "권력장악"
 GAK_power_grab_3ideas:0 "권력장악"
@@ -831,7 +876,21 @@ GAK_shadow_state_ideas:0 "그림자 국가"
 GAK_every_doll_warrior_ideas:0 "모든 인형은 전사다"
 GAK_future_tech_in_progress_ideas:0 "기술 연구 집중"
 GAK_holy_war_ideas:0 "성전"
-
+GAK_loyalist_dominance_ideas:0 "충성파 우세"
+GAK_dominance_of_chaebol_ideas:0 "재벌파 우세"
+GAK_reformist_dominance_ideas:0 "개혁파 우세"
+GAK_new_order_domination_ideas:0 "신질서 운동회 우세"
+GAK_confusion_at_top_military_ideas:0 "군 수뇌부 혼란"
+GAK_confusion_at_top_military_early_68_ideas:0 "설상가상"
+GAK_6days_circus_ideas:0 "기만과 파르티잔"
+GAK_this_is_emp_bitchs_ideas:0 "대정전"
+GAK_dont_belive_friend_ideas:0 "소수민족들의 폭동"
+GAK_T_doll_of_Arabia_ideas:0 "돌아온 로렌스?"
+GAK_operation_suffocation_ideas:0 "질식..."
+GAK_crazy_inflation_ideas:0 "위조화폐"
+GAK_nightmare_of_1925_ideas:0 "1925년의 악몽"
+GAK_riot_of_traveler_ideas:0 "유목민 폭동"
+GAK_Further_Adventures_in_Finance_and_Felony_ideas:0 "사치와 향락의 심연"
 ################################################
 
 # 국민 정신 - 기업 #
@@ -945,6 +1004,7 @@ GAK_legacy_of_revolution_focus:0 "군사 혁명의 유산"
 GAK_legacy_of_revolution_focus_tt:0 "§Y우리는 다시 지휘부를 재건해야합니다!§!"
 
 GAK_hail_to_fuhrer_focus:0 "하일 그로자!"
+GAK_hail_to_fuhrer_focus_desc:0 "그로자 각하 만세, 안녕하십니까. "
 
 GAK_loyalty_experiment_focus:0 "충성도 실험"
 
@@ -1117,6 +1177,7 @@ GAK_pleasure_and_corruption_focus_desc:0 ""발트해의 다이아몬드, 페트�
 
 
 GAK_crazy_increase_focus:0 "돈이 복사가 된다고!"
+GAK_economic_revival_ideas:0 "경제 부흥"
 
 GAK_wealth_will_continue_focus:0 "번영은 계속됩니다!"
 GAK_wealth_will_continue_focus_desc:0 ""
@@ -1206,6 +1267,8 @@ GAK_shadow_country_focus_desc:0 "테네보예 스트라나(Теневое стр
 GAK_every_doll_warrior_focus:0 "Every Doll a Warrior!"
 
 GAK_black_zone_of_russia_focus:0 "러시아의 가장 어두운 곳"
+
+GAK_fault_of_opening_door_ideas:0 "문호개방"
 
 ################################################
 

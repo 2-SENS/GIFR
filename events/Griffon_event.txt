@@ -19,7 +19,7 @@ country_event = {
 
 country_event = { #충성파 우세
 	id = gaksystemload.2
-	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.2 }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.2 FROM = [From.GetName]" }
 	title = gaksystemload.2.t
 	desc = gaksystemload.2.d
 	is_triggered_only = yes
@@ -30,7 +30,7 @@ country_event = { #충성파 우세
 		}
 		national_populist > 0.5
 		has_country_leader = {
-			name = "OTs-14 'Groza'"
+			name = "OTs-14 Groza"
 			ruling_only = yes
 		}
 	}
@@ -43,14 +43,14 @@ country_event = { #충성파 우세
 				add_idea = GAK_loyalist_dominance_ideas
 			} 
 		}
-		else_if = {
+		if = {
 			limit = { has_idea = GAK_reformist_dominance_ideas }
 			swap_ideas = {
 				remove_idea = GAK_reformist_dominance_ideas
 				add_idea = GAK_loyalist_dominance_ideas
 			}
 		}
-		else_if = {
+		if = {
 			limit = { has_idea = GAK_new_order_domination_ideas }
 			swap_ideas = {
 				remove_idea = GAK_new_order_domination_ideas
@@ -65,7 +65,7 @@ country_event = { #충성파 우세
 
 country_event = { #재벌파 우세
 	id = gaksystemload.3
-	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.3 }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.3 FROM = [From.GetName] " }
 	title = gaksystemload.3.t
 	desc = gaksystemload.3.d
 	is_triggered_only = yes
@@ -76,7 +76,7 @@ country_event = { #재벌파 우세
 		}
 		market_liberal > 0.5
 		has_country_leader = {
-			name = "OTs-14 'Groza'"
+			name = "OTs-14 Groza"
 			ruling_only = yes
 		}
 	}
@@ -89,14 +89,14 @@ country_event = { #재벌파 우세
 				add_idea = GAK_dominance_of_chaebol_ideas
 			} 
 		}
-		else_if = {
+		if = {
 			limit = { has_idea = GAK_reformist_dominance_ideas }
 			swap_ideas = {
 				remove_idea = GAK_reformist_dominance_ideas
 				add_idea = GAK_dominance_of_chaebol_ideas
 			}
 		}
-		else_if = {
+		if = {
 			limit = { has_idea = GAK_new_order_domination_ideas }
 			swap_ideas = {
 				remove_idea = GAK_new_order_domination_ideas
@@ -111,7 +111,7 @@ country_event = { #재벌파 우세
 
 country_event = { #개혁파 우세
 	id = gaksystemload.4
-	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.4 }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.4 FROM = [From.GetName]" }
 	title = gaksystemload.4.t
 	desc = gaksystemload.4.d
 	is_triggered_only = yes
@@ -122,7 +122,7 @@ country_event = { #개혁파 우세
 		}
 		social_liberal > 0.5
 		has_country_leader = {
-			name = "OTs-14 'Groza'"
+			name = "OTs-14 Groza"
 			ruling_only = yes
 		}
 	}
@@ -135,14 +135,14 @@ country_event = { #개혁파 우세
 				add_idea = GAK_reformist_dominance_ideas
 			} 
 		}
-		else_if = {
+		if = {
 			limit = { has_idea = GAK_loyalist_dominance_ideas }
 			swap_ideas = {
 				remove_idea = GAK_loyalist_dominance_ideas
 				add_idea = GAK_reformist_dominance_ideas
 			}
 		}
-		else_if = {
+		if = {
 			limit = { has_idea = GAK_new_order_domination_ideas }
 			swap_ideas = {
 				remove_idea = GAK_new_order_domination_ideas
@@ -157,7 +157,7 @@ country_event = { #개혁파 우세
 
 country_event = { #신질서 운동회 우세
 	id = gaksystemload.5
-	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.5 }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gaksystemload.5 FROM = [From.GetName]" }
 	title = gaksystemload.5.t
 	desc = gaksystemload.5.d
 	is_triggered_only = yes
@@ -168,7 +168,7 @@ country_event = { #신질서 운동회 우세
 		}
 		paternal_autocrat > 0.5
 		has_country_leader = {
-			name = "OTs-14 'Groza'"
+			name = "OTs-14 Groza"
 			ruling_only = yes
 		}
 	}
@@ -181,14 +181,14 @@ country_event = { #신질서 운동회 우세
 				add_idea = GAK_new_order_domination_ideas
 			} 
 		}
-		else_if = {
+		if = {
 			limit = { has_idea = GAK_reformist_dominance_ideas }
 			swap_ideas = {
 				remove_idea = GAK_reformist_dominance_ideas
 				add_idea = GAK_new_order_domination_ideas
 			}
 		}
-		else_if = {
+		if = {
 			limit = { has_idea = GAK_loyalist_dominance_ideas }
 			swap_ideas = {
 				remove_idea = GAK_loyalist_dominance_ideas
@@ -588,7 +588,7 @@ country_event = {
 				name = GAK_groza_paternal_autocrat_norder
         	}
 			create_country_leader = {
-				name = "OTs-14 'Groza'" 
+				name = "OTs-14 Groza" 
 				desc = "POLITICS_GROZA_DESC"
 				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
@@ -600,7 +600,7 @@ country_event = {
 			}
 
 			create_country_leader = {
-				name = "OTs-14 'Groza'" 
+				name = "OTs-14 Groza" 
 				desc = "POLITICS_GROZA_DESC"
 				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
@@ -613,7 +613,7 @@ country_event = {
 			}
 
 			create_country_leader = {
-				name = "OTs-14 'Groza'" 
+				name = "OTs-14 Groza" 
 				desc = "POLITICS_GROZA_DESC"
 				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
@@ -625,7 +625,7 @@ country_event = {
 			}
 
 			create_country_leader = {
-				name = "OTs-14 'Groza'" 
+				name = "OTs-14 Groza" 
 				desc = "POLITICS_GROZA_DESC"
 				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				expire = "1975.1.1"
@@ -637,7 +637,7 @@ country_event = {
 			}
 
 			create_country_leader = {
-				name = "OTs-14 'Groza'" 
+				name = "OTs-14 Groza" 
 				desc = "POLITICS_GROZA_DESC"
 				picture = GFX_Leader_Groza
 				expire = "1975.1.1"
@@ -649,7 +649,7 @@ country_event = {
 			}
 
 			create_country_leader = {
-				name = "OTs-14 'Groza'" 
+				name = "OTs-14 Groza" 
 				desc = "POLITICS_GROZA_DESC"
 				picture = GFX_Leader_Groza
 				expire = "1975.1.1"
@@ -661,7 +661,7 @@ country_event = {
 			}
 
 			create_country_leader = {
-				name = "OTs-14 'Groza'" 
+				name = "OTs-14 Groza" 
 				desc = "POLITICS_GROZA_DESC"
 				picture = GFX_Leader_Groza
 				expire = "1975.1.1"
@@ -673,7 +673,7 @@ country_event = {
 			}
 
 			create_field_marshal = {
-				name = "OTs-14 'Groza'"
+				name = "OTs-14 Groza"
 				picture = "Portrait_Girls_Frontline_OTs_14_Groza_field_marshal.tga"
 				traits = { 
 					brilliant_strategist 
@@ -1626,15 +1626,29 @@ country_event = {
 	desc = gakdom.60.d
 	picture = GFX_report_event_GER_cons
 
-	trigger = {
-		date > 1937.01.01
-	}
+	is_triggered_only = yes
 
 	fire_only_once = yes
 
 	option = { 
 		name = gakdom.60.a
 		set_country_flag = GAK_let_s_fuck_the_world
+	}
+}
+
+country_event = {
+	id = gakdom.61 #신세대
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gakdom.61" }
+	title = gakdom.61.t
+	desc = gakdom.61.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = gakdom.61.a
 	}
 }
 
